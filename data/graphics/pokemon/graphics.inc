@@ -9279,6 +9279,102 @@ gMonFootprint_Chimecho:: @ 8E3B498
 	.incbin "graphics/pokemon/chimecho/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Turtwig:: @ 8E3AB88
+	.incbin "graphics/pokemon/turtwig/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Turtwig:: @ 8E3ADD4
+	.incbin "graphics/pokemon/turtwig/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Turtwig:: @ 8E3ADFC
+	.incbin "graphics/pokemon/turtwig/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Turtwig:: @ 8E3B070
+	.incbin "graphics/pokemon/turtwig/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Turtwig:: @ 8E3B098
+	.incbin "graphics/pokemon/turtwig/icon.4bpp"
+
+	.align 2
+gMonFootprint_Turtwig:: @ 8E3B498
+	.incbin "graphics/pokemon/turtwig/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Grotle:: @ 8E3AB88
+	.incbin "graphics/pokemon/grotle/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Grotle:: @ 8E3ADD4
+	.incbin "graphics/pokemon/grotle/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Grotle:: @ 8E3ADFC
+	.incbin "graphics/pokemon/grotle/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Grotle:: @ 8E3B070
+	.incbin "graphics/pokemon/grotle/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Grotle:: @ 8E3B098
+	.incbin "graphics/pokemon/grotle/icon.4bpp"
+
+	.align 2
+gMonFootprint_Grotle:: @ 8E3B498
+	.incbin "graphics/pokemon/grotle/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Torterra:: @ 8E3AB88
+	.incbin "graphics/pokemon/torterra/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Torterra:: @ 8E3ADD4
+	.incbin "graphics/pokemon/torterra/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Torterra:: @ 8E3ADFC
+	.incbin "graphics/pokemon/torterra/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Torterra:: @ 8E3B070
+	.incbin "graphics/pokemon/torterra/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Torterra:: @ 8E3B098
+	.incbin "graphics/pokemon/torterra/icon.4bpp"
+
+	.align 2
+gMonFootprint_Torterra:: @ 8E3B498
+	.incbin "graphics/pokemon/torterra/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Chimchar:: @ 8E3AB88
+	.incbin "graphics/pokemon/chimchar/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Chimchar:: @ 8E3ADD4
+	.incbin "graphics/pokemon/chimchar/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Chimchar:: @ 8E3ADFC
+	.incbin "graphics/pokemon/chimchar/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Chimchar:: @ 8E3B070
+	.incbin "graphics/pokemon/chimchar/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Chimchar:: @ 8E3B098
+	.incbin "graphics/pokemon/chimchar/icon.4bpp"
+
+	.align 2
+gMonFootprint_Chimchar:: @ 8E3B498
+	.incbin "graphics/pokemon/chimchar/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

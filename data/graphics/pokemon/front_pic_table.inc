@@ -412,6 +412,10 @@ gMonFrontPicTable:: @ 81E8354
 	obj_tiles gMonFrontPic_Jirachi, 0x800, SPECIES_JIRACHI
 	obj_tiles gMonFrontPic_Deoxys, 0x800, SPECIES_DEOXYS
 	obj_tiles gMonFrontPic_Chimecho, 0x800, SPECIES_CHIMECHO
+	obj_tiles gMonFrontPic_Turtwig, 0x800, SPECIES_TURTWIG
+	obj_tiles gMonFrontPic_Grotle, 0x800, SPECIES_GROTLE
+	obj_tiles gMonFrontPic_Torterra, 0x800, SPECIES_TORTERRA
+	obj_tiles gMonFrontPic_Chimchar, 0x800, SPECIES_CHIMCHAR
 	obj_tiles gMonPic_Egg, 0x800, SPECIES_EGG
 	obj_tiles gMonFrontPic_UnownB, 0x800, SPECIES_UNOWN_B
 	obj_tiles gMonFrontPic_UnownC, 0x800, SPECIES_UNOWN_C

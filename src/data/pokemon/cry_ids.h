@@ -140,7 +140,11 @@ const u16 gSpeciesIdToCryId[] = {
     384, // LATIOS
     385, // JIRACHI
     386, // DEOXYS
-    387  // CHIMECHO
+    387, // CHIMECHO
+	388, // TURTWIG
+	389, // GROTLE
+	390, // TORTERRA
+	391  // CHIMCHAR
 };
 
 #endif //POKERUBY_CRY_IDS_H

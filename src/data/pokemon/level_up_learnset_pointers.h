@@ -417,7 +417,11 @@ const u16 *gLevelUpLearnsets[] = {
     gLatiosLevelUpLearnset,
     gJirachiLevelUpLearnset,
     gDeoxysLevelUpLearnset,
-    gChimechoLevelUpLearnset
+    gChimechoLevelUpLearnset,
+	gTurtwigLevelUpLearnset,
+	gGrotleLevelUpLearnset,
+	gTorterraLevelUpLearnset,
+	gChimcharLevelUpLearnset
 };
 
 #endif //POKERUBY_LEVEL_UP_LEARNSET_POINTERS_H

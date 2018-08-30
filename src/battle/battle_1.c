@@ -451,6 +451,10 @@ const u8 gEnemyMonElevation[] = {
     [SPECIES_JIRACHI] = 12,
     [SPECIES_DEOXYS] =  4,
     [SPECIES_CHIMECHO] = 12,
+	[SPECIES_TURTWIG] = 0, 
+	[SPECIES_GROTLE] = 0,
+	[SPECIES_TORTERRA] = 0,
+	[SPECIES_CHIMCHAR] = 0,
 };
 
 #include "../data/trainer_parties.h"

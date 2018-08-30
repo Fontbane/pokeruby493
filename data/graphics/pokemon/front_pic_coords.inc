@@ -1,15 +1,15 @@
 	.align 2
 gMonFrontPicCoords:: @ 81E7C74
-	.byte 136,  0, 0, 0
-	.byte  69, 14, 0, 0
-	.byte  86, 10, 0, 0
-	.byte 136,  3, 0, 0
-	.byte  85, 12, 0, 0
-	.byte 102,  9, 0, 0
-	.byte 136,  1, 0, 0
-	.byte 101, 13, 0, 0
-	.byte 102,  8, 0, 0
-	.byte 136,  0, 0, 0
+	.byte 136,  0, 0, 0 // Question Mark
+	.byte  69, 14, 0, 0 // Bulbasaur
+	.byte  86, 10, 0, 0 // Ivysaur
+	.byte 136,  3, 0, 0 // Venusaur
+	.byte  85, 12, 0, 0 // Charmander
+	.byte 102,  9, 0, 0 // Charmeleon
+	.byte 136,  1, 0, 0 // Charizard
+	.byte 101, 13, 0, 0 // Squirtle
+	.byte 102,  8, 0, 0 // Wartortle
+	.byte 136,  0, 0, 0 // Blastoise
 	.byte  69, 16, 0, 0
 	.byte  84, 20, 0, 0
 	.byte 118,  9, 0, 0
@@ -412,31 +412,35 @@ gMonFrontPicCoords:: @ 81E7C74
 	.byte 102, 13, 0, 0
 	.byte 136,  1, 0, 0
 	.byte  55,  6, 0, 0
-	.byte  51, 20, 0, 0
-	.byte  52, 16, 0, 0
-	.byte  68, 16, 0, 0
-	.byte  68, 16, 0, 0
-	.byte  68, 17, 0, 0
-	.byte  68, 17, 0, 0
-	.byte  53, 14, 0, 0
-	.byte  68, 16, 0, 0
-	.byte  52, 16, 0, 0
-	.byte  52, 17, 0, 0
-	.byte  68, 17, 0, 0
-	.byte  52, 19, 0, 0
-	.byte  68, 19, 0, 0
-	.byte  67, 20, 0, 0
-	.byte  68, 16, 0, 0
-	.byte  52, 19, 0, 0
-	.byte  67, 21, 0, 0
-	.byte  52, 19, 0, 0
-	.byte  69, 12, 0, 0
-	.byte  52, 18, 0, 0
-	.byte  68, 18, 0, 0
-	.byte  68, 18, 0, 0
-	.byte  68, 19, 0, 0
-	.byte  51, 21, 0, 0
-	.byte  52, 17, 0, 0
-	.byte  52, 16, 0, 0
-	.byte  53, 15, 0, 0
-	.byte  53, 13, 0, 0
+	.byte  69, 14, 0, 0 // Turtwig
+	.byte  86, 10, 0, 0 // Grotle
+	.byte 136, 3, 0, 0  // Torterra
+	.byte  85, 12, 0, 0 // Chimchar
+	.byte  51, 20, 0, 0 // EGG
+	.byte  52, 16, 0, 0 // UNOWN B
+	.byte  68, 16, 0, 0 // UNOWN C
+	.byte  68, 16, 0, 0 // UNOWN D
+	.byte  68, 17, 0, 0 // UNOWN E
+	.byte  68, 17, 0, 0 // UNOWN F
+	.byte  53, 14, 0, 0 // UNOWN G
+	.byte  68, 16, 0, 0 // UNOWN H
+	.byte  52, 16, 0, 0 // UNOWN I
+	.byte  52, 17, 0, 0 // UNOWN J
+	.byte  68, 17, 0, 0 // UNOWN K
+	.byte  52, 19, 0, 0 // UNOWN L
+	.byte  68, 19, 0, 0 // UNOWN M
+	.byte  67, 20, 0, 0 // UNOWN N
+	.byte  68, 16, 0, 0 // UNOWN O
+	.byte  52, 19, 0, 0 // UNOWN P
+	.byte  67, 21, 0, 0 // UNOWN Q
+	.byte  52, 19, 0, 0 // UNOWN R
+	.byte  69, 12, 0, 0 // UNOWN S
+	.byte  52, 18, 0, 0 // UNOWN T
+	.byte  68, 18, 0, 0 // UNOWN U
+	.byte  68, 18, 0, 0 // UNOWN V
+	.byte  68, 19, 0, 0 // UNOWN W
+	.byte  51, 21, 0, 0 // UNOWN X
+	.byte  52, 17, 0, 0 // UNOWN Y
+	.byte  52, 16, 0, 0 // UNOWN Z
+	.byte  53, 15, 0, 0 // UNOWN EXCLAMATION
+	.byte  53, 13, 0, 0 // UNOWN QUESTION

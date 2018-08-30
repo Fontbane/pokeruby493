@@ -5389,6 +5389,36 @@ static const u8 DexDescription_Deoxys_2[] = _(
   "chest appears to be its brain.");
 #endif
 
+static const u8 DexDescription_Turtwig_1[] = _(
+  "This is a newly discovered POKéMON.\n"
+  "It is currently under investigation.");
+static const u8 DexDescription_Turtwig_2[] = _(
+  "No detailed information is available\n"
+  "at this time.");
+
+static const u8 DexDescription_Grotle_1[] = _(
+  "This is a newly discovered POKéMON.\n"
+  "It is currently under investigation.");
+static const u8 DexDescription_Grotle_2[] = _(
+  "No detailed information is available\n"
+  "at this time.");
+
+static const u8 DexDescription_Torterra_1[] = _(
+  "This is a newly discovered POKéMON.\n"
+  "It is currently under investigation.");
+static const u8 DexDescription_Torterra_2[] = _(
+  "No detailed information is available\n"
+  "at this time.");
+
+static const u8 DexDescription_Chimchar_1[] = _(
+  "It is very agile. Before going to\n"
+  "sleep, it extinguishes the flame on\n"
+  "its tail to prevent fires..");
+static const u8 DexDescription_Chimchar_2[] = _(
+  "The gas made in its belly burns from\n"
+  "its rear end. The fire burns weakly\n"
+"when it feels sick.");
+
 const struct PokedexEntry gPokedexEntries[] =
 {
     {  //Dummy
@@ -9648,4 +9678,48 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 290,
         .trainerOffset = 2,
     },
+    {  //Turtwig
+        .categoryName = _("UNKNOWN"),
+        .height = 0,
+        .weight = 0,
+        .descriptionPage1 = DexDescription_Dummy_1,
+        .descriptionPage2 = DexDescription_Dummy_2,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    {  //Grotle
+        .categoryName = _("UNKNOWN"),
+        .height = 0,
+        .weight = 0,
+        .descriptionPage1 = DexDescription_Dummy_1,
+        .descriptionPage2 = DexDescription_Dummy_2,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    {  //Torterra
+        .categoryName = _("UNKNOWN"),
+        .height = 0,
+        .weight = 0,
+        .descriptionPage1 = DexDescription_Dummy_1,
+        .descriptionPage2 = DexDescription_Dummy_2,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    {  //Chimchar
+        .categoryName = _("CHIMP"),
+        .height = 5,
+        .weight = 62,
+        .descriptionPage1 = DexDescription_Chimchar_1,
+        .descriptionPage2 = DexDescription_Chimchar_2,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
 };
