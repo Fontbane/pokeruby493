@@ -430,13 +430,10 @@ const u8 * const gMonIconTable[] =
     gMonIcon_Jirachi,
     gMonIcon_Deoxys,
     gMonIcon_Chimecho,
-<<<<<<< HEAD
 	gMonIcon_Turtwig,
 	gMonIcon_Grotle,
 	gMonIcon_Torterra,
 	gMonIcon_Chimchar,
-=======
->>>>>>> 4a34093898abfbe76a5c5704b41d567e9aa07a81
     gMonIcon_Egg,
     gMonIcon_UnownB,
     gMonIcon_UnownC,
@@ -881,13 +878,10 @@ const u8 gMonIconPaletteIndices[] =
     0, // Jirachi
     0, // Deoxys
     0, // Chimecho
-<<<<<<< HEAD
 	1, // Turtwig
 	1, // Grotle
 	1, // Torterra
 	1, // Chimchar
-=======
->>>>>>> 4a34093898abfbe76a5c5704b41d567e9aa07a81
     1, // Egg
     0, // Unown B
     0, // Unown C
