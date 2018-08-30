@@ -13570,6 +13570,7 @@ const struct BaseStats gBaseStats[] =
         .safariZoneFleeRate = 0,
         .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
+<<<<<<< HEAD
     },
 
     [SPECIES_TURTWIG] =
@@ -13702,6 +13703,8 @@ const struct BaseStats gBaseStats[] =
         .safariZoneFleeRate        = 0,
         .bodyColor        = BODY_COLOR_BROWN,
         .noFlip        = FALSE,
+=======
+>>>>>>> 4a34093898abfbe76a5c5704b41d567e9aa07a81
     }
 };
 

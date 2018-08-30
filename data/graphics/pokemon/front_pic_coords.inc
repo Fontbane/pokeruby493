@@ -10,6 +10,16 @@ gMonFrontPicCoords:: @ 81E7C74
 	.byte 101, 13, 0, 0 // Squirtle
 	.byte 102,  8, 0, 0 // Wartortle
 	.byte 136,  0, 0, 0 // Blastoise
+	.byte 136,  0, 0, 0
+	.byte  69, 14, 0, 0
+	.byte  86, 10, 0, 0
+	.byte 136,  3, 0, 0
+	.byte  85, 12, 0, 0
+	.byte 102,  9, 0, 0
+	.byte 136,  1, 0, 0
+	.byte 101, 13, 0, 0
+	.byte 102,  8, 0, 0
+	.byte 136,  0, 0, 0
 	.byte  69, 16, 0, 0
 	.byte  84, 20, 0, 0
 	.byte 118,  9, 0, 0
@@ -444,3 +454,31 @@ gMonFrontPicCoords:: @ 81E7C74
 	.byte  52, 16, 0, 0 // UNOWN Z
 	.byte  53, 15, 0, 0 // UNOWN EXCLAMATION
 	.byte  53, 13, 0, 0 // UNOWN QUESTION
+	.byte  51, 20, 0, 0
+	.byte  52, 16, 0, 0
+	.byte  68, 16, 0, 0
+	.byte  68, 16, 0, 0
+	.byte  68, 17, 0, 0
+	.byte  68, 17, 0, 0
+	.byte  53, 14, 0, 0
+	.byte  68, 16, 0, 0
+	.byte  52, 16, 0, 0
+	.byte  52, 17, 0, 0
+	.byte  68, 17, 0, 0
+	.byte  52, 19, 0, 0
+	.byte  68, 19, 0, 0
+	.byte  67, 20, 0, 0
+	.byte  68, 16, 0, 0
+	.byte  52, 19, 0, 0
+	.byte  67, 21, 0, 0
+	.byte  52, 19, 0, 0
+	.byte  69, 12, 0, 0
+	.byte  52, 18, 0, 0
+	.byte  68, 18, 0, 0
+	.byte  68, 18, 0, 0
+	.byte  68, 19, 0, 0
+	.byte  51, 21, 0, 0
+	.byte  52, 17, 0, 0
+	.byte  52, 16, 0, 0
+	.byte  53, 15, 0, 0
+	.byte  53, 13, 0, 0

@@ -28,7 +28,11 @@
 
 #define ARRAY_COUNT(array) (sizeof(array) / sizeof((array)[0]))
 
+<<<<<<< HEAD
 #define POKEMON_SLOTS_NUMBER 416
+=======
+#define POKEMON_SLOTS_NUMBER 412
+>>>>>>> 4a34093898abfbe76a5c5704b41d567e9aa07a81
 #define POKEMON_NAME_LENGTH 10
 #define OT_NAME_LENGTH 7
 

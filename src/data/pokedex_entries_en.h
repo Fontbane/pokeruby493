@@ -5389,6 +5389,7 @@ static const u8 DexDescription_Deoxys_2[] = _(
   "chest appears to be its brain.");
 #endif
 
+<<<<<<< HEAD
 static const u8 DexDescription_Turtwig_1[] = _(
   "This is a newly discovered POKéMON.\n"
   "It is currently under investigation.");
@@ -5419,6 +5420,8 @@ static const u8 DexDescription_Chimchar_2[] = _(
   "its rear end. The fire burns weakly\n"
 "when it feels sick.");
 
+=======
+>>>>>>> 4a34093898abfbe76a5c5704b41d567e9aa07a81
 const struct PokedexEntry gPokedexEntries[] =
 {
     {  //Dummy
@@ -9678,6 +9681,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 290,
         .trainerOffset = 2,
     },
+<<<<<<< HEAD
     {  //Turtwig
         .categoryName = _("UNKNOWN"),
         .height = 0,
@@ -9722,4 +9726,6 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
 	},
+=======
+>>>>>>> 4a34093898abfbe76a5c5704b41d567e9aa07a81
 };

@@ -9388,6 +9388,7 @@ const u32 gTMHMLearnsets[][2] =
                                         | TMHM(TM49_SNATCH)
                                         | TMHM(HM05_FLASH)),
 
+<<<<<<< HEAD
     [SPECIES_TURTWIG]    = TMHM_LEARNSET(TMHM(TM05_ROAR)
                                         | TMHM(TM06_TOXIC)
 										| TMHM(TM09_BULLET_SEED)
@@ -9494,6 +9495,8 @@ const u32 gTMHMLearnsets[][2] =
 										| TMHM(HM04_STRENGTH)
 										| TMHM(HM05_FLASH)
                                         | TMHM(HM06_ROCK_SMASH)),
+=======
+>>>>>>> 4a34093898abfbe76a5c5704b41d567e9aa07a81
 };
 
 #endif  // GUARD_TMHM_LEARNSETS_H

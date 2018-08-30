@@ -2377,6 +2377,7 @@ extern const u8 gMonBackPic_Chimecho[];
 extern const u8 gMonShinyPalette_Chimecho[];
 extern const u8 gMonIcon_Chimecho[];
 extern const u8 gMonFootprint_Chimecho[];
+<<<<<<< HEAD
 extern const u8 gMonFrontPic_Turtwig[];
 extern const u8 gMonPalette_Turtwig[];
 extern const u8 gMonBackPic_Turtwig[];
@@ -2401,6 +2402,8 @@ extern const u8 gMonBackPic_Chimchar[];
 extern const u8 gMonShinyPalette_Chimchar[];
 extern const u8 gMonIcon_Chimchar[];
 extern const u8 gMonFootprint_Chimchar[];
+=======
+>>>>>>> 4a34093898abfbe76a5c5704b41d567e9aa07a81
 extern const u8 gMonPic_Egg[];
 extern const u8 gMonPalette_Egg[];
 extern const u8 gMonFrontPic_UnownB[];
