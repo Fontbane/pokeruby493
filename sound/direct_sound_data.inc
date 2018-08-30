@@ -1815,7 +1815,6 @@ Cry_Chimecho:: @ 8638E88
 	.incbin "sound/direct_sound_samples/cries/cry_chimecho.bin"
 
 	.align 2
-<<<<<<< HEAD
 Cry_Turtwig:: 
 	.incbin "sound/direct_sound_samples/cries/cry_turtwig.bin"
 
@@ -1832,8 +1831,6 @@ Cry_Chimchar::
 	.incbin "sound/direct_sound_samples/cries/cry_chimchar.bin"
 
 	.align 2
-=======
->>>>>>> 4a34093898abfbe76a5c5704b41d567e9aa07a81
 DirectSoundWaveData_Phoneme_Vowel7:: @ 8639898
 	.incbin "sound/direct_sound_samples/phonemes/vowel_7.bin"
 

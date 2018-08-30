@@ -5624,7 +5624,6 @@ const u16 gChimechoLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-<<<<<<< HEAD
 const u16 gTurtwigLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 5, MOVE_WITHDRAW),
@@ -5684,6 +5683,4 @@ const u16 gChimcharLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-=======
->>>>>>> 4a34093898abfbe76a5c5704b41d567e9aa07a81
 #endif //POKERUBY_LEVEL_UP_LEARNSETS_H

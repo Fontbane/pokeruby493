@@ -12531,13 +12531,10 @@ voicegroup_8453790:: @ 8453790
 	cry Cry_Jirachi
 	cry Cry_Deoxys
 	cry Cry_Chimecho
-<<<<<<< HEAD
 	cry Cry_Turtwig
 	cry Cry_Grotle
 	cry Cry_Torterra
 	cry Cry_Chimchar
-=======
->>>>>>> 4a34093898abfbe76a5c5704b41d567e9aa07a81
 
 	.align 2
 voicegroup_84537C0:: @ 84537C0
@@ -12938,13 +12935,10 @@ voicegroup_84549C0:: @ 84549C0
 	cry2 Cry_Jirachi
 	cry2 Cry_Deoxys
 	cry2 Cry_Chimecho
-<<<<<<< HEAD
 	cry2 Cry_Turtwig
 	cry2 Cry_Grotle
 	cry2 Cry_Torterra
 	cry2 Cry_Chimchar
-=======
->>>>>>> 4a34093898abfbe76a5c5704b41d567e9aa07a81
 
 	.align 2
 voicegroup_84549F0:: @ 84549F0
