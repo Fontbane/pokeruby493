@@ -9375,6 +9375,54 @@ gMonFootprint_Chimchar:: @ 8E3B498
 	.incbin "graphics/pokemon/chimchar/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Monferno:: @ 8E3AB88
+	.incbin "graphics/pokemon/monferno/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Monferno:: @ 8E3ADD4
+	.incbin "graphics/pokemon/monferno/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Monferno:: @ 8E3ADFC
+	.incbin "graphics/pokemon/monferno/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Monferno:: @ 8E3B070
+	.incbin "graphics/pokemon/monferno/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Monferno:: @ 8E3B098
+	.incbin "graphics/pokemon/monferno/icon.4bpp"
+
+	.align 2
+gMonFootprint_Monferno:: @ 8E3B498
+	.incbin "graphics/pokemon/monferno/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Infernape:: @ 8E3AB88
+	.incbin "graphics/pokemon/infernape/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Infernape:: @ 8E3ADD4
+	.incbin "graphics/pokemon/infernape/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Infernape:: @ 8E3ADFC
+	.incbin "graphics/pokemon/infernape/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Infernape:: @ 8E3B070
+	.incbin "graphics/pokemon/infernape/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Infernape:: @ 8E3B098
+	.incbin "graphics/pokemon/infernape/icon.4bpp"
+
+	.align 2
+gMonFootprint_Infernape:: @ 8E3B498
+	.incbin "graphics/pokemon/infernape/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

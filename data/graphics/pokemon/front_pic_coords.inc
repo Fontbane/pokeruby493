@@ -417,8 +417,10 @@ gMonFrontPicCoords:: @ 81E7C74
 	.byte  55,  6, 0, 0
 	.byte  69, 14, 0, 0 // Turtwig
 	.byte  86, 10, 0, 0 // Grotle
-	.byte 136,  3, 0, 0  // Torterra
+	.byte 136,  3, 0, 0 // Torterra
 	.byte  85, 12, 0, 0 // Chimchar
+	.byte  85, 12, 0, 0 // Monferno
+	.byte 102,  9, 0, 0 // Infernape
 	.byte  51, 20, 0, 0 // EGG
 	.byte  52, 16, 0, 0 // UNOWN B
 	.byte  68, 16, 0, 0 // UNOWN C

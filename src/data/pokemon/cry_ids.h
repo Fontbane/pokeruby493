@@ -144,8 +144,9 @@ const u16 gSpeciesIdToCryId[] = {
 	388, // TURTWIG
 	389, // GROTLE
 	390, // TORTERRA
-	391  // CHIMCHAR
-    387  // CHIMECHO
+	391, // CHIMCHAR
+	392, // MONFERNO
+	393  // INFERNAPE
 };
 
 #endif //POKERUBY_CRY_IDS_H

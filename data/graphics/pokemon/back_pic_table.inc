@@ -416,6 +416,8 @@ gMonBackPicTable:: @ 81E97F4
 	obj_tiles gMonBackPic_Grotle, 0x800, SPECIES_GROTLE
 	obj_tiles gMonBackPic_Torterra, 0x800, SPECIES_TORTERRA
 	obj_tiles gMonBackPic_Chimchar, 0x800, SPECIES_CHIMCHAR
+	obj_tiles gMonBackPic_Monferno, 0x800, SPECIES_MONFERNO
+	obj_tiles gMonBackPic_Infernape, 0x800, SPECIES_INFERNAPE
 	obj_tiles gMonPic_Egg, 0x800, SPECIES_EGG
 	obj_tiles gMonBackPic_UnownB, 0x800, SPECIES_UNOWN_B
 	obj_tiles gMonBackPic_UnownC, 0x800, SPECIES_UNOWN_C

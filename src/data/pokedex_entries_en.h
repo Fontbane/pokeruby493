@@ -5390,34 +5390,33 @@ static const u8 DexDescription_Deoxys_2[] = _(
 #endif
 
 static const u8 DexDescription_Turtwig_1[] = _(
-  "This is a newly discovered POKéMON.\n"
-  "It is currently under investigation.");
-static const u8 DexDescription_Turtwig_2[] = _(
-  "No detailed information is available\n"
-  "at this time.");
+  "The shell on its back is made of soil.\n"
+  "On a very healthy TURTWIG, the shell\n"
+  "should feel moist.");
 
 static const u8 DexDescription_Grotle_1[] = _(
-  "This is a newly discovered POKéMON.\n"
-  "It is currently under investigation.");
-static const u8 DexDescription_Grotle_2[] = _(
-  "No detailed information is available\n"
-  "at this time.");
+  "It knows where pure water wells up.\n"
+  "It carries fellow POKéMON on its back.");
 
 static const u8 DexDescription_Torterra_1[] = _(
-  "This is a newly discovered POKéMON.\n"
-  "It is currently under investigation.");
-static const u8 DexDescription_Torterra_2[] = _(
-  "No detailed information is available\n"
-  "at this time.");
+  "Some POKéMON are born on the back of a\n"
+  "TORTERRA and spend their entire\n"
+  "life there.");
 
 static const u8 DexDescription_Chimchar_1[] = _(
   "It is very agile. Before going to\n"
   "sleep, it extinguishes the flame on\n"
-  "its tail to prevent fires..");
-static const u8 DexDescription_Chimchar_2[] = _(
-  "The gas made in its belly burns from\n"
-  "its rear end. The fire burns weakly\n"
-"when it feels sick.");
+  "its tail to prevent fires.");
+
+static const u8 DexDescription_Monferno_1[] = _(
+  "It skillfully controls the intensity\n"
+  "of the fire on its tail to keep its\n"
+  "foes at an ideal distance.");
+
+static const u8 DexDescription_Infernape_1[] = _(
+  "It uses unique fighting moves with\n"
+  "fire on its hands and feet. It will\n"
+  "take on any opponent.");
 
 const struct PokedexEntry gPokedexEntries[] =
 {
@@ -9679,33 +9678,33 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 2,
     },
     {  //Turtwig
-        .categoryName = _("UNKNOWN"),
-        .height = 0,
-        .weight = 0,
-        .descriptionPage1 = DexDescription_Dummy_1,
-        .descriptionPage2 = DexDescription_Dummy_2,
+        .categoryName = _("TINY LEAF"),
+        .height = 04,
+        .weight = 102,
+        .descriptionPage1 = DexDescription_Turtwig_1,
+        .descriptionPage2 = DexDescription_Turtwig_1,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
     {  //Grotle
-        .categoryName = _("UNKNOWN"),
-        .height = 0,
-        .weight = 0,
-        .descriptionPage1 = DexDescription_Dummy_1,
-        .descriptionPage2 = DexDescription_Dummy_2,
+        .categoryName = _("GROVE"),
+        .height = 11,
+        .weight = 970,
+        .descriptionPage1 = DexDescription_Grotle_1,
+        .descriptionPage2 = DexDescription_Grotle_1,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
     {  //Torterra
-        .categoryName = _("UNKNOWN"),
-        .height = 0,
-        .weight = 0,
-        .descriptionPage1 = DexDescription_Dummy_1,
-        .descriptionPage2 = DexDescription_Dummy_2,
+        .categoryName = _("CONTINENT"),
+        .height = 22,
+        .weight = 3100,
+        .descriptionPage1 = DexDescription_Torterra_1,
+        .descriptionPage2 = DexDescription_Torterra_1,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 256,
@@ -9716,7 +9715,29 @@ const struct PokedexEntry gPokedexEntries[] =
         .height = 5,
         .weight = 62,
         .descriptionPage1 = DexDescription_Chimchar_1,
-        .descriptionPage2 = DexDescription_Chimchar_2,
+        .descriptionPage2 = DexDescription_Chimchar_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Monferno
+        .categoryName = _("PLAYFUL"),
+        .height = 9,
+        .weight = 485,
+        .descriptionPage1 = DexDescription_Monferno_1,
+        .descriptionPage2 = DexDescription_Monferno_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Infernape
+        .categoryName = _("FLAME"),
+        .height = 12,
+        .weight = 1213,
+        .descriptionPage1 = DexDescription_Infernape_1,
+        .descriptionPage2 = DexDescription_Infernape_1,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,

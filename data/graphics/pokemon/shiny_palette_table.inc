@@ -418,6 +418,8 @@ gMonShinyPaletteTable:: @ 81EB374
 	obj_pal gMonShinyPalette_Grotle, PAL_ID_SHINY + SPECIES_GROTLE
 	obj_pal gMonShinyPalette_Torterra, PAL_ID_SHINY + SPECIES_TORTERRA
 	obj_pal gMonShinyPalette_Chimchar, PAL_ID_SHINY + SPECIES_CHIMCHAR
+	obj_pal gMonShinyPalette_Monferno, PAL_ID_SHINY + SPECIES_MONFERNO
+	obj_pal gMonShinyPalette_Infernape, PAL_ID_SHINY + SPECIES_INFERNAPE
 	obj_pal gMonPalette_Egg, PAL_ID_SHINY + SPECIES_EGG
 	obj_pal gMonShinyPalette_Unown, PAL_ID_SHINY + SPECIES_UNOWN_B
 	obj_pal gMonShinyPalette_Unown, PAL_ID_SHINY + SPECIES_UNOWN_C

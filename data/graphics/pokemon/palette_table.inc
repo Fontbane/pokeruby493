@@ -416,6 +416,8 @@ gMonPaletteTable:: @ 81EA5B4
 	obj_pal gMonPalette_Grotle, SPECIES_GROTLE
 	obj_pal gMonPalette_Torterra, SPECIES_TORTERRA
 	obj_pal gMonPalette_Chimchar, SPECIES_CHIMCHAR
+	obj_pal gMonPalette_Monferno, SPECIES_MONFERNO
+	obj_pal gMonPalette_Infernape, SPECIES_INFERNAPE
 	obj_pal gMonPalette_Egg, SPECIES_EGG
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_B
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_C

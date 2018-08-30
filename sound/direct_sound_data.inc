@@ -1831,6 +1831,14 @@ Cry_Chimchar::
 	.incbin "sound/direct_sound_samples/cries/cry_chimchar.bin"
 
 	.align 2
+Cry_Monferno:: 
+	.incbin "sound/direct_sound_samples/cries/cry_monferno.bin"
+
+	.align 2
+Cry_Infernape:: 
+	.incbin "sound/direct_sound_samples/cries/cry_infernape.bin"
+
+	.align 2
 DirectSoundWaveData_Phoneme_Vowel7:: @ 8639898
 	.incbin "sound/direct_sound_samples/phonemes/vowel_7.bin"
 

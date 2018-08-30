@@ -12535,6 +12535,8 @@ voicegroup_8453790:: @ 8453790
 	cry Cry_Grotle
 	cry Cry_Torterra
 	cry Cry_Chimchar
+	cry Cry_Monferno
+	cry Cry_Infernape
 
 	.align 2
 voicegroup_84537C0:: @ 84537C0
@@ -12939,6 +12941,8 @@ voicegroup_84549C0:: @ 84549C0
 	cry2 Cry_Grotle
 	cry2 Cry_Torterra
 	cry2 Cry_Chimchar
+	cry2 Cry_Monferno
+	cry2 Cry_Infernape
 
 	.align 2
 voicegroup_84549F0:: @ 84549F0

@@ -455,6 +455,8 @@ const u8 gEnemyMonElevation[] = {
 	[SPECIES_GROTLE] = 0,
 	[SPECIES_TORTERRA] = 0,
 	[SPECIES_CHIMCHAR] = 0,
+	[SPECIES_MONFERNO] = 0,
+	[SPECIES_INFERNAPE] = 0,
 };
 
 #include "../data/trainer_parties.h"
