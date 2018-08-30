@@ -9724,7 +9724,7 @@ const struct PokedexEntry gPokedexEntries[] =
 	{  //Monferno
         .categoryName = _("PLAYFUL"),
         .height = 9,
-        .weight = 485,
+        .weight = 220,
         .descriptionPage1 = DexDescription_Monferno_1,
         .descriptionPage2 = DexDescription_Monferno_1,
         .pokemonScale = 444,
@@ -9735,7 +9735,7 @@ const struct PokedexEntry gPokedexEntries[] =
 	{  //Infernape
         .categoryName = _("FLAME"),
         .height = 12,
-        .weight = 1213,
+        .weight = 550,
         .descriptionPage1 = DexDescription_Infernape_1,
         .descriptionPage2 = DexDescription_Infernape_1,
         .pokemonScale = 444,

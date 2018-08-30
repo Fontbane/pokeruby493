@@ -32,6 +32,9 @@ The following is a list of all the files involved in the task of expanding poké
 
 * pokeruby\src || [pokedex.c](https://github.com/LOuroboros/pokeruby493/blob/master/src/pokedex.c)  ;  [pokemon_1.c](https://github.com/LOuroboros/pokeruby493/blob/master/src/pokemon_1.c)  ;  [pokemon_icon.c](https://github.com/LOuroboros/pokeruby493/blob/master/src/pokemon_icon.c)
 
+### Bugs
+As of right now, there's only one bug with this expansion. The pokédex seems to be broken for whatever reason. The Regional Dex ends at Kyogre *(it's missing 4 pokémon)* and the National Dex is missing certain pokémon too.
+
 # Credits
 
 -[Gamer2020](https://github.com/Gamer2020): He created aseriestodis which is the tool that "motivated" me and that I utilized to create this.

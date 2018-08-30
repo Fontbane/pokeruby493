@@ -884,8 +884,8 @@ const u8 gMonIconPaletteIndices[] =
 	1, // Grotle
 	1, // Torterra
 	1, // Chimchar
-	1, // Monferno
-	1, // Infernape
+	0, // Monferno
+	0, // Infernape
     1, // Egg
     0, // Unown B
     0, // Unown C
