@@ -33,7 +33,7 @@ The following is a list of all the files involved in the task of expanding poké
 * pokeruby\src || [pokedex.c](https://github.com/LOuroboros/pokeruby493/blob/master/src/pokedex.c)  ;  [pokemon_1.c](https://github.com/LOuroboros/pokeruby493/blob/master/src/pokemon_1.c)  ;  [pokemon_icon.c](https://github.com/LOuroboros/pokeruby493/blob/master/src/pokemon_icon.c)
 
 ### Bugs
-As of right now, there's only one bug with this expansion. The pokédex seems to be broken for whatever reason. The Regional Dex ends at Regice and the National Dex is missing certain pokémon too.
+As of right now, there aren't any bugs. There's a small issue involving pokémon not showing up in the pokédex using existing savefiles, but in those cases you just need to catch the pokémon again and it'll show up correctly.
 
 # Credits
 
@@ -45,6 +45,6 @@ As of right now, there's only one bug with this expansion. The pokédex seems to
 
 -[Pret](https://github.com/pret): For their impressive dedication and their work to preserve the Pokémon Games and open new paths for the ROM Hacking Community of these games.
 
--[UltimaSoul](https://www.pokecommunity.com/member.php?u=719183): Notes about pokémon expansion in Pokeruby.
+-[UltimaSoul](https://www.pokecommunity.com/member.php?u=719183): Notes about pokémon expansion in Pokeruby and **A LOT** of help.
 
 -[Tetra](https://www.pokecommunity.com/member.php?u=174056): Help with indexing icons and how to assign a custom cry to Chimchar.
