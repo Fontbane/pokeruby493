@@ -421,6 +421,9 @@ gMonFrontPicTable:: @ 81E8354
 	obj_tiles gMonFrontPic_Piplup, 0x800, SPECIES_PIPLUP
 	obj_tiles gMonFrontPic_Prinplup, 0x800, SPECIES_PRINPLUP
 	obj_tiles gMonFrontPic_Empoleon, 0x800, SPECIES_EMPOLEON
+	obj_tiles gMonFrontPic_Starly, 0x800, SPECIES_STARLY
+	obj_tiles gMonFrontPic_Staravia, 0x800, SPECIES_STARAVIA
+	obj_tiles gMonFrontPic_Staraptor, 0x800, SPECIES_STARAPTOR
 	obj_tiles gMonPic_Egg, 0x800, SPECIES_EGG
 	obj_tiles gMonFrontPic_UnownB, 0x800, SPECIES_UNOWN_B
 	obj_tiles gMonFrontPic_UnownC, 0x800, SPECIES_UNOWN_C

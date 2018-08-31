@@ -12540,6 +12540,9 @@ voicegroup_8453790:: @ 8453790
 	cry Cry_Piplup
 	cry Cry_Prinplup
 	cry Cry_Empoleon
+	cry Cry_Starly
+	cry Cry_Staravia
+	cry Cry_Staraptor
 
 	.align 2
 voicegroup_84537C0:: @ 84537C0
@@ -12949,6 +12952,9 @@ voicegroup_84549C0:: @ 84549C0
 	cry2 Cry_Piplup
 	cry2 Cry_Prinplup
 	cry2 Cry_Empoleon
+	cry2 Cry_Starly
+	cry2 Cry_Staravia
+	cry2 Cry_Staraptor
 
 	.align 2
 voicegroup_84549F0:: @ 84549F0

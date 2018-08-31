@@ -460,6 +460,9 @@ const u8 gEnemyMonElevation[] = {
 	[SPECIES_PIPLUP] = 0,
 	[SPECIES_PRINPLUP] = 0,
 	[SPECIES_EMPOLEON] = 0,
+	[SPECIES_STARLY] = 0,
+	[SPECIES_STARAVIA] = 0,
+	[SPECIES_STARAPTOR] = 0,
 };
 
 #include "../data/trainer_parties.h"

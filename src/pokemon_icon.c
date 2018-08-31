@@ -439,6 +439,9 @@ const u8 * const gMonIconTable[] =
 	gMonIcon_Piplup,
 	gMonIcon_Prinplup,
 	gMonIcon_Empoleon,
+	gMonIcon_Starly,
+	gMonIcon_Staravia,
+	gMonIcon_Staraptor,
     gMonIcon_Egg,
     gMonIcon_UnownB,
     gMonIcon_UnownC,
@@ -892,6 +895,9 @@ const u8 gMonIconPaletteIndices[] =
 	2, // Piplup
 	2, // Prinplup
 	0, // Empoleon
+	0, // Starly
+	0, // Staravia
+	0, // Staraptor
     1, // Egg
     0, // Unown B
     0, // Unown C

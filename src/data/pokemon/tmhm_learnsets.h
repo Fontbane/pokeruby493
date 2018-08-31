@@ -9636,6 +9636,60 @@ const u32 gTMHMLearnsets[][2] =
 										| TMHM(HM07_WATERFALL)
                                         | TMHM(HM08_DIVE)),
 
+    [SPECIES_STARLY]    = TMHM_LEARNSET(TMHM(TM05_ROAR)
+										| TMHM(TM06_TOXIC)
+										| TMHM(TM10_HIDDEN_POWER)
+										| TMHM(TM11_SUNNY_DAY)
+										| TMHM(TM17_PROTECT)
+                                        | TMHM(TM18_RAIN_DANCE)
+                                        | TMHM(TM21_FRUSTRATION)
+                                        | TMHM(TM27_RETURN)
+										| TMHM(TM32_DOUBLE_TEAM)
+                                        | TMHM(TM40_AERIAL_ACE)
+                                        | TMHM(TM42_FACADE)
+										| TMHM(TM43_SECRET_POWER)
+										| TMHM(TM45_ATTRACT)
+										| TMHM(TM46_THIEF)
+                                        | TMHM(TM47_STEEL_WING)
+                                        | TMHM(HM01_CUT)
+                                        | TMHM(HM02_FLY)),
+
+    [SPECIES_STARAVIA]    = TMHM_LEARNSET(TMHM(TM05_ROAR)
+										| TMHM(TM06_TOXIC)
+										| TMHM(TM10_HIDDEN_POWER)
+										| TMHM(TM11_SUNNY_DAY)
+										| TMHM(TM17_PROTECT)
+                                        | TMHM(TM18_RAIN_DANCE)
+                                        | TMHM(TM21_FRUSTRATION)
+                                        | TMHM(TM27_RETURN)
+										| TMHM(TM32_DOUBLE_TEAM)
+                                        | TMHM(TM40_AERIAL_ACE)
+                                        | TMHM(TM42_FACADE)
+										| TMHM(TM43_SECRET_POWER)
+										| TMHM(TM45_ATTRACT)
+										| TMHM(TM46_THIEF)
+                                        | TMHM(TM47_STEEL_WING)
+                                        | TMHM(HM01_CUT)
+                                        | TMHM(HM02_FLY)),
+
+    [SPECIES_STARAPTOR]    = TMHM_LEARNSET(TMHM(TM05_ROAR)
+										| TMHM(TM06_TOXIC)
+										| TMHM(TM10_HIDDEN_POWER)
+										| TMHM(TM11_SUNNY_DAY)
+										| TMHM(TM17_PROTECT)
+                                        | TMHM(TM18_RAIN_DANCE)
+                                        | TMHM(TM21_FRUSTRATION)
+                                        | TMHM(TM27_RETURN)
+										| TMHM(TM32_DOUBLE_TEAM)
+                                        | TMHM(TM40_AERIAL_ACE)
+                                        | TMHM(TM42_FACADE)
+										| TMHM(TM43_SECRET_POWER)
+										| TMHM(TM45_ATTRACT)
+										| TMHM(TM46_THIEF)
+                                        | TMHM(TM47_STEEL_WING)
+                                        | TMHM(HM01_CUT)
+                                        | TMHM(HM02_FLY)),
+
 };
 
 #endif  // GUARD_TMHM_LEARNSETS_H

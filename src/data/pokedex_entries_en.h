@@ -5433,6 +5433,21 @@ static const u8 DexDescription_Empoleon_1[] = _(
   "would slash them with wings that\n"
   "can cleave through an ice floe.");
 
+static const u8 DexDescription_Starly_1[] = _(
+  "Because they are weak individually,\n"
+  "they form groups. However, they\n"
+  "bicker if the group grows too big.");
+
+static const u8 DexDescription_Staravia_1[] = _(
+  "Recognizing their own weakness, they\n"
+  "always live in a group. When alone,\n"
+  "a STARAVIA cries noisily.");
+
+static const u8 DexDescription_Staraptor_1[] = _(
+  "It never stops attacking even if it\n"
+  "is injured. It fusses over the shape\n"
+  "of its comb.");
+
 const struct PokedexEntry gPokedexEntries[] =
 {
     {  //Dummy
@@ -9786,6 +9801,39 @@ const struct PokedexEntry gPokedexEntries[] =
         .weight = 845,
         .descriptionPage1 = DexDescription_Empoleon_1,
         .descriptionPage2 = DexDescription_Empoleon_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Starly
+        .categoryName = _("STARLING"),
+        .height = 3,
+        .weight = 20,
+        .descriptionPage1 = DexDescription_Starly_1,
+        .descriptionPage2 = DexDescription_Starly_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Staravia
+        .categoryName = _("STARLING"),
+        .height = 6,
+        .weight = 155,
+        .descriptionPage1 = DexDescription_Staravia_1,
+        .descriptionPage2 = DexDescription_Staravia_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Staraptor
+        .categoryName = _("PREDATOR"),
+        .height = 12,
+        .weight = 249,
+        .descriptionPage1 = DexDescription_Staraptor_1,
+        .descriptionPage2 = DexDescription_Staraptor_1,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,

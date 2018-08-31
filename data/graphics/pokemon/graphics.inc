@@ -9495,6 +9495,78 @@ gMonFootprint_Empoleon:: @ 8E3B498
 	.incbin "graphics/pokemon/empoleon/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Starly:: @ 8E3AB88
+	.incbin "graphics/pokemon/starly/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Starly:: @ 8E3ADD4
+	.incbin "graphics/pokemon/starly/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Starly:: @ 8E3ADFC
+	.incbin "graphics/pokemon/starly/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Starly:: @ 8E3B070
+	.incbin "graphics/pokemon/starly/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Starly:: @ 8E3B098
+	.incbin "graphics/pokemon/starly/icon.4bpp"
+
+	.align 2
+gMonFootprint_Starly:: @ 8E3B498
+	.incbin "graphics/pokemon/starly/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Staravia:: @ 8E3AB88
+	.incbin "graphics/pokemon/staravia/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Staravia:: @ 8E3ADD4
+	.incbin "graphics/pokemon/staravia/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Staravia:: @ 8E3ADFC
+	.incbin "graphics/pokemon/staravia/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Staravia:: @ 8E3B070
+	.incbin "graphics/pokemon/staravia/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Staravia:: @ 8E3B098
+	.incbin "graphics/pokemon/staravia/icon.4bpp"
+
+	.align 2
+gMonFootprint_Staravia:: @ 8E3B498
+	.incbin "graphics/pokemon/staravia/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Staraptor:: @ 8E3AB88
+	.incbin "graphics/pokemon/staraptor/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Staraptor:: @ 8E3ADD4
+	.incbin "graphics/pokemon/staraptor/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Staraptor:: @ 8E3ADFC
+	.incbin "graphics/pokemon/staraptor/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Staraptor:: @ 8E3B070
+	.incbin "graphics/pokemon/staraptor/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Staraptor:: @ 8E3B098
+	.incbin "graphics/pokemon/staraptor/icon.4bpp"
+
+	.align 2
+gMonFootprint_Staraptor:: @ 8E3B498
+	.incbin "graphics/pokemon/staraptor/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

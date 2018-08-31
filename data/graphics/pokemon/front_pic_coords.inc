@@ -10,15 +10,15 @@ gMonFrontPicCoords:: @ 81E7C74
 	.byte 101, 13, 0, 0 // Squirtle
 	.byte 102,  8, 0, 0 // Wartortle
 	.byte 136,  0, 0, 0 // Blastoise
-	.byte 101, 13, 0, 0
-	.byte 102,  8, 0, 0
-	.byte 136,  0, 0, 0
-	.byte  69, 16, 0, 0
-	.byte  84, 20, 0, 0
-	.byte 118,  9, 0, 0
-	.byte  84, 18, 0, 0
-	.byte  69, 14, 0, 0
-	.byte 134,  9, 0, 0
+	.byte 101, 13, 0, 0 // Caterpie
+	.byte 102,  8, 0, 0 // Metapod
+	.byte 136,  0, 0, 0 // Butterfree
+	.byte  69, 16, 0, 0 // Weedle
+	.byte  84, 20, 0, 0 // Kakuna
+	.byte 118,  9, 0, 0 // Beedrill
+	.byte  84, 18, 0, 0 // Pidgey
+	.byte  69, 14, 0, 0 // Pidgeotto
+	.byte 134,  9, 0, 0 // Pidgeot
 	.byte 101, 13, 0, 0
 	.byte 103, 11, 0, 0
 	.byte 136,  1, 0, 0
@@ -424,6 +424,9 @@ gMonFrontPicCoords:: @ 81E7C74
 	.byte 101, 13, 0, 0 // Piplup
 	.byte 102,  8, 0, 0 // Prinplup
 	.byte 136,  0, 0, 0 // Empoleon
+	.byte  84, 18, 0, 0 // Starly
+	.byte  69, 14, 0, 0 // Staravia
+	.byte 134,  9, 0, 0 // Staraptor
 	.byte  51, 20, 0, 0 // EGG
 	.byte  52, 16, 0, 0 // UNOWN B
 	.byte  68, 16, 0, 0 // UNOWN C

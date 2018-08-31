@@ -1851,6 +1851,18 @@ Cry_Empoleon::
 	.incbin "sound/direct_sound_samples/cries/cry_empoleon.bin"
 
 	.align 2
+Cry_Starly:: 
+	.incbin "sound/direct_sound_samples/cries/cry_starly.bin"
+
+	.align 2
+Cry_Staravia:: 
+	.incbin "sound/direct_sound_samples/cries/cry_staravia.bin"
+
+	.align 2
+Cry_Staraptor:: 
+	.incbin "sound/direct_sound_samples/cries/cry_staraptor.bin"
+
+	.align 2
 DirectSoundWaveData_Phoneme_Vowel7:: @ 8639898
 	.incbin "sound/direct_sound_samples/phonemes/vowel_7.bin"
 

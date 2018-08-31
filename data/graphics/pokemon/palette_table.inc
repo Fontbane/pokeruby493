@@ -421,6 +421,9 @@ gMonPaletteTable:: @ 81EA5B4
 	obj_pal gMonPalette_Piplup, SPECIES_PIPLUP
 	obj_pal gMonPalette_Prinplup, SPECIES_PRINPLUP
 	obj_pal gMonPalette_Empoleon, SPECIES_EMPOLEON
+	obj_pal gMonPalette_Starly, SPECIES_STARLY
+	obj_pal gMonPalette_Staravia, SPECIES_STARAVIA
+	obj_pal gMonPalette_Staraptor, SPECIES_STARAPTOR
 	obj_pal gMonPalette_Egg, SPECIES_EGG
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_B
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_C
