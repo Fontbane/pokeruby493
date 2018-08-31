@@ -418,6 +418,9 @@ gMonFrontPicTable:: @ 81E8354
 	obj_tiles gMonFrontPic_Chimchar, 0x800, SPECIES_CHIMCHAR
 	obj_tiles gMonFrontPic_Monferno, 0x800, SPECIES_MONFERNO
 	obj_tiles gMonFrontPic_Infernape, 0x800, SPECIES_INFERNAPE
+	obj_tiles gMonFrontPic_Piplup, 0x800, SPECIES_PIPLUP
+	obj_tiles gMonFrontPic_Prinplup, 0x800, SPECIES_PRINPLUP
+	obj_tiles gMonFrontPic_Empoleon, 0x800, SPECIES_EMPOLEON
 	obj_tiles gMonPic_Egg, 0x800, SPECIES_EGG
 	obj_tiles gMonFrontPic_UnownB, 0x800, SPECIES_UNOWN_B
 	obj_tiles gMonFrontPic_UnownC, 0x800, SPECIES_UNOWN_C

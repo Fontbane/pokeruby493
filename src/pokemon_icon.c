@@ -436,6 +436,9 @@ const u8 * const gMonIconTable[] =
 	gMonIcon_Chimchar,
 	gMonIcon_Monferno,
 	gMonIcon_Infernape,
+	gMonIcon_Piplup,
+	gMonIcon_Prinplup,
+	gMonIcon_Empoleon,
     gMonIcon_Egg,
     gMonIcon_UnownB,
     gMonIcon_UnownC,
@@ -886,6 +889,9 @@ const u8 gMonIconPaletteIndices[] =
 	1, // Chimchar
 	0, // Monferno
 	0, // Infernape
+	2, // Piplup
+	2, // Prinplup
+	0, // Empoleon
     1, // Egg
     0, // Unown B
     0, // Unown C

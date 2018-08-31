@@ -421,6 +421,9 @@ gMonFrontPicCoords:: @ 81E7C74
 	.byte  85, 12, 0, 0 // Chimchar
 	.byte  85, 12, 0, 0 // Monferno
 	.byte 102,  9, 0, 0 // Infernape
+	.byte 101, 13, 0, 0 // Piplup
+	.byte 102,  8, 0, 0 // Prinplup
+	.byte 136,  0, 0, 0 // Empoleon
 	.byte  51, 20, 0, 0 // EGG
 	.byte  52, 16, 0, 0 // UNOWN B
 	.byte  68, 16, 0, 0 // UNOWN C

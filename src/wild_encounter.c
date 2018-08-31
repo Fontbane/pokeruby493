@@ -1573,7 +1573,7 @@ const struct WildPokemon Route101_LandMons [] =
     {2, 2, SPECIES_POOCHYENA},
     {2, 2, SPECIES_POOCHYENA},
     {3, 3, SPECIES_POOCHYENA},
-	{3, 3, SPECIES_POOCHYENA},
+    {3, 3, SPECIES_POOCHYENA},
 };
 const struct WildPokemonInfo Route101_LandMonsInfo = {20, Route101_LandMons};
 

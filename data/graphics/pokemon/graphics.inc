@@ -9423,6 +9423,78 @@ gMonFootprint_Infernape:: @ 8E3B498
 	.incbin "graphics/pokemon/infernape/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Piplup:: @ 8E3AB88
+	.incbin "graphics/pokemon/piplup/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Piplup:: @ 8E3ADD4
+	.incbin "graphics/pokemon/piplup/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Piplup:: @ 8E3ADFC
+	.incbin "graphics/pokemon/piplup/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Piplup:: @ 8E3B070
+	.incbin "graphics/pokemon/piplup/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Piplup:: @ 8E3B098
+	.incbin "graphics/pokemon/piplup/icon.4bpp"
+
+	.align 2
+gMonFootprint_Piplup:: @ 8E3B498
+	.incbin "graphics/pokemon/piplup/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Prinplup:: @ 8E3AB88
+	.incbin "graphics/pokemon/prinplup/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Prinplup:: @ 8E3ADD4
+	.incbin "graphics/pokemon/prinplup/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Prinplup:: @ 8E3ADFC
+	.incbin "graphics/pokemon/prinplup/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Prinplup:: @ 8E3B070
+	.incbin "graphics/pokemon/prinplup/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Prinplup:: @ 8E3B098
+	.incbin "graphics/pokemon/prinplup/icon.4bpp"
+
+	.align 2
+gMonFootprint_Prinplup:: @ 8E3B498
+	.incbin "graphics/pokemon/prinplup/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Empoleon:: @ 8E3AB88
+	.incbin "graphics/pokemon/empoleon/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Empoleon:: @ 8E3ADD4
+	.incbin "graphics/pokemon/empoleon/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Empoleon:: @ 8E3ADFC
+	.incbin "graphics/pokemon/empoleon/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Empoleon:: @ 8E3B070
+	.incbin "graphics/pokemon/empoleon/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Empoleon:: @ 8E3B098
+	.incbin "graphics/pokemon/empoleon/icon.4bpp"
+
+	.align 2
+gMonFootprint_Empoleon:: @ 8E3B498
+	.incbin "graphics/pokemon/empoleon/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

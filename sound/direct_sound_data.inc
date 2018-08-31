@@ -1839,6 +1839,18 @@ Cry_Infernape::
 	.incbin "sound/direct_sound_samples/cries/cry_infernape.bin"
 
 	.align 2
+Cry_Piplup:: 
+	.incbin "sound/direct_sound_samples/cries/cry_piplup.bin"
+
+	.align 2
+Cry_Prinplup:: 
+	.incbin "sound/direct_sound_samples/cries/cry_prinplup.bin"
+
+	.align 2
+Cry_Empoleon:: 
+	.incbin "sound/direct_sound_samples/cries/cry_empoleon.bin"
+
+	.align 2
 DirectSoundWaveData_Phoneme_Vowel7:: @ 8639898
 	.incbin "sound/direct_sound_samples/phonemes/vowel_7.bin"
 

@@ -146,7 +146,10 @@ const u16 gSpeciesIdToCryId[] = {
 	390, // TORTERRA
 	391, // CHIMCHAR
 	392, // MONFERNO
-	393  // INFERNAPE
+	393, // INFERNAPE
+	394, // PIPLUP
+	395, // PRINPLUP
+	396  // EMPOLEON
 };
 
 #endif //POKERUBY_CRY_IDS_H

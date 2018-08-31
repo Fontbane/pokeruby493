@@ -423,7 +423,10 @@ const u16 *gLevelUpLearnsets[] = {
 	gTorterraLevelUpLearnset,
 	gChimcharLevelUpLearnset,
 	gMonfernoLevelUpLearnset,
-	gInfernapeLevelUpLearnset
+	gInfernapeLevelUpLearnset,
+	gPiplupLevelUpLearnset,
+	gPrinplupLevelUpLearnset,
+	gEmpoleonLevelUpLearnset
 };
 
 #endif //POKERUBY_LEVEL_UP_LEARNSET_POINTERS_H

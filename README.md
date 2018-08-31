@@ -3,10 +3,8 @@ Attempt at making a public base of Pokeruby with expanded pokémon up to Arceus.
 
 I don't know when or if I'll ever be able to complete it, so keep that in mind.
 
-It goes without saying: This is **NOT** usable at the moment.
-
 ### Progress
-392/493 - 386 + Turtwig, Grotle, Torterra, Chimchar, Monferno, Infernape.
+395/493 - 386 + Turtwig, Grotle, Torterra, Chimchar, Monferno, Infernape, Piplup, Prinplup and Empoleon.
 
 ### Modified Files
 
@@ -35,7 +33,7 @@ The following is a list of all the files involved in the task of expanding poké
 * pokeruby\src || [pokedex.c](https://github.com/LOuroboros/pokeruby493/blob/master/src/pokedex.c)  ;  [pokemon_1.c](https://github.com/LOuroboros/pokeruby493/blob/master/src/pokemon_1.c)  ;  [pokemon_icon.c](https://github.com/LOuroboros/pokeruby493/blob/master/src/pokemon_icon.c)
 
 ### Bugs
-As of right now, there's only one bug with this expansion. The pokédex seems to be broken for whatever reason. The Regional Dex ends at Kyogre *(it's missing 4 pokémon)* and the National Dex is missing certain pokémon too.
+As of right now, there's only one bug with this expansion. The pokédex seems to be broken for whatever reason. The Regional Dex ends at Regice and the National Dex is missing certain pokémon too.
 
 # Credits
 

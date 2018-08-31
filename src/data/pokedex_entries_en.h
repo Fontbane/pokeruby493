@@ -5418,6 +5418,21 @@ static const u8 DexDescription_Infernape_1[] = _(
   "fire on its hands and feet. It will\n"
   "take on any opponent.");
 
+static const u8 DexDescription_Piplup_1[] = _(
+  "A poor walker, it often falls down.\n"
+  "However, its strong pride makes it\n"
+  "puff up its chest without a care.");
+
+static const u8 DexDescription_Prinplup_1[] = _(
+  "Because every PRINPLUP considers\n"
+  "itself to be the most important,\n"
+  "they can never form a group.");
+
+static const u8 DexDescription_Empoleon_1[] = _(
+  "If anyone were to hurt its pride, it\n"
+  "would slash them with wings that\n"
+  "can cleave through an ice floe.");
+
 const struct PokedexEntry gPokedexEntries[] =
 {
     {  //Dummy
@@ -9738,6 +9753,39 @@ const struct PokedexEntry gPokedexEntries[] =
         .weight = 550,
         .descriptionPage1 = DexDescription_Infernape_1,
         .descriptionPage2 = DexDescription_Infernape_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Piplup
+        .categoryName = _("PENGUIN"),
+        .height = 4,
+        .weight = 52,
+        .descriptionPage1 = DexDescription_Piplup_1,
+        .descriptionPage2 = DexDescription_Piplup_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Prinplup
+        .categoryName = _("PENGUIN"),
+        .height = 8,
+        .weight = 230,
+        .descriptionPage1 = DexDescription_Prinplup_1,
+        .descriptionPage2 = DexDescription_Prinplup_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Empoleon
+        .categoryName = _("EMPEROR"),
+        .height = 17,
+        .weight = 845,
+        .descriptionPage1 = DexDescription_Empoleon_1,
+        .descriptionPage2 = DexDescription_Empoleon_1,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,
