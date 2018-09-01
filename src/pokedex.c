@@ -930,6 +930,8 @@ static const u8 *const sMonFootprintTable[] =
 	gMonFootprint_Starly,
 	gMonFootprint_Staravia,
 	gMonFootprint_Staraptor,
+	gMonFootprint_Bidoof,
+	gMonFootprint_Bibarel,
     gMonFootprint_Bulbasaur,
 };
 static const u8 gUnknown_083B5558[] = _("{CLEAR_TO 0}");

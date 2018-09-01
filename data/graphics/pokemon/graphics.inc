@@ -9567,6 +9567,54 @@ gMonFootprint_Staraptor:: @ 8E3B498
 	.incbin "graphics/pokemon/staraptor/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Bidoof:: @ 8E3AB88
+	.incbin "graphics/pokemon/bidoof/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Bidoof:: @ 8E3ADD4
+	.incbin "graphics/pokemon/bidoof/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Bidoof:: @ 8E3ADFC
+	.incbin "graphics/pokemon/bidoof/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Bidoof:: @ 8E3B070
+	.incbin "graphics/pokemon/bidoof/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Bidoof:: @ 8E3B098
+	.incbin "graphics/pokemon/bidoof/icon.4bpp"
+
+	.align 2
+gMonFootprint_Bidoof:: @ 8E3B498
+	.incbin "graphics/pokemon/bidoof/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Bibarel:: @ 8E3AB88
+	.incbin "graphics/pokemon/bibarel/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Bibarel:: @ 8E3ADD4
+	.incbin "graphics/pokemon/bibarel/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Bibarel:: @ 8E3ADFC
+	.incbin "graphics/pokemon/bibarel/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Bibarel:: @ 8E3B070
+	.incbin "graphics/pokemon/bibarel/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Bibarel:: @ 8E3B098
+	.incbin "graphics/pokemon/bibarel/icon.4bpp"
+
+	.align 2
+gMonFootprint_Bibarel:: @ 8E3B498
+	.incbin "graphics/pokemon/bibarel/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

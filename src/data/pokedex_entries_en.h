@@ -5448,6 +5448,16 @@ static const u8 DexDescription_Staraptor_1[] = _(
   "is injured. It fusses over the shape\n"
   "of its comb.");
 
+static const u8 DexDescription_Bidoof_1[] = _(
+  "A comparison revealed that BIDOOF’s\n"
+  "front teeth grow at the same rate\n"
+  "as RATTATA’s.");
+
+static const u8 DexDescription_Bibarel_1[] = _(
+  "A river dammed by BIBAREL will never\n"
+  "overflow its banks, which is\n"
+  "appreciated by people nearby.");
+
 const struct PokedexEntry gPokedexEntries[] =
 {
     {  //Dummy
@@ -9834,6 +9844,28 @@ const struct PokedexEntry gPokedexEntries[] =
         .weight = 249,
         .descriptionPage1 = DexDescription_Staraptor_1,
         .descriptionPage2 = DexDescription_Staraptor_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Bidoof
+        .categoryName = _("PLUMP MOUSE"),
+        .height = 5,
+        .weight = 200,
+        .descriptionPage1 = DexDescription_Bidoof_1,
+        .descriptionPage2 = DexDescription_Bidoof_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Bibarel
+        .categoryName = _("BEAVER"),
+        .height = 10,
+        .weight = 315,
+        .descriptionPage1 = DexDescription_Bibarel_1,
+        .descriptionPage2 = DexDescription_Bibarel_1,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,

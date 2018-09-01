@@ -152,7 +152,9 @@ const u16 gSpeciesIdToCryId[] = {
 	396, // EMPOLEON
 	397, // STARLY
 	398, // STARAVIA
-	399  // STARAPTOR
+	399, // STARAPTOR
+	400, // BIDOOF
+	401  // BIBAREL
 };
 
 #endif //POKERUBY_CRY_IDS_H

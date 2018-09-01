@@ -424,6 +424,8 @@ gMonBackPicTable:: @ 81E97F4
 	obj_tiles gMonBackPic_Starly, 0x800, SPECIES_STARLY
 	obj_tiles gMonBackPic_Staravia, 0x800, SPECIES_STARAVIA
 	obj_tiles gMonBackPic_Staraptor, 0x800, SPECIES_STARAPTOR
+	obj_tiles gMonBackPic_Bidoof, 0x800, SPECIES_BIDOOF
+	obj_tiles gMonBackPic_Bibarel, 0x800, SPECIES_BIBAREL
 	obj_tiles gMonPic_Egg, 0x800, SPECIES_EGG
 	obj_tiles gMonBackPic_UnownB, 0x800, SPECIES_UNOWN_B
 	obj_tiles gMonBackPic_UnownC, 0x800, SPECIES_UNOWN_C

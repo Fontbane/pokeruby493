@@ -447,9 +447,11 @@ const u16 gSpeciesToHoennPokedexNum[] = // Assigns all species to the Hoenn Dex 
 	HOENN_DEX_PIPLUP,           // SPECIES_PIPLUP
 	HOENN_DEX_PRINPLUP,         // SPECIES_PRINPLUP
 	HOENN_DEX_EMPOLEON,         // SPECIES_EMPOLEON
-	HOENN_DEX_STARLY,         // SPECIES_STARLY
+	HOENN_DEX_STARLY,           // SPECIES_STARLY
 	HOENN_DEX_STARAVIA,         // SPECIES_STARAVIA
-	HOENN_DEX_STARAPTOR          // SPECIES_STARAPTOR
+	HOENN_DEX_STARAPTOR,        // SPECIES_STARAPTOR
+	HOENN_DEX_BIDOOF,           // SPECIES_BIDOOF
+	HOENN_DEX_BIBAREL           // SPECIES_BIBAREL
 };
 
 const u16 gSpeciesToNationalPokedexNum[] = // Assigns all species to the National Dex Index (Summary No. for National Dex)
@@ -875,9 +877,11 @@ const u16 gSpeciesToNationalPokedexNum[] = // Assigns all species to the Nationa
 	NATIONAL_DEX_PIPLUP,            // SPECIES_PIPLUP
 	NATIONAL_DEX_PRINPLUP,          // SPECIES_PRINPLUP
 	NATIONAL_DEX_EMPOLEON,          // SPECIES_EMPOLEON
-	NATIONAL_DEX_STARLY,          // SPECIES_STARLY
+	NATIONAL_DEX_STARLY,            // SPECIES_STARLY
 	NATIONAL_DEX_STARAVIA,          // SPECIES_STARAVIA
-	NATIONAL_DEX_STARAPTOR           // SPECIES_STARAPTOR
+	NATIONAL_DEX_STARAPTOR,         // SPECIES_STARAPTOR
+	NATIONAL_DEX_BIDOOF,            // SPECIES_BIDOOF
+	NATIONAL_DEX_BIBAREL            // SPECIES_BIBAREL
 };
 
 const u16 gHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using National Dex Index)
@@ -1281,6 +1285,8 @@ const u16 gHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using Nationa
 	NATIONAL_DEX_STARLY,        // HOENN_DEX_STARLY
 	NATIONAL_DEX_STARAVIA,      // HOENN_DEX_STARAVIA
 	NATIONAL_DEX_STARAPTOR,     // HOENN_DEX_STARAPTOR
+	NATIONAL_DEX_BIDOOF,        // HOENN_DEX_BIDOOF
+	NATIONAL_DEX_BIBAREL,       // HOENN_DEX_BIBAREL
 	NATIONAL_DEX_OLD_UNOWN_B,  	// HOENN_DEX_OLD_UNOWN_B
 	NATIONAL_DEX_OLD_UNOWN_C,  	// HOENN_DEX_OLD_UNOWN_C
 	NATIONAL_DEX_OLD_UNOWN_D,  	// HOENN_DEX_OLD_UNOWN_D

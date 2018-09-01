@@ -426,6 +426,8 @@ gMonShinyPaletteTable:: @ 81EB374
 	obj_pal gMonShinyPalette_Starly, PAL_ID_SHINY + SPECIES_STARLY
 	obj_pal gMonShinyPalette_Staravia, PAL_ID_SHINY + SPECIES_STARAVIA
 	obj_pal gMonShinyPalette_Staraptor, PAL_ID_SHINY + SPECIES_STARAPTOR
+	obj_pal gMonShinyPalette_Bidoof, PAL_ID_SHINY + SPECIES_BIDOOF
+	obj_pal gMonShinyPalette_Bibarel, PAL_ID_SHINY + SPECIES_BIBAREL
 	obj_pal gMonPalette_Egg, PAL_ID_SHINY + SPECIES_EGG
 	obj_pal gMonShinyPalette_Unown, PAL_ID_SHINY + SPECIES_UNOWN_B
 	obj_pal gMonShinyPalette_Unown, PAL_ID_SHINY + SPECIES_UNOWN_C

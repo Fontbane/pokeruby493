@@ -429,7 +429,9 @@ const u16 *gLevelUpLearnsets[] = {
 	gEmpoleonLevelUpLearnset,
 	gStarlyLevelUpLearnset,
 	gStaraviaLevelUpLearnset,
-	gStaraptorLevelUpLearnset
+	gStaraptorLevelUpLearnset,
+	gBidoofLevelUpLearnset,
+	gBibarelLevelUpLearnset
 };
 
 #endif //POKERUBY_LEVEL_UP_LEARNSET_POINTERS_H

@@ -1863,6 +1863,14 @@ Cry_Staraptor::
 	.incbin "sound/direct_sound_samples/cries/cry_staraptor.bin"
 
 	.align 2
+Cry_Bidoof:: 
+	.incbin "sound/direct_sound_samples/cries/cry_bidoof.bin"
+
+	.align 2
+Cry_Bibarel:: 
+	.incbin "sound/direct_sound_samples/cries/cry_bibarel.bin"
+
+	.align 2
 DirectSoundWaveData_Phoneme_Vowel7:: @ 8639898
 	.incbin "sound/direct_sound_samples/phonemes/vowel_7.bin"
 
