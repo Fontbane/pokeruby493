@@ -9615,6 +9615,126 @@ gMonFootprint_Bibarel:: @ 8E3B498
 	.incbin "graphics/pokemon/bibarel/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Kricketot:: @ 8E3AB88
+	.incbin "graphics/pokemon/kricketot/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Kricketot:: @ 8E3ADD4
+	.incbin "graphics/pokemon/kricketot/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Kricketot:: @ 8E3ADFC
+	.incbin "graphics/pokemon/kricketot/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Kricketot:: @ 8E3B070
+	.incbin "graphics/pokemon/kricketot/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Kricketot:: @ 8E3B098
+	.incbin "graphics/pokemon/kricketot/icon.4bpp"
+
+	.align 2
+gMonFootprint_Kricketot:: @ 8E3B498
+	.incbin "graphics/pokemon/kricketot/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Kricketune:: @ 8E3AB88
+	.incbin "graphics/pokemon/kricketune/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Kricketune:: @ 8E3ADD4
+	.incbin "graphics/pokemon/kricketune/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Kricketune:: @ 8E3ADFC
+	.incbin "graphics/pokemon/kricketune/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Kricketune:: @ 8E3B070
+	.incbin "graphics/pokemon/kricketune/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Kricketune:: @ 8E3B098
+	.incbin "graphics/pokemon/kricketune/icon.4bpp"
+
+	.align 2
+gMonFootprint_Kricketune:: @ 8E3B498
+	.incbin "graphics/pokemon/kricketune/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Shinx:: @ 8E3AB88
+	.incbin "graphics/pokemon/shinx/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Shinx:: @ 8E3ADD4
+	.incbin "graphics/pokemon/shinx/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Shinx:: @ 8E3ADFC
+	.incbin "graphics/pokemon/shinx/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Shinx:: @ 8E3B070
+	.incbin "graphics/pokemon/shinx/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Shinx:: @ 8E3B098
+	.incbin "graphics/pokemon/shinx/icon.4bpp"
+
+	.align 2
+gMonFootprint_Shinx:: @ 8E3B498
+	.incbin "graphics/pokemon/shinx/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Luxio:: @ 8E3AB88
+	.incbin "graphics/pokemon/luxio/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Luxio:: @ 8E3ADD4
+	.incbin "graphics/pokemon/luxio/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Luxio:: @ 8E3ADFC
+	.incbin "graphics/pokemon/luxio/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Luxio:: @ 8E3B070
+	.incbin "graphics/pokemon/luxio/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Luxio:: @ 8E3B098
+	.incbin "graphics/pokemon/luxio/icon.4bpp"
+
+	.align 2
+gMonFootprint_Luxio:: @ 8E3B498
+	.incbin "graphics/pokemon/luxio/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Luxray:: @ 8E3AB88
+	.incbin "graphics/pokemon/luxray/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Luxray:: @ 8E3ADD4
+	.incbin "graphics/pokemon/luxray/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Luxray:: @ 8E3ADFC
+	.incbin "graphics/pokemon/luxray/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Luxray:: @ 8E3B070
+	.incbin "graphics/pokemon/luxray/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Luxray:: @ 8E3B098
+	.incbin "graphics/pokemon/luxray/icon.4bpp"
+
+	.align 2
+gMonFootprint_Luxray:: @ 8E3B498
+	.incbin "graphics/pokemon/luxray/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

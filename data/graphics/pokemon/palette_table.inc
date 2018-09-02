@@ -426,6 +426,11 @@ gMonPaletteTable:: @ 81EA5B4
 	obj_pal gMonPalette_Staraptor, SPECIES_STARAPTOR
 	obj_pal gMonPalette_Bidoof, SPECIES_BIDOOF
 	obj_pal gMonPalette_Bibarel, SPECIES_BIBAREL
+	obj_pal gMonPalette_Kricketot, SPECIES_KRICKETOT
+	obj_pal gMonPalette_Kricketune, SPECIES_KRICKETUNE
+	obj_pal gMonPalette_Shinx, SPECIES_SHINX
+	obj_pal gMonPalette_Luxio, SPECIES_LUXIO
+	obj_pal gMonPalette_Luxray, SPECIES_LUXRAY
 	obj_pal gMonPalette_Egg, SPECIES_EGG
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_B
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_C

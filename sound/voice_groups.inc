@@ -12545,6 +12545,11 @@ voicegroup_8453790:: @ 8453790
 	cry Cry_Staraptor
 	cry Cry_Bidoof
 	cry Cry_Bibarel
+	cry Cry_Kricketot
+	cry Cry_Kricketune
+	cry Cry_Shinx
+	cry Cry_Luxio
+	cry Cry_Luxray
 
 	.align 2
 voicegroup_84537C0:: @ 84537C0
@@ -12959,6 +12964,11 @@ voicegroup_84549C0:: @ 84549C0
 	cry2 Cry_Staraptor
 	cry2 Cry_Bidoof
 	cry2 Cry_Bibarel
+	cry2 Cry_Kricketot
+	cry2 Cry_Kricketune
+	cry2 Cry_Shinx
+	cry2 Cry_Luxio
+	cry2 Cry_Luxray
 
 	.align 2
 voicegroup_84549F0:: @ 84549F0

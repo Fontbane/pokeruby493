@@ -444,6 +444,11 @@ const u8 * const gMonIconTable[] =
 	gMonIcon_Staraptor,
 	gMonIcon_Bidoof,
 	gMonIcon_Bibarel,
+	gMonIcon_Kricketot,
+	gMonIcon_Kricketune,
+	gMonIcon_Shinx,
+	gMonIcon_Luxio,
+	gMonIcon_Luxray,
     gMonIcon_Egg,
     gMonIcon_UnownB,
     gMonIcon_UnownC,
@@ -902,6 +907,11 @@ const u8 gMonIconPaletteIndices[] =
 	0, // Staraptor
 	2, // Bidoof
 	2, // Bibarel
+	0, // Kricketot
+	0, // Kricketune
+	0, // Shinx
+	0, // Luxio
+	0, // Luxray
     1, // Egg
     0, // Unown B
     0, // Unown C

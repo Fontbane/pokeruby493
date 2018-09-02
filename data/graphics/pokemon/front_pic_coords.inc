@@ -10,34 +10,31 @@ gMonFrontPicCoords:: @ 81E7C74
 	.byte 101, 13, 0, 0 // Squirtle
 	.byte 102,  8, 0, 0 // Wartortle
 	.byte 136,  0, 0, 0 // Blastoise
-	.byte 101, 13, 0, 0 // Caterpie
-	.byte 102,  8, 0, 0 // Metapod
-	.byte 136,  0, 0, 0 // Butterfree
-	.byte  69, 16, 0, 0 // Weedle
-	.byte  84, 20, 0, 0 // Kakuna
-	.byte 118,  9, 0, 0 // Beedrill
-	.byte  84, 18, 0, 0 // Pidgey
-	.byte  69, 14, 0, 0 // Pidgeotto
-	.byte 134,  9, 0, 0 // Pidgeot
-	.byte 101, 13, 0, 0 // Rattata
-	.byte 103, 11, 0, 0 // Raticate
-	.byte 136,  1, 0, 0 // Spearow
-	.byte  68, 16, 0, 0 // Fearow
-	.byte 102, 11, 0, 0 // Ekans
-	.byte  69, 15, 0, 0 // Arbok
-	.byte 120,  0, 0, 0 // Pikachu
-	.byte 101, 12, 0, 0 // Raichu
-	.byte 136,  2, 0, 0 // Sandshrew
-	.byte 103,  9, 0, 0 // Sandslash
-	.byte 103,  4, 0, 0 // Nidoran(F)
-	.byte  85, 14, 0, 0 // Nidorina
-	.byte 118,  9, 0, 0 // Nidoqueen
-	.byte  69, 15, 0, 0 // Nidoran(M)
-	.byte 102, 11, 0, 0 // Nidorino
-	.byte 120,  3, 0, 0 // Nidoking
-	.byte  85, 12, 0, 0
-	.byte 102,  9, 0, 0
-	.byte 120,  2, 0, 0
+	.byte  69, 16, 0, 0 // Caterpie
+	.byte  84, 20, 0, 0 // Metapod
+	.byte 118,  9, 0, 0 // Butterfree
+	.byte  84, 18, 0, 0 // Weedle
+	.byte  69, 14, 0, 0 // Kakuna
+	.byte 134,  9, 0, 0 // Beedrill
+	.byte 101, 13, 0, 0 // Pidgey
+	.byte 103, 11, 0, 0 // Pidgeotto
+	.byte 136,  1, 0, 0 // Pidgeot
+	.byte  68, 16, 0, 0 // Rattata
+	.byte 102, 11, 0, 0 // Raticate
+	.byte  69, 15, 0, 0 // Spearow
+	.byte 120,  0, 0, 0 // Fearow
+	.byte 101, 12, 0, 0 // Ekans
+	.byte 136,  2, 0, 0 // Arbok
+	.byte 103,  9, 0, 0 // Pikachu
+	.byte 103,  4, 0, 0 // Raichu
+	.byte  85, 14, 0, 0 // Sandshrew
+	.byte 118,  9, 0, 0 // Sandslash
+	.byte  69, 15, 0, 0 // Nidoran(F)
+	.byte 102, 11, 0, 0 // Nidorina
+	.byte 120,  3, 0, 0 // Nidoqueen
+	.byte  85, 12, 0, 0 // Nidoran(M)
+	.byte 102,  9, 0, 0 // Nidorino
+	.byte 120,  2, 0, 0 // Nidoking
 	.byte  85, 16, 0, 0
 	.byte 102,  8, 0, 0
 	.byte 101, 12, 0, 0
@@ -419,16 +416,21 @@ gMonFrontPicCoords:: @ 81E7C74
 	.byte  86, 10, 0, 0 // Grotle
 	.byte 136,  3, 0, 0 // Torterra
 	.byte  85, 12, 0, 0 // Chimchar
-	.byte  85, 12, 0, 0 // Monferno
-	.byte 102,  9, 0, 0 // Infernape
+	.byte 102,  9, 0, 0 // Monferno
+	.byte 136,  1, 0, 0 // Infernape
 	.byte 101, 13, 0, 0 // Piplup
 	.byte 102,  8, 0, 0 // Prinplup
 	.byte 136,  0, 0, 0 // Empoleon
-	.byte  84, 18, 0, 0 // Starly
-	.byte  69, 14, 0, 0 // Staravia
-	.byte 134,  9, 0, 0 // Staraptor
-	.byte  86, 12, 0, 0 // Bidoof (NOT WORKING)
-	.byte 136,  2, 0, 0 // Bibarel (NOT WORKING)
+	.byte 101, 13, 0, 0 // Starly
+	.byte 103, 11, 0, 0 // Staravia
+	.byte 136,  1, 0, 0 // Staraptor
+	.byte 101, 13, 0, 0 // Bidoof
+	.byte 103, 11, 0, 0 // Bibarel
+	.byte 101, 12, 0, 0 // Kricketot
+	.byte 136,  2, 0, 0 // Kricketune
+	.byte  85, 12, 0, 0 // Shinx
+	.byte 102,  9, 0, 0 // Luxio
+	.byte 120,  2, 0, 0 // Luxray
 	.byte  51, 20, 0, 0 // EGG
 	.byte  52, 16, 0, 0 // UNOWN B
 	.byte  68, 16, 0, 0 // UNOWN C

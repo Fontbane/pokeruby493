@@ -5458,6 +5458,31 @@ static const u8 DexDescription_Bibarel_1[] = _(
   "overflow its banks, which is\n"
   "appreciated by people nearby.");
 
+static const u8 DexDescription_Kricketot_1[] = _(
+  "Its legs are short. Whenever it\n"
+  "stumbles, its stiff antennae clack\n"
+  "with a xylophone-like sound.");
+
+static const u8 DexDescription_Kricketune_1[] = _(
+  "There is a village that hosts a\n"
+  "contest based on the amazingly\n"
+  "variable cries of this Pokémon.");
+
+static const u8 DexDescription_Shinx_1[] = _(
+  "The extension and contraction of its\n"
+  "muscles generates electricity. It\n"
+  "glows when in trouble.");
+
+static const u8 DexDescription_Luxio_1[] = _(
+  "Strong electricity courses through\n"
+  "the tips of its sharp claws. A light\n"
+  "scratch causes fainting in foes.");
+
+static const u8 DexDescription_Luxray_1[] = _(
+  "It can see clearly through walls to\n"
+  "track down its prey and seek its\n"
+  "lost young.");
+
 const struct PokedexEntry gPokedexEntries[] =
 {
     {  //Dummy
@@ -9866,6 +9891,61 @@ const struct PokedexEntry gPokedexEntries[] =
         .weight = 315,
         .descriptionPage1 = DexDescription_Bibarel_1,
         .descriptionPage2 = DexDescription_Bibarel_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Kricketot
+        .categoryName = _("CRICKET"),
+        .height = 3,
+        .weight = 22,
+        .descriptionPage1 = DexDescription_Kricketot_1,
+        .descriptionPage2 = DexDescription_Kricketot_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Kricketune
+        .categoryName = _("CRICKET"),
+        .height = 10,
+        .weight = 255,
+        .descriptionPage1 = DexDescription_Kricketune_1,
+        .descriptionPage2 = DexDescription_Kricketune_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Shinx
+        .categoryName = _("FLASH"),
+        .height = 5,
+        .weight = 95,
+        .descriptionPage1 = DexDescription_Shinx_1,
+        .descriptionPage2 = DexDescription_Shinx_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Luxio
+        .categoryName = _("SPARK"),
+        .height = 9,
+        .weight = 305,
+        .descriptionPage1 = DexDescription_Luxio_1,
+        .descriptionPage2 = DexDescription_Luxio_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Luxray
+        .categoryName = _("GLEAM EYES"),
+        .height = 14,
+        .weight = 420,
+        .descriptionPage1 = DexDescription_Luxray_1,
+        .descriptionPage2 = DexDescription_Luxray_1,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,

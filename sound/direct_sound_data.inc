@@ -1871,6 +1871,26 @@ Cry_Bibarel::
 	.incbin "sound/direct_sound_samples/cries/cry_bibarel.bin"
 
 	.align 2
+Cry_Kricketot:: 
+	.incbin "sound/direct_sound_samples/cries/cry_kricketot.bin"
+
+	.align 2
+Cry_Kricketune:: 
+	.incbin "sound/direct_sound_samples/cries/cry_kricketune.bin"
+
+	.align 2
+Cry_Shinx:: 
+	.incbin "sound/direct_sound_samples/cries/cry_shinx.bin"
+
+	.align 2
+Cry_Luxio:: 
+	.incbin "sound/direct_sound_samples/cries/cry_luxio.bin"
+
+	.align 2
+Cry_Luxray:: 
+	.incbin "sound/direct_sound_samples/cries/cry_luxray.bin"
+
+	.align 2
 DirectSoundWaveData_Phoneme_Vowel7:: @ 8639898
 	.incbin "sound/direct_sound_samples/phonemes/vowel_7.bin"
 

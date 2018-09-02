@@ -154,7 +154,12 @@ const u16 gSpeciesIdToCryId[] = {
 	398, // STARAVIA
 	399, // STARAPTOR
 	400, // BIDOOF
-	401  // BIBAREL
+	401, // BIBAREL
+	402, // KRICKETOT
+	403, // KRICKETUNE
+	404, // SHINX
+	405, // LUXIO
+	406  // LUXRAY
 };
 
 #endif //POKERUBY_CRY_IDS_H

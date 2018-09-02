@@ -428,6 +428,11 @@ gMonShinyPaletteTable:: @ 81EB374
 	obj_pal gMonShinyPalette_Staraptor, PAL_ID_SHINY + SPECIES_STARAPTOR
 	obj_pal gMonShinyPalette_Bidoof, PAL_ID_SHINY + SPECIES_BIDOOF
 	obj_pal gMonShinyPalette_Bibarel, PAL_ID_SHINY + SPECIES_BIBAREL
+	obj_pal gMonShinyPalette_Kricketot, PAL_ID_SHINY + SPECIES_KRICKETOT
+	obj_pal gMonShinyPalette_Kricketune, PAL_ID_SHINY + SPECIES_KRICKETUNE
+	obj_pal gMonShinyPalette_Shinx, PAL_ID_SHINY + SPECIES_SHINX
+	obj_pal gMonShinyPalette_Luxio, PAL_ID_SHINY + SPECIES_LUXIO
+	obj_pal gMonShinyPalette_Luxray, PAL_ID_SHINY + SPECIES_LUXRAY
 	obj_pal gMonPalette_Egg, PAL_ID_SHINY + SPECIES_EGG
 	obj_pal gMonShinyPalette_Unown, PAL_ID_SHINY + SPECIES_UNOWN_B
 	obj_pal gMonShinyPalette_Unown, PAL_ID_SHINY + SPECIES_UNOWN_C
