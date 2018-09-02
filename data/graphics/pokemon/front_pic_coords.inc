@@ -431,6 +431,8 @@ gMonFrontPicCoords:: @ 81E7C74
 	.byte  85, 12, 0, 0 // Shinx
 	.byte 102,  9, 0, 0 // Luxio
 	.byte 120,  2, 0, 0 // Luxray
+	.byte 103,  9, 0, 0 // Budew
+	.byte 103,  4, 0, 0 // Roserade
 	.byte  51, 20, 0, 0 // EGG
 	.byte  52, 16, 0, 0 // UNOWN B
 	.byte  68, 16, 0, 0 // UNOWN C

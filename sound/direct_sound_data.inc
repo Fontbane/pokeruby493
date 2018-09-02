@@ -1891,6 +1891,14 @@ Cry_Luxray::
 	.incbin "sound/direct_sound_samples/cries/cry_luxray.bin"
 
 	.align 2
+Cry_Budew:: 
+	.incbin "sound/direct_sound_samples/cries/cry_budew.bin"
+
+	.align 2
+Cry_Roserade:: 
+	.incbin "sound/direct_sound_samples/cries/cry_roserade.bin"
+
+	.align 2
 DirectSoundWaveData_Phoneme_Vowel7:: @ 8639898
 	.incbin "sound/direct_sound_samples/phonemes/vowel_7.bin"
 

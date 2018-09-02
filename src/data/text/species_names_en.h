@@ -430,4 +430,6 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
 	[SPECIES_SHINX] = _("SHINX"),
 	[SPECIES_LUXIO] = _("LUXIO"),
 	[SPECIES_LUXRAY] = _("LUXRAY"),
+	[SPECIES_BUDEW] = _("BUDEW"),
+	[SPECIES_ROSERADE] = _("ROSERADE"),
 };

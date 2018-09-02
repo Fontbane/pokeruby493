@@ -9735,6 +9735,54 @@ gMonFootprint_Luxray:: @ 8E3B498
 	.incbin "graphics/pokemon/luxray/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Budew:: @ 8E3AB88
+	.incbin "graphics/pokemon/budew/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Budew:: @ 8E3ADD4
+	.incbin "graphics/pokemon/budew/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Budew:: @ 8E3ADFC
+	.incbin "graphics/pokemon/budew/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Budew:: @ 8E3B070
+	.incbin "graphics/pokemon/budew/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Budew:: @ 8E3B098
+	.incbin "graphics/pokemon/budew/icon.4bpp"
+
+	.align 2
+gMonFootprint_Budew:: @ 8E3B498
+	.incbin "graphics/pokemon/budew/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Roserade:: @ 8E3AB88
+	.incbin "graphics/pokemon/roserade/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Roserade:: @ 8E3ADD4
+	.incbin "graphics/pokemon/roserade/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Roserade:: @ 8E3ADFC
+	.incbin "graphics/pokemon/roserade/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Roserade:: @ 8E3B070
+	.incbin "graphics/pokemon/roserade/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Roserade:: @ 8E3B098
+	.incbin "graphics/pokemon/roserade/icon.4bpp"
+
+	.align 2
+gMonFootprint_Roserade:: @ 8E3B498
+	.incbin "graphics/pokemon/roserade/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

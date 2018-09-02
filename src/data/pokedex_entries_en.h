@@ -5483,6 +5483,16 @@ static const u8 DexDescription_Luxray_1[] = _(
   "track down its prey and seek its\n"
   "lost young.");
 
+static const u8 DexDescription_Budew_1[] = _(
+  "Sensitive to changing temperature, the\n"
+  "bud is said to bloom when it feels the\n"
+  "sun’s warm touch.");
+
+static const u8 DexDescription_Roserade_1[] = _(
+  "Each of its hands contains different\n"
+  "toxins, but both hands can jab with\n"
+  "near-fatal power.");
+
 const struct PokedexEntry gPokedexEntries[] =
 {
     {  //Dummy
@@ -9946,6 +9956,28 @@ const struct PokedexEntry gPokedexEntries[] =
         .weight = 420,
         .descriptionPage1 = DexDescription_Luxray_1,
         .descriptionPage2 = DexDescription_Luxray_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Budew
+        .categoryName = _("BUD"),
+        .height = 2,
+        .weight = 12,
+        .descriptionPage1 = DexDescription_Budew_1,
+        .descriptionPage2 = DexDescription_Budew_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Roserade
+        .categoryName = _("BOUQUET"),
+        .height = 9,
+        .weight = 145,
+        .descriptionPage1 = DexDescription_Roserade_1,
+        .descriptionPage2 = DexDescription_Roserade_1,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,

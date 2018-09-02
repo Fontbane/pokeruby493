@@ -433,6 +433,8 @@ gMonShinyPaletteTable:: @ 81EB374
 	obj_pal gMonShinyPalette_Shinx, PAL_ID_SHINY + SPECIES_SHINX
 	obj_pal gMonShinyPalette_Luxio, PAL_ID_SHINY + SPECIES_LUXIO
 	obj_pal gMonShinyPalette_Luxray, PAL_ID_SHINY + SPECIES_LUXRAY
+	obj_pal gMonShinyPalette_Budew, PAL_ID_SHINY + SPECIES_BUDEW
+	obj_pal gMonShinyPalette_Roserade, PAL_ID_SHINY + SPECIES_ROSERADE
 	obj_pal gMonPalette_Egg, PAL_ID_SHINY + SPECIES_EGG
 	obj_pal gMonShinyPalette_Unown, PAL_ID_SHINY + SPECIES_UNOWN_B
 	obj_pal gMonShinyPalette_Unown, PAL_ID_SHINY + SPECIES_UNOWN_C

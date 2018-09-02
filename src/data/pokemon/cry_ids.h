@@ -159,7 +159,9 @@ const u16 gSpeciesIdToCryId[] = {
 	403, // KRICKETUNE
 	404, // SHINX
 	405, // LUXIO
-	406  // LUXRAY
+	406, // LUXRAY
+	407, // BUDEW
+	408  // ROSERADE
 };
 
 #endif //POKERUBY_CRY_IDS_H

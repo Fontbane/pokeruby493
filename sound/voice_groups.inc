@@ -12550,6 +12550,8 @@ voicegroup_8453790:: @ 8453790
 	cry Cry_Shinx
 	cry Cry_Luxio
 	cry Cry_Luxray
+	cry Cry_Budew
+	cry Cry_Roserade
 
 	.align 2
 voicegroup_84537C0:: @ 84537C0
@@ -12969,6 +12971,8 @@ voicegroup_84549C0:: @ 84549C0
 	cry2 Cry_Shinx
 	cry2 Cry_Luxio
 	cry2 Cry_Luxray
+	cry2 Cry_Budew
+	cry2 Cry_Roserade
 
 	.align 2
 voicegroup_84549F0:: @ 84549F0

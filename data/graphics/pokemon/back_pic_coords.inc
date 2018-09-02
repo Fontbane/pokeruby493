@@ -431,6 +431,8 @@ gMonBackPicCoords:: @ 81E9114
 	.byte  86,  8, 0, 0 // Shinx
 	.byte 134,  9, 0, 0 // Luxio
 	.byte 136,  3, 0, 0 // Luxray
+	.byte 119,  7, 0, 0 // Budew
+	.byte 102,  8, 0, 0 // Roserade
 	.byte  54, 10, 0, 0 // EGG
 	.byte  86,  9, 0, 0 // UNOWN B
 	.byte 103,  6, 0, 0 // UNOWN C

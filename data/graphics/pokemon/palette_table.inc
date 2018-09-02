@@ -431,6 +431,8 @@ gMonPaletteTable:: @ 81EA5B4
 	obj_pal gMonPalette_Shinx, SPECIES_SHINX
 	obj_pal gMonPalette_Luxio, SPECIES_LUXIO
 	obj_pal gMonPalette_Luxray, SPECIES_LUXRAY
+	obj_pal gMonPalette_Budew, SPECIES_BUDEW
+	obj_pal gMonPalette_Roserade, SPECIES_ROSERADE
 	obj_pal gMonPalette_Egg, SPECIES_EGG
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_B
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_C

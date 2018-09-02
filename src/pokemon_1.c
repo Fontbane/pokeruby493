@@ -456,7 +456,9 @@ const u16 gSpeciesToHoennPokedexNum[] = // Assigns all species to the Hoenn Dex 
 	HOENN_DEX_KRICKETUNE,       // SPECIES_KRICKETUNE
 	HOENN_DEX_SHINX,            // SPECIES_SHINX
 	HOENN_DEX_LUXIO,            // SPECIES_LUXIO
-	HOENN_DEX_LUXRAY            // SPECIES_LUXRAY
+	HOENN_DEX_LUXRAY,           // SPECIES_LUXRAY
+	HOENN_DEX_BUDEW,            // SPECIES_BUDEW
+	HOENN_DEX_ROSERADE          // SPECIES_ROSERADE
 };
 
 const u16 gSpeciesToNationalPokedexNum[] = // Assigns all species to the National Dex Index (Summary No. for National Dex)
@@ -891,7 +893,9 @@ const u16 gSpeciesToNationalPokedexNum[] = // Assigns all species to the Nationa
 	NATIONAL_DEX_KRICKETUNE,        // SPECIES_KRICKETUNE
 	NATIONAL_DEX_SHINX,             // SPECIES_SHINX
 	NATIONAL_DEX_LUXIO,             // SPECIES_LUXIO
-	NATIONAL_DEX_LUXRAY             // SPECIES_LUXRAY
+	NATIONAL_DEX_LUXRAY,            // SPECIES_LUXRAY
+	NATIONAL_DEX_BUDEW,             // SPECIES_BUDEW
+	NATIONAL_DEX_ROSERADE           // SPECIES_ROSERADE
 };
 
 const u16 gHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using National Dex Index)
@@ -1302,6 +1306,8 @@ const u16 gHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using Nationa
 	NATIONAL_DEX_SHINX,         // HOENN_DEX_SHINX
 	NATIONAL_DEX_LUXIO,         // HOENN_DEX_LUXIO
 	NATIONAL_DEX_LUXRAY,        // HOENN_DEX_LUXRAY
+	NATIONAL_DEX_BUDEW,         // HOENN_DEX_BUDEW
+	NATIONAL_DEX_ROSERADE,      // HOENN_DEX_ROSERADE
 	NATIONAL_DEX_OLD_UNOWN_B,  	// HOENN_DEX_OLD_UNOWN_B
 	NATIONAL_DEX_OLD_UNOWN_C,  	// HOENN_DEX_OLD_UNOWN_C
 	NATIONAL_DEX_OLD_UNOWN_D,  	// HOENN_DEX_OLD_UNOWN_D

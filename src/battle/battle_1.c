@@ -470,6 +470,8 @@ const u8 gEnemyMonElevation[] = {
 	[SPECIES_SHINX] = 0,
 	[SPECIES_LUXIO] = 0,
 	[SPECIES_LUXRAY] = 0,
+	[SPECIES_BUDEW] = 0,
+	[SPECIES_ROSERADE] = 0,
 };
 
 #include "../data/trainer_parties.h"
