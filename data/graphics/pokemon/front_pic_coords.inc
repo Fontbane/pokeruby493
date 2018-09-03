@@ -425,7 +425,7 @@ gMonFrontPicCoords:: @ 81E7C74
 	.byte 103, 11, 0, 0 // Staravia
 	.byte 136,  1, 0, 0 // Staraptor
 	.byte 101, 13, 0, 0 // Bidoof
-	.byte 136,  3, 0, 0 // Bibarel
+	.byte 102,  9, 0, 0 // Bibarel
 	.byte 103, 11, 0, 0 // Kricketot
 	.byte 136,  2, 0, 0 // Kricketune
 	.byte  85, 12, 0, 0 // Shinx
