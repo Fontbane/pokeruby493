@@ -433,6 +433,10 @@ gMonBackPicCoords:: @ 81E9114
 	.byte 136,  3, 0, 0 // Luxray
 	.byte 119,  7, 0, 0 // Budew
 	.byte 102,  8, 0, 0 // Roserade
+	.byte 119,  7, 0, 0 // Cranidos
+	.byte 102,  8, 0, 0 // Rampardos
+	.byte 101, 13, 0, 0 // Shieldon
+	.byte 134,  9, 0, 0 // Bastiodon
 	.byte  54, 10, 0, 0 // EGG
 	.byte  86,  9, 0, 0 // UNOWN B
 	.byte 103,  6, 0, 0 // UNOWN C

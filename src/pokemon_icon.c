@@ -451,6 +451,10 @@ const u8 * const gMonIconTable[] =
 	gMonIcon_Luxray,
 	gMonIcon_Budew,
 	gMonIcon_Roserade,
+	gMonIcon_Cranidos,
+	gMonIcon_Rampardos,
+	gMonIcon_Shieldon,
+	gMonIcon_Bastiodon,
     gMonIcon_Egg,
     gMonIcon_UnownB,
     gMonIcon_UnownC,
@@ -916,6 +920,10 @@ const u8 gMonIconPaletteIndices[] =
 	0, // Luxray
 	1, // Budew
 	0, // Roserade
+	0, // Cranidos
+	0, // Rampardos
+	1, // Shieldon
+	1, // Bastiodon
     1, // Egg
     0, // Unown B
     0, // Unown C

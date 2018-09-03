@@ -12552,6 +12552,10 @@ voicegroup_8453790:: @ 8453790
 	cry Cry_Luxray
 	cry Cry_Budew
 	cry Cry_Roserade
+	cry Cry_Cranidos
+	cry Cry_Rampardos
+	cry Cry_Shieldon
+	cry Cry_Bastiodon
 
 	.align 2
 voicegroup_84537C0:: @ 84537C0
@@ -12973,6 +12977,10 @@ voicegroup_84549C0:: @ 84549C0
 	cry2 Cry_Luxray
 	cry2 Cry_Budew
 	cry2 Cry_Roserade
+	cry2 Cry_Cranidos
+	cry2 Cry_Rampardos
+	cry2 Cry_Shieldon
+	cry2 Cry_Bastiodon
 
 	.align 2
 voicegroup_84549F0:: @ 84549F0

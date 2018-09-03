@@ -438,7 +438,11 @@ const u16 *gLevelUpLearnsets[] = {
 	gLuxioLevelUpLearnset,
 	gLuxrayLevelUpLearnset,
 	gBudewLevelUpLearnset,
-	gRoseradeLevelUpLearnset
+	gRoseradeLevelUpLearnset,
+	gCranidosLevelUpLearnset,
+	gRampardosLevelUpLearnset,
+	gShieldonLevelUpLearnset,
+	gBastiodonLevelUpLearnset
 };
 
 #endif //POKERUBY_LEVEL_UP_LEARNSET_POINTERS_H

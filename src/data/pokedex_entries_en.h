@@ -5493,6 +5493,26 @@ static const u8 DexDescription_Roserade_1[] = _(
   "toxins, but both hands can jab with\n"
   "near-fatal power.");
 
+static const u8 DexDescription_Cranidos_1[] = _(
+  "A lifelong jungle dweller from\n"
+  "100 million years ago, it would snap\n"
+  "obstructing trees with headbutts.");
+
+static const u8 DexDescription_Rampardos_1[] = _(
+  "If two were to smash their heads\n"
+  "together, their foot-thick skulls\n"
+  "would keep them from fainting.");
+
+static const u8 DexDescription_Shieldon_1[] = _(
+  "It is outstandingly armored. As a\n"
+  "result, it can eat grass and berries\n"
+  "without having to fight.");
+
+static const u8 DexDescription_Bastiodon_1[] = _(
+  "When they lined up side by side, no\n"
+  "foe could break through. They\n"
+  "shielded their young in that way.");
+
 const struct PokedexEntry gPokedexEntries[] =
 {
     {  //Dummy
@@ -9978,6 +9998,50 @@ const struct PokedexEntry gPokedexEntries[] =
         .weight = 145,
         .descriptionPage1 = DexDescription_Roserade_1,
         .descriptionPage2 = DexDescription_Roserade_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Cranidos
+        .categoryName = _("HEAD BUTT"),
+        .height = 9,
+        .weight = 315,
+        .descriptionPage1 = DexDescription_Cranidos_1,
+        .descriptionPage2 = DexDescription_Cranidos_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Rampardos
+        .categoryName = _("HEAD BUTT"),
+        .height = 16,
+        .weight = 1025,
+        .descriptionPage1 = DexDescription_Rampardos_1,
+        .descriptionPage2 = DexDescription_Rampardos_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Shieldon
+        .categoryName = _("SHIELD"),
+        .height = 5,
+        .weight = 570	,
+        .descriptionPage1 = DexDescription_Shieldon_1,
+        .descriptionPage2 = DexDescription_Shieldon_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Bastiodon
+        .categoryName = _("SHIELD"),
+        .height = 13,
+        .weight = 1495,
+        .descriptionPage1 = DexDescription_Bastiodon_1,
+        .descriptionPage2 = DexDescription_Bastiodon_1,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,

@@ -433,6 +433,10 @@ gMonFrontPicTable:: @ 81E8354
 	obj_tiles gMonFrontPic_Luxray, 0x800, SPECIES_LUXRAY
 	obj_tiles gMonFrontPic_Budew, 0x800, SPECIES_BUDEW
 	obj_tiles gMonFrontPic_Roserade, 0x800, SPECIES_ROSERADE
+	obj_tiles gMonFrontPic_Cranidos, 0x800, SPECIES_CRANIDOS
+	obj_tiles gMonFrontPic_Rampardos, 0x800, SPECIES_RAMPARDOS
+	obj_tiles gMonFrontPic_Shieldon, 0x800, SPECIES_SHIELDON
+	obj_tiles gMonFrontPic_Bastiodon, 0x800, SPECIES_BASTIODON
 	obj_tiles gMonPic_Egg, 0x800, SPECIES_EGG
 	obj_tiles gMonFrontPic_UnownB, 0x800, SPECIES_UNOWN_B
 	obj_tiles gMonFrontPic_UnownC, 0x800, SPECIES_UNOWN_C

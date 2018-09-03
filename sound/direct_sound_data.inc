@@ -1899,6 +1899,22 @@ Cry_Roserade::
 	.incbin "sound/direct_sound_samples/cries/cry_roserade.bin"
 
 	.align 2
+Cry_Cranidos:: 
+	.incbin "sound/direct_sound_samples/cries/cry_cranidos.bin"
+
+	.align 2
+Cry_Rampardos:: 
+	.incbin "sound/direct_sound_samples/cries/cry_rampardos.bin"
+
+	.align 2
+Cry_Shieldon:: 
+	.incbin "sound/direct_sound_samples/cries/cry_shieldon.bin"
+
+	.align 2
+Cry_Bastiodon:: 
+	.incbin "sound/direct_sound_samples/cries/cry_bastiodon.bin"
+
+	.align 2
 DirectSoundWaveData_Phoneme_Vowel7:: @ 8639898
 	.incbin "sound/direct_sound_samples/phonemes/vowel_7.bin"
 

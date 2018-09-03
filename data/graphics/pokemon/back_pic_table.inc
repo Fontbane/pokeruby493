@@ -433,6 +433,10 @@ gMonBackPicTable:: @ 81E97F4
 	obj_tiles gMonBackPic_Luxray, 0x800, SPECIES_LUXRAY
 	obj_tiles gMonBackPic_Budew, 0x800, SPECIES_BUDEW
 	obj_tiles gMonBackPic_Roserade, 0x800, SPECIES_ROSERADE
+	obj_tiles gMonBackPic_Cranidos, 0x800, SPECIES_CRANIDOS
+	obj_tiles gMonBackPic_Rampardos, 0x800, SPECIES_RAMPARDOS
+	obj_tiles gMonBackPic_Shieldon, 0x800, SPECIES_SHIELDON
+	obj_tiles gMonBackPic_Bastiodon, 0x800, SPECIES_BASTIODON
 	obj_tiles gMonPic_Egg, 0x800, SPECIES_EGG
 	obj_tiles gMonBackPic_UnownB, 0x800, SPECIES_UNOWN_B
 	obj_tiles gMonBackPic_UnownC, 0x800, SPECIES_UNOWN_C

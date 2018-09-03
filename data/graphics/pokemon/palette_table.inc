@@ -433,6 +433,10 @@ gMonPaletteTable:: @ 81EA5B4
 	obj_pal gMonPalette_Luxray, SPECIES_LUXRAY
 	obj_pal gMonPalette_Budew, SPECIES_BUDEW
 	obj_pal gMonPalette_Roserade, SPECIES_ROSERADE
+	obj_pal gMonPalette_Cranidos, SPECIES_CRANIDOS
+	obj_pal gMonPalette_Rampardos, SPECIES_RAMPARDOS
+	obj_pal gMonPalette_Shieldon, SPECIES_SHIELDON
+	obj_pal gMonPalette_Bastiodon, SPECIES_BASTIODON
 	obj_pal gMonPalette_Egg, SPECIES_EGG
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_B
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_C

@@ -9783,6 +9783,102 @@ gMonFootprint_Roserade:: @ 8E3B498
 	.incbin "graphics/pokemon/roserade/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Cranidos:: @ 8E3AB88
+	.incbin "graphics/pokemon/cranidos/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Cranidos:: @ 8E3ADD4
+	.incbin "graphics/pokemon/cranidos/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Cranidos:: @ 8E3ADFC
+	.incbin "graphics/pokemon/cranidos/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Cranidos:: @ 8E3B070
+	.incbin "graphics/pokemon/cranidos/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Cranidos:: @ 8E3B098
+	.incbin "graphics/pokemon/cranidos/icon.4bpp"
+
+	.align 2
+gMonFootprint_Cranidos:: @ 8E3B498
+	.incbin "graphics/pokemon/cranidos/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Rampardos:: @ 8E3AB88
+	.incbin "graphics/pokemon/rampardos/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Rampardos:: @ 8E3ADD4
+	.incbin "graphics/pokemon/rampardos/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Rampardos:: @ 8E3ADFC
+	.incbin "graphics/pokemon/rampardos/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Rampardos:: @ 8E3B070
+	.incbin "graphics/pokemon/rampardos/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Rampardos:: @ 8E3B098
+	.incbin "graphics/pokemon/rampardos/icon.4bpp"
+
+	.align 2
+gMonFootprint_Rampardos:: @ 8E3B498
+	.incbin "graphics/pokemon/rampardos/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Shieldon:: @ 8E3AB88
+	.incbin "graphics/pokemon/shieldon/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Shieldon:: @ 8E3ADD4
+	.incbin "graphics/pokemon/shieldon/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Shieldon:: @ 8E3ADFC
+	.incbin "graphics/pokemon/shieldon/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Shieldon:: @ 8E3B070
+	.incbin "graphics/pokemon/shieldon/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Shieldon:: @ 8E3B098
+	.incbin "graphics/pokemon/shieldon/icon.4bpp"
+
+	.align 2
+gMonFootprint_Shieldon:: @ 8E3B498
+	.incbin "graphics/pokemon/shieldon/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Bastiodon:: @ 8E3AB88
+	.incbin "graphics/pokemon/bastiodon/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Bastiodon:: @ 8E3ADD4
+	.incbin "graphics/pokemon/bastiodon/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Bastiodon:: @ 8E3ADFC
+	.incbin "graphics/pokemon/bastiodon/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Bastiodon:: @ 8E3B070
+	.incbin "graphics/pokemon/bastiodon/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Bastiodon:: @ 8E3B098
+	.incbin "graphics/pokemon/bastiodon/icon.4bpp"
+
+	.align 2
+gMonFootprint_Bastiodon:: @ 8E3B498
+	.incbin "graphics/pokemon/bastiodon/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

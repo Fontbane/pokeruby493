@@ -161,7 +161,11 @@ const u16 gSpeciesIdToCryId[] = {
 	405, // LUXIO
 	406, // LUXRAY
 	407, // BUDEW
-	408  // ROSERADE
+	408, // ROSERADE
+	409, // CRANIDOS
+	410, // RAMPARDOS
+	411, // SHIELDON
+	412  // BASTIODON
 };
 
 #endif //POKERUBY_CRY_IDS_H
