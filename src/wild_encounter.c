@@ -1562,18 +1562,18 @@ const struct WildPokemonInfo SkyPillar_5F_LandMonsInfo = {10, SkyPillar_5F_LandM
 
 const struct WildPokemon Route101_LandMons [] =
 {
-    {2, 2, SPECIES_BUDEW},
-    {2, 2, SPECIES_ROSERADE},
-    {2, 2, SPECIES_CRANIDOS},
-    {2, 2, SPECIES_RAMPARDOS},
-    {2, 2, SPECIES_BUDEW},
-    {2, 2, SPECIES_ROSERADE},
-    {2, 2, SPECIES_CRANIDOS},
-    {2, 2, SPECIES_RAMPARDOS},
-    {2, 2, SPECIES_BUDEW},
-    {2, 2, SPECIES_ROSERADE},
-    {2, 2, SPECIES_CRANIDOS},
-    {2, 2, SPECIES_RAMPARDOS},
+    {2, 2, SPECIES_WURMPLE},
+    {2, 2, SPECIES_ZIGZAGOON},
+    {2, 2, SPECIES_WURMPLE},
+    {3, 3, SPECIES_WURMPLE},
+    {3, 3, SPECIES_ZIGZAGOON},
+    {3, 3, SPECIES_ZIGZAGOON},
+    {3, 3, SPECIES_WURMPLE},
+    {3, 3, SPECIES_ZIGZAGOON},
+    {2, 2, SPECIES_POOCHYENA},
+    {2, 2, SPECIES_POOCHYENA},
+    {3, 3, SPECIES_POOCHYENA},
+    {3, 3, SPECIES_POOCHYENA},
 };
 const struct WildPokemonInfo Route101_LandMonsInfo = {20, Route101_LandMons};
 

@@ -6,6 +6,12 @@ I don't know when or if I'll ever be able to complete it, so keep that in mind.
 ### Progress
 411/493 - 386 + Turtwig, Grotle, Torterra, Chimchar, Monferno, Infernape, Piplup, Prinplup, Empoleon, Starly, Staravia, Staraptor, Bidoof, Bibarel, Kricketot, Kricketune, Shinx, Luxio, Luxray, Budew, Roserade, Cranidos, Rampardos, Shieldon and Bastiodon.
 
+![Pic](https://i.imgur.com/F6jmvee.png)
+
+![Pic2](https://i.imgur.com/THRENRN.png)
+
+![Pic3](https://i.imgur.com/tC9zvZM.png)
+
 ### Modified Files
 
 The following is a list of all the files involved in the task of expanding pokémon in pokeruby:
