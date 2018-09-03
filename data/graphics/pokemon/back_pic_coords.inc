@@ -413,7 +413,7 @@ gMonBackPicCoords:: @ 81E9114
 	.byte 134,  9, 0, 0
 	.byte  71,  7, 0, 0
 	.byte 100, 16, 0, 0 // Turtwig
-	.byte 102,  9, 0, 0 // Grotle
+	.byte 104, 11, 0, 0 // Grotle
 	.byte 135,  7, 0, 0 // Torterra
 	.byte 101, 14, 0, 0 // Chimchar
 	.byte 102,  9, 0, 0 // Monferno
