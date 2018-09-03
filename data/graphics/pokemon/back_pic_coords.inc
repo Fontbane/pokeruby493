@@ -424,7 +424,7 @@ gMonBackPicCoords:: @ 81E9114
 	.byte 102,  8, 0, 0 // Starly
 	.byte 133, 12, 0, 0 // Staravia
 	.byte 120,  2, 0, 0 // Staraptor
-	.byte 102,  8, 0, 0 // Bidoof
+	.byte  69, 14, 0, 0 // Bidoof
 	.byte 133, 12, 0, 0 // Bibarel
 	.byte 102,  9, 0, 0 // Kricketot
 	.byte 119,  4, 0, 0 // Kricketune
