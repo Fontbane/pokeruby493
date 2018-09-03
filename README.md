@@ -8,9 +8,11 @@ I don't know when or if I'll ever be able to complete it, so keep that in mind.
 
 ![Pic](https://i.imgur.com/F6jmvee.png)
 
-![Pic2](https://i.imgur.com/THRENRN.png)
+![Pic2](https://i.imgur.com/XAFsMzJ.png)
 
-![Pic3](https://i.imgur.com/tC9zvZM.png)
+![Pic3](https://i.imgur.com/j6ZWfeE.png)
+
+I'll be uploading sheets consisting of 4 pictures for each pokémon I add to this base. All the pictures can be found inside [the screenshots folder](screenshots).
 
 ### Modified Files
 
