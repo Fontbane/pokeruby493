@@ -427,10 +427,10 @@ gMonFrontPicCoords:: @ 81E7C74
 	.byte 101, 13, 0, 0 // Bidoof
 	.byte 102,  9, 0, 0 // Bibarel
 	.byte 103, 11, 0, 0 // Kricketot
-	.byte 136,  2, 0, 0 // Kricketune
+	.byte 102,  9, 0, 0 // Kricketune
 	.byte  85, 12, 0, 0 // Shinx
 	.byte 102,  9, 0, 0 // Luxio
-	.byte 120,  2, 0, 0 // Luxray
+	.byte 120,  6, 0, 0 // Luxray
 	.byte 103,  9, 0, 0 // Budew
 	.byte 103,  4, 0, 0 // Roserade
 	.byte 103,  9, 0, 0 // Cranidos

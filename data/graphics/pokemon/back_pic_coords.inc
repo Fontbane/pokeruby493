@@ -431,7 +431,7 @@ gMonBackPicCoords:: @ 81E9114
 	.byte  86,  8, 0, 0 // Shinx
 	.byte 134,  9, 0, 0 // Luxio
 	.byte 136,  3, 0, 0 // Luxray
-	.byte 119,  7, 0, 0 // Budew
+	.byte 119, 14, 0, 0 // Budew
 	.byte 102,  8, 0, 0 // Roserade
 	.byte 119,  7, 0, 0 // Cranidos
 	.byte 102,  8, 0, 0 // Rampardos
