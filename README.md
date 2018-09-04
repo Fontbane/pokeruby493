@@ -57,4 +57,4 @@ As of right now, there aren't any bugs. There's a small issue involving pokémon
 
 -[Tetra](https://www.pokecommunity.com/member.php?u=174056): Help with indexing icons and how to assign a custom cry to Chimchar.
 
--Shinny: Help with the front sprites' position issue.
+-Shinny: Help with the front sprites' position issue and with the Level + Gender Based evolution.
