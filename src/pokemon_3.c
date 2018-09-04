@@ -1,6 +1,7 @@
 #include "global.h"
 #include "constants/hold_effects.h"
 #include "constants/items.h"
+#include "constants/maps.h" 
 #include "constants/moves.h"
 #include "battle.h"
 #include "battle_message.h"
@@ -11,6 +12,7 @@
 #include "m4a.h"
 #include "main.h"
 #include "move_tutor_menu.h"
+#include "party_menu.h"
 #include "pokemon.h"
 #include "pokedex.h"
 #include "random.h"
@@ -276,6 +278,8 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, u8 type, u16 evolutionItem)
     u16 upperPersonality = personality >> 16;
     u8 holdEffect;
 	u8 gender = GetMonGender(mon);
+    u8 mapGroup = gSaveBlock1.location.mapGroup;
+    u8 mapNum = gSaveBlock1.location.mapNum;
 
     if (heldItem == ITEM_ENIGMA_BERRY)
         holdEffect = gSaveBlock1.enigmaBerry.holdEffect;
@@ -344,11 +348,11 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, u8 type, u16 evolutionItem)
                 if (gEvolutionTable[species][i].param <= beauty)
                     targetSpecies = gEvolutionTable[species][i].targetSpecies;
                 break;
-            case EVO_GENDER_MALE:
+            case EVO_LEVEL_MALE:
                 if (gEvolutionTable[species][i].param <= level && (gender) == 0)
                     targetSpecies = gEvolutionTable[species][i].targetSpecies;
                 break;
-			case EVO_GENDER_FEMALE:
+			case EVO_LEVEL_FEMALE:
                 if (gEvolutionTable[species][i].param <= level && (gender) == 254)
                     targetSpecies = gEvolutionTable[species][i].targetSpecies;
                 break;
@@ -370,6 +374,14 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, u8 type, u16 evolutionItem)
                 break;
             case EVO_LV42_HELD_ITEM:
                 if (level >= 42 && heldItem)
+                    targetSpecies = gEvolutionTable[species][i].targetSpecies;
+                break;
+            case EVO_MOVE:
+                if (pokemon_has_move(&gPlayerParty[i], gEvolutionTable[species][i].param) == TRUE)
+                    targetSpecies = gEvolutionTable[species][i].targetSpecies;
+                break;
+            case EVO_MAP:
+                if (EVO_MAP_GROUP(gEvolutionTable[species][i].param) == mapGroup && EVO_MAP_NUM(gEvolutionTable[species][i].param) == mapNum)
                     targetSpecies = gEvolutionTable[species][i].targetSpecies;
                 break;
             }
