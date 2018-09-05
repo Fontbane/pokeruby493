@@ -78,3 +78,5 @@
 	.set EVO_BEAUTY,           0x000f @ Pokémon levels up with beauty ≥ specified value
 	.set EVO_GENDER_MALE,      0x0010 @ Pokémon levels up having a specific gender
 	.set EVO_GENDER_FEMALE,    0x0011 @ Pokémon levels up having a specific gender
+	.set EVO_HELD_ITEM_NIGHT,  0x0012 @ Pokémom levels up at night time while holding the specified item.
+	.set EVO_HELD_ITEM_DAY,    0x0013 @ Pokémom levels up at day time while holding the specified item.

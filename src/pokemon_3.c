@@ -352,6 +352,22 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, u8 type, u16 evolutionItem)
                 if (gEvolutionTable[species][i].param <= level && (gender) == 254)
                     targetSpecies = gEvolutionTable[species][i].targetSpecies;
                 break;
+			case EVO_HELD_ITEM_NIGHT:
+                if (gLocalTime.hours >= 0 && gLocalTime.hours < 12 && heldItem)
+                {
+                    heldItem = 0;
+                    SetMonData(mon, MON_DATA_HELD_ITEM, &heldItem);
+                    targetSpecies = gEvolutionTable[species][i].targetSpecies;
+                }
+                break;
+			case EVO_HELD_ITEM_DAY:
+                if (gLocalTime.hours >= 12 && gLocalTime.hours < 24 && heldItem)
+                {
+                    heldItem = 0;
+                    SetMonData(mon, MON_DATA_HELD_ITEM, &heldItem);
+                    targetSpecies = gEvolutionTable[species][i].targetSpecies;
+                }
+                break;
             }
         }
         break;
