@@ -437,6 +437,9 @@ gMonBackPicTable:: @ 81E97F4
 	obj_tiles gMonBackPic_Rampardos, 0x800, SPECIES_RAMPARDOS
 	obj_tiles gMonBackPic_Shieldon, 0x800, SPECIES_SHIELDON
 	obj_tiles gMonBackPic_Bastiodon, 0x800, SPECIES_BASTIODON
+	obj_tiles gMonBackPic_Burmy, 0x800, SPECIES_BURMY
+	obj_tiles gMonBackPic_Wormadam, 0x800, SPECIES_WORMADAM
+	obj_tiles gMonBackPic_Mothim, 0x800, SPECIES_MOTHIM
 	obj_tiles gMonPic_Egg, 0x800, SPECIES_EGG
 	obj_tiles gMonBackPic_UnownB, 0x800, SPECIES_UNOWN_B
 	obj_tiles gMonBackPic_UnownC, 0x800, SPECIES_UNOWN_C

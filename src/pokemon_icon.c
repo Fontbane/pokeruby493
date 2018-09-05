@@ -455,6 +455,9 @@ const u8 * const gMonIconTable[] =
 	gMonIcon_Rampardos,
 	gMonIcon_Shieldon,
 	gMonIcon_Bastiodon,
+	gMonIcon_Burmy,
+	gMonIcon_Wormadam,
+	gMonIcon_Mothim,
     gMonIcon_Egg,
     gMonIcon_UnownB,
     gMonIcon_UnownC,
@@ -924,6 +927,9 @@ const u8 gMonIconPaletteIndices[] =
 	0, // Rampardos
 	1, // Shieldon
 	1, // Bastiodon
+	1, // Burmy
+	1, // Wormadam
+	0, // Mothim
     1, // Egg
     0, // Unown B
     0, // Unown C

@@ -4,7 +4,7 @@ Attempt at making a public base of Pokeruby with expanded pokémon up to Arceus.
 I don't know when or if I'll ever be able to complete it, so keep that in mind.
 
 ### Progress
-411/493 - 386 + Turtwig, Grotle, Torterra, Chimchar, Monferno, Infernape, Piplup, Prinplup, Empoleon, Starly, Staravia, Staraptor, Bidoof, Bibarel, Kricketot, Kricketune, Shinx, Luxio, Luxray, Budew, Roserade, Cranidos, Rampardos, Shieldon and Bastiodon.
+414/493 - 386 + Turtwig, Grotle, Torterra, Chimchar, Monferno, Infernape, Piplup, Prinplup, Empoleon, Starly, Staravia, Staraptor, Bidoof, Bibarel, Kricketot, Kricketune, Shinx, Luxio, Luxray, Budew, Roserade, Cranidos, Rampardos, Shieldon, Bastiodon, Burmy (Plant Cloak), Wormadam (Plant Cloak) and Mothim.
 
 ![Pic](https://i.imgur.com/F6jmvee.png)
 

@@ -5513,6 +5513,21 @@ static const u8 DexDescription_Bastiodon_1[] = _(
   "foe could break through. They\n"
   "shielded their young in that way.");
 
+static const u8 DexDescription_Burmy_1[] = _(
+  "Even if it is born where there are no\n"
+  "cocooning materials, it somehow always\n"
+  "ends up with a cloak.");
+
+static const u8 DexDescription_Wormadam_1[] = _(
+  "When evolving, its body takes in\n"
+  "surrounding materials. As a result,\n"
+  "there are many body variations.");
+
+static const u8 DexDescription_Mothim_1[] = _(
+  "While it loves floral honey, it will\n"
+  "not gather any itself. Instead, it\n"
+  "plots to steal some from COMBEE.");
+
 const struct PokedexEntry gPokedexEntries[] =
 {
     {  //Dummy
@@ -10042,6 +10057,39 @@ const struct PokedexEntry gPokedexEntries[] =
         .weight = 1495,
         .descriptionPage1 = DexDescription_Bastiodon_1,
         .descriptionPage2 = DexDescription_Bastiodon_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Burmy
+        .categoryName = _("BAGWORM"),
+        .height = 2,
+        .weight = 34,
+        .descriptionPage1 = DexDescription_Burmy_1,
+        .descriptionPage2 = DexDescription_Burmy_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Wormadam
+        .categoryName = _("BAGWORM"),
+        .height = 5,
+        .weight = 65,
+        .descriptionPage1 = DexDescription_Wormadam_1,
+        .descriptionPage2 = DexDescription_Wormadam_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Mothim
+        .categoryName = _("MOTH"),
+        .height = 9,
+        .weight = 233,
+        .descriptionPage1 = DexDescription_Mothim_1,
+        .descriptionPage2 = DexDescription_Mothim_1,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,

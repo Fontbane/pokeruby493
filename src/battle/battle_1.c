@@ -476,6 +476,9 @@ const u8 gEnemyMonElevation[] = {
 	[SPECIES_RAMPARDOS] = 0,
 	[SPECIES_SHIELDON] = 0,
 	[SPECIES_BASTIODON] = 0,
+	[SPECIES_BURMY] = 0,
+	[SPECIES_WORMADAM] = 0,
+	[SPECIES_MOTHIM] = 3,
 };
 
 #include "../data/trainer_parties.h"

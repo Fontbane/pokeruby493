@@ -437,6 +437,9 @@ gMonBackPicCoords:: @ 81E9114
 	.byte 102,  8, 0, 0 // Rampardos
 	.byte 101, 13, 0, 0 // Shieldon
 	.byte 134,  9, 0, 0 // Bastiodon
+	.byte  85, 13, 0, 0 // Burmy
+	.byte 101, 12, 0, 0 // Wormadam
+	.byte 119,  6, 0, 0 // Mothim
 	.byte  54, 10, 0, 0 // EGG
 	.byte  86,  9, 0, 0 // UNOWN B
 	.byte 103,  6, 0, 0 // UNOWN C

@@ -9879,6 +9879,78 @@ gMonFootprint_Bastiodon:: @ 8E3B498
 	.incbin "graphics/pokemon/bastiodon/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Burmy:: @ 8E3AB88
+	.incbin "graphics/pokemon/burmy/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Burmy:: @ 8E3ADD4
+	.incbin "graphics/pokemon/burmy/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Burmy:: @ 8E3ADFC
+	.incbin "graphics/pokemon/burmy/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Burmy:: @ 8E3B070
+	.incbin "graphics/pokemon/burmy/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Burmy:: @ 8E3B098
+	.incbin "graphics/pokemon/burmy/icon.4bpp"
+
+	.align 2
+gMonFootprint_Burmy:: @ 8E3B498
+	.incbin "graphics/pokemon/burmy/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Wormadam:: @ 8E3AB88
+	.incbin "graphics/pokemon/wormadam/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Wormadam:: @ 8E3ADD4
+	.incbin "graphics/pokemon/wormadam/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Wormadam:: @ 8E3ADFC
+	.incbin "graphics/pokemon/wormadam/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Wormadam:: @ 8E3B070
+	.incbin "graphics/pokemon/wormadam/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Wormadam:: @ 8E3B098
+	.incbin "graphics/pokemon/wormadam/icon.4bpp"
+
+	.align 2
+gMonFootprint_Wormadam:: @ 8E3B498
+	.incbin "graphics/pokemon/wormadam/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Mothim:: @ 8E3AB88
+	.incbin "graphics/pokemon/mothim/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Mothim:: @ 8E3ADD4
+	.incbin "graphics/pokemon/mothim/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Mothim:: @ 8E3ADFC
+	.incbin "graphics/pokemon/mothim/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Mothim:: @ 8E3B070
+	.incbin "graphics/pokemon/mothim/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Mothim:: @ 8E3B098
+	.incbin "graphics/pokemon/mothim/icon.4bpp"
+
+	.align 2
+gMonFootprint_Mothim:: @ 8E3B498
+	.incbin "graphics/pokemon/mothim/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

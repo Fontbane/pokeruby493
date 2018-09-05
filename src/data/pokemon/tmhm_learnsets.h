@@ -9992,6 +9992,52 @@ const u32 gTMHMLearnsets[][2] =
 										| TMHM(TM45_ATTRACT)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
+
+	[SPECIES_BURMY]     = TMHM_LEARNSET(0),
+
+	[SPECIES_WORMADAM]    = TMHM_LEARNSET(TMHM(TM06_TOXIC)
+										| TMHM(TM09_BULLET_SEED)
+                                        | TMHM(TM10_HIDDEN_POWER)
+										| TMHM(TM11_SUNNY_DAY)
+										| TMHM(TM15_HYPER_BEAM)
+										| TMHM(TM17_PROTECT)
+										| TMHM(TM18_RAIN_DANCE)
+										| TMHM(TM19_GIGA_DRAIN)
+										| TMHM(TM20_SAFEGUARD)
+										| TMHM(TM21_FRUSTRATION)
+										| TMHM(TM22_SOLARBEAM)
+										| TMHM(TM27_RETURN)
+										| TMHM(TM29_PSYCHIC)
+										| TMHM(TM30_SHADOW_BALL)
+										| TMHM(TM32_DOUBLE_TEAM)
+										| TMHM(TM42_FACADE)
+										| TMHM(TM43_SECRET_POWER)
+										| TMHM(TM44_REST)
+										| TMHM(TM45_ATTRACT)
+										| TMHM(TM46_THIEF)
+                                        | TMHM(HM05_FLASH)),
+
+	[SPECIES_MOTHIM]    = TMHM_LEARNSET(TMHM(TM06_TOXIC)
+                                        | TMHM(TM10_HIDDEN_POWER)
+										| TMHM(TM11_SUNNY_DAY)
+										| TMHM(TM15_HYPER_BEAM)
+										| TMHM(TM17_PROTECT)
+										| TMHM(TM18_RAIN_DANCE)
+										| TMHM(TM19_GIGA_DRAIN)
+										| TMHM(TM20_SAFEGUARD)
+										| TMHM(TM21_FRUSTRATION)
+										| TMHM(TM22_SOLARBEAM)
+										| TMHM(TM27_RETURN)
+										| TMHM(TM29_PSYCHIC)
+										| TMHM(TM30_SHADOW_BALL)
+										| TMHM(TM32_DOUBLE_TEAM)
+										| TMHM(TM40_AERIAL_ACE)
+										| TMHM(TM42_FACADE)
+										| TMHM(TM43_SECRET_POWER)
+										| TMHM(TM44_REST)
+										| TMHM(TM45_ATTRACT)
+										| TMHM(TM46_THIEF)
+                                        | TMHM(HM05_FLASH)),
 };
 
 #endif  // GUARD_TMHM_LEARNSETS_H

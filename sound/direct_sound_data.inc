@@ -1915,6 +1915,18 @@ Cry_Bastiodon::
 	.incbin "sound/direct_sound_samples/cries/cry_bastiodon.bin"
 
 	.align 2
+Cry_Burmy:: 
+	.incbin "sound/direct_sound_samples/cries/cry_burmy.bin"
+
+	.align 2
+Cry_Wormadam:: 
+	.incbin "sound/direct_sound_samples/cries/cry_wormadam.bin"
+
+	.align 2
+Cry_Mothim:: 
+	.incbin "sound/direct_sound_samples/cries/cry_mothim.bin"
+
+	.align 2
 DirectSoundWaveData_Phoneme_Vowel7:: @ 8639898
 	.incbin "sound/direct_sound_samples/phonemes/vowel_7.bin"
 
