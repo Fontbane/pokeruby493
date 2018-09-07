@@ -60,3 +60,5 @@ As of right now, there aren't any bugs. There's a small issue involving pokémon
 -Shinny: Help with the front sprites' position issue and with the Level + Gender Based evolution.
 
 -[BluRose](https://github.com/BluRosie): Map-based and move-based evolutions.
+
+-[Doesnt](https://github.com/Doesnty): I learned about the files involved in the task of adding new moves to pokeruby thanks to his commits.
