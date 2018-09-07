@@ -445,6 +445,8 @@ gMonPaletteTable:: @ 81EA5B4
 	obj_pal gMonPalette_Pachirisu, SPECIES_PACHIRISU
 	obj_pal gMonPalette_Buizel, SPECIES_BUIZEL
 	obj_pal gMonPalette_Floatzel, SPECIES_FLOATZEL
+	obj_pal gMonPalette_Cherubi, SPECIES_CHERUBI
+	obj_pal gMonPalette_Cherrim, SPECIES_CHERRIM
 	obj_pal gMonPalette_Egg, SPECIES_EGG
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_B
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_C

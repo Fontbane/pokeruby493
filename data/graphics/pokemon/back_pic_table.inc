@@ -445,6 +445,8 @@ gMonBackPicTable:: @ 81E97F4
 	obj_tiles gMonBackPic_Pachirisu, 0x800, SPECIES_PACHIRISU
 	obj_tiles gMonBackPic_Buizel, 0x800, SPECIES_BUIZEL
 	obj_tiles gMonBackPic_Floatzel, 0x800, SPECIES_FLOATZEL
+	obj_tiles gMonBackPic_Cherubi, 0x800, SPECIES_CHERUBI
+	obj_tiles gMonBackPic_Cherrim, 0x800, SPECIES_CHERRIM
 	obj_tiles gMonPic_Egg, 0x800, SPECIES_EGG
 	obj_tiles gMonBackPic_UnownB, 0x800, SPECIES_UNOWN_B
 	obj_tiles gMonBackPic_UnownC, 0x800, SPECIES_UNOWN_C

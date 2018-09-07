@@ -10071,6 +10071,54 @@ gMonFootprint_Floatzel::
 	.incbin "graphics/pokemon/floatzel/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Cherubi::
+	.incbin "graphics/pokemon/cherubi/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Cherubi::
+	.incbin "graphics/pokemon/cherubi/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Cherubi::
+	.incbin "graphics/pokemon/cherubi/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Cherubi::
+	.incbin "graphics/pokemon/cherubi/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Cherubi::
+	.incbin "graphics/pokemon/cherubi/icon.4bpp"
+
+	.align 2
+gMonFootprint_Cherubi::
+	.incbin "graphics/pokemon/cherubi/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Cherrim::
+	.incbin "graphics/pokemon/cherrim/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Cherrim::
+	.incbin "graphics/pokemon/cherrim/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Cherrim::
+	.incbin "graphics/pokemon/cherrim/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Cherrim::
+	.incbin "graphics/pokemon/cherrim/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Cherrim::
+	.incbin "graphics/pokemon/cherrim/icon.4bpp"
+
+	.align 2
+gMonFootprint_Cherrim::
+	.incbin "graphics/pokemon/cherrim/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

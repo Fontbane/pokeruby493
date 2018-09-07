@@ -447,6 +447,8 @@ gMonShinyPaletteTable:: @ 81EB374
 	obj_pal gMonShinyPalette_Pachirisu, PAL_ID_SHINY + SPECIES_PACHIRISU
 	obj_pal gMonShinyPalette_Buizel, PAL_ID_SHINY + SPECIES_BUIZEL
 	obj_pal gMonShinyPalette_Floatzel, PAL_ID_SHINY + SPECIES_FLOATZEL
+	obj_pal gMonShinyPalette_Cherubi, PAL_ID_SHINY + SPECIES_CHERUBI
+	obj_pal gMonShinyPalette_Cherrim, PAL_ID_SHINY + SPECIES_CHERRIM
 	obj_pal gMonPalette_Egg, PAL_ID_SHINY + SPECIES_EGG
 	obj_pal gMonShinyPalette_Unown, PAL_ID_SHINY + SPECIES_UNOWN_B
 	obj_pal gMonShinyPalette_Unown, PAL_ID_SHINY + SPECIES_UNOWN_C

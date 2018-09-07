@@ -1947,6 +1947,14 @@ Cry_Floatzel::
 	.incbin "sound/direct_sound_samples/cries/cry_floatzel.bin"
 
 	.align 2
+Cry_Cherubi:: 
+	.incbin "sound/direct_sound_samples/cries/cry_cherubi.bin"
+
+	.align 2
+Cry_Cherrim:: 
+	.incbin "sound/direct_sound_samples/cries/cry_cherrim.bin"
+
+	.align 2
 DirectSoundWaveData_Phoneme_Vowel7:: @ 8639898
 	.incbin "sound/direct_sound_samples/phonemes/vowel_7.bin"
 

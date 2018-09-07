@@ -445,6 +445,8 @@ gMonFrontPicTable:: @ 81E8354
 	obj_tiles gMonFrontPic_Pachirisu, 0x800, SPECIES_PACHIRISU
 	obj_tiles gMonFrontPic_Buizel, 0x800, SPECIES_BUIZEL
 	obj_tiles gMonFrontPic_Floatzel, 0x800, SPECIES_FLOATZEL
+	obj_tiles gMonFrontPic_Cherubi, 0x800, SPECIES_CHERUBI
+	obj_tiles gMonFrontPic_Cherrim, 0x800, SPECIES_CHERRIM
 	obj_tiles gMonPic_Egg, 0x800, SPECIES_EGG
 	obj_tiles gMonFrontPic_UnownB, 0x800, SPECIES_UNOWN_B
 	obj_tiles gMonFrontPic_UnownC, 0x800, SPECIES_UNOWN_C

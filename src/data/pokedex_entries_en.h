@@ -5553,6 +5553,16 @@ static const u8 DexDescription_Floatzel_1[] = _(
   "ports. It is known to rescue people\n"
   "and carry off prey.");
 
+static const u8 DexDescription_Cherubi_1[] = _(
+  "The small ball is not only full of\n"
+  "nutrients, it is also tasty. STARLY\n"
+  "try to peck it off.");
+
+static const u8 DexDescription_Cherrim_1[] = _(
+  "If it senses strong sunlight, it\n"
+  "opens its folded petals to absorb\n"
+  "the sun’s rays with its whole body.");
+
 const struct PokedexEntry gPokedexEntries[] =
 {
     {  //Dummy
@@ -10170,6 +10180,28 @@ const struct PokedexEntry gPokedexEntries[] =
         .weight = 335,
         .descriptionPage1 = DexDescription_Floatzel_1,
         .descriptionPage2 = DexDescription_Floatzel_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Cherubi
+        .categoryName = _("CHERRY"),
+        .height = 4,
+        .weight = 33,
+        .descriptionPage1 = DexDescription_Cherubi_1,
+        .descriptionPage2 = DexDescription_Cherubi_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Cherrim
+        .categoryName = _("BLOSSOM"),
+        .height = 5,
+        .weight = 93,
+        .descriptionPage1 = DexDescription_Cherrim_1,
+        .descriptionPage2 = DexDescription_Cherrim_1,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,

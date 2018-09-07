@@ -12564,6 +12564,8 @@ voicegroup_8453790:: @ 8453790
 	cry Cry_Pachirisu
 	cry Cry_Buizel
 	cry Cry_Floatzel
+	cry Cry_Cherubi
+	cry Cry_Cherrim
 
 	.align 2
 voicegroup_84537C0:: @ 84537C0
@@ -12997,6 +12999,8 @@ voicegroup_84549C0:: @ 84549C0
 	cry2 Cry_Pachirisu
 	cry2 Cry_Buizel
 	cry2 Cry_Floatzel
+	cry2 Cry_Cherubi
+	cry2 Cry_Cherrim
 
 	.align 2
 voicegroup_84549F0:: @ 84549F0

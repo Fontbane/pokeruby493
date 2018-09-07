@@ -173,7 +173,9 @@ const u16 gSpeciesIdToCryId[] = {
 	417, // VESPIQUEN
 	418, // PACHIRISU
 	419, // BUIZEL
-	420  // FLOATZEL
+	420, // FLOATZEL
+	421, // CHERUBI
+	422  // CHERRIM
 };
 
 #endif //POKERUBY_CRY_IDS_H

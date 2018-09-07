@@ -470,7 +470,9 @@ const u16 gSpeciesToHoennPokedexNum[] = // Assigns all species to the Hoenn Dex 
 	HOENN_DEX_VESPIQUEN,        // SPECIES_VESPIQUEN
 	HOENN_DEX_PACHIRISU,        // SPECIES_PACHIRISU
 	HOENN_DEX_BUIZEL,           // SPECIES_BUIZEL
-	HOENN_DEX_FLOATZEL          // SPECIES_FLOATZEL
+	HOENN_DEX_FLOATZEL,         // SPECIES_FLOATZEL
+	HOENN_DEX_CHERUBI,          // SPECIES_CHERUBI
+	HOENN_DEX_CHERRIM           // SPECIES_CHERRIM
 };
 
 const u16 gSpeciesToNationalPokedexNum[] = // Assigns all species to the National Dex Index (Summary No. for National Dex)
@@ -919,7 +921,9 @@ const u16 gSpeciesToNationalPokedexNum[] = // Assigns all species to the Nationa
 	NATIONAL_DEX_VESPIQUEN,         // SPECIES_VESPIQUEN
 	NATIONAL_DEX_PACHIRISU,         // SPECIES_PACHIRISU
 	NATIONAL_DEX_BUIZEL,            // SPECIES_BUIZEL
-	NATIONAL_DEX_FLOATZEL           // SPECIES_FLOATZEL
+	NATIONAL_DEX_FLOATZEL,          // SPECIES_FLOATZEL
+	NATIONAL_DEX_CHERUBI,           // SPECIES_CHERUBI
+	NATIONAL_DEX_CHERRIM            // SPECIES_CHERRIM
 };
 
 const u16 gHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using National Dex Index)
@@ -1344,6 +1348,8 @@ const u16 gHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using Nationa
 	NATIONAL_DEX_PACHIRISU,     // HOENN_DEX_PACHIRISU
 	NATIONAL_DEX_BUIZEL,        // HOENN_DEX_BUIZEL
 	NATIONAL_DEX_FLOATZEL,      // HOENN_DEX_FLOATZEL
+	NATIONAL_DEX_CHERUBI,       // HOENN_DEX_CHERUBI
+	NATIONAL_DEX_CHERRIM,       // HOENN_DEX_CHERRIM
 	NATIONAL_DEX_OLD_UNOWN_B,  	// HOENN_DEX_OLD_UNOWN_B
 	NATIONAL_DEX_OLD_UNOWN_C,  	// HOENN_DEX_OLD_UNOWN_C
 	NATIONAL_DEX_OLD_UNOWN_D,  	// HOENN_DEX_OLD_UNOWN_D
