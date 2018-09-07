@@ -43,6 +43,10 @@ The following is a list of all the files involved in the task of expanding poké
 ### Bugs
 As of right now, there aren't any bugs. There's a small issue involving pokémon not showing up in the pokédex using existing savefiles, but in those cases you just need to catch the pokémon again and they'll show up correctly.
 
+### Other Features
+
+For this base, I intend to implement as many Gen. 4 features as possible. Right now, I boosted the held items' effect from 10% to 20% and I also made it so you can run indoors, not to mention there's also 1 Gen. 4 move, which is Aqua Jet.
+
 # Credits
 
 -[Gamer2020](https://github.com/Gamer2020): He created aseriestodis which is the tool that "motivated" me to create my pokeruby_gen4sprites repo which I'm using here, and for his [pokémon base stats file](https://github.com/Gamer2020/Pokeemerald-Pokemon-and-Move-Expansion-Files/blob/master/files/include/data/pokemon/base_stats.h) which I'm using as a base for this repo's.
