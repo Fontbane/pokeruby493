@@ -460,6 +460,9 @@ const u8 * const gMonIconTable[] =
 	gMonIcon_Mothim,
 	gMonIcon_Combee,
 	gMonIcon_Vespiquen,
+	gMonIcon_Pachirisu,
+	gMonIcon_Buizel,
+	gMonIcon_Floatzel,
     gMonIcon_Egg,
     gMonIcon_UnownB,
     gMonIcon_UnownC,
@@ -934,6 +937,9 @@ const u8 gMonIconPaletteIndices[] =
 	0, // Mothim
 	0, // Combee
 	0, // Vespiquen
+	0, // Pachirisu
+	0, // Buizel
+	0, // Floatzel
     1, // Egg
     0, // Unown B
     0, // Unown C

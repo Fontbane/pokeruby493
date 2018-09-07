@@ -146,6 +146,7 @@ const u16 gUnknown_084016BC[] =
     MOVE_ENDEAVOR,
     MOVE_TICKLE,
     MOVE_COVET,
+	MOVE_AQUA_JET,
     0,
 };
 

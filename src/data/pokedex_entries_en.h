@@ -5538,6 +5538,21 @@ static const u8 DexDescription_Vespiquen_1[] = _(
   "make the grubs in its body do its\n"
   "bidding while fighting foes.");
 
+static const u8 DexDescription_Pachirisu_1[] = _(
+  "A pair may be seen rubbing their\n"
+  "cheek pouches together in an effort\n"
+  "to share stored electricity.");
+
+static const u8 DexDescription_Buizel_1[] = _(
+  "It spins its two tails like a screw to\n"
+  "propel itself through water. The tails\n"
+  "also slice clinging seaweed.");
+
+static const u8 DexDescription_Floatzel_1[] = _(
+  "It is a common sight around fishing\n"
+  "ports. It is known to rescue people\n"
+  "and carry off prey.");
+
 const struct PokedexEntry gPokedexEntries[] =
 {
     {  //Dummy
@@ -10122,6 +10137,39 @@ const struct PokedexEntry gPokedexEntries[] =
         .weight = 385,
         .descriptionPage1 = DexDescription_Vespiquen_1,
         .descriptionPage2 = DexDescription_Vespiquen_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Pachirisu
+        .categoryName = _("ELESQUIRREL"),
+        .height = 4,
+        .weight = 39,
+        .descriptionPage1 = DexDescription_Pachirisu_1,
+        .descriptionPage2 = DexDescription_Pachirisu_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Buizel
+        .categoryName = _("SEA WEASEL"),
+        .height = 7,
+        .weight = 295,
+        .descriptionPage1 = DexDescription_Buizel_1,
+        .descriptionPage2 = DexDescription_Buizel_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Floatzel
+        .categoryName = _("SEA WEASEL"),
+        .height = 11,
+        .weight = 335,
+        .descriptionPage1 = DexDescription_Floatzel_1,
+        .descriptionPage2 = DexDescription_Floatzel_1,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,

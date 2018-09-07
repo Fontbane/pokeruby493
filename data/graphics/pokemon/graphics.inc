@@ -9999,6 +9999,78 @@ gMonFootprint_Vespiquen::
 	.incbin "graphics/pokemon/vespiquen/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Pachirisu::
+	.incbin "graphics/pokemon/pachirisu/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Pachirisu::
+	.incbin "graphics/pokemon/pachirisu/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Pachirisu::
+	.incbin "graphics/pokemon/pachirisu/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Pachirisu::
+	.incbin "graphics/pokemon/pachirisu/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Pachirisu::
+	.incbin "graphics/pokemon/pachirisu/icon.4bpp"
+
+	.align 2
+gMonFootprint_Pachirisu::
+	.incbin "graphics/pokemon/pachirisu/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Buizel::
+	.incbin "graphics/pokemon/buizel/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Buizel::
+	.incbin "graphics/pokemon/buizel/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Buizel::
+	.incbin "graphics/pokemon/buizel/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Buizel::
+	.incbin "graphics/pokemon/buizel/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Buizel::
+	.incbin "graphics/pokemon/buizel/icon.4bpp"
+
+	.align 2
+gMonFootprint_Buizel::
+	.incbin "graphics/pokemon/buizel/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Floatzel::
+	.incbin "graphics/pokemon/floatzel/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Floatzel::
+	.incbin "graphics/pokemon/floatzel/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Floatzel::
+	.incbin "graphics/pokemon/floatzel/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Floatzel::
+	.incbin "graphics/pokemon/floatzel/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Floatzel::
+	.incbin "graphics/pokemon/floatzel/icon.4bpp"
+
+	.align 2
+gMonFootprint_Floatzel::
+	.incbin "graphics/pokemon/floatzel/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

@@ -12561,6 +12561,9 @@ voicegroup_8453790:: @ 8453790
 	cry Cry_Mothim
 	cry Cry_Combee
 	cry Cry_Vespiquen
+	cry Cry_Pachirisu
+	cry Cry_Buizel
+	cry Cry_Floatzel
 
 	.align 2
 voicegroup_84537C0:: @ 84537C0
@@ -12991,6 +12994,9 @@ voicegroup_84549C0:: @ 84549C0
 	cry2 Cry_Mothim
 	cry2 Cry_Combee
 	cry2 Cry_Vespiquen
+	cry2 Cry_Pachirisu
+	cry2 Cry_Buizel
+	cry2 Cry_Floatzel
 
 	.align 2
 voicegroup_84549F0:: @ 84549F0

@@ -442,6 +442,9 @@ gMonPaletteTable:: @ 81EA5B4
 	obj_pal gMonPalette_Mothim, SPECIES_MOTHIM
 	obj_pal gMonPalette_Combee, SPECIES_COMBEE
 	obj_pal gMonPalette_Vespiquen, SPECIES_VESPIQUEN
+	obj_pal gMonPalette_Pachirisu, SPECIES_PACHIRISU
+	obj_pal gMonPalette_Buizel, SPECIES_BUIZEL
+	obj_pal gMonPalette_Floatzel, SPECIES_FLOATZEL
 	obj_pal gMonPalette_Egg, SPECIES_EGG
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_B
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_C

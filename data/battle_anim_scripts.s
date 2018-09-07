@@ -373,6 +373,7 @@ gBattleAnims_Moves:: @ 81C7168
 	.4byte Move_WATER_PULSE
 	.4byte Move_DOOM_DESIRE
 	.4byte Move_PSYCHO_BOOST
+	.4byte Move_AQUA_JET
 	.4byte PoundCopy
 
 	.align 2
@@ -9510,6 +9511,14 @@ Move_PSYCHO_BOOST: @ 81D51C7
 	blendoff
 	call Unknown_81D61F3
 	end
+
+Move_AQUA_JET:
+	createvisualtask sub_80D074C, 2, 0, 3
+	delay 8
+	loopsewithpan SE_W039, 192, 38, 3
+	waitforvisualfinish
+	end
+
 
 Move_KNOCK_OFF: @ 81D523B
 	loadspritegfx 10277

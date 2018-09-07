@@ -170,7 +170,10 @@ const u16 gSpeciesIdToCryId[] = {
 	414, // WORMADAM
 	415, // MOTHIM
 	416, // COMBEE
-	417  // VESPIQUEN
+	417, // VESPIQUEN
+	418, // PACHIRISU
+	419, // BUIZEL
+	420  // FLOATZEL
 };
 
 #endif //POKERUBY_CRY_IDS_H

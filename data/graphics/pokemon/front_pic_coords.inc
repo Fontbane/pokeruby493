@@ -442,6 +442,9 @@ gMonFrontPicCoords:: @ 81E7C74
 	.byte 120,  0, 0, 0 // Mothim
 	.byte  69,  9, 0, 0 // Combee
 	.byte 134,  4, 0, 0 // Vespiquen
+	.byte 103,  9, 0, 0 // Pachirisu
+	.byte 101, 12, 0, 0 // Buizel
+	.byte 136,  2, 0, 0 // Floatzel
 	.byte  51, 20, 0, 0 // EGG
 	.byte  52, 16, 0, 0 // UNOWN B
 	.byte  68, 16, 0, 0 // UNOWN C

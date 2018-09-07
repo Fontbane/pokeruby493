@@ -45,7 +45,7 @@ As of right now, there aren't any bugs. There's a small issue involving pokémon
 
 # Credits
 
--[Gamer2020](https://github.com/Gamer2020): He created aseriestodis which is the tool that "motivated" me and that I utilized to create this.
+-[Gamer2020](https://github.com/Gamer2020): He created aseriestodis which is the tool that "motivated" me to create my pokeruby_gen4sprites repo which I'm using here, and for his [pokémon base stats file](https://github.com/Gamer2020/Pokeemerald-Pokemon-and-Move-Expansion-Files/blob/master/files/include/data/pokemon/base_stats.h) which I'm using as a base for this repo's.
 
 -[The DS-style 64x64 Pokémon Sprite Resource](https://www.pokecommunity.com/showthread.php?t=267728): For creating such a wonderful pack of resources for everyone to use.
 
