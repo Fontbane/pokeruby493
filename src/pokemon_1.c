@@ -465,7 +465,9 @@ const u16 gSpeciesToHoennPokedexNum[] = // Assigns all species to the Hoenn Dex 
 	HOENN_DEX_BASTIODON,        // SPECIES_BASTIODON
 	HOENN_DEX_BURMY,            // SPECIES_BURMY
 	HOENN_DEX_WORMADAM,         // SPECIES_WORMADAM
-	HOENN_DEX_MOTHIM            // SPECIES_MOTHIM
+	HOENN_DEX_MOTHIM,           // SPECIES_MOTHIM
+	HOENN_DEX_COMBEE,           // SPECIES_COMBEE
+	HOENN_DEX_VESPIQUEN         // SPECIES_VESPIQUEN
 };
 
 const u16 gSpeciesToNationalPokedexNum[] = // Assigns all species to the National Dex Index (Summary No. for National Dex)
@@ -909,7 +911,9 @@ const u16 gSpeciesToNationalPokedexNum[] = // Assigns all species to the Nationa
 	NATIONAL_DEX_BASTIODON,         // SPECIES_BASTIODON
 	NATIONAL_DEX_BURMY,             // SPECIES_BURMY
 	NATIONAL_DEX_WORMADAM,          // SPECIES_WORMADAM
-	NATIONAL_DEX_MOTHIM             // SPECIES_MOTHIM
+	NATIONAL_DEX_MOTHIM,            // SPECIES_MOTHIM
+	NATIONAL_DEX_COMBEE,            // SPECIES_COMBEE
+	NATIONAL_DEX_VESPIQUEN          // SPECIES_VESPIQUEN
 };
 
 const u16 gHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using National Dex Index)
@@ -1329,6 +1333,8 @@ const u16 gHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using Nationa
 	NATIONAL_DEX_BURMY,         // HOENN_DEX_BURMY
 	NATIONAL_DEX_WORMADAM,      // HOENN_DEX_WORMADAM
 	NATIONAL_DEX_MOTHIM,        // HOENN_DEX_MOTHIM
+	NATIONAL_DEX_COMBEE,        // HOENN_DEX_COMBEE
+	NATIONAL_DEX_VESPIQUEN,     // HOENN_DEX_VESPIQUEN
 	NATIONAL_DEX_OLD_UNOWN_B,  	// HOENN_DEX_OLD_UNOWN_B
 	NATIONAL_DEX_OLD_UNOWN_C,  	// HOENN_DEX_OLD_UNOWN_C
 	NATIONAL_DEX_OLD_UNOWN_D,  	// HOENN_DEX_OLD_UNOWN_D

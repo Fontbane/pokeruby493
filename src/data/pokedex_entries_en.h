@@ -5528,6 +5528,16 @@ static const u8 DexDescription_Mothim_1[] = _(
   "not gather any itself. Instead, it\n"
   "plots to steal some from COMBEE.");
 
+static const u8 DexDescription_Combee_1[] = _(
+  "The trio is together from birth. It\n"
+  "constantly gathers honey from\n"
+  "flowers to please VESPIQUEN.");
+
+static const u8 DexDescription_Vespiquen_1[] = _(
+  "It releases various pheromones to\n"
+  "make the grubs in its body do its\n"
+  "bidding while fighting foes.");
+
 const struct PokedexEntry gPokedexEntries[] =
 {
     {  //Dummy
@@ -10090,6 +10100,28 @@ const struct PokedexEntry gPokedexEntries[] =
         .weight = 233,
         .descriptionPage1 = DexDescription_Mothim_1,
         .descriptionPage2 = DexDescription_Mothim_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Combee
+        .categoryName = _("TINY BEE"),
+        .height = 3,
+        .weight = 55,
+        .descriptionPage1 = DexDescription_Combee_1,
+        .descriptionPage2 = DexDescription_Combee_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Vespiquen
+        .categoryName = _("BEEHIVE"),
+        .height = 12,
+        .weight = 385,
+        .descriptionPage1 = DexDescription_Vespiquen_1,
+        .descriptionPage2 = DexDescription_Vespiquen_1,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,

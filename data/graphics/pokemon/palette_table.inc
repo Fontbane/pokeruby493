@@ -440,6 +440,8 @@ gMonPaletteTable:: @ 81EA5B4
 	obj_pal gMonPalette_Burmy, SPECIES_BURMY
 	obj_pal gMonPalette_Wormadam, SPECIES_WORMADAM
 	obj_pal gMonPalette_Mothim, SPECIES_MOTHIM
+	obj_pal gMonPalette_Combee, SPECIES_COMBEE
+	obj_pal gMonPalette_Vespiquen, SPECIES_VESPIQUEN
 	obj_pal gMonPalette_Egg, SPECIES_EGG
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_B
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_C

@@ -9951,6 +9951,54 @@ gMonFootprint_Mothim::
 	.incbin "graphics/pokemon/mothim/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Combee::
+	.incbin "graphics/pokemon/combee/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Combee::
+	.incbin "graphics/pokemon/combee/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Combee::
+	.incbin "graphics/pokemon/combee/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Combee::
+	.incbin "graphics/pokemon/combee/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Combee::
+	.incbin "graphics/pokemon/combee/icon.4bpp"
+
+	.align 2
+gMonFootprint_Combee::
+	.incbin "graphics/pokemon/combee/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Vespiquen::
+	.incbin "graphics/pokemon/vespiquen/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Vespiquen::
+	.incbin "graphics/pokemon/vespiquen/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Vespiquen::
+	.incbin "graphics/pokemon/vespiquen/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Vespiquen::
+	.incbin "graphics/pokemon/vespiquen/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Vespiquen::
+	.incbin "graphics/pokemon/vespiquen/icon.4bpp"
+
+	.align 2
+gMonFootprint_Vespiquen::
+	.incbin "graphics/pokemon/vespiquen/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

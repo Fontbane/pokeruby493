@@ -440,6 +440,8 @@ gMonBackPicCoords:: @ 81E9114
 	.byte  85, 13, 0, 0 // Burmy
 	.byte 101, 12, 0, 0 // Wormadam
 	.byte 119,  6, 0, 0 // Mothim
+	.byte  85, 23, 0, 0 // Combee
+	.byte 134,  9, 0, 0 // Vespiquen
 	.byte  54, 10, 0, 0 // EGG
 	.byte  86,  9, 0, 0 // UNOWN B
 	.byte 103,  6, 0, 0 // UNOWN C

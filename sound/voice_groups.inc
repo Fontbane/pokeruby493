@@ -12559,6 +12559,8 @@ voicegroup_8453790:: @ 8453790
 	cry Cry_Burmy
 	cry Cry_Wormadam
 	cry Cry_Mothim
+	cry Cry_Combee
+	cry Cry_Vespiquen
 
 	.align 2
 voicegroup_84537C0:: @ 84537C0
@@ -12987,6 +12989,8 @@ voicegroup_84549C0:: @ 84549C0
 	cry2 Cry_Burmy
 	cry2 Cry_Wormadam
 	cry2 Cry_Mothim
+	cry2 Cry_Combee
+	cry2 Cry_Vespiquen
 
 	.align 2
 voicegroup_84549F0:: @ 84549F0

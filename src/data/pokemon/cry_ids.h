@@ -168,7 +168,9 @@ const u16 gSpeciesIdToCryId[] = {
 	412, // BASTIODON
 	413, // BURMY
 	414, // WORMADAM
-	415  // MOTHIM
+	415, // MOTHIM
+	416, // COMBEE
+	417  // VESPIQUEN
 };
 
 #endif //POKERUBY_CRY_IDS_H

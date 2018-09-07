@@ -1927,6 +1927,14 @@ Cry_Mothim::
 	.incbin "sound/direct_sound_samples/cries/cry_mothim.bin"
 
 	.align 2
+Cry_Combee:: 
+	.incbin "sound/direct_sound_samples/cries/cry_combee.bin"
+
+	.align 2
+Cry_Vespiquen:: 
+	.incbin "sound/direct_sound_samples/cries/cry_vespiquen.bin"
+
+	.align 2
 DirectSoundWaveData_Phoneme_Vowel7:: @ 8639898
 	.incbin "sound/direct_sound_samples/phonemes/vowel_7.bin"
 

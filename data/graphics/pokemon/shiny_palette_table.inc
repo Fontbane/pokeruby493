@@ -442,6 +442,8 @@ gMonShinyPaletteTable:: @ 81EB374
 	obj_pal gMonShinyPalette_Burmy, PAL_ID_SHINY + SPECIES_BURMY
 	obj_pal gMonShinyPalette_Wormadam, PAL_ID_SHINY + SPECIES_WORMADAM
 	obj_pal gMonShinyPalette_Mothim, PAL_ID_SHINY + SPECIES_MOTHIM
+	obj_pal gMonShinyPalette_Combee, PAL_ID_SHINY + SPECIES_COMBEE
+	obj_pal gMonShinyPalette_Vespiquen, PAL_ID_SHINY + SPECIES_VESPIQUEN
 	obj_pal gMonPalette_Egg, PAL_ID_SHINY + SPECIES_EGG
 	obj_pal gMonShinyPalette_Unown, PAL_ID_SHINY + SPECIES_UNOWN_B
 	obj_pal gMonShinyPalette_Unown, PAL_ID_SHINY + SPECIES_UNOWN_C
