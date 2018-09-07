@@ -10119,6 +10119,54 @@ gMonFootprint_Cherrim::
 	.incbin "graphics/pokemon/cherrim/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_ShellosE::
+	.incbin "graphics/pokemon/shellosE/front.4bpp.lz"
+
+	.align 2
+gMonPalette_ShellosE::
+	.incbin "graphics/pokemon/shellosE/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_ShellosE::
+	.incbin "graphics/pokemon/shellosE/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_ShellosE::
+	.incbin "graphics/pokemon/shellosE/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_ShellosE::
+	.incbin "graphics/pokemon/shellosE/icon.4bpp"
+
+	.align 2
+gMonFootprint_ShellosE::
+	.incbin "graphics/pokemon/shellosE/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_GastrodonE::
+	.incbin "graphics/pokemon/gastrodonE/front.4bpp.lz"
+
+	.align 2
+gMonPalette_GastrodonE::
+	.incbin "graphics/pokemon/gastrodonE/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_GastrodonE::
+	.incbin "graphics/pokemon/gastrodonE/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_GastrodonE::
+	.incbin "graphics/pokemon/gastrodonE/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_GastrodonE::
+	.incbin "graphics/pokemon/gastrodonE/icon.4bpp"
+
+	.align 2
+gMonFootprint_GastrodonE::
+	.incbin "graphics/pokemon/gastrodonE/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

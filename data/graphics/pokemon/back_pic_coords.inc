@@ -447,6 +447,8 @@ gMonBackPicCoords:: @ 81E9114
 	.byte 119,  8, 0, 0 // Floatzel
 	.byte  85, 13, 0, 0 // Cherubi
 	.byte 101, 12, 0, 0 // Cherrim
+	.byte 102,  7, 0, 0 // Shellos (East)
+	.byte 102,  7, 0, 0 // Gastrodon (East)
 	.byte  54, 10, 0, 0 // EGG
 	.byte  86,  9, 0, 0 // UNOWN B
 	.byte 103,  6, 0, 0 // UNOWN C

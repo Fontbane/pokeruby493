@@ -5563,6 +5563,16 @@ static const u8 DexDescription_Cherrim_1[] = _(
   "opens its folded petals to absorb\n"
   "the sun’s rays with its whole body.");
 
+static const u8 DexDescription_ShellosE_1[] = _(
+  "Beware of pushing strongly on its\n"
+  "squishy body, as it makes a\n"
+  "mysterious purple fluid ooze out.");
+
+static const u8 DexDescription_GastrodonE_1[] = _(
+  "Long ago, its entire back was\n"
+  "shielded with a sturdy shell. There\n"
+  "are traces of it left in its cells.");
+
 const struct PokedexEntry gPokedexEntries[] =
 {
     {  //Dummy
@@ -10202,6 +10212,28 @@ const struct PokedexEntry gPokedexEntries[] =
         .weight = 93,
         .descriptionPage1 = DexDescription_Cherrim_1,
         .descriptionPage2 = DexDescription_Cherrim_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Shellos (East)
+        .categoryName = _("SEA SLUG"),
+        .height = 3,
+        .weight = 63,
+        .descriptionPage1 = DexDescription_ShellosE_1,
+        .descriptionPage2 = DexDescription_ShellosE_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Gastrodon (East)
+        .categoryName = _("SEA SLUG"),
+        .height = 9,
+        .weight = 299,
+        .descriptionPage1 = DexDescription_GastrodonE_1,
+        .descriptionPage2 = DexDescription_GastrodonE_1,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,

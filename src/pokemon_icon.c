@@ -465,6 +465,8 @@ const u8 * const gMonIconTable[] =
 	gMonIcon_Floatzel,
 	gMonIcon_Cherubi,
 	gMonIcon_Cherrim,
+	gMonIcon_ShellosE,
+	gMonIcon_GastrodonE,
     gMonIcon_Egg,
     gMonIcon_UnownB,
     gMonIcon_UnownC,
@@ -944,6 +946,8 @@ const u8 gMonIconPaletteIndices[] =
 	0, // Floatzel
 	1, // Cherubi
 	0, // Cherrim
+	0, // ShellosE
+	0, // GastrodonE
     1, // Egg
     0, // Unown B
     0, // Unown C

@@ -447,6 +447,8 @@ gMonBackPicTable:: @ 81E97F4
 	obj_tiles gMonBackPic_Floatzel, 0x800, SPECIES_FLOATZEL
 	obj_tiles gMonBackPic_Cherubi, 0x800, SPECIES_CHERUBI
 	obj_tiles gMonBackPic_Cherrim, 0x800, SPECIES_CHERRIM
+	obj_tiles gMonBackPic_ShellosE, 0x800, SPECIES_SHELLOSE
+	obj_tiles gMonBackPic_GastrodonE, 0x800, SPECIES_GASTRODONE
 	obj_tiles gMonPic_Egg, 0x800, SPECIES_EGG
 	obj_tiles gMonBackPic_UnownB, 0x800, SPECIES_UNOWN_B
 	obj_tiles gMonBackPic_UnownC, 0x800, SPECIES_UNOWN_C

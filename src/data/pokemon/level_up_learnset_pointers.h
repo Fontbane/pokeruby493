@@ -452,7 +452,9 @@ const u16 *gLevelUpLearnsets[] = {
 	gBuizelLevelUpLearnset,
 	gFloatzelLevelUpLearnset,
 	gCherubiLevelUpLearnset,
-	gCherrimLevelUpLearnset
+	gCherrimLevelUpLearnset,
+	gShellosELevelUpLearnset,
+	gGastrodonELevelUpLearnset
 };
 
 #endif //POKERUBY_LEVEL_UP_LEARNSET_POINTERS_H

@@ -175,7 +175,9 @@ const u16 gSpeciesIdToCryId[] = {
 	419, // BUIZEL
 	420, // FLOATZEL
 	421, // CHERUBI
-	422  // CHERRIM
+	422, // CHERRIM
+	423, // SHELLOS (EAST)
+	424  // GASTRODON (EAST)
 };
 
 #endif //POKERUBY_CRY_IDS_H
