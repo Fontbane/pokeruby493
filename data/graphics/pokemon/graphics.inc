@@ -10167,6 +10167,78 @@ gMonFootprint_GastrodonE::
 	.incbin "graphics/pokemon/gastrodonE/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Ambipom::
+	.incbin "graphics/pokemon/ambipom/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Ambipom::
+	.incbin "graphics/pokemon/ambipom/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Ambipom::
+	.incbin "graphics/pokemon/ambipom/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Ambipom::
+	.incbin "graphics/pokemon/ambipom/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Ambipom::
+	.incbin "graphics/pokemon/ambipom/icon.4bpp"
+
+	.align 2
+gMonFootprint_Ambipom::
+	.incbin "graphics/pokemon/ambipom/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Drifloon::
+	.incbin "graphics/pokemon/drifloon/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Drifloon::
+	.incbin "graphics/pokemon/drifloon/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Drifloon::
+	.incbin "graphics/pokemon/drifloon/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Drifloon::
+	.incbin "graphics/pokemon/drifloon/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Drifloon::
+	.incbin "graphics/pokemon/drifloon/icon.4bpp"
+
+	.align 2
+gMonFootprint_Drifloon::
+	.incbin "graphics/pokemon/drifloon/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Drifblim::
+	.incbin "graphics/pokemon/drifblim/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Drifblim::
+	.incbin "graphics/pokemon/drifblim/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Drifblim::
+	.incbin "graphics/pokemon/drifblim/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Drifblim::
+	.incbin "graphics/pokemon/drifblim/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Drifblim::
+	.incbin "graphics/pokemon/drifblim/icon.4bpp"
+
+	.align 2
+gMonFootprint_Drifblim::
+	.incbin "graphics/pokemon/drifblim/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

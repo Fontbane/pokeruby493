@@ -1418,6 +1418,10 @@ static const u8 MoveDescription_AquaJet[] = _(
     "An extremely fast attack\n"
     "that always strikes first.");
 
+static const u8 MoveDescription_DoubleHit[] = _(
+    "Slams the foe twice with\n"
+    "tails, tentacles, etc.");
+
 const u8 * const gMoveDescriptions[] = {
     MoveDescription_Pound,
     MoveDescription_KarateChop,
@@ -1774,4 +1778,5 @@ const u8 * const gMoveDescriptions[] = {
     MoveDescription_DoomDesire,
     MoveDescription_PsychoBoost,
 	MoveDescription_AquaJet,
+	MoveDescription_DoubleHit,
 };

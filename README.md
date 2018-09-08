@@ -4,7 +4,7 @@ Attempt at making a public base of Pokeruby with expanded pokémon up to Arceus.
 I don't know when or if I'll ever be able to complete it, so keep that in mind.
 
 ### Progress
-423/493 - 386 + Turtwig, Grotle, Torterra, Chimchar, Monferno, Infernape, Piplup, Prinplup, Empoleon, Starly, Staravia, Staraptor, Bidoof, Bibarel, Kricketot, Kricketune, Shinx, Luxio, Luxray, Budew, Roserade, Cranidos, Rampardos, Shieldon, Bastiodon, Burmy (Plant Cloak), Wormadam (Plant Cloak), Mothim, Combee, Vespiquen, Pachirisu, Buizel, Floatzel, Shellos (East Sea) and Gastrodon (East Sea).
+426/493 - 386 + Turtwig, Grotle, Torterra, Chimchar, Monferno, Infernape, Piplup, Prinplup, Empoleon, Starly, Staravia, Staraptor, Bidoof, Bibarel, Kricketot, Kricketune, Shinx, Luxio, Luxray, Budew, Roserade, Cranidos, Rampardos, Shieldon, Bastiodon, Burmy (Plant Cloak), Wormadam (Plant Cloak), Mothim, Combee, Vespiquen, Pachirisu, Buizel, Floatzel, Cherubi, Cherrim, Shellos (East Sea), Gastrodon (East Sea), Ambipom, Drifloon and Drifblim.
 
 ![Pic](https://i.imgur.com/F6jmvee.png)
 
@@ -45,7 +45,13 @@ As of right now, there aren't any bugs. There's a small issue involving pokémon
 
 ### Other Features
 
-For this base, I intend to implement as many Gen. 4 features as possible. Right now, I boosted the held items' effect from 10% to 20% and I also made it so you can run indoors, not to mention there's also 1 Gen. 4 move, which is Aqua Jet.
+I intend to implement as many Gen. 4 features as I can to this base. Right now, the other features aside from the expanded amount of pokémon are:
+
+* Held items effect boosted from 10% to 20%
+
+* You can now run indoors
+
+* There's 2 Gen. 4 moves added, which are Aqua Jet and Double Hit.
 
 # Credits
 

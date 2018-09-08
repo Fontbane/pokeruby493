@@ -374,6 +374,7 @@ gBattleAnims_Moves:: @ 81C7168
 	.4byte Move_DOOM_DESIRE
 	.4byte Move_PSYCHO_BOOST
 	.4byte Move_AQUA_JET
+	.4byte Move_DOUBLE_HIT
 	.4byte PoundCopy
 
 	.align 2
@@ -9518,6 +9519,25 @@ Move_AQUA_JET:
 	loopsewithpan SE_W039, 192, 38, 3
 	waitforvisualfinish
 	end
+
+Move_DOUBLE_HIT:
+	loadspritegfx 10135
+	monbg ANIM_BANK_TARGET
+	setalpha 12, 8
+	choosetwoturnanim Move_DOUBLE_HIT_FirstHit, Move_DOUBLE_HIT_SecondHit
+Move_DOUBLE_HIT_End:
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_TARGET, 3, 0, 6, 1
+	playsewithpan SE_W003, 63
+	waitforvisualfinish
+	clearmonbg ANIM_BANK_TARGET
+	blendoff
+	end
+Move_DOUBLE_HIT_FirstHit:
+	createsprite gBasicHitSplatSpriteTemplate, 2, -8, 0, 1, 2
+	goto Move_DOUBLE_HIT_End
+Move_DOUBLE_HIT_SecondHit:
+	createsprite gBasicHitSplatSpriteTemplate, 2, 8, 0, 1, 2
+	goto Move_DOUBLE_HIT_End
 
 
 Move_KNOCK_OFF: @ 81D523B

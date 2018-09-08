@@ -449,6 +449,9 @@ gMonFrontPicTable:: @ 81E8354
 	obj_tiles gMonFrontPic_Cherrim, 0x800, SPECIES_CHERRIM
 	obj_tiles gMonFrontPic_ShellosE, 0x800, SPECIES_SHELLOSE
 	obj_tiles gMonFrontPic_GastrodonE, 0x800, SPECIES_GASTRODONE
+	obj_tiles gMonFrontPic_Ambipom, 0x800, SPECIES_AMBIPOM
+	obj_tiles gMonFrontPic_Drifloon, 0x800, SPECIES_DRIFLOON
+	obj_tiles gMonFrontPic_Drifblim, 0x800, SPECIES_DRIFBLIM
 	obj_tiles gMonPic_Egg, 0x800, SPECIES_EGG
 	obj_tiles gMonFrontPic_UnownB, 0x800, SPECIES_UNOWN_B
 	obj_tiles gMonFrontPic_UnownC, 0x800, SPECIES_UNOWN_C

@@ -449,6 +449,9 @@ gMonFrontPicCoords:: @ 81E7C74
 	.byte  84,  8, 0, 0 // Cherrim
 	.byte 101, 12, 0, 0 // Shellos (East)
 	.byte 136,  2, 0, 0 // Gastrodon (East)
+	.byte  84,  1, 0, 0 // Ambipom
+	.byte  84,  4, 0, 0 // Drifloon
+	.byte 120,  0, 0, 0 // Drifblim
 	.byte  51, 20, 0, 0 // EGG
 	.byte  52, 16, 0, 0 // UNOWN B
 	.byte  68, 16, 0, 0 // UNOWN C

@@ -1963,6 +1963,18 @@ Cry_GastrodonE::
 	.incbin "sound/direct_sound_samples/cries/cry_gastrodonE.bin"
 
 	.align 2
+Cry_Ambipom:: 
+	.incbin "sound/direct_sound_samples/cries/cry_ambipom.bin"
+
+	.align 2
+Cry_Drifloon:: 
+	.incbin "sound/direct_sound_samples/cries/cry_drifloon.bin"
+
+	.align 2
+Cry_Drifblim:: 
+	.incbin "sound/direct_sound_samples/cries/cry_drifblim.bin"
+
+	.align 2
 DirectSoundWaveData_Phoneme_Vowel7:: @ 8639898
 	.incbin "sound/direct_sound_samples/phonemes/vowel_7.bin"
 

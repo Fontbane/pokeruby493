@@ -488,6 +488,9 @@ const u8 gEnemyMonElevation[] = {
 	[SPECIES_CHERRIM] = 0,
 	[SPECIES_SHELLOSE] = 0,
 	[SPECIES_GASTRODONE] = 0,
+	[SPECIES_AMBIPOM] = 0,
+	[SPECIES_DRIFLOON] = 1,
+	[SPECIES_DRIFBLIM] = 3,
 };
 
 #include "../data/trainer_parties.h"

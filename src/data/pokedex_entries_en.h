@@ -5573,6 +5573,21 @@ static const u8 DexDescription_GastrodonE_1[] = _(
   "shielded with a sturdy shell. There\n"
   "are traces of it left in its cells.");
 
+static const u8 DexDescription_Ambipom_1[] = _(
+  "Split into two, the tails are so\n"
+  "adept at handling and doing things,\n"
+  "AMBIPOM rarely uses its hands.");
+
+static const u8 DexDescription_Drifloon_1[] = _(
+  "Because of the way it floats\n"
+  "aimlessly, an old folktale calls them\n"
+  "Signposts for Wandering Spirits.");
+
+static const u8 DexDescription_Drifblim_1[] = _(
+  "At dusk, swarms of them are carried\n"
+  "aloft on winds. When noticed, they\n"
+  "suddenly vanish.");
+
 const struct PokedexEntry gPokedexEntries[] =
 {
     {  //Dummy
@@ -10234,6 +10249,39 @@ const struct PokedexEntry gPokedexEntries[] =
         .weight = 299,
         .descriptionPage1 = DexDescription_GastrodonE_1,
         .descriptionPage2 = DexDescription_GastrodonE_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Ambipom
+        .categoryName = _("LONG TAIL"),
+        .height = 12,
+        .weight = 203,
+        .descriptionPage1 = DexDescription_Ambipom_1,
+        .descriptionPage2 = DexDescription_Ambipom_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Drifloon
+        .categoryName = _("BALLOON"),
+        .height = 4,
+        .weight = 12,
+        .descriptionPage1 = DexDescription_Drifloon_1,
+        .descriptionPage2 = DexDescription_Drifloon_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Drifblim
+        .categoryName = _("BLIMP"),
+        .height = 12,
+        .weight = 150,
+        .descriptionPage1 = DexDescription_Drifblim_1,
+        .descriptionPage2 = DexDescription_Drifblim_1,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,

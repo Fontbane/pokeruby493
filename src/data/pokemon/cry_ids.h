@@ -177,7 +177,10 @@ const u16 gSpeciesIdToCryId[] = {
 	421, // CHERUBI
 	422, // CHERRIM
 	423, // SHELLOS (EAST)
-	424  // GASTRODON (EAST)
+	424, // GASTRODON (EAST)
+	425, // AMBIPOM
+	426, // DRIFLOON
+	427  // DRIFBLIM
 };
 
 #endif //POKERUBY_CRY_IDS_H

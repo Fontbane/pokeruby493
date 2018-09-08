@@ -12568,6 +12568,9 @@ voicegroup_8453790:: @ 8453790
 	cry Cry_Cherrim
 	cry Cry_ShellosE
 	cry Cry_GastrodonE
+	cry Cry_Ambipom
+	cry Cry_Drifloon
+	cry Cry_Drifblim
 
 	.align 2
 voicegroup_84537C0:: @ 84537C0
@@ -13005,6 +13008,9 @@ voicegroup_84549C0:: @ 84549C0
 	cry2 Cry_Cherrim
 	cry2 Cry_ShellosE
 	cry2 Cry_GastrodonE
+	cry2 Cry_Ambipom
+	cry2 Cry_Drifloon
+	cry2 Cry_Drifblim
 
 	.align 2
 voicegroup_84549F0:: @ 84549F0
