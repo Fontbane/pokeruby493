@@ -4,7 +4,7 @@
 #include "sprite.h"
 
 #define HOENN_DEX_COUNT 202
-#define NATIONAL_DEX_COUNT 426
+#define NATIONAL_DEX_COUNT 428
 
 void ResetPokedex(void);
 void sub_808C0A0(void);

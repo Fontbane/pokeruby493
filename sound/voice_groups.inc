@@ -12571,6 +12571,8 @@ voicegroup_8453790:: @ 8453790
 	cry Cry_Ambipom
 	cry Cry_Drifloon
 	cry Cry_Drifblim
+	cry Cry_Buneary
+	cry Cry_Lopunny
 
 	.align 2
 voicegroup_84537C0:: @ 84537C0
@@ -13011,6 +13013,8 @@ voicegroup_84549C0:: @ 84549C0
 	cry2 Cry_Ambipom
 	cry2 Cry_Drifloon
 	cry2 Cry_Drifblim
+	cry2 Cry_Buneary
+	cry2 Cry_Lopunny
 
 	.align 2
 voicegroup_84549F0:: @ 84549F0

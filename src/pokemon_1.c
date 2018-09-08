@@ -477,7 +477,9 @@ const u16 gSpeciesToHoennPokedexNum[] = // Assigns all species to the Hoenn Dex 
 	HOENN_DEX_GASTRODONE,       // SPECIES_GASTRODONE
 	HOENN_DEX_AMBIPOM,          // SPECIES_AMBIPOM
 	HOENN_DEX_DRIFLOON,         // SPECIES_DRIFLOON
-	HOENN_DEX_DRIFBLIM          // SPECIES_DRIBLIM
+	HOENN_DEX_DRIFBLIM,         // SPECIES_DRIBLIM
+	HOENN_DEX_BUNEARY,          // SPECIES_BUNEARY
+	HOENN_DEX_LOPUNNY           // SPECIES_LOPUNNY
 };
 
 const u16 gSpeciesToNationalPokedexNum[] = // Assigns all species to the National Dex Index (Summary No. for National Dex)
@@ -933,7 +935,9 @@ const u16 gSpeciesToNationalPokedexNum[] = // Assigns all species to the Nationa
 	NATIONAL_DEX_GASTRODONE,        // SPECIES_GASTRODONE
 	NATIONAL_DEX_AMBIPOM,           // SPECIES_AMBIPOM
 	NATIONAL_DEX_DRIFLOON,          // SPECIES_DRIFLOON
-	NATIONAL_DEX_DRIFBLIM           // SPECIES_DRIFBLIM
+	NATIONAL_DEX_DRIFBLIM,          // SPECIES_DRIFBLIM
+	NATIONAL_DEX_BUNEARY,           // SPECIES_BUNEARY
+	NATIONAL_DEX_LOPUNNY            // SPECIES_LOPUNNY
 };
 
 const u16 gHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using National Dex Index)
@@ -1365,6 +1369,8 @@ const u16 gHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using Nationa
 	NATIONAL_DEX_AMBIPOM,       // HOENN_DEX_AMBIPOM
 	NATIONAL_DEX_DRIFLOON,      // HOENN_DEX_DRIFLOON
 	NATIONAL_DEX_DRIFBLIM,      // HOENN_DEX_DRIFBLIM
+	NATIONAL_DEX_BUNEARY,       // HOENN_DEX_BUNEARY
+	NATIONAL_DEX_LOPUNNY,       // HOENN_DEX_LOPUNNY
 	NATIONAL_DEX_OLD_UNOWN_B,  	// HOENN_DEX_OLD_UNOWN_B
 	NATIONAL_DEX_OLD_UNOWN_C,  	// HOENN_DEX_OLD_UNOWN_C
 	NATIONAL_DEX_OLD_UNOWN_D,  	// HOENN_DEX_OLD_UNOWN_D

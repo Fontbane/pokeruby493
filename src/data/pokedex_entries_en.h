@@ -5588,6 +5588,16 @@ static const u8 DexDescription_Drifblim_1[] = _(
   "aloft on winds. When noticed, they\n"
   "suddenly vanish.");
 
+static const u8 DexDescription_Buneary_1[] = _(
+  "Its ears are always rolled up. They\n"
+  "can be forcefully extended to shatter\n"
+  "even a large boulder.");
+
+static const u8 DexDescription_Lopunny_1[] = _(
+  "The ears appear to be delicate. If\n"
+  "they are touched roughly, it kicks\n"
+  "with its graceful legs.");
+
 const struct PokedexEntry gPokedexEntries[] =
 {
     {  //Dummy
@@ -10282,6 +10292,28 @@ const struct PokedexEntry gPokedexEntries[] =
         .weight = 150,
         .descriptionPage1 = DexDescription_Drifblim_1,
         .descriptionPage2 = DexDescription_Drifblim_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Buneary
+        .categoryName = _("RABBIT"),
+        .height = 4,
+        .weight = 55,
+        .descriptionPage1 = DexDescription_Buneary_1,
+        .descriptionPage2 = DexDescription_Buneary_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Lopunny
+        .categoryName = _("RABBIT"),
+        .height = 12,
+        .weight = 333,
+        .descriptionPage1 = DexDescription_Lopunny_1,
+        .descriptionPage2 = DexDescription_Lopunny_1,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,

@@ -1975,6 +1975,14 @@ Cry_Drifblim::
 	.incbin "sound/direct_sound_samples/cries/cry_drifblim.bin"
 
 	.align 2
+Cry_Buneary:: 
+	.incbin "sound/direct_sound_samples/cries/cry_buneary.bin"
+
+	.align 2
+Cry_Lopunny:: 
+	.incbin "sound/direct_sound_samples/cries/cry_lopunny.bin"
+
+	.align 2
 DirectSoundWaveData_Phoneme_Vowel7:: @ 8639898
 	.incbin "sound/direct_sound_samples/phonemes/vowel_7.bin"
 

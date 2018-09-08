@@ -452,6 +452,8 @@ gMonPaletteTable:: @ 81EA5B4
 	obj_pal gMonPalette_Ambipom, SPECIES_AMBIPOM
 	obj_pal gMonPalette_Drifloon, SPECIES_DRIFLOON
 	obj_pal gMonPalette_Drifblim, SPECIES_DRIFBLIM
+	obj_pal gMonPalette_Buneary, SPECIES_BUNEARY
+	obj_pal gMonPalette_Lopunny, SPECIES_LOPUNNY
 	obj_pal gMonPalette_Egg, SPECIES_EGG
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_B
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_C

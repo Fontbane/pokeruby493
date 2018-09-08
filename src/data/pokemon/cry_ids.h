@@ -180,7 +180,9 @@ const u16 gSpeciesIdToCryId[] = {
 	424, // GASTRODON (EAST)
 	425, // AMBIPOM
 	426, // DRIFLOON
-	427  // DRIFBLIM
+	427, // DRIFBLIM
+	428, // BUNEARY
+	429  // LOPUNNY
 };
 
 #endif //POKERUBY_CRY_IDS_H

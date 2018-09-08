@@ -10239,6 +10239,54 @@ gMonFootprint_Drifblim::
 	.incbin "graphics/pokemon/drifblim/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Buneary::
+	.incbin "graphics/pokemon/buneary/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Buneary::
+	.incbin "graphics/pokemon/buneary/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Buneary::
+	.incbin "graphics/pokemon/buneary/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Buneary::
+	.incbin "graphics/pokemon/buneary/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Buneary::
+	.incbin "graphics/pokemon/buneary/icon.4bpp"
+
+	.align 2
+gMonFootprint_Buneary::
+	.incbin "graphics/pokemon/buneary/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Lopunny::
+	.incbin "graphics/pokemon/lopunny/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Lopunny::
+	.incbin "graphics/pokemon/lopunny/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Lopunny::
+	.incbin "graphics/pokemon/lopunny/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Lopunny::
+	.incbin "graphics/pokemon/lopunny/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Lopunny::
+	.incbin "graphics/pokemon/lopunny/icon.4bpp"
+
+	.align 2
+gMonFootprint_Lopunny::
+	.incbin "graphics/pokemon/lopunny/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

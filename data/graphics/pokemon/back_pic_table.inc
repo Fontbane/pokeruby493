@@ -452,6 +452,8 @@ gMonBackPicTable:: @ 81E97F4
 	obj_tiles gMonBackPic_Ambipom, 0x800, SPECIES_AMBIPOM
 	obj_tiles gMonBackPic_Drifloon, 0x800, SPECIES_DRIFLOON
 	obj_tiles gMonBackPic_Drifblim, 0x800, SPECIES_DRIFBLIM
+	obj_tiles gMonBackPic_Buneary, 0x800, SPECIES_BUNEARY
+	obj_tiles gMonBackPic_Lopunny, 0x800, SPECIES_LOPUNNY
 	obj_tiles gMonPic_Egg, 0x800, SPECIES_EGG
 	obj_tiles gMonBackPic_UnownB, 0x800, SPECIES_UNOWN_B
 	obj_tiles gMonBackPic_UnownC, 0x800, SPECIES_UNOWN_C
