@@ -5598,6 +5598,16 @@ static const u8 DexDescription_Lopunny_1[] = _(
   "they are touched roughly, it kicks\n"
   "with its graceful legs.");
 
+static const u8 DexDescription_Mismagius_1[] = _(
+  "Its cry sounds like incantation. It\n"
+  "is said that the cry may rarely be\n"
+  "imbued with happiness-giving power.");
+
+static const u8 DexDescription_Honchkrow_1[] = _(
+  "If one utters a deep cry, many\n"
+  "MURKROW gather quickly. For this, it\n"
+  "is called a Summoner of Night.");
+
 const struct PokedexEntry gPokedexEntries[] =
 {
     {  //Dummy
@@ -10314,6 +10324,28 @@ const struct PokedexEntry gPokedexEntries[] =
         .weight = 333,
         .descriptionPage1 = DexDescription_Lopunny_1,
         .descriptionPage2 = DexDescription_Lopunny_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+		{  //Mismagius
+        .categoryName = _("MAGICAL"),
+        .height = 9,
+        .weight = 44,
+        .descriptionPage1 = DexDescription_Mismagius_1,
+        .descriptionPage2 = DexDescription_Mismagius_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+		{  //Honchkrow
+        .categoryName = _("BIG BOSS"),
+        .height = 9,
+        .weight = 273,
+        .descriptionPage1 = DexDescription_Honchkrow_1,
+        .descriptionPage2 = DexDescription_Honchkrow_1,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,

@@ -10287,6 +10287,54 @@ gMonFootprint_Lopunny::
 	.incbin "graphics/pokemon/lopunny/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Mismagius::
+	.incbin "graphics/pokemon/mismagius/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Mismagius::
+	.incbin "graphics/pokemon/mismagius/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Mismagius::
+	.incbin "graphics/pokemon/mismagius/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Mismagius::
+	.incbin "graphics/pokemon/mismagius/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Mismagius::
+	.incbin "graphics/pokemon/mismagius/icon.4bpp"
+
+	.align 2
+gMonFootprint_Mismagius::
+	.incbin "graphics/pokemon/mismagius/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Honchkrow::
+	.incbin "graphics/pokemon/honchkrow/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Honchkrow::
+	.incbin "graphics/pokemon/honchkrow/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Honchkrow::
+	.incbin "graphics/pokemon/honchkrow/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Honchkrow::
+	.incbin "graphics/pokemon/honchkrow/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Honchkrow::
+	.incbin "graphics/pokemon/honchkrow/icon.4bpp"
+
+	.align 2
+gMonFootprint_Honchkrow::
+	.incbin "graphics/pokemon/honchkrow/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

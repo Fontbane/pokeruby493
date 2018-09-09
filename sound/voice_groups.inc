@@ -12573,6 +12573,8 @@ voicegroup_8453790:: @ 8453790
 	cry Cry_Drifblim
 	cry Cry_Buneary
 	cry Cry_Lopunny
+	cry Cry_Mismagius
+	cry Cry_Honchkrow
 
 	.align 2
 voicegroup_84537C0:: @ 84537C0
@@ -13015,6 +13017,8 @@ voicegroup_84549C0:: @ 84549C0
 	cry2 Cry_Drifblim
 	cry2 Cry_Buneary
 	cry2 Cry_Lopunny
+	cry2 Cry_Mismagius
+	cry2 Cry_Honchkrow
 
 	.align 2
 voicegroup_84549F0:: @ 84549F0

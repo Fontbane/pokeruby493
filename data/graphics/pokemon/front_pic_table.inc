@@ -454,6 +454,8 @@ gMonFrontPicTable:: @ 81E8354
 	obj_tiles gMonFrontPic_Drifblim, 0x800, SPECIES_DRIFBLIM
 	obj_tiles gMonFrontPic_Buneary, 0x800, SPECIES_BUNEARY
 	obj_tiles gMonFrontPic_Lopunny, 0x800, SPECIES_LOPUNNY
+	obj_tiles gMonFrontPic_Mismagius, 0x800, SPECIES_MISMAGIUS
+	obj_tiles gMonFrontPic_Honchkrow, 0x800, SPECIES_HONCHKROW
 	obj_tiles gMonPic_Egg, 0x800, SPECIES_EGG
 	obj_tiles gMonFrontPic_UnownB, 0x800, SPECIES_UNOWN_B
 	obj_tiles gMonFrontPic_UnownC, 0x800, SPECIES_UNOWN_C

@@ -1983,6 +1983,14 @@ Cry_Lopunny::
 	.incbin "sound/direct_sound_samples/cries/cry_lopunny.bin"
 
 	.align 2
+Cry_Mismagius:: 
+	.incbin "sound/direct_sound_samples/cries/cry_mismagius.bin"
+
+	.align 2
+Cry_Honchkrow:: 
+	.incbin "sound/direct_sound_samples/cries/cry_honchkrow.bin"
+
+	.align 2
 DirectSoundWaveData_Phoneme_Vowel7:: @ 8639898
 	.incbin "sound/direct_sound_samples/phonemes/vowel_7.bin"
 

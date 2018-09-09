@@ -1422,6 +1422,18 @@ static const u8 MoveDescription_DoubleHit[] = _(
     "Slams the foe twice with\n"
     "tails, tentacles, etc.");
 
+static const u8 MoveDescription_NastyPlot[] = _(
+    "The user’s its brain is stimulated\n"
+    "with bad thoughts which raises its SP. ATK.");
+
+static const u8 MoveDescription_NightSlash[] = _(
+    "The user slashes the foe asap.\n"
+    "It has a high critical-hit ratio.");
+
+static const u8 MoveDescription_DarkPulse[] = _(
+    "An aura imbued with bad thoughts.\n"
+    "It may cause flinching.");
+
 const u8 * const gMoveDescriptions[] = {
     MoveDescription_Pound,
     MoveDescription_KarateChop,
@@ -1779,4 +1791,7 @@ const u8 * const gMoveDescriptions[] = {
     MoveDescription_PsychoBoost,
 	MoveDescription_AquaJet,
 	MoveDescription_DoubleHit,
+	MoveDescription_NastyPlot,
+	MoveDescription_NightSlash,
+	MoveDescription_DarkPulse,
 };

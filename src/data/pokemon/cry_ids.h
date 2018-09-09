@@ -182,7 +182,9 @@ const u16 gSpeciesIdToCryId[] = {
 	426, // DRIFLOON
 	427, // DRIFBLIM
 	428, // BUNEARY
-	429  // LOPUNNY
+	429, // LOPUNNY
+	430, // MISMAGIUS
+	431  // HONCHKROW
 };
 
 #endif //POKERUBY_CRY_IDS_H

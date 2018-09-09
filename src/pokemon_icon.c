@@ -472,6 +472,8 @@ const u8 * const gMonIconTable[] =
 	gMonIcon_Drifblim,
 	gMonIcon_Buneary,
 	gMonIcon_Lopunny,
+	gMonIcon_Mismagius,
+	gMonIcon_Honchkrow,
     gMonIcon_Egg,
     gMonIcon_UnownB,
     gMonIcon_UnownC,
@@ -958,6 +960,8 @@ const u8 gMonIconPaletteIndices[] =
 	2, // Drifblim
 	2, // Buneary
 	2, // Lopunny
+	0, // Mismagius
+	1, // Honchkrow
     1, // Egg
     0, // Unown B
     0, // Unown C

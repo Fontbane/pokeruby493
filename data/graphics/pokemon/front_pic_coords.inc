@@ -454,6 +454,8 @@ gMonFrontPicCoords:: @ 81E7C74
 	.byte 120,  0, 0, 0 // Drifblim
 	.byte 136,  3, 0, 0 // Buneary
 	.byte 136,  3, 0, 0 // Lopunny
+	.byte 134,  4, 0, 0 // Mismagius
+	.byte 136,  5, 0, 0 // Honchkrow
 	.byte  51, 20, 0, 0 // EGG
 	.byte  52, 16, 0, 0 // UNOWN B
 	.byte  68, 16, 0, 0 // UNOWN C

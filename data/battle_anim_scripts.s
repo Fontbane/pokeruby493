@@ -375,6 +375,9 @@ gBattleAnims_Moves:: @ 81C7168
 	.4byte Move_PSYCHO_BOOST
 	.4byte Move_AQUA_JET
 	.4byte Move_DOUBLE_HIT
+	.4byte Move_NASTY_PLOT
+	.4byte Move_NIGHT_SLASH
+	.4byte Move_DARK_PULSE
 	.4byte PoundCopy
 
 	.align 2
@@ -9539,6 +9542,85 @@ Move_DOUBLE_HIT_SecondHit:
 	createsprite gBasicHitSplatSpriteTemplate, 2, 8, 0, 1, 2
 	goto Move_DOUBLE_HIT_End
 
+Move_NASTY_PLOT:
+	loadspritegfx 10093
+	call Unknown_81D61E7
+	delay 8
+	createsprite gBattleAnimSpriteTemplate_83DA88C, 20
+	playsewithpan SE_W118, 192
+	delay 54
+	loopsewithpan SE_W118, 192, 16, 3
+	waitforvisualfinish
+	call Unknown_81D61F3
+	end
+
+Move_NIGHT_SLASH:
+	loadspritegfx 10138
+	fadetobg 1
+	waitbgfadein
+	monbg ANIM_BANK_TARGET
+	setalpha 12, 8
+	createvisualtask AnimTask_TranslateMonEllipticalRespectSide, 2, ANIM_BANK_ATTACKER, 24, 6, 1, 5
+	createvisualtask sub_80E2DD8, 2, 0, 4, 7, 3
+	createsprite gCuttingSliceSpriteTemplate, 2, 40, -32, 0
+	playsewithpan SE_W013B, 192
+	delay 5
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_TARGET, 0, 3, 10, 1
+	createsprite gBattleAnimSpriteTemplate_83DB3DC, 2, 31, 3, 1, 0, 10, 0, 0
+	playsewithpan SE_W013, 63
+	waitforvisualfinish
+	clearmonbg ANIM_BANK_TARGET
+	blendoff
+	delay 1
+	waitbgfadein
+	restorebg
+	end
+
+Move_DARK_PULSE:
+	loadspritegfx 10147
+	fadetobg 1
+	waitbgfadein
+	createvisualtask AnimTask_ShakeMon2, 2, ANIM_BANK_ATTACKER, 1, 0, 4, 1
+	waitforvisualfinish
+	createsoundtask sub_812B058, 247, -64, 63, 1, 15, 0, 5
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_ATTACKER, 0, 4, 50, 1
+	createvisualtask sub_80E21A8, 2, 10147, 1, 12, 31, 16, 0, 0
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	createvisualtask AnimTask_ShakeMon2, 2, ANIM_BANK_TARGET, 4, 0, 50, 1
+	createvisualtask sub_80E2A38, 10, 4, 2, 0, 11, 26425
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	createvisualtask sub_80E2A38, 10, 4, 2, 11, 0, 26425
+	waitforvisualfinish
+	clearmonbg ANIM_BANK_TARGET
+	blendoff
+	delay 1
+	waitbgfadein
+	restorebg
+	end
 
 Move_KNOCK_OFF: @ 81D523B
 	loadspritegfx 10277
