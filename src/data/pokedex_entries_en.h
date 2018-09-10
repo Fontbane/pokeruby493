@@ -5608,6 +5608,21 @@ static const u8 DexDescription_Honchkrow_1[] = _(
   "MURKROW gather quickly. For this, it\n"
   "is called a Summoner of Night.");
 
+static const u8 DexDescription_Glameow_1[] = _(
+  "It hides its spiteful tendency of\n"
+  "hooking its claws into the nose of\n"
+  "its Trainer if it isn’t fed.");
+
+static const u8 DexDescription_Purugly_1[] = _(
+  "It binds its body with its tails to\n"
+  "make itself look bigger. If it locks\n"
+  "eyes, it will glare ceaselessly.");
+
+static const u8 DexDescription_Chingling_1[] = _(
+  "There is an orb inside its mouth.\n"
+  "When it hops, the orb bounces all\n"
+  "over and makes a ringing sound.");
+
 const struct PokedexEntry gPokedexEntries[] =
 {
     {  //Dummy
@@ -10329,7 +10344,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
 	},
-		{  //Mismagius
+	{  //Mismagius
         .categoryName = _("MAGICAL"),
         .height = 9,
         .weight = 44,
@@ -10340,12 +10355,45 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
 	},
-		{  //Honchkrow
+	{  //Honchkrow
         .categoryName = _("BIG BOSS"),
         .height = 9,
         .weight = 273,
         .descriptionPage1 = DexDescription_Honchkrow_1,
         .descriptionPage2 = DexDescription_Honchkrow_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Glameow
+        .categoryName = _("CATTY"),
+        .height = 5,
+        .weight = 39,
+        .descriptionPage1 = DexDescription_Glameow_1,
+        .descriptionPage2 = DexDescription_Glameow_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Purugly
+        .categoryName = _("TIGER CAT"),
+        .height = 10,
+        .weight = 438,
+        .descriptionPage1 = DexDescription_Purugly_1,
+        .descriptionPage2 = DexDescription_Purugly_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Chingling
+        .categoryName = _("BELL"),
+        .height = 2,
+        .weight = 6,
+        .descriptionPage1 = DexDescription_Chingling_1,
+        .descriptionPage2 = DexDescription_Chingling_1,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,

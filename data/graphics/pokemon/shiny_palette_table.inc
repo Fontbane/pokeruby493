@@ -458,6 +458,9 @@ gMonShinyPaletteTable:: @ 81EB374
 	obj_pal gMonShinyPalette_Lopunny, PAL_ID_SHINY + SPECIES_LOPUNNY
 	obj_pal gMonShinyPalette_Mismagius, PAL_ID_SHINY + SPECIES_MISMAGIUS
 	obj_pal gMonShinyPalette_Honchkrow, PAL_ID_SHINY + SPECIES_HONCHKROW
+	obj_pal gMonShinyPalette_Glameow, PAL_ID_SHINY + SPECIES_GLAMEOW
+	obj_pal gMonShinyPalette_Purugly, PAL_ID_SHINY + SPECIES_PURUGLY
+	obj_pal gMonShinyPalette_Chingling, PAL_ID_SHINY + SPECIES_CHINGLING
 	obj_pal gMonPalette_Egg, PAL_ID_SHINY + SPECIES_EGG
 	obj_pal gMonShinyPalette_Unown, PAL_ID_SHINY + SPECIES_UNOWN_B
 	obj_pal gMonShinyPalette_Unown, PAL_ID_SHINY + SPECIES_UNOWN_C

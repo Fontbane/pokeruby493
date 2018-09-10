@@ -456,6 +456,9 @@ gMonBackPicTable:: @ 81E97F4
 	obj_tiles gMonBackPic_Lopunny, 0x800, SPECIES_LOPUNNY
 	obj_tiles gMonBackPic_Mismagius, 0x800, SPECIES_MISMAGIUS
 	obj_tiles gMonBackPic_Honchkrow, 0x800, SPECIES_HONCHKROW
+	obj_tiles gMonBackPic_Glameow, 0x800, SPECIES_GLAMEOW
+	obj_tiles gMonBackPic_Purugly, 0x800, SPECIES_PURUGLY
+	obj_tiles gMonBackPic_Chingling, 0x800, SPECIES_CHINGLING
 	obj_tiles gMonPic_Egg, 0x800, SPECIES_EGG
 	obj_tiles gMonBackPic_UnownB, 0x800, SPECIES_UNOWN_B
 	obj_tiles gMonBackPic_UnownC, 0x800, SPECIES_UNOWN_C

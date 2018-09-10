@@ -456,6 +456,9 @@ gMonBackPicCoords:: @ 81E9114
 	.byte 135,  7, 0, 0 // Lopunny
 	.byte 134,  9, 0, 0 // Mismagius
 	.byte 120,  9, 0, 0 // Honchkrow
+	.byte  69, 14, 0, 0 // Glameow
+	.byte 133,  8, 0, 0 // Purugly
+	.byte 102,  9, 0, 0 // Chingling
 	.byte  54, 10, 0, 0 // EGG
 	.byte  86,  9, 0, 0 // UNOWN B
 	.byte 103,  6, 0, 0 // UNOWN C

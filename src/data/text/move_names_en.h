@@ -359,4 +359,5 @@ const u8 gMoveNames[][13] = {
 	[MOVE_NASTY_PLOT] = _("NASTY PLOT"),
 	[MOVE_NIGHT_SLASH] = _("NIGHT SLASH"),
 	[MOVE_DARK_PULSE] = _("DARK PULSE"),
+	[MOVE_SUCKER_PUNCH] = _("SUCKER PUNCH"),
 };

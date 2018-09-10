@@ -1434,6 +1434,10 @@ static const u8 MoveDescription_DarkPulse[] = _(
     "An aura imbued with bad thoughts.\n"
     "It may cause flinching.");
 
+static const u8 MoveDescription_SuckerPunch[] = _(
+    "An extremely fast attack\n"
+    "that always strikes first.");
+
 const u8 * const gMoveDescriptions[] = {
     MoveDescription_Pound,
     MoveDescription_KarateChop,
@@ -1794,4 +1798,5 @@ const u8 * const gMoveDescriptions[] = {
 	MoveDescription_NastyPlot,
 	MoveDescription_NightSlash,
 	MoveDescription_DarkPulse,
+	MoveDescription_SuckerPunch,
 };

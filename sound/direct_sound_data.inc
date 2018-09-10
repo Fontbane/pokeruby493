@@ -1987,6 +1987,18 @@ Cry_Mismagius::
 	.incbin "sound/direct_sound_samples/cries/cry_mismagius.bin"
 
 	.align 2
+Cry_Glameow:: 
+	.incbin "sound/direct_sound_samples/cries/cry_glameow.bin"
+
+	.align 2
+Cry_Purugly:: 
+	.incbin "sound/direct_sound_samples/cries/cry_purugly.bin"
+
+	.align 2
+Cry_Chingling:: 
+	.incbin "sound/direct_sound_samples/cries/cry_chingling.bin"
+
+	.align 2
 Cry_Honchkrow:: 
 	.incbin "sound/direct_sound_samples/cries/cry_honchkrow.bin"
 

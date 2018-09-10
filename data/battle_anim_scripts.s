@@ -378,6 +378,7 @@ gBattleAnims_Moves:: @ 81C7168
 	.4byte Move_NASTY_PLOT
 	.4byte Move_NIGHT_SLASH
 	.4byte Move_DARK_PULSE
+	.4byte Move_SUCKER_PUNCH
 	.4byte PoundCopy
 
 	.align 2
@@ -9620,6 +9621,25 @@ Move_DARK_PULSE:
 	delay 1
 	waitbgfadein
 	restorebg
+	end
+
+Move_SUCKER_PUNCH:
+	loadspritegfx 10135
+	loadspritegfx 10143
+	monbg ANIM_BANK_TARGET
+	setalpha 12, 8
+	createsprite gBasicHitSplatSpriteTemplate, 2, -8, -8, 1, 2
+	waitforvisualfinish
+	createsprite gFistFootSpriteTemplate, 3, -8, 0, 8, 1, 0
+	waitforvisualfinish
+	createsprite gBasicHitSplatSpriteTemplate, 2, 8, -8, 1, 2
+	waitforvisualfinish
+	createsprite gFistFootSpriteTemplate, 3, 8, 0, 8, 1, 0
+	waitforvisualfinish
+	clearmonbg ANIM_BANK_TARGET
+	blendoff
+	restorebg
+	waitbgfadein
 	end
 
 Move_KNOCK_OFF: @ 81D523B

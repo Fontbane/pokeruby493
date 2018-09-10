@@ -10335,6 +10335,78 @@ gMonFootprint_Honchkrow::
 	.incbin "graphics/pokemon/honchkrow/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Glameow::
+	.incbin "graphics/pokemon/glameow/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Glameow::
+	.incbin "graphics/pokemon/glameow/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Glameow::
+	.incbin "graphics/pokemon/glameow/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Glameow::
+	.incbin "graphics/pokemon/glameow/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Glameow::
+	.incbin "graphics/pokemon/glameow/icon.4bpp"
+
+	.align 2
+gMonFootprint_Glameow::
+	.incbin "graphics/pokemon/glameow/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Purugly::
+	.incbin "graphics/pokemon/purugly/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Purugly::
+	.incbin "graphics/pokemon/purugly/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Purugly::
+	.incbin "graphics/pokemon/purugly/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Purugly::
+	.incbin "graphics/pokemon/purugly/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Purugly::
+	.incbin "graphics/pokemon/purugly/icon.4bpp"
+
+	.align 2
+gMonFootprint_Purugly::
+	.incbin "graphics/pokemon/purugly/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Chingling::
+	.incbin "graphics/pokemon/chingling/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Chingling::
+	.incbin "graphics/pokemon/chingling/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Chingling::
+	.incbin "graphics/pokemon/chingling/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Chingling::
+	.incbin "graphics/pokemon/chingling/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Chingling::
+	.incbin "graphics/pokemon/chingling/icon.4bpp"
+
+	.align 2
+gMonFootprint_Chingling::
+	.incbin "graphics/pokemon/chingling/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 
