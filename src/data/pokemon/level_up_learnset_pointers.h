@@ -471,7 +471,12 @@ const u16 *gLevelUpLearnsets[] = {
 	gBronzongLevelUpLearnset,
 	gBonslyLevelUpLearnset,
 	gMimeJrLevelUpLearnset,
-	gHappinyLevelUpLearnset
+	gHappinyLevelUpLearnset,
+	gChatotLevelUpLearnset,
+	gSpiritombLevelUpLearnset,
+	gGibleLevelUpLearnset,
+	gGabiteLevelUpLearnset,
+	gGarchompLevelUpLearnset
 };
 
 #endif //POKERUBY_LEVEL_UP_LEARNSET_POINTERS_H

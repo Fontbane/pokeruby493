@@ -2031,6 +2031,26 @@ Cry_Happiny::
 	.incbin "sound/direct_sound_samples/cries/cry_happiny.bin"
 
 	.align 2
+Cry_Chatot:: 
+	.incbin "sound/direct_sound_samples/cries/cry_chatot.bin"
+
+	.align 2
+Cry_Spiritomb:: 
+	.incbin "sound/direct_sound_samples/cries/cry_spiritomb.bin"
+
+	.align 2
+Cry_Gible:: 
+	.incbin "sound/direct_sound_samples/cries/cry_gible.bin"
+
+	.align 2
+Cry_Gabite:: 
+	.incbin "sound/direct_sound_samples/cries/cry_gabite.bin"
+
+	.align 2
+Cry_Garchomp:: 
+	.incbin "sound/direct_sound_samples/cries/cry_garchomp.bin"
+
+	.align 2
 DirectSoundWaveData_Phoneme_Vowel7:: @ 8639898
 	.incbin "sound/direct_sound_samples/phonemes/vowel_7.bin"
 

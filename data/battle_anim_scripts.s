@@ -380,6 +380,10 @@ gBattleAnims_Moves:: @ 81C7168
 	.4byte Move_DARK_PULSE
 	.4byte Move_SUCKER_PUNCH
 	.4byte Move_FEINT
+	.4byte Move_OMINOUS_WIND
+	.4byte Move_SHADOW_SNEAK
+	.4byte Move_DRAGON_RUSH
+	.4byte Move_FIRE_FANG
 	.4byte PoundCopy
 
 	.align 2
@@ -9671,6 +9675,80 @@ Move_FEINT:
 	createvisualtask sub_80DFD24, 2, 1
 	waitforvisualfinish
 	clearmonbg ANIM_BANK_ATTACKER
+	end
+
+Move_OMINOUS_WIND: @ 81D4773
+	loadspritegfx 10271
+	fadetobg 1
+	waitbgfadein
+	createsprite gSimplePaletteBlendSpriteTemplate, 2, 31, 2, 0, 4, rgb(7, 0, 31)
+	waitforvisualfinish
+	clearmonbg ANIM_BANK_DEF_PARTNER
+	restorebg
+	waitbgfadein
+	createsprite gSimplePaletteBlendSpriteTemplate, 40, 31, 4, 4, 0, rgb(7, 0, 31)
+	end
+
+Move_SHADOW_SNEAK:
+	loadspritegfx 10135
+	loadspritegfx 10156
+	loadspritegfx 10177
+	createvisualtask sub_80E0918, 2
+	waitforvisualfinish
+	delay 1
+	createvisualtask sub_80E00EC, 5
+	waitforvisualfinish
+	setalpha 12, 8
+	playsewithpan SE_W104, 192
+	createsprite gBattleAnimSpriteTemplate_83DAEDC, 130, 0, 0
+	waitforvisualfinish
+	createsprite gBasicHitSplatSpriteTemplate, 2, 0, 0, 1, 0
+	createvisualtask AnimTask_ShakeMon, 5, 1, 6, 0, 8, 1
+	playsewithpan SE_W013, 63
+	clearmonbg ANIM_BANK_DEF_PARTNER
+	blendoff
+	end
+
+Move_DRAGON_RUSH:
+	loadspritegfx 10029
+	loadspritegfx 10058
+	loadspritegfx 10135
+	createsprite gBattleAnimSpriteTemplate_83DB428, 130, 6, 1, 15, 1
+	createvisualtask sub_80E2A38, 10, 2, 4, 0, 8, 639
+	createvisualtask AnimTask_ShakeMon, 5, 0, 0, 2, 15, 1
+	call _81D39E9
+	call _81D39E9
+	createvisualtask AnimTask_TranslateMonEllipticalRespectSide, 2, ANIM_BANK_ATTACKER, 18, 6, 2, 4
+	waitforvisualfinish
+	createsprite gSimplePaletteBlendSpriteTemplate, 2, 1, 0, 16, 16, rgb(31, 31, 31)
+	createsprite gSlideMonToOffsetSpriteTemplate, 2, 0, 20, 0, 0, 4
+	delay 3
+	waitforvisualfinish
+	playsewithpan SE_W025B, 63
+	createsprite gBasicHitSplatSpriteTemplate, 132, -10, 0, 1, 0
+	createvisualtask AnimTask_ShakeMonInPlace, 2, ANIM_BANK_TARGET, 4, 0, 12, 1
+	createsprite gSimplePaletteBlendSpriteTemplate, 2, 1, 2, 16, 0, rgb(31, 31, 31)
+	waitforvisualfinish
+	createsprite gSimplePaletteBlendSpriteTemplate, 40, 31, 4, 4, 0, rgb(7, 0, 31)
+	createsprite gSlideMonToOriginalPosSpriteTemplate, 2, 0, 0, 5
+	delay 3
+	createsprite gSlideMonToOriginalPosSpriteTemplate, 2, 1, 0, 7
+	waitforvisualfinish
+	end
+
+Move_FIRE_FANG: @ 81CE9E2
+	loadspritegfx 10135
+	loadspritegfx 10139
+	createsprite gSimplePaletteBlendSpriteTemplate, 2, 31, 2, 0, 4, rgb(31, 0, 0)
+	createsprite gBattleAnimSpriteTemplate_83DB428, 130, 6, 1, 15, 1
+	createvisualtask sub_80E2A38, 10, 2, 4, 0, 8, 639
+	createsprite gBattleAnimSpriteTemplate_83DB1D0, 2, 0, -32, 0, 0, 819, 10
+	createsprite gBattleAnimSpriteTemplate_83DB1D0, 2, 0, 32, 4, 0, -819, 10
+	playsewithpan SE_W044, 63
+	delay 2
+	createvisualtask AnimTask_ShakeMon, 3, 1, 3, 0, 10, 1
+	waitforvisualfinish
+	createsprite gSimplePaletteBlendSpriteTemplate, 40, 31, 4, 4, 0, rgb(31, 0, 0)
 	end
 
 Move_KNOCK_OFF: @ 81D523B

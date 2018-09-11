@@ -194,7 +194,12 @@ const u16 gSpeciesIdToCryId[] = {
 	438, // BRONZONG
 	439, // BONSLY
 	440, // MIME JR.
-	441  // HAPPINY
+	441, // HAPPINY
+	442, // CHATOT
+	443, // SPIRITOMB
+	444, // GIBLE
+	445, // GABITE
+	446  // GARCHOMP
 };
 
 #endif //POKERUBY_CRY_IDS_H

@@ -1442,6 +1442,22 @@ static const u8 MoveDescription_Feint[] = _(
     "A fast strike that only connects\n"
     "if the opponent used Protect or Detect.");
 
+static const u8 MoveDescription_OminousWind[] = _(
+    "A gust of repulsive wind. It\n"
+    "raises all the user’s stats.");
+
+static const u8 MoveDescription_ShadowSneak[] = _(
+    "The user attacks right\n"
+    "away using their shadow.");
+
+static const u8 MoveDescription_DragonRush[] = _(
+    "An overwhelming tackle that\n"
+    "may cause flinching.");
+
+static const u8 MoveDescription_FireFang[] = _(
+    "An attack using flame-cloaked\n"
+    "fangs. Can burn the foe.");
+
 const u8 * const gMoveDescriptions[] = {
     MoveDescription_Pound,
     MoveDescription_KarateChop,
@@ -1804,4 +1820,8 @@ const u8 * const gMoveDescriptions[] = {
 	MoveDescription_DarkPulse,
 	MoveDescription_SuckerPunch,
 	MoveDescription_Feint,
+	MoveDescription_OminousWind,
+	MoveDescription_ShadowSneak,
+	MoveDescription_DragonRush,
+	MoveDescription_FireFang,
 };

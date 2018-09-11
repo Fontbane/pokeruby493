@@ -503,8 +503,13 @@ const u8 gEnemyMonElevation[] = {
 	[SPECIES_BRONZOR] = 0,
 	[SPECIES_BRONZONG] = 0,
 	[SPECIES_BONSLY] = 0,
-	[SPECIES_MIMEJR] = 0,
+	[SPECIES_MIME_JR] = 0,
 	[SPECIES_HAPPINY] = 0,
+	[SPECIES_CHATOT] = 0,
+	[SPECIES_SPIRITOMB] = 0,
+	[SPECIES_GIBLE] = 0,
+	[SPECIES_GABITE] = 0,
+	[SPECIES_GARCHOMP] = 0,
 };
 
 #include "../data/trainer_parties.h"

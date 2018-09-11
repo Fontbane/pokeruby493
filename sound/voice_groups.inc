@@ -12585,6 +12585,11 @@ voicegroup_8453790:: @ 8453790
 	cry Cry_Bonsly
 	cry Cry_MimeJr
 	cry Cry_Happiny
+	cry Cry_Chatot
+	cry Cry_Spiritomb
+	cry Cry_Gible
+	cry Cry_Gabite
+	cry Cry_Garchomp
 
 	.align 2
 voicegroup_84537C0:: @ 84537C0
@@ -13039,6 +13044,11 @@ voicegroup_84549C0:: @ 84549C0
 	cry2 Cry_Bonsly
 	cry2 Cry_MimeJr
 	cry2 Cry_Happiny
+	cry2 Cry_Chatot
+	cry2 Cry_Spiritomb
+	cry2 Cry_Gible
+	cry2 Cry_Gabite
+	cry2 Cry_Garchomp
 
 	.align 2
 voicegroup_84549F0:: @ 84549F0

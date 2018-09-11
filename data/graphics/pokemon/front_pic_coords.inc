@@ -466,6 +466,11 @@ gMonFrontPicCoords:: @ 81E7C74
 	.byte 101,  8, 0, 0 // Bonsly
 	.byte 101,  8, 0, 0 // Mime Jr.
 	.byte 101,  8, 0, 0 // Happiny
+	.byte 101, 10, 0, 0 // Chatot
+	.byte  84,  4, 0, 0 // Spiritomb
+	.byte  85, 12, 0, 0 // Gible
+	.byte  85,  4, 0, 0 // Gabite
+	.byte 136,  1, 0, 0 // Garchomp
 	.byte  51, 20, 0, 0 // EGG
 	.byte  52, 16, 0, 0 // UNOWN B
 	.byte  68, 16, 0, 0 // UNOWN C

@@ -491,7 +491,12 @@ const u16 gSpeciesToHoennPokedexNum[] = // Assigns all species to the Hoenn Dex 
 	HOENN_DEX_BRONZONG,         // SPECIES_BRONZONG
 	HOENN_DEX_BONSLY,           // SPECIES_BONSLY
 	HOENN_DEX_MIMEJR,           // SPECIES_MIMEJR
-	HOENN_DEX_HAPPINY           // SPECIES_HAPPINY
+	HOENN_DEX_HAPPINY,          // SPECIES_HAPPINY
+	HOENN_DEX_CHATOT,           // SPECIES_CHATOT
+	HOENN_DEX_SPIRITOMB,        // SPECIES_SPIRITOMB
+	HOENN_DEX_GIBLE,            // SPECIES_GIBLE
+	HOENN_DEX_GABITE,           // SPECIES_GABITE
+	HOENN_DEX_GARCHOMP          // SPECIES_GARCHOMP
 };
 
 const u16 gSpeciesToNationalPokedexNum[] = // Assigns all species to the National Dex Index (Summary No. for National Dex)
@@ -961,7 +966,12 @@ const u16 gSpeciesToNationalPokedexNum[] = // Assigns all species to the Nationa
 	NATIONAL_DEX_BRONZONG,          // SPECIES_BRONZONG
 	NATIONAL_DEX_BONSLY,            // SPECIES_BONSLY
 	NATIONAL_DEX_MIMEJR,            // SPECIES_MIMEJR
-	NATIONAL_DEX_HAPPINY            // SPECIES_HAPPINY
+	NATIONAL_DEX_HAPPINY,           // SPECIES_HAPPINY
+	NATIONAL_DEX_CHATOT,            // SPECIES_CHATOT
+	NATIONAL_DEX_SPIRITOMB,         // SPECIES_SPIRITOMB
+	NATIONAL_DEX_GIBLE,             // SPECIES_GIBLE
+	NATIONAL_DEX_GABITE,            // SPECIES_GABITE
+	NATIONAL_DEX_GARCHOMP           // SPECIES_GARCHOMP
 };
 
 const u16 gHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using National Dex Index)
@@ -1407,6 +1417,11 @@ const u16 gHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using Nationa
 	NATIONAL_DEX_BONSLY,        // HOENN_DEX_BONSLY
 	NATIONAL_DEX_MIMEJR,        // HOENN_DEX_MIMEJR
 	NATIONAL_DEX_HAPPINY,       // HOENN_DEX_HAPPINY
+	NATIONAL_DEX_CHATOT,        // HOENN_DEX_CHATOT
+	NATIONAL_DEX_SPIRITOMB,     // HOENN_DEX_SPIRITOMB
+	NATIONAL_DEX_GIBLE,         // HOENN_DEX_GIBLE
+	NATIONAL_DEX_GABITE,        // HOENN_DEX_GABITE
+	NATIONAL_DEX_GARCHOMP,      // HOENN_DEX_GARCHOMP
 	NATIONAL_DEX_OLD_UNOWN_B,  	// HOENN_DEX_OLD_UNOWN_B
 	NATIONAL_DEX_OLD_UNOWN_C,  	// HOENN_DEX_OLD_UNOWN_C
 	NATIONAL_DEX_OLD_UNOWN_D,  	// HOENN_DEX_OLD_UNOWN_D

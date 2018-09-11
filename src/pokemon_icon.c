@@ -484,6 +484,11 @@ const u8 * const gMonIconTable[] =
 	gMonIcon_Bonsly,
 	gMonIcon_MimeJr,
 	gMonIcon_Happiny,
+	gMonIcon_Chatot,
+	gMonIcon_Spiritomb,
+	gMonIcon_Gible,
+	gMonIcon_Gabite,
+	gMonIcon_Garchomp,
     gMonIcon_Egg,
     gMonIcon_UnownB,
     gMonIcon_UnownC,
@@ -982,6 +987,11 @@ const u8 gMonIconPaletteIndices[] =
 	1, // Bonsly
 	0, // Mime Jr.
 	0, // Happiny
+	0, // Chatot
+	0, // Spiritomb
+	0, // Gible
+	0, // Gabite
+	0, // Garchomp
     1, // Egg
     0, // Unown B
     0, // Unown C

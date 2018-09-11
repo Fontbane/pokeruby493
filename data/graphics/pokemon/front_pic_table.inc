@@ -464,8 +464,13 @@ gMonFrontPicTable:: @ 81E8354
 	obj_tiles gMonFrontPic_Bronzor, 0x800, SPECIES_BRONZOR
 	obj_tiles gMonFrontPic_Bronzong, 0x800, SPECIES_BRONZONG
 	obj_tiles gMonFrontPic_Bonsly, 0x800, SPECIES_BONSLY
-	obj_tiles gMonFrontPic_MimeJr, 0x800, SPECIES_MIMEJR
+	obj_tiles gMonFrontPic_MimeJr, 0x800, SPECIES_MIME_JR
 	obj_tiles gMonFrontPic_Happiny, 0x800, SPECIES_HAPPINY
+	obj_tiles gMonFrontPic_Chatot, 0x800, SPECIES_CHATOT
+	obj_tiles gMonFrontPic_Spiritomb, 0x800, SPECIES_SPIRITOMB
+	obj_tiles gMonFrontPic_Gible, 0x800, SPECIES_GIBLE
+	obj_tiles gMonFrontPic_Gabite, 0x800, SPECIES_GABITE
+	obj_tiles gMonFrontPic_Garchomp, 0x800, SPECIES_GARCHOMP
 	obj_tiles gMonPic_Egg, 0x800, SPECIES_EGG
 	obj_tiles gMonFrontPic_UnownB, 0x800, SPECIES_UNOWN_B
 	obj_tiles gMonFrontPic_UnownC, 0x800, SPECIES_UNOWN_C

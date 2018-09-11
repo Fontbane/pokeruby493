@@ -10575,6 +10575,126 @@ gMonFootprint_Happiny::
 	.incbin "graphics/pokemon/happiny/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Chatot::
+	.incbin "graphics/pokemon/chatot/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Chatot::
+	.incbin "graphics/pokemon/chatot/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Chatot::
+	.incbin "graphics/pokemon/chatot/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Chatot::
+	.incbin "graphics/pokemon/chatot/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Chatot::
+	.incbin "graphics/pokemon/chatot/icon.4bpp"
+
+	.align 2
+gMonFootprint_Chatot::
+	.incbin "graphics/pokemon/chatot/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Spiritomb::
+	.incbin "graphics/pokemon/spiritomb/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Spiritomb::
+	.incbin "graphics/pokemon/spiritomb/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Spiritomb::
+	.incbin "graphics/pokemon/spiritomb/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Spiritomb::
+	.incbin "graphics/pokemon/spiritomb/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Spiritomb::
+	.incbin "graphics/pokemon/spiritomb/icon.4bpp"
+
+	.align 2
+gMonFootprint_Spiritomb::
+	.incbin "graphics/pokemon/spiritomb/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Gible::
+	.incbin "graphics/pokemon/gible/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Gible::
+	.incbin "graphics/pokemon/gible/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Gible::
+	.incbin "graphics/pokemon/gible/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Gible::
+	.incbin "graphics/pokemon/gible/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Gible::
+	.incbin "graphics/pokemon/gible/icon.4bpp"
+
+	.align 2
+gMonFootprint_Gible::
+	.incbin "graphics/pokemon/gible/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Gabite::
+	.incbin "graphics/pokemon/gabite/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Gabite::
+	.incbin "graphics/pokemon/gabite/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Gabite::
+	.incbin "graphics/pokemon/gabite/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Gabite::
+	.incbin "graphics/pokemon/gabite/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Gabite::
+	.incbin "graphics/pokemon/gabite/icon.4bpp"
+
+	.align 2
+gMonFootprint_Gabite::
+	.incbin "graphics/pokemon/gabite/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Garchomp::
+	.incbin "graphics/pokemon/garchomp/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Garchomp::
+	.incbin "graphics/pokemon/garchomp/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Garchomp::
+	.incbin "graphics/pokemon/garchomp/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Garchomp::
+	.incbin "graphics/pokemon/garchomp/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Garchomp::
+	.incbin "graphics/pokemon/garchomp/icon.4bpp"
+
+	.align 2
+gMonFootprint_Garchomp::
+	.incbin "graphics/pokemon/garchomp/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

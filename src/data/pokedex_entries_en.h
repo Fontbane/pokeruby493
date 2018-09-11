@@ -5658,6 +5658,32 @@ static const u8 DexDescription_Happiny_1[] = _(
   "rock. It may wander around others’\n"
   "feet and cause them to stumble.");
 
+static const u8 DexDescription_Chatot_1[] = _(
+  "Its tongue is just like a human’s. As\n"
+  "a result, it can cleverly mimic human\n"
+  "speech.");
+
+static const u8 DexDescription_Spiritomb_1[] = _(
+  "Its constant mischief and misdeeds\n"
+  "resulted in it being bound to an Odd\n"
+  "Keystone by a mysterious spell.");
+
+static const u8 DexDescription_Gible_1[] = _(
+  "It attacks using its huge mouth.\n"
+  "While its attacks are powerful, it\n"
+  "hurts itself out of clumsiness, too.");
+
+static const u8 DexDescription_Gabite_1[] = _(
+  "It loves sparkly things. It seeks\n"
+  "treasures in caves and hoards the\n"
+  "loot into its nest.");
+
+static const u8 DexDescription_Garchomp_1[] = _(
+  "It is said that when one runs at high\n"
+  "speed, its wings create blades of\n"
+  "wind that can fell nearby trees.");
+
+
 const struct PokedexEntry gPokedexEntries[] =
 {
     {  //Dummy
@@ -10506,6 +10532,61 @@ const struct PokedexEntry gPokedexEntries[] =
         .weight = 244,
         .descriptionPage1 = DexDescription_Happiny_1,
         .descriptionPage2 = DexDescription_Happiny_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Chatot
+        .categoryName = _("MUSIC NOTE"),
+        .height = 5,
+        .weight = 19,
+        .descriptionPage1 = DexDescription_Chatot_1,
+        .descriptionPage2 = DexDescription_Chatot_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Spiritomb
+        .categoryName = _("FORBIDDEN"),
+        .height = 10,
+        .weight = 1080,
+        .descriptionPage1 = DexDescription_Spiritomb_1,
+        .descriptionPage2 = DexDescription_Spiritomb_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Gible
+        .categoryName = _("LAND SHARK"),
+        .height = 7,
+        .weight = 205,
+        .descriptionPage1 = DexDescription_Gible_1,
+        .descriptionPage2 = DexDescription_Gible_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Gabite
+        .categoryName = _("CAVE"),
+        .height = 14,
+        .weight = 560,
+        .descriptionPage1 = DexDescription_Gabite_1,
+        .descriptionPage2 = DexDescription_Gabite_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Garchomp
+        .categoryName = _("MACH"),
+        .height = 19,
+        .weight = 950,
+        .descriptionPage1 = DexDescription_Garchomp_1,
+        .descriptionPage2 = DexDescription_Garchomp_1,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,
