@@ -12582,6 +12582,9 @@ voicegroup_8453790:: @ 8453790
 	cry Cry_Skuntank
 	cry Cry_Bronzor
 	cry Cry_Bronzong
+	cry Cry_Bonsly
+	cry Cry_MimeJr
+	cry Cry_Happiny
 
 	.align 2
 voicegroup_84537C0:: @ 84537C0
@@ -13033,6 +13036,9 @@ voicegroup_84549C0:: @ 84549C0
 	cry2 Cry_Skuntank
 	cry2 Cry_Bronzor
 	cry2 Cry_Bronzong
+	cry2 Cry_Bonsly
+	cry2 Cry_MimeJr
+	cry2 Cry_Happiny
 
 	.align 2
 voicegroup_84549F0:: @ 84549F0

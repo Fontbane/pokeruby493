@@ -5643,6 +5643,21 @@ static const u8 DexDescription_Bronzong_1[] = _(
   "another world. It was revered as a\n"
   "bringer of plentiful harvests.");
 
+static const u8 DexDescription_Bonsly_1[] = _(
+  "It prefers an arid atmosphere. It\n"
+  "leaks water that looks like tears\n"
+  "when adjusting its moisture level.");
+
+static const u8 DexDescription_MimeJr_1[] = _(
+  "It mimics the expressions and motions\n"
+  "of those it sees to understand the\n"
+  "feelings of others.");
+
+static const u8 DexDescription_Happiny_1[] = _(
+  "It likes to carry around a small\n"
+  "rock. It may wander around others’\n"
+  "feet and cause them to stumble.");
+
 const struct PokedexEntry gPokedexEntries[] =
 {
     {  //Dummy
@@ -10458,6 +10473,39 @@ const struct PokedexEntry gPokedexEntries[] =
         .weight = 1870,
         .descriptionPage1 = DexDescription_Bronzong_1,
         .descriptionPage2 = DexDescription_Bronzong_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Bonsly
+        .categoryName = _("BONSAI"),
+        .height = 5,
+        .weight = 150,
+        .descriptionPage1 = DexDescription_Bonsly_1,
+        .descriptionPage2 = DexDescription_Bonsly_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Mime Jr.
+        .categoryName = _("MIME"),
+        .height = 6,
+        .weight = 130,
+        .descriptionPage1 = DexDescription_MimeJr_1,
+        .descriptionPage2 = DexDescription_MimeJr_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Happiny
+        .categoryName = _("PLAYHOUSE"),
+        .height = 6,
+        .weight = 244,
+        .descriptionPage1 = DexDescription_Happiny_1,
+        .descriptionPage2 = DexDescription_Happiny_1,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,

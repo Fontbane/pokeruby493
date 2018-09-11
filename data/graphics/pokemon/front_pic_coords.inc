@@ -463,6 +463,9 @@ gMonFrontPicCoords:: @ 81E7C74
 	.byte 102,  6, 0, 0 // Skuntank
 	.byte  84,  4, 0, 0 // Bronzor
 	.byte  84,  4, 0, 0 // Bronzong
+	.byte 101,  8, 0, 0 // Bonsly
+	.byte 101,  8, 0, 0 // Mime Jr.
+	.byte 101,  8, 0, 0 // Happiny
 	.byte  51, 20, 0, 0 // EGG
 	.byte  52, 16, 0, 0 // UNOWN B
 	.byte  68, 16, 0, 0 // UNOWN C

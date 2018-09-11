@@ -4,7 +4,7 @@ Attempt at making a public base of Pokeruby with expanded pokémon up to Arceus.
 I don't know when or if I'll ever be able to complete it, so keep that in mind.
 
 ### Progress
-437/493 - 386 + Turtwig, Grotle, Torterra, Chimchar, Monferno, Infernape, Piplup, Prinplup, Empoleon, Starly, Staravia, Staraptor, Bidoof, Bibarel, Kricketot, Kricketune, Shinx, Luxio, Luxray, Budew, Roserade, Cranidos, Rampardos, Shieldon, Bastiodon, Burmy (Plant Cloak), Wormadam (Plant Cloak), Mothim, Combee, Vespiquen, Pachirisu, Buizel, Floatzel, Cherubi, Cherrim, Shellos (East Sea), Gastrodon (East Sea), Ambipom, Drifloon, Drifblim, Buneary, Lopunny, Mismagius, Honchkrow, Glameow, Purugly, Chingling, Stunky, Skuntank, Bronzor and Bronzong.
+440/493 - 386 + Turtwig, Grotle, Torterra, Chimchar, Monferno, Infernape, Piplup, Prinplup, Empoleon, Starly, Staravia, Staraptor, Bidoof, Bibarel, Kricketot, Kricketune, Shinx, Luxio, Luxray, Budew, Roserade, Cranidos, Rampardos, Shieldon, Bastiodon, Burmy (Plant Cloak), Wormadam (Plant Cloak), Mothim, Combee, Vespiquen, Pachirisu, Buizel, Floatzel, Cherubi, Cherrim, Shellos (East Sea), Gastrodon (East Sea), Ambipom, Drifloon, Drifblim, Buneary, Lopunny, Mismagius, Honchkrow, Glameow, Purugly, Chingling, Stunky, Skuntank, Bronzor, Bronzong, Binsly, Mime Jr and Happiny.
 
 ![Pic](https://i.imgur.com/F6jmvee.png)
 
@@ -55,6 +55,8 @@ I intend to implement as many Gen. 4 features as I can to this base. Right now, 
 
 * There's 2 new evolution stones, the Shiny Stone for Roselia and the Dusk Stone for Misdreavus and Murkrow.
 
+* The Oval Stone was added too as Happiny requires it to evolve into Chansey.
+
 # Credits
 
 -[Gamer2020](https://github.com/Gamer2020): He created aseriestodis which is the tool that "motivated" me to create my pokeruby_gen4sprites repo which I'm using here, and for his [pokémon base stats file](https://github.com/Gamer2020/Pokeemerald-Pokemon-and-Move-Expansion-Files/blob/master/files/include/data/pokemon/base_stats.h) which I'm using as a base for this repo's.
@@ -71,6 +73,6 @@ I intend to implement as many Gen. 4 features as I can to this base. Right now, 
 
 -Shinny: Help with the front sprites' position issue and with the Level + Gender Based evolution.
 
--[BluRose](https://github.com/BluRosie): Map-based and move-based evolutions.
+-[BluRose](https://github.com/BluRosie): Map and move-based evolutions, and Happiny's evolution method too.
 
 -[Doesnt](https://github.com/Doesnty): I learned about the files involved in the task of adding new moves to pokeruby thanks to his commits.

@@ -191,7 +191,10 @@ const u16 gSpeciesIdToCryId[] = {
 	435, // STUNKY
 	436, // SKUNTANK
 	437, // BRONZOR
-	438  // BRONZONG
+	438, // BRONZONG
+	439, // BONSLY
+	440, // MIME JR.
+	441  // HAPPINY
 };
 
 #endif //POKERUBY_CRY_IDS_H

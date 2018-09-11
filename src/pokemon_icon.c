@@ -481,6 +481,9 @@ const u8 * const gMonIconTable[] =
 	gMonIcon_Skuntank,
 	gMonIcon_Bronzor,
 	gMonIcon_Bronzong,
+	gMonIcon_Bonsly,
+	gMonIcon_MimeJr,
+	gMonIcon_Happiny,
     gMonIcon_Egg,
     gMonIcon_UnownB,
     gMonIcon_UnownC,
@@ -976,6 +979,9 @@ const u8 gMonIconPaletteIndices[] =
 	2, // Skuntank
 	0, // Bronzor
 	0, // Bronzong
+	1, // Bonsly
+	0, // Mime Jr.
+	0, // Happiny
     1, // Egg
     0, // Unown B
     0, // Unown C

@@ -941,6 +941,11 @@ static const u8 gItemDescription_Stick[] = _(
     "It can be sold\n"
     "cheaply.");
 
+static const u8 gItemDescription_OvalStone[] = _(
+    "Helps a certain\n"
+    "POKéMON to evolve.\n"
+    "Looks like an egg.");
+
 static const u8 gItemDescription_RedScarf[] = _(
     "A hold item that\n"
     "raises COOL in\n"

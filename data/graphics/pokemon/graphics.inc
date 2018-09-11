@@ -10503,6 +10503,78 @@ gMonFootprint_Bronzong::
 	.incbin "graphics/pokemon/bronzong/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Bonsly::
+	.incbin "graphics/pokemon/bonsly/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Bonsly::
+	.incbin "graphics/pokemon/bonsly/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Bonsly::
+	.incbin "graphics/pokemon/bonsly/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Bonsly::
+	.incbin "graphics/pokemon/bonsly/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Bonsly::
+	.incbin "graphics/pokemon/bonsly/icon.4bpp"
+
+	.align 2
+gMonFootprint_Bonsly::
+	.incbin "graphics/pokemon/bonsly/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_MimeJr::
+	.incbin "graphics/pokemon/mimejr/front.4bpp.lz"
+
+	.align 2
+gMonPalette_MimeJr::
+	.incbin "graphics/pokemon/mimejr/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_MimeJr::
+	.incbin "graphics/pokemon/mimejr/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_MimeJr::
+	.incbin "graphics/pokemon/mimejr/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_MimeJr::
+	.incbin "graphics/pokemon/mimejr/icon.4bpp"
+
+	.align 2
+gMonFootprint_MimeJr::
+	.incbin "graphics/pokemon/mimejr/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Happiny::
+	.incbin "graphics/pokemon/happiny/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Happiny::
+	.incbin "graphics/pokemon/happiny/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Happiny::
+	.incbin "graphics/pokemon/happiny/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Happiny::
+	.incbin "graphics/pokemon/happiny/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Happiny::
+	.incbin "graphics/pokemon/happiny/icon.4bpp"
+
+	.align 2
+gMonFootprint_Happiny::
+	.incbin "graphics/pokemon/happiny/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

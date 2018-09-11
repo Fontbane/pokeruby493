@@ -83,3 +83,5 @@
 	.set EVO_LV42_HELD_ITEM,   0x0014 @ Pokémon reaches Lv42 while holding the specified item
 	.set EVO_MOVE,             0x0015 @ Pokémon levels up while knowing the specified move
 	.set EVO_MAP,              0x0016 @ Pokémon levels up in a specific map
+	.set EVO_ITEM_DAY,         0x0017 @ Pokémon levels up during the day while holding the specified item
+	.set EVO_ITEM_NIGHT,       0x0018 @ Pokémon levels up during the night while holding the specified item

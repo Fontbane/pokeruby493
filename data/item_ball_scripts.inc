@@ -107,7 +107,7 @@ Route116_EventScript_1B158B:: @ 81B158B
 	end
 
 Route117_EventScript_1B1598:: @ 81B1598
-	giveitem_std ITEM_GREAT_BALL, 1, 1
+	giveitem_std ITEM_OVAL_STONE, 1, 1
 	end
 
 Route117_EventScript_1B15A5:: @ 81B15A5

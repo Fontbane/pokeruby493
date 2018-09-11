@@ -463,6 +463,9 @@ gMonPaletteTable:: @ 81EA5B4
 	obj_pal gMonPalette_Skuntank, SPECIES_SKUNTANK
 	obj_pal gMonPalette_Bronzor, SPECIES_BRONZOR
 	obj_pal gMonPalette_Bronzong, SPECIES_BRONZONG
+	obj_pal gMonPalette_Bonsly, SPECIES_BONSLY
+	obj_pal gMonPalette_MimeJr, SPECIES_MIMEJR
+	obj_pal gMonPalette_Happiny, SPECIES_HAPPINY
 	obj_pal gMonPalette_Egg, SPECIES_EGG
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_B
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_C

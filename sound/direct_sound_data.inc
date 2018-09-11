@@ -2019,6 +2019,18 @@ Cry_Bronzong::
 	.incbin "sound/direct_sound_samples/cries/cry_bronzong.bin"
 
 	.align 2
+Cry_Bonsly:: 
+	.incbin "sound/direct_sound_samples/cries/cry_bonsly.bin"
+
+	.align 2
+Cry_MimeJr:: 
+	.incbin "sound/direct_sound_samples/cries/cry_mimejr.bin"
+
+	.align 2
+Cry_Happiny:: 
+	.incbin "sound/direct_sound_samples/cries/cry_happiny.bin"
+
+	.align 2
 DirectSoundWaveData_Phoneme_Vowel7:: @ 8639898
 	.incbin "sound/direct_sound_samples/phonemes/vowel_7.bin"
 

@@ -488,7 +488,10 @@ const u16 gSpeciesToHoennPokedexNum[] = // Assigns all species to the Hoenn Dex 
 	HOENN_DEX_STUNKY,           // SPECIES_STUNKY
 	HOENN_DEX_SKUNTANK,         // SPECIES_SKUNTANK
 	HOENN_DEX_BRONZOR,          // SPECIES_BRONZOR
-	HOENN_DEX_BRONZONG          // SPECIES_BRONZONG
+	HOENN_DEX_BRONZONG,         // SPECIES_BRONZONG
+	HOENN_DEX_BONSLY,           // SPECIES_BONSLY
+	HOENN_DEX_MIMEJR,           // SPECIES_MIMEJR
+	HOENN_DEX_HAPPINY           // SPECIES_HAPPINY
 };
 
 const u16 gSpeciesToNationalPokedexNum[] = // Assigns all species to the National Dex Index (Summary No. for National Dex)
@@ -955,7 +958,10 @@ const u16 gSpeciesToNationalPokedexNum[] = // Assigns all species to the Nationa
 	NATIONAL_DEX_STUNKY,            // SPECIES_STUNKY
 	NATIONAL_DEX_SKUNTANK,          // SPECIES_SKUNTANK
 	NATIONAL_DEX_BRONZOR,           // SPECIES_BRONZOR
-	NATIONAL_DEX_BRONZONG           // SPECIES_BRONZONG
+	NATIONAL_DEX_BRONZONG,          // SPECIES_BRONZONG
+	NATIONAL_DEX_BONSLY,            // SPECIES_BONSLY
+	NATIONAL_DEX_MIMEJR,            // SPECIES_MIMEJR
+	NATIONAL_DEX_HAPPINY            // SPECIES_HAPPINY
 };
 
 const u16 gHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using National Dex Index)
@@ -1398,6 +1404,9 @@ const u16 gHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using Nationa
 	NATIONAL_DEX_SKUNTANK,      // HOENN_DEX_SKUNTANK
 	NATIONAL_DEX_BRONZOR,       // HOENN_DEX_BRONZOR
 	NATIONAL_DEX_BRONZONG,      // HOENN_DEX_BRONZONG
+	NATIONAL_DEX_BONSLY,        // HOENN_DEX_BONSLY
+	NATIONAL_DEX_MIMEJR,        // HOENN_DEX_MIMEJR
+	NATIONAL_DEX_HAPPINY,       // HOENN_DEX_HAPPINY
 	NATIONAL_DEX_OLD_UNOWN_B,  	// HOENN_DEX_OLD_UNOWN_B
 	NATIONAL_DEX_OLD_UNOWN_C,  	// HOENN_DEX_OLD_UNOWN_C
 	NATIONAL_DEX_OLD_UNOWN_D,  	// HOENN_DEX_OLD_UNOWN_D
