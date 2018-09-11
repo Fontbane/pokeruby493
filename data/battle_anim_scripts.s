@@ -379,6 +379,7 @@ gBattleAnims_Moves:: @ 81C7168
 	.4byte Move_NIGHT_SLASH
 	.4byte Move_DARK_PULSE
 	.4byte Move_SUCKER_PUNCH
+	.4byte Move_FEINT
 	.4byte PoundCopy
 
 	.align 2
@@ -9635,11 +9636,41 @@ Move_SUCKER_PUNCH:
 	createsprite gBasicHitSplatSpriteTemplate, 2, 8, -8, 1, 2
 	waitforvisualfinish
 	createsprite gFistFootSpriteTemplate, 3, 8, 0, 8, 1, 0
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_TARGET, 3, 0, 6, 1
+	playsewithpan SE_W004, 63
 	waitforvisualfinish
 	clearmonbg ANIM_BANK_TARGET
 	blendoff
-	restorebg
-	waitbgfadein
+	end
+
+Move_FEINT:
+	loadspritegfx 10135
+	monbg ANIM_BANK_ATTACKER
+	playsewithpan SE_W185, 192
+	createvisualtask AnimTask_TranslateMonEllipticalRespectSide, 2, ANIM_BANK_ATTACKER, 18, 6, 1, 3
+	createvisualtask sub_80DFC24, 2, 1
+	waitforvisualfinish
+	clearmonbg ANIM_BANK_ATTACKER
+	invisible 0
+	delay 1
+	createvisualtask sub_80E4300, 2
+	monbg ANIM_BANK_TARGET
+	setalpha 12, 8
+	delay 1
+	playsewithpan SE_W233B, 63
+	createsprite gBasicHitSplatSpriteTemplate, 2, 0, 0, 1, 1
+	createvisualtask AnimTask_ShakeMon2, 2, ANIM_BANK_TARGET, 2, 0, 9, 1
+	waitforvisualfinish
+	clearmonbg ANIM_BANK_TARGET
+	blendoff
+	delay 1
+	setarg 7, 4096
+	delay 32
+	createvisualtask sub_80DFDC0, 2
+	monbg ANIM_BANK_ATTACKER
+	createvisualtask sub_80DFD24, 2, 1
+	waitforvisualfinish
+	clearmonbg ANIM_BANK_ATTACKER
 	end
 
 Move_KNOCK_OFF: @ 81D523B

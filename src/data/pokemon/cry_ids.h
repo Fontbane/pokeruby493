@@ -187,7 +187,11 @@ const u16 gSpeciesIdToCryId[] = {
 	431, // HONCHKROW
 	432, // GLAMEOW
 	433, // PURUGLY
-	434  // CHINGLING
+	434, // CHINGLING
+	435, // STUNKY
+	436, // SKUNTANK
+	437, // BRONZOR
+	438  // BRONZONG
 };
 
 #endif //POKERUBY_CRY_IDS_H

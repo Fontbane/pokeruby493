@@ -459,6 +459,10 @@ gMonFrontPicTable:: @ 81E8354
 	obj_tiles gMonFrontPic_Glameow, 0x800, SPECIES_GLAMEOW
 	obj_tiles gMonFrontPic_Purugly, 0x800, SPECIES_PURUGLY
 	obj_tiles gMonFrontPic_Chingling, 0x800, SPECIES_CHINGLING
+	obj_tiles gMonFrontPic_Stunky, 0x800, SPECIES_STUNKY
+	obj_tiles gMonFrontPic_Skuntank, 0x800, SPECIES_SKUNTANK
+	obj_tiles gMonFrontPic_Bronzor, 0x800, SPECIES_BRONZOR
+	obj_tiles gMonFrontPic_Bronzong, 0x800, SPECIES_BRONZONG
 	obj_tiles gMonPic_Egg, 0x800, SPECIES_EGG
 	obj_tiles gMonFrontPic_UnownB, 0x800, SPECIES_UNOWN_B
 	obj_tiles gMonFrontPic_UnownC, 0x800, SPECIES_UNOWN_C

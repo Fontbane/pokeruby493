@@ -459,6 +459,10 @@ gMonFrontPicCoords:: @ 81E7C74
 	.byte  85,  9, 0, 0 // Glameow
 	.byte 102,  6, 0, 0 // Purugly
 	.byte 103, 11, 0, 0 // Chingling
+	.byte  85,  9, 0, 0 // Stunky
+	.byte 102,  6, 0, 0 // Skuntank
+	.byte  84,  4, 0, 0 // Bronzor
+	.byte  84,  4, 0, 0 // Bronzong
 	.byte  51, 20, 0, 0 // EGG
 	.byte  52, 16, 0, 0 // UNOWN B
 	.byte  68, 16, 0, 0 // UNOWN C

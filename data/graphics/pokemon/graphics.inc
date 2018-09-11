@@ -10407,6 +10407,102 @@ gMonFootprint_Chingling::
 	.incbin "graphics/pokemon/chingling/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Stunky::
+	.incbin "graphics/pokemon/stunky/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Stunky::
+	.incbin "graphics/pokemon/stunky/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Stunky::
+	.incbin "graphics/pokemon/stunky/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Stunky::
+	.incbin "graphics/pokemon/stunky/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Stunky::
+	.incbin "graphics/pokemon/stunky/icon.4bpp"
+
+	.align 2
+gMonFootprint_Stunky::
+	.incbin "graphics/pokemon/stunky/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Skuntank::
+	.incbin "graphics/pokemon/skuntank/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Skuntank::
+	.incbin "graphics/pokemon/skuntank/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Skuntank::
+	.incbin "graphics/pokemon/skuntank/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Skuntank::
+	.incbin "graphics/pokemon/skuntank/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Skuntank::
+	.incbin "graphics/pokemon/skuntank/icon.4bpp"
+
+	.align 2
+gMonFootprint_Skuntank::
+	.incbin "graphics/pokemon/skuntank/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Bronzor::
+	.incbin "graphics/pokemon/bronzor/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Bronzor::
+	.incbin "graphics/pokemon/bronzor/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Bronzor::
+	.incbin "graphics/pokemon/bronzor/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Bronzor::
+	.incbin "graphics/pokemon/bronzor/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Bronzor::
+	.incbin "graphics/pokemon/bronzor/icon.4bpp"
+
+	.align 2
+gMonFootprint_Bronzor::
+	.incbin "graphics/pokemon/bronzor/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Bronzong::
+	.incbin "graphics/pokemon/bronzong/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Bronzong::
+	.incbin "graphics/pokemon/bronzong/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Bronzong::
+	.incbin "graphics/pokemon/bronzong/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Bronzong::
+	.incbin "graphics/pokemon/bronzong/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Bronzong::
+	.incbin "graphics/pokemon/bronzong/icon.4bpp"
+
+	.align 2
+gMonFootprint_Bronzong::
+	.incbin "graphics/pokemon/bronzong/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

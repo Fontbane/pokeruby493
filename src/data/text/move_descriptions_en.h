@@ -1438,6 +1438,10 @@ static const u8 MoveDescription_SuckerPunch[] = _(
     "An extremely fast attack\n"
     "that always strikes first.");
 
+static const u8 MoveDescription_Feint[] = _(
+    "A fast strike that only connects\n"
+    "if the opponent used Protect or Detect.");
+
 const u8 * const gMoveDescriptions[] = {
     MoveDescription_Pound,
     MoveDescription_KarateChop,
@@ -1799,4 +1803,5 @@ const u8 * const gMoveDescriptions[] = {
 	MoveDescription_NightSlash,
 	MoveDescription_DarkPulse,
 	MoveDescription_SuckerPunch,
+	MoveDescription_Feint,
 };

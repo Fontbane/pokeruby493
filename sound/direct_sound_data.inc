@@ -1987,6 +1987,10 @@ Cry_Mismagius::
 	.incbin "sound/direct_sound_samples/cries/cry_mismagius.bin"
 
 	.align 2
+Cry_Honchkrow:: 
+	.incbin "sound/direct_sound_samples/cries/cry_honchkrow.bin"
+
+	.align 2
 Cry_Glameow:: 
 	.incbin "sound/direct_sound_samples/cries/cry_glameow.bin"
 
@@ -1999,8 +2003,20 @@ Cry_Chingling::
 	.incbin "sound/direct_sound_samples/cries/cry_chingling.bin"
 
 	.align 2
-Cry_Honchkrow:: 
-	.incbin "sound/direct_sound_samples/cries/cry_honchkrow.bin"
+Cry_Stunky:: 
+	.incbin "sound/direct_sound_samples/cries/cry_stunky.bin"
+
+	.align 2
+Cry_Skuntank:: 
+	.incbin "sound/direct_sound_samples/cries/cry_skuntank.bin"
+
+	.align 2
+Cry_Bronzor:: 
+	.incbin "sound/direct_sound_samples/cries/cry_bronzor.bin"
+
+	.align 2
+Cry_Bronzong:: 
+	.incbin "sound/direct_sound_samples/cries/cry_bronzong.bin"
 
 	.align 2
 DirectSoundWaveData_Phoneme_Vowel7:: @ 8639898

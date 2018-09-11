@@ -5623,6 +5623,26 @@ static const u8 DexDescription_Chingling_1[] = _(
   "When it hops, the orb bounces all\n"
   "over and makes a ringing sound.");
 
+static const u8 DexDescription_Stunky_1[] = _(
+  "It sprays a foul fluid from its rear.\n"
+  "Its stench spreads over a mile radius,\n"
+  "driving Pokémon away.");
+
+static const u8 DexDescription_Skuntank_1[] = _(
+  "It attacks by spraying a horribly\n"
+  "smelly fluid from the tip of its tail.\n"
+  "Attacks from above confound it.");
+
+static const u8 DexDescription_Bronzor_1[] = _(
+  "There are researchers who believe this\n"
+  "POKéMON reflected like a mirror in\n"
+  "the distant past.");
+
+static const u8 DexDescription_Bronzong_1[] = _(
+  "It brought rains by opening portals to\n"
+  "another world. It was revered as a\n"
+  "bringer of plentiful harvests.");
+
 const struct PokedexEntry gPokedexEntries[] =
 {
     {  //Dummy
@@ -10394,6 +10414,50 @@ const struct PokedexEntry gPokedexEntries[] =
         .weight = 6,
         .descriptionPage1 = DexDescription_Chingling_1,
         .descriptionPage2 = DexDescription_Chingling_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Stunky
+        .categoryName = _("SKUNK"),
+        .height = 4,
+        .weight = 192,
+        .descriptionPage1 = DexDescription_Stunky_1,
+        .descriptionPage2 = DexDescription_Stunky_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Skuntank
+        .categoryName = _("SKUNK"),
+        .height = 10,
+        .weight = 380,
+        .descriptionPage1 = DexDescription_Skuntank_1,
+        .descriptionPage2 = DexDescription_Skuntank_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Bronzor
+        .categoryName = _("BRONZE"),
+        .height = 5,
+        .weight = 605,
+        .descriptionPage1 = DexDescription_Bronzor_1,
+        .descriptionPage2 = DexDescription_Bronzor_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+	},
+	{  //Bronzong
+        .categoryName = _("BRONZE BELL"),
+        .height = 13,
+        .weight = 1870,
+        .descriptionPage1 = DexDescription_Bronzong_1,
+        .descriptionPage2 = DexDescription_Bronzong_1,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,
