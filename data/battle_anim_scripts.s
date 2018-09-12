@@ -8746,16 +8746,19 @@ Move_REVENGE: @ 81D3B99
 	end
 
 Move_POISON_FANG: @ 81D3C30
-	loadspritegfx 10192
+	loadspritegfx 10135
+	loadspritegfx 10139
 	loadspritegfx 10150
+	createsprite gSimplePaletteBlendSpriteTemplate, 2, 31, 2, 0, 4, rgb(26, 0, 31)
+	createsprite gBattleAnimSpriteTemplate_83DB1D0, 2, 0, -32, 0, 0, 819, 10
+	createsprite gBattleAnimSpriteTemplate_83DB1D0, 2, 0, 32, 4, 0, -819, 10
 	playsewithpan SE_W044, 63
-	createsprite gBattleAnimSpriteTemplate_840233C, 130
-	delay 10
+	delay 2
 	createvisualtask AnimTask_ShakeMon, 3, 1, 3, 0, 10, 1
-	waitforvisualfinish
-	createvisualtask sub_80E1F8C, 2, 4, 0, 4, 0, 12, 26650
 	call PoisonBubblesAnim
 	waitforvisualfinish
+	clearmonbg ANIM_BANK_DEF_PARTNER
+	createsprite gSimplePaletteBlendSpriteTemplate, 40, 31, 4, 4, 0, rgb(7, 0, 31)
 	end
 
 Move_SUBSTITUTE: @ 81D3C6F
@@ -9737,18 +9740,19 @@ Move_DRAGON_RUSH:
 	end
 
 Move_FIRE_FANG: @ 81CE9E2
+	loadspritegfx 10029
 	loadspritegfx 10135
 	loadspritegfx 10139
 	createsprite gSimplePaletteBlendSpriteTemplate, 2, 31, 2, 0, 4, rgb(31, 0, 0)
-	createsprite gBattleAnimSpriteTemplate_83DB428, 130, 6, 1, 15, 1
-	createvisualtask sub_80E2A38, 10, 2, 4, 0, 8, 639
 	createsprite gBattleAnimSpriteTemplate_83DB1D0, 2, 0, -32, 0, 0, 819, 10
 	createsprite gBattleAnimSpriteTemplate_83DB1D0, 2, 0, 32, 4, 0, -819, 10
 	playsewithpan SE_W044, 63
 	delay 2
 	createvisualtask AnimTask_ShakeMon, 3, 1, 3, 0, 10, 1
+	call _81D11A2
 	waitforvisualfinish
-	createsprite gSimplePaletteBlendSpriteTemplate, 40, 31, 4, 4, 0, rgb(31, 0, 0)
+	createsprite gSlideMonToOriginalPosSpriteTemplate, 2, 0, 0, 9
+	createsprite gSimplePaletteBlendSpriteTemplate, 40, 31, 4, 4, 0, rgb(7, 0, 31)
 	end
 
 Move_KNOCK_OFF: @ 81D523B
