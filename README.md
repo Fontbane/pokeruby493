@@ -51,7 +51,7 @@ I intend to implement as many Gen. 4 features as I can to this base. Right now, 
 
 * You can now run indoors
 
-* There's 11 Gen. 4 moves added, which are Aqua Jet, Double Hit, Nasty Plot, Night Slash, Dark Pulse, Sucker Punch, Feint, Ominous Wind, Shadow Sneak, Dragon Rush and Fire Fang.
+* There's 13 Gen. 4 moves added, which are Aqua Jet, Double Hit, Nasty Plot, Night Slash, Dark Pulse, Sucker Punch, Feint, Ominous Wind, Shadow Sneak, Dragon Rush, Fire Fang, Ice Fang and Thunder Fang.
 
 * There's 2 new evolution stones, the Shiny Stone for Roselia and the Dusk Stone for Misdreavus and Murkrow.
 

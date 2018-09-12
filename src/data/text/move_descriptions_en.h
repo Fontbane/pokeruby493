@@ -1455,8 +1455,16 @@ static const u8 MoveDescription_DragonRush[] = _(
     "may cause flinching.");
 
 static const u8 MoveDescription_FireFang[] = _(
-    "An attack using flame-cloaked\n"
-    "fangs. Can burn the foe.");
+    "Strikes using flame-cloaked\n"
+    "fangs. May burn the foe.");
+
+static const u8 MoveDescription_IceFang[] = _(
+    "Strikes using cold-infused\n"
+    "fangs. May freeze the foe.");
+
+static const u8 MoveDescription_ThunderFang[] = _(
+    "Strikes using electrified-\n"
+    "fangs. May paralyze the foe.");
 
 const u8 * const gMoveDescriptions[] = {
     MoveDescription_Pound,
@@ -1824,4 +1832,6 @@ const u8 * const gMoveDescriptions[] = {
 	MoveDescription_ShadowSneak,
 	MoveDescription_DragonRush,
 	MoveDescription_FireFang,
+	MoveDescription_IceFang,
+	MoveDescription_ThunderFang,
 };

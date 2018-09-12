@@ -384,6 +384,8 @@ gBattleAnims_Moves:: @ 81C7168
 	.4byte Move_SHADOW_SNEAK
 	.4byte Move_DRAGON_RUSH
 	.4byte Move_FIRE_FANG
+	.4byte Move_ICE_FANG
+	.4byte Move_THUNDER_FANG
 	.4byte PoundCopy
 
 	.align 2
@@ -9739,7 +9741,7 @@ Move_DRAGON_RUSH:
 	waitforvisualfinish
 	end
 
-Move_FIRE_FANG: @ 81CE9E2
+Move_FIRE_FANG:
 	loadspritegfx 10029
 	loadspritegfx 10135
 	loadspritegfx 10139
@@ -9752,6 +9754,40 @@ Move_FIRE_FANG: @ 81CE9E2
 	call _81D11A2
 	waitforvisualfinish
 	createsprite gSlideMonToOriginalPosSpriteTemplate, 2, 0, 0, 9
+	createsprite gSimplePaletteBlendSpriteTemplate, 40, 31, 4, 4, 0, rgb(7, 0, 31)
+	end
+
+Move_ICE_FANG:
+	loadspritegfx 10029
+	loadspritegfx 10135
+	loadspritegfx 10139
+	createsprite gSimplePaletteBlendSpriteTemplate, 2, 31, 2, 0, 4, rgb(31, 0, 0)
+	createsprite gBattleAnimSpriteTemplate_83DB1D0, 2, 0, -32, 0, 0, 819, 10
+	createsprite gBattleAnimSpriteTemplate_83DB1D0, 2, 0, 32, 4, 0, -819, 10
+	playsewithpan SE_W044, 63
+	delay 2
+	createvisualtask AnimTask_ShakeMon, 3, 1, 3, 0, 10, 1
+	call _81D11A2
+	waitforvisualfinish
+	createsprite gSlideMonToOriginalPosSpriteTemplate, 2, 0, 0, 9
+	createsprite gSimplePaletteBlendSpriteTemplate, 40, 31, 4, 4, 0, rgb(7, 0, 31)
+	end
+
+Move_THUNDER_FANG:
+	loadspritegfx 10001
+	loadspritegfx 10011
+	loadspritegfx 10135
+	loadspritegfx 10139
+	createsprite gSimplePaletteBlendSpriteTemplate, 2, 31, 2, 0, 4, rgb(30, 31, 0)
+	createvisualtask sub_80D681C, 5, 24, -52, 0
+	createsprite gBattleAnimSpriteTemplate_83DB1D0, 2, 0, -32, 0, 0, 819, 10
+	createsprite gBattleAnimSpriteTemplate_83DB1D0, 2, 0, 32, 4, 0, -819, 10
+	createvisualtask sub_80D681C, 5, 24, -52, 0
+	playsewithpan SE_W044, 63
+	delay 2
+	createvisualtask AnimTask_ShakeMon, 3, 1, 3, 0, 10, 1
+	call ElectricityEffect
+	waitforvisualfinish
 	createsprite gSimplePaletteBlendSpriteTemplate, 40, 31, 4, 4, 0, rgb(7, 0, 31)
 	end
 
