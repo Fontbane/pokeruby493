@@ -8760,7 +8760,7 @@ Move_POISON_FANG: @ 81D3C30
 	call PoisonBubblesAnim
 	waitforvisualfinish
 	clearmonbg ANIM_BANK_DEF_PARTNER
-	createsprite gSimplePaletteBlendSpriteTemplate, 40, 31, 4, 4, 0, rgb(7, 0, 31)
+	createsprite gSimplePaletteBlendSpriteTemplate, 40, 31, 4, 4, 0, rgb(0, 0, 0)
 	end
 
 Move_SUBSTITUTE: @ 81D3C6F
@@ -9754,23 +9754,23 @@ Move_FIRE_FANG:
 	call _81D11A2
 	waitforvisualfinish
 	createsprite gSlideMonToOriginalPosSpriteTemplate, 2, 0, 0, 9
-	createsprite gSimplePaletteBlendSpriteTemplate, 40, 31, 4, 4, 0, rgb(7, 0, 31)
+	createsprite gSimplePaletteBlendSpriteTemplate, 40, 31, 4, 4, 0, rgb(0, 0, 0)
 	end
 
 Move_ICE_FANG:
-	loadspritegfx 10029
 	loadspritegfx 10135
 	loadspritegfx 10139
-	createsprite gSimplePaletteBlendSpriteTemplate, 2, 31, 2, 0, 4, rgb(31, 0, 0)
+	loadspritegfx 10141
+	createsprite gSimplePaletteBlendSpriteTemplate, 2, 31, 2, 0, 4, rgb(0, 28, 31)
 	createsprite gBattleAnimSpriteTemplate_83DB1D0, 2, 0, -32, 0, 0, 819, 10
 	createsprite gBattleAnimSpriteTemplate_83DB1D0, 2, 0, 32, 4, 0, -819, 10
 	playsewithpan SE_W044, 63
 	delay 2
 	createvisualtask AnimTask_ShakeMon, 3, 1, 3, 0, 10, 1
-	call _81D11A2
+	call Unknown_81D5C36
 	waitforvisualfinish
 	createsprite gSlideMonToOriginalPosSpriteTemplate, 2, 0, 0, 9
-	createsprite gSimplePaletteBlendSpriteTemplate, 40, 31, 4, 4, 0, rgb(7, 0, 31)
+	createsprite gSimplePaletteBlendSpriteTemplate, 40, 31, 4, 4, 0, rgb(0, 0, 0)
 	end
 
 Move_THUNDER_FANG:
@@ -9788,7 +9788,7 @@ Move_THUNDER_FANG:
 	createvisualtask AnimTask_ShakeMon, 3, 1, 3, 0, 10, 1
 	call ElectricityEffect
 	waitforvisualfinish
-	createsprite gSimplePaletteBlendSpriteTemplate, 40, 31, 4, 4, 0, rgb(7, 0, 31)
+	createsprite gSimplePaletteBlendSpriteTemplate, 40, 31, 4, 4, 0, rgb(0, 0, 0)
 	end
 
 Move_KNOCK_OFF: @ 81D523B
