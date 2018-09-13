@@ -202,7 +202,11 @@ const u16 gSpeciesIdToCryId[] = {
     446, // GARCHOMP
     447, // MUNCHLAX
     448, // RIOLU
-    449  // LUCARIO
+    449, // LUCARIO
+    450, // HIPPOPOTAS
+    451, // HIPPOWDON
+    452, // SKORUPI
+    453  // DRAPION
 };
 
 #endif //POKERUBY_CRY_IDS_H

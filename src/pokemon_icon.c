@@ -492,6 +492,10 @@ const u8 * const gMonIconTable[] =
     gMonIcon_Munchlax,
     gMonIcon_Riolu,
     gMonIcon_Lucario,
+    gMonIcon_Hippopotas,
+    gMonIcon_Hippowdon,
+    gMonIcon_Skorupi,
+    gMonIcon_Drapion,
     gMonIcon_Egg,
     gMonIcon_UnownB,
     gMonIcon_UnownC,
@@ -998,6 +1002,10 @@ const u8 gMonIconPaletteIndices[] =
     2, // Munchlax
     2, // Riolu
     2, // Lucario
+    1, // Hippopotas
+    1, // Hippowdon
+    0, // Skorupi
+    2, // Drapion
     1, // Egg
     0, // Unown B
     0, // Unown C

@@ -4,7 +4,7 @@ Attempt at making a public base of Pokeruby with expanded pokémon up to Arceus.
 I don't know when or if I'll ever be able to complete it, so keep that in mind.
 
 ### Progress
-445/493 - 386 + Turtwig, Grotle, Torterra, Chimchar, Monferno, Infernape, Piplup, Prinplup, Empoleon, Starly, Staravia, Staraptor, Bidoof, Bibarel, Kricketot, Kricketune, Shinx, Luxio, Luxray, Budew, Roserade, Cranidos, Rampardos, Shieldon, Bastiodon, Burmy (Plant Cloak), Wormadam (Plant Cloak), Mothim, Combee, Vespiquen, Pachirisu, Buizel, Floatzel, Cherubi, Cherrim, Shellos (East Sea), Gastrodon (East Sea), Ambipom, Drifloon, Drifblim, Buneary, Lopunny, Mismagius, Honchkrow, Glameow, Purugly, Chingling, Stunky, Skuntank, Bronzor, Bronzong, Binsly, Mime Jr, Happiny, Chatot, Spiritomb, Gible, Gabite and Garchomp.
+448/493 - 386 + Turtwig, Grotle, Torterra, Chimchar, Monferno, Infernape, Piplup, Prinplup, Empoleon, Starly, Staravia, Staraptor, Bidoof, Bibarel, Kricketot, Kricketune, Shinx, Luxio, Luxray, Budew, Roserade, Cranidos, Rampardos, Shieldon, Bastiodon, Burmy (Plant Cloak), Wormadam (Plant Cloak), Mothim, Combee, Vespiquen, Pachirisu, Buizel, Floatzel, Cherubi, Cherrim, Shellos (East Sea), Gastrodon (East Sea), Ambipom, Drifloon, Drifblim, Buneary, Lopunny, Mismagius, Honchkrow, Glameow, Purugly, Chingling, Stunky, Skuntank, Bronzor, Bronzong, Binsly, Mime Jr, Happiny, Chatot, Spiritomb, Gible, Gabite, Garchomp, Munchlax, Riolu and Lucario.
 
 ![Pic](https://i.imgur.com/F6jmvee.png)
 
@@ -51,7 +51,7 @@ I intend to implement as many Gen. 4 features as I can to this base. Right now, 
 
 * You can now run indoors
 
-* There's 13 Gen. 4 moves added, which are Aqua Jet, Double Hit, Nasty Plot, Night Slash, Dark Pulse, Sucker Punch, Feint, Ominous Wind, Shadow Sneak, Dragon Rush, Fire Fang, Ice Fang and Thunder Fang.
+* There's 17 Gen. 4 moves added, which are Aqua Jet, Double Hit, Nasty Plot, Night Slash, Dark Pulse, Sucker Punch, Feint, Ominous Wind, Shadow Sneak, Dragon Rush, Fire Fang, Ice Fang, Thunder Fang, Aura Sphere, Close Combat (although its effect isn't implemented yet), Dragon Pulse and Force Palm.
 
 * There's 2 new evolution stones, the Shiny Stone for Roselia and the Dusk Stone for Misdreavus and Murkrow.
 

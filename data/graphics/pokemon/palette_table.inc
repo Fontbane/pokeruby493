@@ -474,6 +474,10 @@ gMonPaletteTable:: @ 81EA5B4
 	obj_pal gMonPalette_Munchlax, SPECIES_MUNCHLAX
 	obj_pal gMonPalette_Riolu, SPECIES_RIOLU
 	obj_pal gMonPalette_Lucario, SPECIES_LUCARIO
+	obj_pal gMonPalette_Hippopotas, SPECIES_HIPPOPOTAS
+	obj_pal gMonPalette_Hippowdon, SPECIES_HIPPOWDON
+	obj_pal gMonPalette_Skorupi, SPECIES_SKORUPI
+	obj_pal gMonPalette_Drapion, SPECIES_DRAPION
 	obj_pal gMonPalette_Egg, SPECIES_EGG
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_B
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_C

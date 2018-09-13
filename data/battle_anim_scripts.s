@@ -9915,7 +9915,7 @@ Move_DRAGON_PULSE:
 	clearmonbg ANIM_BANK_DEF_PARTNER
 	end
 
-Move_FORCE_PALM: @ 81CC492
+Move_FORCE_PALM:
 	loadspritegfx 10167
 	loadspritegfx 10135
 	loadspritegfx 10143

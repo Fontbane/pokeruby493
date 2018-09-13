@@ -474,6 +474,10 @@ gMonBackPicCoords:: @ 81E9114
 	.byte 102,  8, 0, 0 // Munchlax
 	.byte 102,  9, 0, 0 // Riolu
 	.byte 119,  4, 0, 0 // Lucario
+	.byte 118, 10, 0, 0 // Hippopotas
+	.byte 135,  7, 0, 0 // Hippowdon
+	.byte 134,  9, 0, 0 // Skorupi
+	.byte 136,  6, 0, 0 // Drapion
 	.byte  54, 10, 0, 0 // EGG
 	.byte  86,  9, 0, 0 // UNOWN B
 	.byte 103,  6, 0, 0 // UNOWN C

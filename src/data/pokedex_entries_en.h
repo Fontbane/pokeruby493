@@ -5698,6 +5698,26 @@ static const u8 DexDescription_Lucario_1[] = _(
   "to identify and take in the feelings\n"
   "of creatures over half a mile away.");
 
+static const u8 DexDescription_Hippopotas_1[] = _(
+  "It shuts its nostrils tight then\n"
+  "travels through sand as if walking.\n"
+  "They form colonies of around ten.");
+
+static const u8 DexDescription_Hippowdon_1[] = _(
+  "Surprisingly quick to anger. It\n"
+  "holds its mouth agape as a display\n"
+  "of strength.");
+
+static const u8 DexDescription_Skorupi_1[] = _(
+  "As soon as the tail claws close, its\n"
+  "needle tips secrete poison. It can\n"
+  "survive a year without food.");
+
+static const u8 DexDescription_Drapion_1[] = _(
+  "Possessing a sturdy build, it takes\n"
+  "pride in its strength, taking down\n"
+  "foes without using toxins.");
+
 
 const struct PokedexEntry gPokedexEntries[] =
 {
@@ -10635,6 +10655,50 @@ const struct PokedexEntry gPokedexEntries[] =
         .weight = 540,
         .descriptionPage1 = DexDescription_Lucario_1,
         .descriptionPage2 = DexDescription_Lucario_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    {  //Hippopotas
+        .categoryName = _("HIPPO"),
+        .height = 8,
+        .weight = 495,
+        .descriptionPage1 = DexDescription_Hippopotas_1,
+        .descriptionPage2 = DexDescription_Hippopotas_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    {  //Hippowdon
+        .categoryName = _("HEAVYWEIGHT"),
+        .height = 20,
+        .weight = 3000,
+        .descriptionPage1 = DexDescription_Hippowdon_1,
+        .descriptionPage2 = DexDescription_Hippowdon_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    {  //Skorupi
+        .categoryName = _("SCORPION"),
+        .height = 8,
+        .weight = 120,
+        .descriptionPage1 = DexDescription_Skorupi_1,
+        .descriptionPage2 = DexDescription_Skorupi_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    {  //Drapion
+        .categoryName = _("OGRE SCORP."),
+        .height = 13,
+        .weight = 615,
+        .descriptionPage1 = DexDescription_Drapion_1,
+        .descriptionPage2 = DexDescription_Drapion_1,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,

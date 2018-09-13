@@ -980,6 +980,10 @@ static const u8 *const sMonFootprintTable[] =
     gMonFootprint_Munchlax,
     gMonFootprint_Riolu,
     gMonFootprint_Lucario,
+	gMonFootprint_Hippopotas,
+	gMonFootprint_Hippowdon,
+	gMonFootprint_Skorupi,
+	gMonFootprint_Drapion,
     gMonFootprint_Bulbasaur,
 };
 static const u8 gUnknown_083B5558[] = _("{CLEAR_TO 0}");

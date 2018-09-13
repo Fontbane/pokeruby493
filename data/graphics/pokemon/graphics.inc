@@ -10767,6 +10767,102 @@ gMonFootprint_Lucario::
 	.incbin "graphics/pokemon/lucario/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Hippopotas::
+	.incbin "graphics/pokemon/hippopotas/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Hippopotas::
+	.incbin "graphics/pokemon/hippopotas/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Hippopotas::
+	.incbin "graphics/pokemon/hippopotas/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Hippopotas::
+	.incbin "graphics/pokemon/hippopotas/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Hippopotas::
+	.incbin "graphics/pokemon/hippopotas/icon.4bpp"
+
+	.align 2
+gMonFootprint_Hippopotas::
+	.incbin "graphics/pokemon/hippopotas/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Hippowdon::
+	.incbin "graphics/pokemon/hippowdon/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Hippowdon::
+	.incbin "graphics/pokemon/hippowdon/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Hippowdon::
+	.incbin "graphics/pokemon/hippowdon/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Hippowdon::
+	.incbin "graphics/pokemon/hippowdon/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Hippowdon::
+	.incbin "graphics/pokemon/hippowdon/icon.4bpp"
+
+	.align 2
+gMonFootprint_Hippowdon::
+	.incbin "graphics/pokemon/hippowdon/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Skorupi::
+	.incbin "graphics/pokemon/skorupi/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Skorupi::
+	.incbin "graphics/pokemon/skorupi/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Skorupi::
+	.incbin "graphics/pokemon/skorupi/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Skorupi::
+	.incbin "graphics/pokemon/skorupi/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Skorupi::
+	.incbin "graphics/pokemon/skorupi/icon.4bpp"
+
+	.align 2
+gMonFootprint_Skorupi::
+	.incbin "graphics/pokemon/skorupi/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Drapion::
+	.incbin "graphics/pokemon/drapion/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Drapion::
+	.incbin "graphics/pokemon/drapion/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Drapion::
+	.incbin "graphics/pokemon/drapion/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Drapion::
+	.incbin "graphics/pokemon/drapion/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Drapion::
+	.incbin "graphics/pokemon/drapion/icon.4bpp"
+
+	.align 2
+gMonFootprint_Drapion::
+	.incbin "graphics/pokemon/drapion/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

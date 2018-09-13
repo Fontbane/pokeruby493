@@ -474,6 +474,10 @@ gMonFrontPicTable:: @ 81E8354
 	obj_tiles gMonFrontPic_Munchlax, 0x800, SPECIES_MUNCHLAX
 	obj_tiles gMonFrontPic_Riolu, 0x800, SPECIES_RIOLU
 	obj_tiles gMonFrontPic_Lucario, 0x800, SPECIES_LUCARIO
+	obj_tiles gMonFrontPic_Hippopotas, 0x800, SPECIES_HIPPOPOTAS
+	obj_tiles gMonFrontPic_Hippowdon, 0x800, SPECIES_HIPPOWDON
+	obj_tiles gMonFrontPic_Skorupi, 0x800, SPECIES_SKORUPI
+	obj_tiles gMonFrontPic_Drapion, 0x800, SPECIES_DRAPION
 	obj_tiles gMonPic_Egg, 0x800, SPECIES_EGG
 	obj_tiles gMonFrontPic_UnownB, 0x800, SPECIES_UNOWN_B
 	obj_tiles gMonFrontPic_UnownC, 0x800, SPECIES_UNOWN_C

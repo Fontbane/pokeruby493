@@ -350,3 +350,8 @@
 	enum BATTLE_TEXT_Obtained3
 	enum BATTLE_TEXT_NoEffect
 	enum BATTLE_TEXT_NoEffectOn
+	enum BATTLE_TEXT_BugBiteEat
+	enum BATTLE_TEXT_ToxicSpikesScattered
+	enum BATTLE_TEXT_ToxicSpikesAbsorbed
+	enum BATTLE_TEXT_Poisoned3
+	enum BATTLE_TEXT_BadlyPoisoned2

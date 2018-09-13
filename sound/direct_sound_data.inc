@@ -2063,6 +2063,22 @@ Cry_Lucario::
 	.incbin "sound/direct_sound_samples/cries/cry_lucario.bin"
 
 	.align 2
+Cry_Hippopotas:: 
+	.incbin "sound/direct_sound_samples/cries/cry_hippopotas.bin"
+
+	.align 2
+Cry_Hippowdon:: 
+	.incbin "sound/direct_sound_samples/cries/cry_hippowdon.bin"
+
+	.align 2
+Cry_Skorupi:: 
+	.incbin "sound/direct_sound_samples/cries/cry_skorupi.bin"
+
+	.align 2
+Cry_Drapion:: 
+	.incbin "sound/direct_sound_samples/cries/cry_drapion.bin"
+
+	.align 2
 DirectSoundWaveData_Phoneme_Vowel7:: @ 8639898
 	.incbin "sound/direct_sound_samples/phonemes/vowel_7.bin"
 
