@@ -2051,6 +2051,18 @@ Cry_Garchomp::
 	.incbin "sound/direct_sound_samples/cries/cry_garchomp.bin"
 
 	.align 2
+Cry_Munchlax:: 
+	.incbin "sound/direct_sound_samples/cries/cry_munchlax.bin"
+
+	.align 2
+Cry_Riolu:: 
+	.incbin "sound/direct_sound_samples/cries/cry_riolu.bin"
+
+	.align 2
+Cry_Lucario:: 
+	.incbin "sound/direct_sound_samples/cries/cry_lucario.bin"
+
+	.align 2
 DirectSoundWaveData_Phoneme_Vowel7:: @ 8639898
 	.incbin "sound/direct_sound_samples/phonemes/vowel_7.bin"
 

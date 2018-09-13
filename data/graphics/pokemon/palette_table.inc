@@ -471,6 +471,9 @@ gMonPaletteTable:: @ 81EA5B4
 	obj_pal gMonPalette_Gible, SPECIES_GIBLE
 	obj_pal gMonPalette_Gabite, SPECIES_GABITE
 	obj_pal gMonPalette_Garchomp, SPECIES_GARCHOMP
+	obj_pal gMonPalette_Munchlax, SPECIES_MUNCHLAX
+	obj_pal gMonPalette_Riolu, SPECIES_RIOLU
+	obj_pal gMonPalette_Lucario, SPECIES_LUCARIO
 	obj_pal gMonPalette_Egg, SPECIES_EGG
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_B
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_C

@@ -471,6 +471,9 @@ gMonBackPicCoords:: @ 81E9114
 	.byte 101, 14, 0, 0 // Gible
 	.byte 102,  9, 0, 0 // Gabite
 	.byte 135,  4, 0, 0 // Garchomp
+	.byte 102,  8, 0, 0 // Munchlax
+	.byte 102,  9, 0, 0 // Riolu
+	.byte 119,  4, 0, 0 // Lucario
 	.byte  54, 10, 0, 0 // EGG
 	.byte  86,  9, 0, 0 // UNOWN B
 	.byte 103,  6, 0, 0 // UNOWN C

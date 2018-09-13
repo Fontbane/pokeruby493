@@ -471,6 +471,9 @@ gMonFrontPicTable:: @ 81E8354
 	obj_tiles gMonFrontPic_Gible, 0x800, SPECIES_GIBLE
 	obj_tiles gMonFrontPic_Gabite, 0x800, SPECIES_GABITE
 	obj_tiles gMonFrontPic_Garchomp, 0x800, SPECIES_GARCHOMP
+	obj_tiles gMonFrontPic_Munchlax, 0x800, SPECIES_MUNCHLAX
+	obj_tiles gMonFrontPic_Riolu, 0x800, SPECIES_RIOLU
+	obj_tiles gMonFrontPic_Lucario, 0x800, SPECIES_LUCARIO
 	obj_tiles gMonPic_Egg, 0x800, SPECIES_EGG
 	obj_tiles gMonFrontPic_UnownB, 0x800, SPECIES_UNOWN_B
 	obj_tiles gMonFrontPic_UnownC, 0x800, SPECIES_UNOWN_C

@@ -496,7 +496,10 @@ const u16 gSpeciesToHoennPokedexNum[] = // Assigns all species to the Hoenn Dex 
 	HOENN_DEX_SPIRITOMB,        // SPECIES_SPIRITOMB
 	HOENN_DEX_GIBLE,            // SPECIES_GIBLE
 	HOENN_DEX_GABITE,           // SPECIES_GABITE
-	HOENN_DEX_GARCHOMP          // SPECIES_GARCHOMP
+	HOENN_DEX_GARCHOMP,         // SPECIES_GARCHOMP
+	HOENN_DEX_MUNCHLAX,         // SPECIES_MUNCHLAX
+	HOENN_DEX_RIOLU,            // SPECIES_RIOLU
+	HOENN_DEX_LUCARIO           // SPECIES_LUCARIO
 };
 
 const u16 gSpeciesToNationalPokedexNum[] = // Assigns all species to the National Dex Index (Summary No. for National Dex)
@@ -971,7 +974,10 @@ const u16 gSpeciesToNationalPokedexNum[] = // Assigns all species to the Nationa
 	NATIONAL_DEX_SPIRITOMB,         // SPECIES_SPIRITOMB
 	NATIONAL_DEX_GIBLE,             // SPECIES_GIBLE
 	NATIONAL_DEX_GABITE,            // SPECIES_GABITE
-	NATIONAL_DEX_GARCHOMP           // SPECIES_GARCHOMP
+	NATIONAL_DEX_GARCHOMP,          // SPECIES_GARCHOMP
+	NATIONAL_DEX_MUNCHLAX,          // SPECIES_MUNCHLAX
+	NATIONAL_DEX_RIOLU,             // SPECIES_RIOLU
+	NATIONAL_DEX_LUCARIO            // SPECIES_LUCARIO
 };
 
 const u16 gHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using National Dex Index)
@@ -1422,6 +1428,9 @@ const u16 gHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using Nationa
 	NATIONAL_DEX_GIBLE,         // HOENN_DEX_GIBLE
 	NATIONAL_DEX_GABITE,        // HOENN_DEX_GABITE
 	NATIONAL_DEX_GARCHOMP,      // HOENN_DEX_GARCHOMP
+	NATIONAL_DEX_MUNCHLAX,      // HOENN_DEX_MUNCHLAX
+	NATIONAL_DEX_RIOLU,         // HOENN_DEX_RIOLU
+	NATIONAL_DEX_LUCARIO,       // HOENN_DEX_LUCARIO
 	NATIONAL_DEX_OLD_UNOWN_B,  	// HOENN_DEX_OLD_UNOWN_B
 	NATIONAL_DEX_OLD_UNOWN_C,  	// HOENN_DEX_OLD_UNOWN_C
 	NATIONAL_DEX_OLD_UNOWN_D,  	// HOENN_DEX_OLD_UNOWN_D

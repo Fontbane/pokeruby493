@@ -430,65 +430,68 @@ const u8 * const gMonIconTable[] =
     gMonIcon_Jirachi,
     gMonIcon_Deoxys,
     gMonIcon_Chimecho,
-	gMonIcon_Turtwig,
-	gMonIcon_Grotle,
-	gMonIcon_Torterra,
-	gMonIcon_Chimchar,
-	gMonIcon_Monferno,
-	gMonIcon_Infernape,
-	gMonIcon_Piplup,
-	gMonIcon_Prinplup,
-	gMonIcon_Empoleon,
-	gMonIcon_Starly,
-	gMonIcon_Staravia,
-	gMonIcon_Staraptor,
-	gMonIcon_Bidoof,
-	gMonIcon_Bibarel,
-	gMonIcon_Kricketot,
-	gMonIcon_Kricketune,
-	gMonIcon_Shinx,
-	gMonIcon_Luxio,
-	gMonIcon_Luxray,
-	gMonIcon_Budew,
-	gMonIcon_Roserade,
-	gMonIcon_Cranidos,
-	gMonIcon_Rampardos,
-	gMonIcon_Shieldon,
-	gMonIcon_Bastiodon,
-	gMonIcon_Burmy,
-	gMonIcon_Wormadam,
-	gMonIcon_Mothim,
-	gMonIcon_Combee,
-	gMonIcon_Vespiquen,
-	gMonIcon_Pachirisu,
-	gMonIcon_Buizel,
-	gMonIcon_Floatzel,
-	gMonIcon_Cherubi,
-	gMonIcon_Cherrim,
-	gMonIcon_ShellosE,
-	gMonIcon_GastrodonE,
-	gMonIcon_Ambipom,
-	gMonIcon_Drifloon,
-	gMonIcon_Drifblim,
-	gMonIcon_Buneary,
-	gMonIcon_Lopunny,
-	gMonIcon_Mismagius,
-	gMonIcon_Honchkrow,
-	gMonIcon_Glameow,
-	gMonIcon_Purugly,
-	gMonIcon_Chingling,
-	gMonIcon_Stunky,
-	gMonIcon_Skuntank,
-	gMonIcon_Bronzor,
-	gMonIcon_Bronzong,
-	gMonIcon_Bonsly,
-	gMonIcon_MimeJr,
-	gMonIcon_Happiny,
-	gMonIcon_Chatot,
-	gMonIcon_Spiritomb,
-	gMonIcon_Gible,
-	gMonIcon_Gabite,
-	gMonIcon_Garchomp,
+    gMonIcon_Turtwig,
+    gMonIcon_Grotle,
+    gMonIcon_Torterra,
+    gMonIcon_Chimchar,
+    gMonIcon_Monferno,
+    gMonIcon_Infernape,
+    gMonIcon_Piplup,
+    gMonIcon_Prinplup,
+    gMonIcon_Empoleon,
+    gMonIcon_Starly,
+    gMonIcon_Staravia,
+    gMonIcon_Staraptor,
+    gMonIcon_Bidoof,
+    gMonIcon_Bibarel,
+    gMonIcon_Kricketot,
+    gMonIcon_Kricketune,
+    gMonIcon_Shinx,
+    gMonIcon_Luxio,
+    gMonIcon_Luxray,
+    gMonIcon_Budew,
+    gMonIcon_Roserade,
+    gMonIcon_Cranidos,
+    gMonIcon_Rampardos,
+    gMonIcon_Shieldon,
+    gMonIcon_Bastiodon,
+    gMonIcon_Burmy,
+    gMonIcon_Wormadam,
+    gMonIcon_Mothim,
+    gMonIcon_Combee,
+    gMonIcon_Vespiquen,
+    gMonIcon_Pachirisu,
+    gMonIcon_Buizel,
+    gMonIcon_Floatzel,
+    gMonIcon_Cherubi,
+    gMonIcon_Cherrim,
+    gMonIcon_ShellosE,
+    gMonIcon_GastrodonE,
+    gMonIcon_Ambipom,
+    gMonIcon_Drifloon,
+    gMonIcon_Drifblim,
+    gMonIcon_Buneary,
+    gMonIcon_Lopunny,
+    gMonIcon_Mismagius,
+    gMonIcon_Honchkrow,
+    gMonIcon_Glameow,
+    gMonIcon_Purugly,
+    gMonIcon_Chingling,
+    gMonIcon_Stunky,
+    gMonIcon_Skuntank,
+    gMonIcon_Bronzor,
+    gMonIcon_Bronzong,
+    gMonIcon_Bonsly,
+    gMonIcon_MimeJr,
+    gMonIcon_Happiny,
+    gMonIcon_Chatot,
+    gMonIcon_Spiritomb,
+    gMonIcon_Gible,
+    gMonIcon_Gabite,
+    gMonIcon_Garchomp,
+    gMonIcon_Munchlax,
+    gMonIcon_Riolu,
+    gMonIcon_Lucario,
     gMonIcon_Egg,
     gMonIcon_UnownB,
     gMonIcon_UnownC,
@@ -933,65 +936,68 @@ const u8 gMonIconPaletteIndices[] =
     0, // Jirachi
     0, // Deoxys
     0, // Chimecho
-	1, // Turtwig
-	1, // Grotle
-	1, // Torterra
-	1, // Chimchar
-	0, // Monferno
-	0, // Infernape
-	2, // Piplup
-	2, // Prinplup
-	0, // Empoleon
-	0, // Starly
-	0, // Staravia
-	0, // Staraptor
-	2, // Bidoof
-	2, // Bibarel
-	0, // Kricketot
-	0, // Kricketune
-	0, // Shinx
-	0, // Luxio
-	0, // Luxray
-	1, // Budew
-	0, // Roserade
-	0, // Cranidos
-	0, // Rampardos
-	1, // Shieldon
-	1, // Bastiodon
-	1, // Burmy
-	1, // Wormadam
-	0, // Mothim
-	0, // Combee
-	0, // Vespiquen
-	0, // Pachirisu
-	0, // Buizel
-	0, // Floatzel
-	1, // Cherubi
-	0, // Cherrim
-	0, // ShellosE
-	0, // GastrodonE
-	2, // Ambipom
-	2, // Drifloon
-	2, // Drifblim
-	2, // Buneary
-	2, // Lopunny
-	0, // Mismagius
-	1, // Honchkrow
-	0, // Glameow
-	2, // Purugly
-	0, // Chingling
-	2, // Stunky
-	2, // Skuntank
-	0, // Bronzor
-	0, // Bronzong
-	1, // Bonsly
-	0, // Mime Jr.
-	0, // Happiny
-	0, // Chatot
-	0, // Spiritomb
-	0, // Gible
-	0, // Gabite
-	0, // Garchomp
+    1, // Turtwig
+    1, // Grotle
+    1, // Torterra
+    1, // Chimchar
+    0, // Monferno
+    0, // Infernape
+    2, // Piplup
+    2, // Prinplup
+    0, // Empoleon
+    0, // Starly
+    0, // Staravia
+    0, // Staraptor
+    2, // Bidoof
+    2, // Bibarel
+    0, // Kricketot
+    0, // Kricketune
+    0, // Shinx
+    0, // Luxio
+    0, // Luxray
+    1, // Budew
+    0, // Roserade
+    0, // Cranidos
+    0, // Rampardos
+    1, // Shieldon
+    1, // Bastiodon
+    1, // Burmy
+    1, // Wormadam
+    0, // Mothim
+    0, // Combee
+    0, // Vespiquen
+    0, // Pachirisu
+    0, // Buizel
+    0, // Floatzel
+    1, // Cherubi
+    0, // Cherrim
+    0, // ShellosE
+    0, // GastrodonE
+    2, // Ambipom
+    2, // Drifloon
+    2, // Drifblim
+    2, // Buneary
+    2, // Lopunny
+    0, // Mismagius
+    1, // Honchkrow
+    0, // Glameow
+    2, // Purugly
+    0, // Chingling
+    2, // Stunky
+    2, // Skuntank
+    0, // Bronzor
+    0, // Bronzong
+    1, // Bonsly
+    0, // Mime Jr.
+    0, // Happiny
+    0, // Chatot
+    0, // Spiritomb
+    0, // Gible
+    0, // Gabite
+    0, // Garchomp
+    2, // Munchlax
+    2, // Riolu
+    2, // Lucario
     1, // Egg
     0, // Unown B
     0, // Unown C

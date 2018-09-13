@@ -10695,6 +10695,78 @@ gMonFootprint_Garchomp::
 	.incbin "graphics/pokemon/garchomp/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Munchlax::
+	.incbin "graphics/pokemon/munchlax/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Munchlax::
+	.incbin "graphics/pokemon/munchlax/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Munchlax::
+	.incbin "graphics/pokemon/munchlax/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Munchlax::
+	.incbin "graphics/pokemon/munchlax/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Munchlax::
+	.incbin "graphics/pokemon/munchlax/icon.4bpp"
+
+	.align 2
+gMonFootprint_Munchlax::
+	.incbin "graphics/pokemon/munchlax/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Riolu::
+	.incbin "graphics/pokemon/riolu/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Riolu::
+	.incbin "graphics/pokemon/riolu/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Riolu::
+	.incbin "graphics/pokemon/riolu/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Riolu::
+	.incbin "graphics/pokemon/riolu/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Riolu::
+	.incbin "graphics/pokemon/riolu/icon.4bpp"
+
+	.align 2
+gMonFootprint_Riolu::
+	.incbin "graphics/pokemon/riolu/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Lucario::
+	.incbin "graphics/pokemon/lucario/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Lucario::
+	.incbin "graphics/pokemon/lucario/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Lucario::
+	.incbin "graphics/pokemon/lucario/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Lucario::
+	.incbin "graphics/pokemon/lucario/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Lucario::
+	.incbin "graphics/pokemon/lucario/icon.4bpp"
+
+	.align 2
+gMonFootprint_Lucario::
+	.incbin "graphics/pokemon/lucario/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

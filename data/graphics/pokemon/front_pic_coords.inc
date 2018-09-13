@@ -471,6 +471,9 @@ gMonFrontPicCoords:: @ 81E7C74
 	.byte  85, 12, 0, 0 // Gible
 	.byte  85,  4, 0, 0 // Gabite
 	.byte 136,  1, 0, 0 // Garchomp
+	.byte 101, 10, 0, 0 // Munchlax
+	.byte 103, 11, 0, 0 // Riolu
+	.byte  85,  3, 0, 0 // Lucario
 	.byte  51, 20, 0, 0 // EGG
 	.byte  52, 16, 0, 0 // UNOWN B
 	.byte  68, 16, 0, 0 // UNOWN C

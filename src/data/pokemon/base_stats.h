@@ -15355,7 +15355,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip        = FALSE,
     },
 
-	[SPECIES_CHATOT] =
+    [SPECIES_CHATOT] =
     {
         .baseHP        = 76,
         .baseAttack        = 65,
@@ -15386,7 +15386,7 @@ const struct BaseStats gBaseStats[] =
         .safariZoneFleeRate        = 0,
         .bodyColor        = BODY_COLOR_BLACK,
         .noFlip        = FALSE,
-	},
+    },
 
     [SPECIES_SPIRITOMB] =
     {
@@ -15419,7 +15419,7 @@ const struct BaseStats gBaseStats[] =
         .safariZoneFleeRate        = 0,
         .bodyColor        = BODY_COLOR_PURPLE,
         .noFlip        = FALSE,
-	},
+    },
 
     [SPECIES_GIBLE] =
     {
@@ -15452,7 +15452,7 @@ const struct BaseStats gBaseStats[] =
         .safariZoneFleeRate        = 0,
         .bodyColor        = BODY_COLOR_BLUE,
         .noFlip        = FALSE,
-	},
+    },
 
     [SPECIES_GABITE] =
     {
@@ -15485,7 +15485,7 @@ const struct BaseStats gBaseStats[] =
         .safariZoneFleeRate        = 0,
         .bodyColor        = BODY_COLOR_BLUE,
         .noFlip        = FALSE,
-	},
+    },
 
     [SPECIES_GARCHOMP] =
     {
@@ -15515,6 +15515,105 @@ const struct BaseStats gBaseStats[] =
         .eggGroup2        = EGG_GROUP_DRAGON,
         .ability1        = ABILITY_SAND_VEIL,
         .ability2        = ABILITY_ROUGH_SKIN,
+        .safariZoneFleeRate        = 0,
+        .bodyColor        = BODY_COLOR_BLUE,
+        .noFlip        = FALSE,
+    },
+
+        [SPECIES_MUNCHLAX] =
+    {
+        .baseHP        = 135,
+        .baseAttack        = 85,
+        .baseDefense        = 40,
+        .baseSpeed        = 5,
+        .baseSpAttack        = 40,
+        .baseSpDefense        = 85,
+        .type1        = TYPE_NORMAL,
+        .type2        = TYPE_NORMAL,
+        .catchRate        = 50,
+        .expYield        = 78,
+        .evYield_HP        = 1,
+        .evYield_Attack        = 0,
+        .evYield_Defense        = 0,
+        .evYield_Speed        = 0,
+        .evYield_SpAttack        = 0,
+        .evYield_SpDefense        = 0,
+        .item1        = ITEM_NONE,
+        .item2        = ITEM_LEFTOVERS,
+        .genderRatio        = PERCENT_FEMALE(12.8),
+        .eggCycles        = 40,
+        .friendship        = 70,
+        .growthRate        = GROWTH_SLOW,
+        .eggGroup1        = EGG_GROUP_UNDISCOVERED,
+        .eggGroup2        = EGG_GROUP_UNDISCOVERED,
+        .ability1        = ABILITY_THICK_FAT,
+        .ability2        = ABILITY_PICKUP,
+        .safariZoneFleeRate        = 0,
+        .bodyColor        = BODY_COLOR_BLACK,
+        .noFlip        = FALSE,
+    },
+
+    [SPECIES_RIOLU] =
+    {
+        .baseHP        = 40,
+        .baseAttack        = 70,
+        .baseDefense        = 40,
+        .baseSpeed        = 60,
+        .baseSpAttack        = 35,
+        .baseSpDefense        = 40,
+        .type1        = TYPE_FIGHTING,
+        .type2        = TYPE_FIGHTING,
+        .catchRate        = 75,
+        .expYield        = 57,
+        .evYield_HP        = 0,
+        .evYield_Attack        = 1,
+        .evYield_Defense        = 0,
+        .evYield_Speed        = 0,
+        .evYield_SpAttack        = 0,
+        .evYield_SpDefense        = 0,
+        .item1        = ITEM_NONE,
+        .item2        = ITEM_NONE,
+        .genderRatio        = PERCENT_FEMALE(12.8),
+        .eggCycles        = 25,
+        .friendship        = 70,
+        .growthRate        = GROWTH_MEDIUM_SLOW,
+        .eggGroup1        = EGG_GROUP_UNDISCOVERED,
+        .eggGroup2        = EGG_GROUP_UNDISCOVERED,
+        .ability1        = ABILITY_INNER_FOCUS,
+        .ability2        = ABILITY_INNER_FOCUS,
+        .safariZoneFleeRate        = 0,
+        .bodyColor        = BODY_COLOR_BLUE,
+        .noFlip        = FALSE,
+    },
+
+    [SPECIES_LUCARIO] =
+    {
+        .baseHP        = 70,
+        .baseAttack        = 110,
+        .baseDefense        = 70,
+        .baseSpeed        = 90,
+        .baseSpAttack        = 115,
+        .baseSpDefense        = 70,
+        .type1        = TYPE_FIGHTING,
+        .type2        = TYPE_STEEL,
+        .catchRate        = 45,
+        .expYield        = 184,
+        .evYield_HP        = 0,
+        .evYield_Attack        = 1,
+        .evYield_Defense        = 0,
+        .evYield_Speed        = 0,
+        .evYield_SpAttack        = 1,
+        .evYield_SpDefense        = 0,
+        .item1        = ITEM_NONE,
+        .item2        = ITEM_NONE,
+        .genderRatio        = PERCENT_FEMALE(12.8),
+        .eggCycles        = 25,
+        .friendship        = 70,
+        .growthRate        = GROWTH_MEDIUM_SLOW,
+        .eggGroup1        = EGG_GROUP_HUMAN_LIKE,
+        .eggGroup2        = EGG_GROUP_FIELD,
+        .ability1        = ABILITY_INNER_FOCUS,
+        .ability2        = ABILITY_INNER_FOCUS,
         .safariZoneFleeRate        = 0,
         .bodyColor        = BODY_COLOR_BLUE,
         .noFlip        = FALSE,

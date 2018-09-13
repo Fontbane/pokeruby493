@@ -1439,8 +1439,8 @@ static const u8 MoveDescription_SuckerPunch[] = _(
     "that always strikes first.");
 
 static const u8 MoveDescription_Feint[] = _(
-    "A fast strike that only connects\n"
-    "if the opponent used Protect or Detect.");
+    "A fast strike. It only works\n"
+    "against a protected foe.");
 
 static const u8 MoveDescription_OminousWind[] = _(
     "A gust of repulsive wind. It\n"
@@ -1465,6 +1465,22 @@ static const u8 MoveDescription_IceFang[] = _(
 static const u8 MoveDescription_ThunderFang[] = _(
     "Strikes using electrified-\n"
     "fangs. May paralyze the foe.");
+
+static const u8 MoveDescription_AuraSphere[] = _(
+    "A blast of aura power.\n"
+    "It never misses.");
+
+static const u8 MoveDescription_CloseCombat[] = _(
+    "A risky move that lowers\n"
+    "the DEF. and SP. DEF.");
+
+static const u8 MoveDescription_DragonPulse[] = _(
+    "A shock wave shot from the\n"
+    "user’s gaping mouth.");
+
+static const u8 MoveDescription_ForcePalm[] = _(
+    "A shock wave made with the\n"
+    "palms. May paralyze the foe.");
 
 const u8 * const gMoveDescriptions[] = {
     MoveDescription_Pound,
@@ -1821,17 +1837,21 @@ const u8 * const gMoveDescriptions[] = {
     MoveDescription_WaterPulse,
     MoveDescription_DoomDesire,
     MoveDescription_PsychoBoost,
-	MoveDescription_AquaJet,
-	MoveDescription_DoubleHit,
-	MoveDescription_NastyPlot,
-	MoveDescription_NightSlash,
-	MoveDescription_DarkPulse,
-	MoveDescription_SuckerPunch,
-	MoveDescription_Feint,
-	MoveDescription_OminousWind,
-	MoveDescription_ShadowSneak,
-	MoveDescription_DragonRush,
-	MoveDescription_FireFang,
-	MoveDescription_IceFang,
-	MoveDescription_ThunderFang,
+    MoveDescription_AquaJet,
+    MoveDescription_DoubleHit,
+    MoveDescription_NastyPlot,
+    MoveDescription_NightSlash,
+    MoveDescription_DarkPulse,
+    MoveDescription_SuckerPunch,
+    MoveDescription_Feint,
+    MoveDescription_OminousWind,
+    MoveDescription_ShadowSneak,
+    MoveDescription_DragonRush,
+    MoveDescription_FireFang,
+    MoveDescription_IceFang,
+    MoveDescription_ThunderFang,
+    MoveDescription_AuraSphere,
+    MoveDescription_CloseCombat,
+    MoveDescription_DragonPulse,
+    MoveDescription_ForcePalm,
 };
