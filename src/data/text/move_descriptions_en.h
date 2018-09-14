@@ -1427,8 +1427,8 @@ static const u8 MoveDescription_NastyPlot[] = _(
     "which raises its SP. ATK.");
 
 static const u8 MoveDescription_NightSlash[] = _(
-    "The user slashes the foe asap.\n"
-    "It has a high critical-hit ratio.");
+    "A fast slash attack with a\n"
+    "high critical-hit ratio.");
 
 static const u8 MoveDescription_DarkPulse[] = _(
     "An aura imbued with bad thoughts.\n"
@@ -1493,6 +1493,54 @@ static const u8 MoveDescription_PoisonJab[] = _(
 static const u8 MoveDescription_PowerWhip[] = _(
     "A violent attack using\n"
     "vines or tentacles.");
+
+static const u8 MoveDescription_BraveBird[] = _(
+    "A powerful charge that\n"
+    "also hurts the user.");
+
+static const u8 MoveDescription_FlareBlitz[] = _(
+    "A flaming charge that may\n"
+    "burn the foe and the user.");
+
+static const u8 MoveDescription_ZenHeadbutt[] = _(
+    "An attack full of willpower.\n"
+    "It may cause flinching.");
+
+static const u8 MoveDescription_IceShard[] = _(
+    "The user throws ice shards\n"
+    "at the foe asap.");
+
+static const u8 MoveDescription_Brine[] = _(
+    "The user shoots salt water\n"
+    "at the opponent.");
+
+static const u8 MoveDescription_AquaTail[] = _(
+    "The user swings its tail like\n"
+    "a wave to attack.");
+
+static const u8 MoveDescription_AirSlash[] = _(
+    "Attacks with a blade of air\n"
+    "that can cause flinching.");
+
+static const u8 MoveDescription_BugBuzz[] = _(
+    "A strong sound wave that\n"
+    "can lower the foe’s SP. DEF.");
+
+static const u8 MoveDescription_VacuumWave[] = _(
+    "A vacuum wave shot with the\n"
+    "fists. It always goes first.");
+
+static const u8 MoveDescription_XScissor[] = _(
+    "Slashes the foe with\n"
+    "crossed scythe-like arms.");
+
+static const u8 MoveDescription_BulletPunch[] = _(
+    "A tough punch as fast as a\n"
+    "bullet. It always goes first.");
+
+static const u8 MoveDescription_IronHead[] = _(
+    "Slams the foe with a hard\n"
+    "head. May cause flinching.");
 
 const u8 * const gMoveDescriptions[] = {
     MoveDescription_Pound,
@@ -1869,4 +1917,16 @@ const u8 * const gMoveDescriptions[] = {
 	MoveDescription_MudBomb,
 	MoveDescription_PoisonJab,
 	MoveDescription_PowerWhip,
+	MoveDescription_BraveBird,
+	MoveDescription_FlareBlitz,
+	MoveDescription_ZenHeadbutt,
+	MoveDescription_IceShard,
+	MoveDescription_Brine,
+	MoveDescription_AquaTail,
+	MoveDescription_AirSlash,
+	MoveDescription_BugBuzz,
+	MoveDescription_VacuumWave,
+	MoveDescription_XScissor,
+	MoveDescription_BulletPunch,
+	MoveDescription_IronHead,
 };

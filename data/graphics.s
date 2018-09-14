@@ -966,12 +966,20 @@ gBattleAnimSpritePalette_114:: @ 8D1106C
 	.incbin "graphics/battle_anims/sprites/114.gbapal.lz"
 
 	.align 2
+gBattleAnimSpritePalette_291:: @ 8D03724
+	.incbin "graphics/battle_anims/sprites/291.gbapal.lz"
+
+	.align 2
 gBattleAnimSpriteSheet_292::
 	.incbin "graphics/battle_anims/sprites/292.4bpp.lz"
 
 	.align 2
 gBattleAnimSpritePalette_295::
 	.incbin "graphics/battle_anims/sprites/295.gbapal.lz"
+
+	.align 2
+gBattleAnimSpritePalette_296::
+	.incbin "graphics/battle_anims/sprites/296.gbapal.lz"
 
 	.align 2
 	.incbin "graphics/unused/blue_frame.bin.lz" @  P1, P2, P3 and P4 tilemaps?

@@ -393,6 +393,18 @@ gBattleAnims_Moves:: @ 81C7168
 	.4byte Move_MUD_BOMB
 	.4byte Move_POISON_JAB
 	.4byte Move_POWER_WHIP
+	.4byte Move_BRAVE_BIRD
+	.4byte Move_FLARE_BLITZ
+	.4byte Move_ZEN_HEADBUTT
+	.4byte Move_ICE_SHARD
+	.4byte Move_BRINE
+	.4byte Move_AQUA_TAIL
+	.4byte Move_AIR_SLASH
+	.4byte Move_BUG_BUZZ
+	.4byte Move_VACUUM_WAVE
+	.4byte Move_X_SCISSOR
+	.4byte Move_BULLET_PUNCH
+	.4byte Move_IRON_HEAD
 	.4byte PoundCopy
 
 	.align 2
@@ -9990,6 +10002,365 @@ Move_POWER_WHIP:
 	createsprite gBattleAnimSpriteTemplate_83D69F4, 130, 0, 0
 	delay 6
 	createvisualtask AnimTask_ShakeMon2, 2, ANIM_BANK_TARGET, 2, 0, 6, 1
+	end
+
+Move_BRAVE_BIRD:
+	loadspritegfx 10135
+	loadspritegfx 10284
+	loadspritegfx 10290
+	call Unknown_81D61FB
+	monbg ANIM_BANK_ATTACKER
+	createvisualtask sub_80E2A38, 10, 2, 0, 0, 16, 32767
+	delay 4
+	createvisualtask sub_80DFC24, 5, 0
+	waitforvisualfinish
+	createvisualtask sub_812B340, 5, 238, -64
+	createsprite gBattleAnimSpriteTemplate_BraveBird, 130
+	delay 14
+	createvisualtask AnimTask_ShakeMon2, 2, ANIM_BANK_TARGET, 10, 0, 18, 1
+	createvisualtask sub_812B30C, 5, 141, 63
+	delay 20
+	createvisualtask sub_80DFD24, 5, 1
+	delay 2
+	createvisualtask sub_80E2A38, 10, 2, 0, 15, 0, 32767
+	waitforvisualfinish
+	clearmonbg ANIM_BANK_ATTACKER
+	call Unknown_81D622B
+	end
+
+Move_FLARE_BLITZ:
+	loadspritegfx 10029
+	monbg ANIM_BANK_DEF_PARTNER
+	monbgprio_2A ANIM_BANK_TARGET
+	createsprite gSimplePaletteBlendSpriteTemplate, 2, 1, 0, 0, 16, 0
+	setalpha 12, 8
+	delay 2	
+	createsprite gBattleAnimSpriteTemplate_83D9694, 3, 0, 0, 56, 0
+	playsewithpan SE_W172, 192
+	delay 2
+	createsprite gBattleAnimSpriteTemplate_83D9694, 3, 0, 0, 56, 4
+	playsewithpan SE_W172, 192
+	delay 2
+	createsprite gBattleAnimSpriteTemplate_83D9694, 3, 0, 0, 56, 8
+	playsewithpan SE_W172, 192
+	delay 2
+	createsprite gBattleAnimSpriteTemplate_83D9694, 3, 0, 0, 56, 12
+	playsewithpan SE_W172, 192
+	delay 2
+	createsprite gBattleAnimSpriteTemplate_83D9694, 3, 0, 0, 56, 16
+	playsewithpan SE_W172, 192
+	delay 2
+	createsprite gBattleAnimSpriteTemplate_83D9694, 3, 0, 0, 56, 20
+	playsewithpan SE_W172, 192
+	delay 2
+	createsprite gBattleAnimSpriteTemplate_83D9694, 3, 0, 0, 56, 24
+	playsewithpan SE_W172, 192
+	waitforvisualfinish
+	delay 1
+	createvisualtask AnimTask_TranslateMonEllipticalRespectSide, 2, ANIM_BANK_ATTACKER, 18, 6, 1, 4
+	waitforvisualfinish
+	createsprite gSlideMonToOffsetSpriteTemplate, 2, 0, 24, 0, 0, 4
+	delay 2
+	call _81C85E9
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_TARGET, 5, 0, 8, 1
+	createvisualtask AnimTask_BlendMonInAndOut, 3, ANIM_BANK_TARGET, 31, 12, 1, 1
+	createsprite gBattleAnimSpriteTemplate_83DB3DC, 2, 31, 3, 1, 0, 8, 0, 0
+	playsewithpan SE_W172B, 63
+	call _81D11A2
+	delay 7
+	createsprite gSlideMonToOriginalPosSpriteTemplate, 2, 0, 0, 9
+	waitforvisualfinish
+	clearmonbg ANIM_BANK_DEF_PARTNER
+	clearmonbg ANIM_BANK_TARGET
+	blendoff
+	restorebg
+	waitbgfadein
+	end
+
+Move_ZEN_HEADBUTT:
+	loadspritegfx 10135
+	monbg ANIM_BANK_DEF_PARTNER
+	call Unknown_81D61E7
+	setalpha 8, 8
+	createsprite gBattleAnimSpriteTemplate_83D6DE4, 2, 0
+	playsewithpan SE_W029, 192
+	waitforvisualfinish
+	delay 2
+	createsprite gBattleAnimSpriteTemplate_83D6DE4, 2, 1
+	waitforvisualfinish
+	createvisualtask AnimTask_ShakeMonInPlace, 2, ANIM_BANK_ATTACKER, 2, 0, 4, 1
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_TARGET, 5, 0, 6, 1
+	createsprite gBattleAnimSpriteTemplate_83D6DE4, 2, 2
+	createsprite gBattleAnimSpriteTemplate_83DB538, 131, 0, 0, 1, 1
+	playsewithpan SE_W233B, 63
+	waitforvisualfinish
+	clearmonbg ANIM_BANK_DEF_PARTNER
+	blendoff
+	delay 1
+	call Unknown_81D61F3
+	end
+
+Move_ICE_SHARD:
+	loadspritegfx 10262
+	playsewithpan SE_W196, 192
+	createsprite gIcicleSpearSpriteTemplate, 2, 20, -8, 0, 0, 16, 0
+	delay 5
+	playsewithpan SE_W196, 192
+	createsprite gIcicleSpearSpriteTemplate, 2, 20, -8, -1, 3, 16, 0
+	delay 5
+	playsewithpan SE_W196, 192
+	createsprite gIcicleSpearSpriteTemplate, 2, 20, -8, 1, -2, 16, 0
+	delay 5
+	end
+
+Move_BRINE:
+	loadspritegfx 10155
+	loadspritegfx 10148
+	monbg ANIM_BANK_DEF_PARTNER
+	monbgprio_28 1
+	setalpha 12, 8
+	createsprite gBattleAnimSpriteTemplate_83D9318, 2, 20, 0, 0, 0, 20, -25
+	playsewithpan SE_W145, 192
+	waitforvisualfinish
+	playsewithpan SE_W291, 192
+	createvisualtask AnimTask_ShakeMon2, 5, 1, 1, 0, 8, 1
+	createsprite gBattleAnimSpriteTemplate_83D9360, 4, 0, 0
+	createsprite gBattleAnimSpriteTemplate_83D9360, 4, 0, 0
+	createsprite gBattleAnimSpriteTemplate_83D9360, 4, 0, 0
+	delay 1
+	createsprite gBattleAnimSpriteTemplate_83D9360, 4, 0, 0
+	createsprite gBattleAnimSpriteTemplate_83D9360, 4, 0, 0
+	createsprite gBattleAnimSpriteTemplate_83D9360, 4, 0, 0
+	delay 1
+	createsprite gBattleAnimSpriteTemplate_83D9360, 4, 0, 0
+	createsprite gBattleAnimSpriteTemplate_83D9360, 4, 0, 0
+	createsprite gBattleAnimSpriteTemplate_83D9360, 4, 0, 0
+	delay 2
+	waitforvisualfinish
+	clearmonbg ANIM_BANK_DEF_PARTNER
+	blendoff
+	end
+
+Move_AQUA_TAIL:
+	loadspritegfx 10148
+	loadspritegfx 10141
+	loadspritegfx 10155
+	loadspritegfx 10056
+	loadspritegfx 10135
+    loadspritegfx 10296
+	monbg ANIM_BANK_DEF_PARTNER
+	setalpha 12, 8
+	createvisualtask AnimTask_ShakeMon, 5, 0, 0, 2, 23, 1
+	delay 5
+	playsewithpan SE_W152, 192
+	createsprite gBattleAnimSpriteTemplate_83D9348, 2, 10, 10, 25, 0
+	delay 4
+	playsewithpan SE_W152, 192
+	createsprite gBattleAnimSpriteTemplate_83D9348, 2, -15, 0, 25, 0
+	delay 4
+	playsewithpan SE_W152, 192
+	createsprite gBattleAnimSpriteTemplate_83D9348, 2, 20, 10, 25, 0
+	delay 4
+	playsewithpan SE_W152, 192
+	createsprite gBattleAnimSpriteTemplate_83D9348, 2, 0, -10, 25, 0
+	delay 4
+	playsewithpan SE_W152, 192
+	createsprite gBattleAnimSpriteTemplate_83D9348, 2, -10, 15, 25, 0
+	delay 4
+	playsewithpan SE_W152, 192
+	createsprite gBattleAnimSpriteTemplate_83D9348, 2, 25, 20, 25, 0
+	delay 4
+	playsewithpan SE_W152, 192
+	createsprite gBattleAnimSpriteTemplate_83D9348, 2, -20, 20, 25, 0
+	delay 4
+	playsewithpan SE_W152, 192
+	createsprite gBattleAnimSpriteTemplate_83D9348, 2, 12, 0, 25, 0
+	waitforvisualfinish
+    playsewithpan SE_W004, 192
+	createsprite gSlideMonToOffsetSpriteTemplate, 2, 0, 20, 3, 0, 4
+	delay 1
+	createsprite gBattleAnimSpriteTemplate_AquaTail, 2, 0, 0
+	delay 3
+	playsewithpan SE_W233B, 63
+	createsprite gBasicHitSplatSpriteTemplate, 3, 0, 0, 1, 1
+	createsprite gSlideMonToOriginalPosSpriteTemplate, 2, 0, 0, 5
+	createsprite gBattleAnimSpriteTemplate_83D9360, 4, 0, 0
+	createsprite gBattleAnimSpriteTemplate_83D9360, 4, 0, 0
+	delay 1
+	createsprite gBattleAnimSpriteTemplate_83D9360, 4, 0, 0
+	createsprite gBattleAnimSpriteTemplate_83D9360, 4, 0, 0
+    delay 1
+	createsprite gBattleAnimSpriteTemplate_83D9360, 4, 0, 0
+	createsprite gBattleAnimSpriteTemplate_83D9360, 4, 0, 0
+    delay 1
+	createvisualtask AnimTask_ShakeMonInPlace, 2, ANIM_BANK_TARGET, 0, 3, 6, 1
+	createsprite gBattleAnimSpriteTemplate_83D9360, 4, 0, 0
+	createsprite gBattleAnimSpriteTemplate_83D9360, 4, 0, 0
+	waitforvisualfinish
+	delay 5
+	waitforvisualfinish
+	clearmonbg ANIM_BANK_DEF_PARTNER
+	blendoff
+	end
+
+Move_AIR_SLASH:
+	loadspritegfx 10003
+	loadspritegfx 10138
+	loadspritegfx 10135
+	delay 0
+	monbg ANIM_BANK_DEF_PARTNER
+	setalpha 12, 8
+	delay 0
+	createvisualtask sub_80CFB04, 2, 32, -24, 1536, 2, 128
+	waitforvisualfinish
+	playsewithpan SE_W015, 63
+	createsprite gBattleAnimSpriteTemplate_83D6B40, 2, 40, -32, 0, 2
+	delay 5
+	createvisualtask AnimTask_ShakeMon2, 2, ANIM_BANK_TARGET, 2, 0, 8, 1
+	waitforvisualfinish
+	blendoff
+	clearmonbg ANIM_BANK_DEF_PARTNER
+	delay 0
+	end
+
+Move_BUG_BUZZ:
+	loadspritegfx 10225
+	loadspritegfx 10203
+	loadspritegfx 10291
+	monbg ANIM_BANK_DEF_PARTNER
+	jumpargeq 7, 1, _BugBuzzBG2
+	fadetobg 22
+	waitbgfadeout
+	createvisualtask sub_80E3A58, 5, 1536, 0, 0, -1
+_BugBuzzRejoin:
+	createvisualtask sub_80D2CF8, 2, 0
+	createsprite gBattleAnimSpriteTemplate_83D79A4, 3, 0, 0, 0, 0, 0x3E0, 4
+	playsewithpan SE_W253, 192
+	createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, 29, -12, 0
+	createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, -12, -29, 1
+	delay 8
+	createvisualtask sub_80D2CF8, 2, 0
+	createsprite gBattleAnimSpriteTemplate_83D79A4, 3, 0, 0, 0, 0, 0x3E0, 4
+	playsewithpan SE_W253, 192
+	createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, 12, -29, 1
+	createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, -29, -12, 0
+	delay 8
+	createvisualtask sub_80D2CF8, 2, 0
+	createsprite gBattleAnimSpriteTemplate_83D79A4, 3, 0, 0, 0, 0, 0x3E0, 4
+	playsewithpan SE_W253, 192
+	createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, 24, -24, 1
+	createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, -24, -24, 0
+	delay 8
+	createvisualtask sub_80D2CF8, 2, 0
+	createsprite gBattleAnimSpriteTemplate_83D79A4, 3, 0, 0, 0, 0, 0x3E0, 4
+	playsewithpan SE_W253, 192
+	createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, 29, -12, 0
+	createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, -12, -29, 1
+	delay 8
+	createvisualtask sub_80D2CF8, 2, 0
+	createsprite gBattleAnimSpriteTemplate_83D79A4, 3, 0, 0, 0, 0, 0x3E0, 4
+	playsewithpan SE_W253, 192
+	createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, 12, -29, 1
+	createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, -29, -12, 0
+	delay 8
+	createvisualtask sub_80D2CF8, 2, 0
+	createsprite gBattleAnimSpriteTemplate_83D79A4, 3, 0, 0, 0, 0, 0x3E0, 4
+	playsewithpan SE_W253, 192
+	createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, 24, -24, 1
+	createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, -24, -24, 0
+	waitforvisualfinish
+	clearmonbg ANIM_BANK_DEF_PARTNER
+	restorebg
+	waitbgfadeout
+	setarg 7, -1
+	waitbgfadein
+	end
+_BugBuzzBG2:
+	fadetobg 23
+	waitbgfadeout
+	createvisualtask sub_80E3A58, 5, -1536, 0, 0, -1
+	goto _BugBuzzRejoin
+
+Move_VACUUM_WAVE:
+	loadspritegfx 10135
+	loadspritegfx 10143
+	monbg ANIM_BANK_ATK_PARTNER
+	createvisualtask sub_80E3B4C, 2
+	createvisualtask sub_807A69C, 2, 28968, 10
+	playsewithpan SE_W026, 192
+	delay 6
+	createsprite gBasicHitSplatSpriteTemplate, 131, 0, 0, 1, 1
+	createsprite gFistFootSpriteTemplate, 132, 0, 0, 8, 1, 0
+	playsewithpan SE_W004, 63
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_TARGET, 3, 0, 6, 1
+	waitforvisualfinish
+	clearmonbg ANIM_BANK_ATK_PARTNER
+	blendoff
+	end
+
+Move_X_SCISSOR:
+	loadspritegfx 10285
+	createvisualtask AnimTask_ShakeMon2, 2, ANIM_BANK_TARGET, 6, 0, 18, 1
+	createsprite gBattleAnimSpriteTemplate_83DB520, 130, 0, 0, 1, 36
+	playsewithpan SE_W013, 63
+	waitforvisualfinish
+	blendoff
+	end
+
+Move_BULLET_PUNCH:
+	loadspritegfx 10135
+	loadspritegfx 10143
+	loopsewithpan SE_W231, 192, 28, 2
+	createvisualtask sub_80E0A4C, 5, 0, 0, 0
+	waitforvisualfinish
+	monbg ANIM_BANK_ATK_PARTNER
+	createvisualtask sub_80E3B4C, 2
+	jumpargeq 7, 1, _BulletPunchSubcall
+	fadetobg 9
+_BulletPunchReturn:
+	waitbgfadeout
+	createvisualtask sub_80E3A58, 5, -2304, 0, 1, -1
+	waitbgfadein
+	delay 0
+	setalpha 9, 8
+	createvisualtask sub_807A69C, 2, 28968, 10
+	playsewithpan SE_W026, 192
+	delay 6
+	createsprite gBasicHitSplatSpriteTemplate, 131, 0, 0, 1, 1
+	createsprite gFistFootSpriteTemplate, 132, 0, 0, 8, 1, 0
+	playsewithpan SE_W004, 63
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_TARGET, 3, 0, 6, 1
+	waitforvisualfinish
+	clearmonbg ANIM_BANK_ATK_PARTNER
+	blendoff
+	restorebg
+	waitbgfadeout
+	setarg 7, -1
+	waitbgfadein
+	end
+_BulletPunchSubcall:
+	fadetobg 10
+	goto _BulletPunchReturn
+	end
+
+Move_IRON_HEAD:
+	loadspritegfx 10135
+	loadspritegfx 10039
+	loopsewithpan SE_W231, 192, 28, 2
+	createvisualtask sub_80E0A4C, 5, 0, 0, 0
+	waitforvisualfinish
+	createsprite gBattleAnimSpriteTemplate_83D6DE4, 2, 0
+	playsewithpan SE_W029, 192
+	waitforvisualfinish
+	delay 2
+	createsprite gBattleAnimSpriteTemplate_83D6DE4, 2, 1
+	waitforvisualfinish
+	createvisualtask AnimTask_ShakeMonInPlace, 2, ANIM_BANK_ATTACKER, 2, 0, 4, 1
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_TARGET, 5, 0, 6, 1
+	createsprite gBattleAnimSpriteTemplate_83D6DE4, 2, 2
+	createsprite gBattleAnimSpriteTemplate_83DB538, 131, 0, 0, 1, 1
+	playsewithpan SE_W233B, 63
+	waitforvisualfinish
 	end
 
 Move_KNOCK_OFF: @ 81D523B

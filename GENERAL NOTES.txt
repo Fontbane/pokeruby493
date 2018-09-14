@@ -1,0 +1,34 @@
+~~|TO DO|~~
+
+Primary Goals:
+* Implement the rest of the Gen. 4 pokémon.
+* Implement formes for those that have one.
+* Update Learnsets to Gen. 4 standards.
+
+Secondary Goals:
+* Fix Close Combat's effect.
+* Try to create new abilities and implement all the ones added in the Gen. 4 games, or at least most of them.
+
+------------------------------------------------------------------------------------------------
+
+~~|UPDATED LEARNSETS|~~
+
+List of learnsets that were updated to Gen. 4 Standards so far:
+54 and 55 - Psyduck and Golduck.
+84 and 85 - Doduo and Dodrio.
+86 and 87 - Seel and Dewgong.
+109 and 110 - Koffing and Weezing.
+115 - Kangaskhan.
+123 - Scyther.
+127 - Pinsir.
+140 and 141 - Kabuto and Kabutops.
+190 - Aipom.
+203 - Girafarig.
+212 - Scizor.
+283 and 284 - Surskit and Masquerain.
+318 and 319 - Carvanha and Sharpedo.
+341 and 342 - Corphish and Crawdaunt.
+393, 394 and 395 - Piplup, Prinplup and Empoleon.
+399 and 400 - Bidoof and Bibarel.
+418 and 419 - Buizel and Floatzel.
+424 - Ambipom.

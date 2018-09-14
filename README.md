@@ -51,7 +51,7 @@ I intend to implement as many Gen. 4 features as I can to this base. Right now, 
 
 * You can now run indoors
 
-* There's 20 Gen. 4 moves added, which are Aqua Jet, Double Hit, Nasty Plot, Night Slash, Dark Pulse, Sucker Punch, Feint, Ominous Wind, Shadow Sneak, Dragon Rush, Fire Fang, Ice Fang, Thunder Fang, Aura Sphere, Close Combat (although its effect isn't implemented yet), Dragon Pulse, Force Palm, Mud Bomb, Poison Jab and Power Whip.
+* There's 32 Gen. 4 moves added, which are Aqua Jet, Double Hit, Nasty Plot, Night Slash, Dark Pulse, Sucker Punch, Feint, Ominous Wind, Shadow Sneak, Dragon Rush, Fire Fang, Ice Fang, Thunder Fang, Aura Sphere, Close Combat (although its effect isn't implemented yet), Dragon Pulse, Force Palm, Mud Bomb, Poison Jab, Power Whip, Brave Bird, Flare Blitz, Zen Headbutt, Ice Shard, Brine, Aqua Tail, Air Slash, Bug Buzz, Vacuum Wave, X-Scissor, Bullet Punch and Iron Head.
 
 * There's 2 new evolution stones, the Shiny Stone for Roselia and the Dusk Stone for Misdreavus and Murkrow.
 
@@ -79,4 +79,4 @@ I intend to implement as many Gen. 4 features as I can to this base. Right now, 
 
 -[BluRose](https://github.com/BluRosie): Map and move-based evolutions, Happiny's evolution method too and Gen. 4 styled OW Poisoning.
 
--[Doesnt](https://github.com/Doesnty): I learned about the files involved in the task of adding new moves to pokeruby thanks to his commits, and I'm also partially using his implementations for Mud Bomb, Poison Jab and Power Whip too.
+-[Doesnt](https://github.com/Doesnty): I learned how to add new moves thanks to his commits, and I'm also using his implementations for Mud Bomb, Poison Jab, Power Whip, Brave Bird, Flare Blitz, Zen Headbutt, Ice Shard, Brine, Aqua Tail, Air Slash, Bug Buzz, Vacuum Wave, X-Scissor, Bullet Punch and Iron Head.

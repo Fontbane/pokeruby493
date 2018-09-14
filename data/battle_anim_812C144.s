@@ -653,3 +653,15 @@ gBattleAnimSpriteTemplate_MudBomb1::
 	.align 2
 gBattleAnimSpriteTemplate_MudBomb2::
 	spr_template 10150, 10074, gOamData_837DF8C, gSpriteAnimTable_83DA27C, NULL, gSpriteAffineAnimTable_83DA2B4, sub_80D9E94
+
+	.align 2
+gBattleAnimSpriteTemplate_BraveBird::
+	spr_template 10284, 10290, gOamData_837DFFC, gDummySpriteAnimTable, NULL, gDummySpriteAffineAnimTable, sub_80DB5E4
+
+	.align 2
+gBattleAnimSpriteTemplate_BugBuzz::
+	spr_template 10225, 10291, gOamData_837DF34, gDummySpriteAnimTable, NULL, gDummySpriteAffineAnimTable, sub_80D2D68
+
+	.align 2
+gBattleAnimSpriteTemplate_AquaTail::
+	spr_template 10056, 10296, gOamData_837DF34, gSpriteAnimTable_83D69D4, NULL, gDummySpriteAffineAnimTable, sub_80CC884
