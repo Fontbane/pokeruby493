@@ -371,4 +371,7 @@ const u8 gMoveNames[][13] = {
     [MOVE_CLOSE_COMBAT] = _("CLOSE COMBAT"),
     [MOVE_DRAGON_PULSE] = _("DRAGON PULSE"),
     [MOVE_FORCE_PALM] = _("FORCE PALM"),
+	[MOVE_MUD_BOMB] = _("MUD BOMB"),
+	[MOVE_POISON_JAB] = _("POISON JAB"),
+	[MOVE_POWER_WHIP] = _("POWER WHIP"),
 };

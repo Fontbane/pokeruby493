@@ -496,6 +496,9 @@ const u8 * const gMonIconTable[] =
     gMonIcon_Hippowdon,
     gMonIcon_Skorupi,
     gMonIcon_Drapion,
+	gMonIcon_Croagunk,
+	gMonIcon_Toxicroak,
+	gMonIcon_Carnivine,
     gMonIcon_Egg,
     gMonIcon_UnownB,
     gMonIcon_UnownC,
@@ -1006,6 +1009,9 @@ const u8 gMonIconPaletteIndices[] =
     1, // Hippowdon
     0, // Skorupi
     2, // Drapion
+	0, // Croagunk
+	0, // Toxicroak
+	1, // Carnivine
     1, // Egg
     0, // Unown B
     0, // Unown C

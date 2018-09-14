@@ -390,6 +390,9 @@ gBattleAnims_Moves:: @ 81C7168
 	.4byte Move_CLOSE_COMBAT
 	.4byte Move_DRAGON_PULSE
 	.4byte Move_FORCE_PALM
+	.4byte Move_MUD_BOMB
+	.4byte Move_POISON_JAB
+	.4byte Move_POWER_WHIP
 	.4byte PoundCopy
 
 	.align 2
@@ -9931,6 +9934,62 @@ Move_FORCE_PALM:
 	delay 4
 	waitforvisualfinish
 	clearmonbg ANIM_BANK_TARGET
+	end
+
+Move_MUD_BOMB:
+	loadspritegfx 10074
+	loadspritegfx 10150
+	playsewithpan SE_W145C, 192
+	createsprite gBattleAnimSpriteTemplate_MudBomb1, 130, 20, 0, 40, 0
+	waitforvisualfinish
+	createvisualtask AnimTask_ShakeMon2, 5, 1, 3, 0, 15, 1
+	createvisualtask sub_80E1F8C, 2, 4, 1, 2, 0, 12, 0x298F
+	createsprite gBattleAnimSpriteTemplate_MudBomb2, 130, 42, 27, 20
+	createsprite gBattleAnimSpriteTemplate_MudBomb2, 130, -27, 44, 20
+	createsprite gBattleAnimSpriteTemplate_MudBomb2, 130, 39, -28, 20
+	createsprite gBattleAnimSpriteTemplate_MudBomb2, 130, -42, -42, 20
+	playsewithpan SE_W091, 63
+	delay 5
+	createsprite gBattleAnimSpriteTemplate_MudBomb2, 130, 0, 40, 20
+	createsprite gBattleAnimSpriteTemplate_MudBomb2, 130, -8, -44, 20
+	createsprite gBattleAnimSpriteTemplate_MudBomb2, 130, -46, -28, 20
+	createsprite gBattleAnimSpriteTemplate_MudBomb2, 130, 46, 9, 20
+	playsewithpan SE_W091, 63
+	delay 5
+	createsprite gBattleAnimSpriteTemplate_MudBomb2, 130, 42, 0, 20
+	createsprite gBattleAnimSpriteTemplate_MudBomb2, 130, -43, -12, 20
+	createsprite gBattleAnimSpriteTemplate_MudBomb2, 130, 16, -46, 20
+	createsprite gBattleAnimSpriteTemplate_MudBomb2, 130, -16, 44, 20
+	playsewithpan SE_W091, 63
+	waitsound
+	waitforvisualfinish
+	end
+
+Move_POISON_JAB:
+	loadspritegfx 10295
+	loadspritegfx 10135
+	loadspritegfx 10150
+	loadspritegfx 10020
+	createvisualtask sub_80A8E04, 2, 4, 256, 0, 2
+	createsprite gBattleAnimSpriteTemplate_PoisonJab, 132, -8, -8, 10
+	waitforvisualfinish
+	createsprite gBattleAnimSpriteTemplate_83DB538, 131, 0, 0, 1, 1
+	playsewithpan SE_W030, 63
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_TARGET, 5, 0, 6, 1
+	delay 6
+	call PoisonBubblesAnim
+	waitforvisualfinish
+	end
+
+Move_POWER_WHIP:
+	loadspritegfx 10287
+	playsewithpan SE_W026, 192
+	createsprite gHorizontalLungeSpriteTemplate, 2, 4, 6
+	delay 6
+	playsewithpan SE_W010, 63
+	createsprite gBattleAnimSpriteTemplate_83D69F4, 130, 0, 0
+	delay 6
+	createvisualtask AnimTask_ShakeMon2, 2, ANIM_BANK_TARGET, 2, 0, 6, 1
 	end
 
 Move_KNOCK_OFF: @ 81D523B

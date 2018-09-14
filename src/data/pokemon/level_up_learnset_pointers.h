@@ -483,7 +483,10 @@ const u16 *gLevelUpLearnsets[] = {
     gHippopotasLevelUpLearnset,
     gHippowdonLevelUpLearnset,
     gSkorupiLevelUpLearnset,
-    gDrapionLevelUpLearnset
+    gDrapionLevelUpLearnset,
+	gCroagunkLevelUpLearnset,
+	gToxicroakLevelUpLearnset,
+	gCarnivineLevelUpLearnset
 };
 
 #endif //POKERUBY_LEVEL_UP_LEARNSET_POINTERS_H

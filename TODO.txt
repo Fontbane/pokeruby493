@@ -1,0 +1,8 @@
+Primary Goals:
+-Implement the rest of the Gen. 4 pokémon.
+-Implement formes for those who have one.
+
+Secondary Goals:
+-Fix Close Combat's effect.
+-Fix Revenge's effect.
+-Try to create new abilities and mplement all the ones added in the Gen. 4 games.

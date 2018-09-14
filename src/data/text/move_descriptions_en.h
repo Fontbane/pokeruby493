@@ -1423,8 +1423,8 @@ static const u8 MoveDescription_DoubleHit[] = _(
     "tails, tentacles, etc.");
 
 static const u8 MoveDescription_NastyPlot[] = _(
-    "The user’s its brain is stimulated\n"
-    "with bad thoughts which raises its SP. ATK.");
+    "The user plots nasty stuff\n"
+    "which raises its SP. ATK.");
 
 static const u8 MoveDescription_NightSlash[] = _(
     "The user slashes the foe asap.\n"
@@ -1481,6 +1481,18 @@ static const u8 MoveDescription_DragonPulse[] = _(
 static const u8 MoveDescription_ForcePalm[] = _(
     "A shock wave made with the\n"
     "palms. May paralyze the foe.");
+
+static const u8 MoveDescription_MudBomb[] = _(
+    "A jammed mud ball that can\n"
+    "lower the foe’s accuracy.");
+
+static const u8 MoveDescription_PoisonJab[] = _(
+    "The user stabs the foe.\n"
+    "It may poison them.");
+
+static const u8 MoveDescription_PowerWhip[] = _(
+    "A violent attack using\n"
+    "vines or tentacles.");
 
 const u8 * const gMoveDescriptions[] = {
     MoveDescription_Pound,
@@ -1854,4 +1866,7 @@ const u8 * const gMoveDescriptions[] = {
     MoveDescription_CloseCombat,
     MoveDescription_DragonPulse,
     MoveDescription_ForcePalm,
+	MoveDescription_MudBomb,
+	MoveDescription_PoisonJab,
+	MoveDescription_PowerWhip,
 };

@@ -641,3 +641,15 @@ gUnknown_08402B28:: @ 8402B28
 	obj_rot_scal_anim_frame 0, 0, 0, 24
 	obj_rot_scal_anim_frame 1, -5, 0, 16
 	obj_rot_scal_anim_end 0
+
+	.align 2
+gBattleAnimSpriteTemplate_PoisonJab::
+	spr_template 10020, 10295, gOamData_837DF34, gDummySpriteAnimTable, NULL, gDummySpriteAffineAnimTable, sub_80CE670
+
+	.align 2
+gBattleAnimSpriteTemplate_MudBomb1::
+	spr_template 10150, 10074, gOamData_837DFEC, gSpriteAnimTable_83DA274, NULL, gSpriteAffineAnimTable_83DA2B0, sub_80D9D70
+
+	.align 2
+gBattleAnimSpriteTemplate_MudBomb2::
+	spr_template 10150, 10074, gOamData_837DF8C, gSpriteAnimTable_83DA27C, NULL, gSpriteAffineAnimTable_83DA2B4, sub_80D9E94

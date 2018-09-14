@@ -478,6 +478,9 @@ gMonFrontPicCoords:: @ 81E7C74
 	.byte 136,  9, 0, 0 // Hippowdon
 	.byte 102,  9, 0, 0 // Skorupi
 	.byte 120,  6, 0, 0 // Drapion
+	.byte  85,  8, 0, 0 // Croagunk
+	.byte 102,  6, 0, 0 // Toxicroak
+	.byte 102, 10, 0, 0 // Carnivine
 	.byte  51, 20, 0, 0 // EGG
 	.byte  52, 16, 0, 0 // UNOWN B
 	.byte  68, 16, 0, 0 // UNOWN C

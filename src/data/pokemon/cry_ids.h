@@ -206,7 +206,10 @@ const u16 gSpeciesIdToCryId[] = {
     450, // HIPPOPOTAS
     451, // HIPPOWDON
     452, // SKORUPI
-    453  // DRAPION
+    453, // DRAPION
+	454, // CROAGUNK
+	455, // TOXICROAK
+	456  // CARNIVINE
 };
 
 #endif //POKERUBY_CRY_IDS_H

@@ -2079,6 +2079,18 @@ Cry_Drapion::
 	.incbin "sound/direct_sound_samples/cries/cry_drapion.bin"
 
 	.align 2
+Cry_Croagunk:: 
+	.incbin "sound/direct_sound_samples/cries/cry_croagunk.bin"
+
+	.align 2
+Cry_Toxicroak:: 
+	.incbin "sound/direct_sound_samples/cries/cry_toxicroak.bin"
+
+	.align 2
+Cry_Carnivine:: 
+	.incbin "sound/direct_sound_samples/cries/cry_carnivine.bin"
+
+	.align 2
 DirectSoundWaveData_Phoneme_Vowel7:: @ 8639898
 	.incbin "sound/direct_sound_samples/phonemes/vowel_7.bin"
 

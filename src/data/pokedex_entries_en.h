@@ -5718,6 +5718,20 @@ static const u8 DexDescription_Drapion_1[] = _(
   "pride in its strength, taking down\n"
   "foes without using toxins.");
 
+static const u8 DexDescription_Croagunk_1[] = _(
+  "It rarely fights fairly, but that is\n"
+  "strictly to ensure survival. It is\n"
+  "popular as a mascot.");
+
+static const u8 DexDescription_Toxicroak_1[] = _(
+  "It has a poison sac at its throat.\n"
+  "When it croaks, the stored poison is\n"
+  "churned for more potency.");
+
+static const u8 DexDescription_Carnivine_1[] = _(
+  "It binds itself to trees in marshes.\n"
+  "It attracts prey with its sweet-\n"
+  "smelling drool and gulps them down.");
 
 const struct PokedexEntry gPokedexEntries[] =
 {
@@ -10699,6 +10713,39 @@ const struct PokedexEntry gPokedexEntries[] =
         .weight = 615,
         .descriptionPage1 = DexDescription_Drapion_1,
         .descriptionPage2 = DexDescription_Drapion_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+	{  //Croagunk
+        .categoryName = _("TOXIC MOUTH"),
+        .height = 7,
+        .weight = 230,
+        .descriptionPage1 = DexDescription_Croagunk_1,
+        .descriptionPage2 = DexDescription_Croagunk_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+	{  //Toxicroak
+        .categoryName = _("TOXIC MOUTH"),
+        .height = 13,
+        .weight = 444,
+        .descriptionPage1 = DexDescription_Toxicroak_1,
+        .descriptionPage2 = DexDescription_Toxicroak_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+	{  //Carnivine
+        .categoryName = _("BUG CATCHER"),
+        .height = 14,
+        .weight = 270,
+        .descriptionPage1 = DexDescription_Carnivine_1,
+        .descriptionPage2 = DexDescription_Carnivine_1,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,

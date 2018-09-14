@@ -478,6 +478,9 @@ gMonPaletteTable:: @ 81EA5B4
 	obj_pal gMonPalette_Hippowdon, SPECIES_HIPPOWDON
 	obj_pal gMonPalette_Skorupi, SPECIES_SKORUPI
 	obj_pal gMonPalette_Drapion, SPECIES_DRAPION
+	obj_pal gMonPalette_Croagunk, SPECIES_CROAGUNK
+	obj_pal gMonPalette_Toxicroak, SPECIES_TOXICROAK
+	obj_pal gMonPalette_Carnivine, SPECIES_CARNIVINE
 	obj_pal gMonPalette_Egg, SPECIES_EGG
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_B
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_C

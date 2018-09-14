@@ -10863,6 +10863,78 @@ gMonFootprint_Drapion::
 	.incbin "graphics/pokemon/drapion/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Croagunk::
+	.incbin "graphics/pokemon/croagunk/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Croagunk::
+	.incbin "graphics/pokemon/croagunk/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Croagunk::
+	.incbin "graphics/pokemon/croagunk/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Croagunk::
+	.incbin "graphics/pokemon/croagunk/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Croagunk::
+	.incbin "graphics/pokemon/croagunk/icon.4bpp"
+
+	.align 2
+gMonFootprint_Croagunk::
+	.incbin "graphics/pokemon/croagunk/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Toxicroak::
+	.incbin "graphics/pokemon/toxicroak/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Toxicroak::
+	.incbin "graphics/pokemon/toxicroak/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Toxicroak::
+	.incbin "graphics/pokemon/toxicroak/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Toxicroak::
+	.incbin "graphics/pokemon/toxicroak/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Toxicroak::
+	.incbin "graphics/pokemon/toxicroak/icon.4bpp"
+
+	.align 2
+gMonFootprint_Toxicroak::
+	.incbin "graphics/pokemon/toxicroak/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Carnivine::
+	.incbin "graphics/pokemon/carnivine/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Carnivine::
+	.incbin "graphics/pokemon/carnivine/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Carnivine::
+	.incbin "graphics/pokemon/carnivine/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Carnivine::
+	.incbin "graphics/pokemon/carnivine/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Carnivine::
+	.incbin "graphics/pokemon/carnivine/icon.4bpp"
+
+	.align 2
+gMonFootprint_Carnivine::
+	.incbin "graphics/pokemon/carnivine/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 
