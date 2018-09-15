@@ -2103,6 +2103,18 @@ Cry_Mantyke::
 	.incbin "sound/direct_sound_samples/cries/cry_mantyke.bin"
 
 	.align 2
+Cry_Snover:: 
+	.incbin "sound/direct_sound_samples/cries/cry_snover.bin"
+
+	.align 2
+Cry_Abomasnow:: 
+	.incbin "sound/direct_sound_samples/cries/cry_abomasnow.bin"
+
+	.align 2
+Cry_Weavile:: 
+	.incbin "sound/direct_sound_samples/cries/cry_weavile.bin"
+
+	.align 2
 DirectSoundWaveData_Phoneme_Vowel7:: @ 8639898
 	.incbin "sound/direct_sound_samples/phonemes/vowel_7.bin"
 

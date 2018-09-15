@@ -483,7 +483,10 @@ gMonBackPicCoords:: @ 81E9114
 	.byte  85, 13, 0, 0 // Carnivine
 	.byte 101, 14, 0, 0 // Finneon
 	.byte 118, 10, 0, 0 // Lumineon
-	.byte 101, 14, 0, 0 // Mantyke	
+	.byte 101, 14, 0, 0 // Mantyke
+	.byte 133, 12, 0, 0 // Snover
+	.byte 120,  2, 0, 0 // Abomasnow
+	.byte 133,  8, 0, 0 // Weavile
 	.byte  54, 10, 0, 0 // EGG
 	.byte  86,  9, 0, 0 // UNOWN B
 	.byte 103,  6, 0, 0 // UNOWN C

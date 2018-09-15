@@ -386,4 +386,5 @@ const u8 gMoveNames[][13] = {
 	[MOVE_X_SCISSOR] = _("X-SCISSOR"),
 	[MOVE_BULLET_PUNCH] = _("BULLET PUNCH"),
 	[MOVE_IRON_HEAD] = _("IRON HEAD"),
+	[MOVE_WOOD_HAMMER] = _("WOOD HAMMER"),
 };

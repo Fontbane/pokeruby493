@@ -484,6 +484,9 @@ gMonFrontPicCoords:: @ 81E7C74
 	.byte 101, 13, 0, 0 // Finneon
 	.byte 102,  6, 0, 0 // Lumineon
 	.byte 101, 13, 0, 0 // Mantyke
+	.byte 103, 11, 0, 0 // Snover
+	.byte 136,  1, 0, 0 // Abomasnow
+	.byte  85,  4, 0, 0 // Weavile
 	.byte  51, 20, 0, 0 // EGG
 	.byte  52, 16, 0, 0 // UNOWN B
 	.byte  68, 16, 0, 0 // UNOWN C

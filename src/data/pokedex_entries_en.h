@@ -5748,6 +5748,21 @@ static const u8 DexDescription_Mantyke_1[] = _(
   "POKéMON frolic and skim the tops of\n"
   "the waves with REMORAID.");
 
+static const u8 DexDescription_Snover_1[] = _(
+  "Seemingly curious about people, they\n"
+  "gather around footsteps they find on\n"
+  "snowy mountains.");
+
+static const u8 DexDescription_Abomasnow_1[] = _(
+  "They appear when the snow flowers\n"
+  "bloom. When the petals fall, they\n"
+  "retreat to places unknown again.");
+
+static const u8 DexDescription_Weavile_1[] = _(
+  "Evolution made it even more devious.\n"
+  "It communicates by clawing signs in\n"
+  "boulders.");
+
 const struct PokedexEntry gPokedexEntries[] =
 {
     {  //Dummy
@@ -10794,6 +10809,39 @@ const struct PokedexEntry gPokedexEntries[] =
         .weight = 650,
         .descriptionPage1 = DexDescription_Mantyke_1,
         .descriptionPage2 = DexDescription_Mantyke_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+	{  //Snover
+        .categoryName = _("FROST TREE"),
+        .height = 10,
+        .weight = 505,
+        .descriptionPage1 = DexDescription_Snover_1,
+        .descriptionPage2 = DexDescription_Snover_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+	{  //Abomasnow
+        .categoryName = _("FROST TREE"),
+        .height = 22,
+        .weight = 1355,
+        .descriptionPage1 = DexDescription_Abomasnow_1,
+        .descriptionPage2 = DexDescription_Abomasnow_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+	{  //Weavile
+        .categoryName = _("SHARP CLAW"),
+        .height = 11,
+        .weight = 340,
+        .descriptionPage1 = DexDescription_Weavile_1,
+        .descriptionPage2 = DexDescription_Weavile_1,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,

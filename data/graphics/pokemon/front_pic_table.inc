@@ -484,6 +484,9 @@ gMonFrontPicTable:: @ 81E8354
 	obj_tiles gMonFrontPic_Finneon, 0x800, SPECIES_FINNEON
 	obj_tiles gMonFrontPic_Lumineon, 0x800, SPECIES_LUMINEON
 	obj_tiles gMonFrontPic_Mantyke, 0x800, SPECIES_MANTYKE
+	obj_tiles gMonFrontPic_Snover, 0x800, SPECIES_SNOVER
+	obj_tiles gMonFrontPic_Abomasnow, 0x800, SPECIES_ABOMASNOW
+	obj_tiles gMonFrontPic_Weavile, 0x800, SPECIES_WEAVILE
 	obj_tiles gMonPic_Egg, 0x800, SPECIES_EGG
 	obj_tiles gMonFrontPic_UnownB, 0x800, SPECIES_UNOWN_B
 	obj_tiles gMonFrontPic_UnownC, 0x800, SPECIES_UNOWN_C

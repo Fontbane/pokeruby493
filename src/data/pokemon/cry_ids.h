@@ -212,7 +212,10 @@ const u16 gSpeciesIdToCryId[] = {
 	456, // CARNIVINE
 	457, // FINNEON
 	458, // LUMINEON
-	459  // MANTYKE
+	459, // MANTYKE
+	460, // SNOVER
+	461, // ABOMASNOW
+	462  // WEAVILE
 };
 
 #endif //POKERUBY_CRY_IDS_H

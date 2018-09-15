@@ -1542,6 +1542,10 @@ static const u8 MoveDescription_IronHead[] = _(
     "Slams the foe with a hard\n"
     "head. May cause flinching.");
 
+static const u8 MoveDescription_WoodHammer[] = _(
+    "A slam as hard as a\n"
+    "hammer. It hurts the user.");
+
 const u8 * const gMoveDescriptions[] = {
     MoveDescription_Pound,
     MoveDescription_KarateChop,
@@ -1929,4 +1933,5 @@ const u8 * const gMoveDescriptions[] = {
 	MoveDescription_XScissor,
 	MoveDescription_BulletPunch,
 	MoveDescription_IronHead,
+	MoveDescription_WoodHammer,
 };

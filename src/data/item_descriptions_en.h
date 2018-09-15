@@ -946,6 +946,11 @@ static const u8 gItemDescription_OvalStone[] = _(
     "POKéMON to evolve.\n"
     "Looks like an egg.");
 
+static const u8 gItemDescription_RazorClaw[] = _(
+    "Helps a certain\n"
+    "POKéMON to evolve.\n"
+    "It’s a sharp claw.");
+
 static const u8 gItemDescription_RedScarf[] = _(
     "A hold item that\n"
     "raises COOL in\n"

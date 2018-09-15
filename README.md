@@ -4,7 +4,7 @@ Attempt at making a public base of Pokeruby with expanded pokémon up to Arceus 
 I don't know when or if I'll ever be able to complete it, so keep that in mind.
 
 ### Progress
-458/493 - 386 + Turtwig, Grotle, Torterra, Chimchar, Monferno, Infernape, Piplup, Prinplup, Empoleon, Starly, Staravia, Staraptor, Bidoof, Bibarel, Kricketot, Kricketune, Shinx, Luxio, Luxray, Budew, Roserade, Cranidos, Rampardos, Shieldon, Bastiodon, Burmy (Plant Cloak), Wormadam (Plant Cloak), Mothim, Combee, Vespiquen, Pachirisu, Buizel, Floatzel, Cherubi, Cherrim, Shellos (East Sea), Gastrodon (East Sea), Ambipom, Drifloon, Drifblim, Buneary, Lopunny, Mismagius, Honchkrow, Glameow, Purugly, Chingling, Stunky, Skuntank, Bronzor, Bronzong, Binsly, Mime Jr, Happiny, Chatot, Spiritomb, Gible, Gabite, Garchomp, Munchlax, Riolu, Lucario, Hippopotas, Hippowdon, Skorupi, Drapion, Croagunk, Toxicroak, Carnivine, Finneon, Lumineon and Mantyke.
+461/493 - 386 + Turtwig, Grotle, Torterra, Chimchar, Monferno, Infernape, Piplup, Prinplup, Empoleon, Starly, Staravia, Staraptor, Bidoof, Bibarel, Kricketot, Kricketune, Shinx, Luxio, Luxray, Budew, Roserade, Cranidos, Rampardos, Shieldon, Bastiodon, Burmy (Plant Cloak), Wormadam (Plant Cloak), Mothim, Combee, Vespiquen, Pachirisu, Buizel, Floatzel, Cherubi, Cherrim, Shellos (East Sea), Gastrodon (East Sea), Ambipom, Drifloon, Drifblim, Buneary, Lopunny, Mismagius, Honchkrow, Glameow, Purugly, Chingling, Stunky, Skuntank, Bronzor, Bronzong, Binsly, Mime Jr, Happiny, Chatot, Spiritomb, Gible, Gabite, Garchomp, Munchlax, Riolu, Lucario, Hippopotas, Hippowdon, Skorupi, Drapion, Croagunk, Toxicroak, Carnivine, Finneon, Lumineon, Mantyke, Snover, Abomasnow, Weavile.
 
 ![Pic](https://i.imgur.com/F6jmvee.png)
 
@@ -51,7 +51,7 @@ I intend to implement as many Gen. 4 features as I can to this base. Right now, 
 
 * You can now run indoors
 
-* There's 32 Gen. 4 moves added, which are Aqua Jet, Double Hit, Nasty Plot, Night Slash, Dark Pulse, Sucker Punch, Feint, Ominous Wind, Shadow Sneak, Dragon Rush, Fire Fang, Ice Fang, Thunder Fang, Aura Sphere, Close Combat (although its effect isn't implemented yet), Dragon Pulse, Force Palm, Mud Bomb, Poison Jab, Power Whip, Brave Bird, Flare Blitz, Zen Headbutt, Ice Shard, Brine, Aqua Tail, Air Slash, Bug Buzz, Vacuum Wave, X-Scissor, Bullet Punch and Iron Head.
+* There's 33 Gen. 4 moves added, which are Aqua Jet, Double Hit, Nasty Plot, Night Slash, Dark Pulse, Sucker Punch, Feint, Ominous Wind, Shadow Sneak, Dragon Rush, Fire Fang, Ice Fang, Thunder Fang, Aura Sphere, Close Combat (although its effect isn't implemented yet), Dragon Pulse, Force Palm, Mud Bomb, Poison Jab, Power Whip, Brave Bird, Flare Blitz, Zen Headbutt, Ice Shard, Brine, Aqua Tail, Air Slash, Bug Buzz, Vacuum Wave, X-Scissor, Bullet Punch, Iron Head and Wood Hammer (with Pound's animation as a placeholder).
 
 * There's 2 new evolution stones, the Shiny Stone for Roselia and the Dusk Stone for Misdreavus and Murkrow.
 

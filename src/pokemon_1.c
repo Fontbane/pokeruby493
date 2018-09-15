@@ -509,7 +509,10 @@ const u16 gSpeciesToHoennPokedexNum[] = // Assigns all species to the Hoenn Dex 
 	HOENN_DEX_CARNIVINE,        // SPECIES_CARNIVINE
 	HOENN_DEX_FINNEON,          // SPECIES_FINNEON
 	HOENN_DEX_LUMINEON,         // SPECIES_LUMINEON
-	HOENN_DEX_MANTYKE           // SPECIES_MANTYKE
+	HOENN_DEX_MANTYKE,          // SPECIES_MANTYKE
+	HOENN_DEX_SNOVER,           // SPECIES_SNOVER
+	HOENN_DEX_ABOMASNOW,        // SPECIES_ABOMASNOW
+	HOENN_DEX_WEAVILE           // SPECIES_WEAVILE
 };
 
 const u16 gSpeciesToNationalPokedexNum[] = // Assigns all species to the National Dex Index (Summary No. for National Dex)
@@ -997,7 +1000,10 @@ const u16 gSpeciesToNationalPokedexNum[] = // Assigns all species to the Nationa
 	NATIONAL_DEX_CARNIVINE,         // SPECIES_CARNIVINE
 	NATIONAL_DEX_FINNEON,           // SPECIES_FINNEON
 	NATIONAL_DEX_LUMINEON,          // SPECIES_LUMINEON
-	NATIONAL_DEX_MANTYKE            // SPECIES_MANTYKE
+	NATIONAL_DEX_MANTYKE,           // SPECIES_MANTYKE
+	NATIONAL_DEX_SNOVER,            // SPECIES_SNOVER
+	NATIONAL_DEX_ABOMASNOW,         // SPECIES_ABOMASNOW
+	NATIONAL_DEX_WEAVILE            // SPECIES_WEAVILE
 };
 
 const u16 gHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using National Dex Index)
@@ -1461,6 +1467,9 @@ const u16 gHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using Nationa
 	NATIONAL_DEX_FINNEON,       // HOENN_DEX_FINNEON
 	NATIONAL_DEX_LUMINEON,      // HOENN_DEX_LUMINEON
 	NATIONAL_DEX_MANTYKE,       // HOENN_DEX_MANTYKE
+	NATIONAL_DEX_SNOVER,        // HOENN_DEX_SNOVER
+	NATIONAL_DEX_ABOMASNOW,     // HOENN_DEX_ABOMASNOW
+	NATIONAL_DEX_WEAVILE,       // HOENN_DEX_WEAVILE
 	NATIONAL_DEX_OLD_UNOWN_B,  	// HOENN_DEX_OLD_UNOWN_B
 	NATIONAL_DEX_OLD_UNOWN_C,  	// HOENN_DEX_OLD_UNOWN_C
 	NATIONAL_DEX_OLD_UNOWN_D,  	// HOENN_DEX_OLD_UNOWN_D

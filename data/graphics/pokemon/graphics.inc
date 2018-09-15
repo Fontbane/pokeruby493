@@ -11007,6 +11007,78 @@ gMonFootprint_Mantyke::
 	.incbin "graphics/pokemon/mantyke/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Snover::
+	.incbin "graphics/pokemon/snover/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Snover::
+	.incbin "graphics/pokemon/snover/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Snover::
+	.incbin "graphics/pokemon/snover/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Snover::
+	.incbin "graphics/pokemon/snover/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Snover::
+	.incbin "graphics/pokemon/snover/icon.4bpp"
+
+	.align 2
+gMonFootprint_Snover::
+	.incbin "graphics/pokemon/snover/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Abomasnow::
+	.incbin "graphics/pokemon/abomasnow/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Abomasnow::
+	.incbin "graphics/pokemon/abomasnow/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Abomasnow::
+	.incbin "graphics/pokemon/abomasnow/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Abomasnow::
+	.incbin "graphics/pokemon/abomasnow/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Abomasnow::
+	.incbin "graphics/pokemon/abomasnow/icon.4bpp"
+
+	.align 2
+gMonFootprint_Abomasnow::
+	.incbin "graphics/pokemon/abomasnow/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Weavile::
+	.incbin "graphics/pokemon/weavile/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Weavile::
+	.incbin "graphics/pokemon/weavile/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Weavile::
+	.incbin "graphics/pokemon/weavile/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Weavile::
+	.incbin "graphics/pokemon/weavile/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Weavile::
+	.incbin "graphics/pokemon/weavile/icon.4bpp"
+
+	.align 2
+gMonFootprint_Weavile::
+	.incbin "graphics/pokemon/weavile/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

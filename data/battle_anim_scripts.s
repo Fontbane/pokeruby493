@@ -405,6 +405,7 @@ gBattleAnims_Moves:: @ 81C7168
 	.4byte Move_X_SCISSOR
 	.4byte Move_BULLET_PUNCH
 	.4byte Move_IRON_HEAD
+	.4byte Move_WOOD_HAMMER
 	.4byte PoundCopy
 
 	.align 2
@@ -10361,6 +10362,18 @@ Move_IRON_HEAD:
 	createsprite gBattleAnimSpriteTemplate_83DB538, 131, 0, 0, 1, 1
 	playsewithpan SE_W233B, 63
 	waitforvisualfinish
+	end
+
+Move_WOOD_HAMMER:
+	loadspritegfx 10135
+	monbg ANIM_BANK_TARGET
+	setalpha 12, 8
+	playsewithpan SE_W003, 63
+	createsprite gBasicHitSplatSpriteTemplate, 2, 0, 0, 1, 2
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_TARGET, 3, 0, 6, 1
+	waitforvisualfinish
+	clearmonbg ANIM_BANK_TARGET
+	blendoff
 	end
 
 Move_KNOCK_OFF: @ 81D523B
