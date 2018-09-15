@@ -10935,6 +10935,78 @@ gMonFootprint_Carnivine::
 	.incbin "graphics/pokemon/carnivine/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Finneon::
+	.incbin "graphics/pokemon/finneon/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Finneon::
+	.incbin "graphics/pokemon/finneon/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Finneon::
+	.incbin "graphics/pokemon/finneon/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Finneon::
+	.incbin "graphics/pokemon/finneon/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Finneon::
+	.incbin "graphics/pokemon/finneon/icon.4bpp"
+
+	.align 2
+gMonFootprint_Finneon::
+	.incbin "graphics/pokemon/finneon/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Lumineon::
+	.incbin "graphics/pokemon/lumineon/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Lumineon::
+	.incbin "graphics/pokemon/lumineon/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Lumineon::
+	.incbin "graphics/pokemon/lumineon/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Lumineon::
+	.incbin "graphics/pokemon/lumineon/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Lumineon::
+	.incbin "graphics/pokemon/lumineon/icon.4bpp"
+
+	.align 2
+gMonFootprint_Lumineon::
+	.incbin "graphics/pokemon/lumineon/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Mantyke::
+	.incbin "graphics/pokemon/mantyke/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Mantyke::
+	.incbin "graphics/pokemon/mantyke/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Mantyke::
+	.incbin "graphics/pokemon/mantyke/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Mantyke::
+	.incbin "graphics/pokemon/mantyke/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Mantyke::
+	.incbin "graphics/pokemon/mantyke/icon.4bpp"
+
+	.align 2
+gMonFootprint_Mantyke::
+	.incbin "graphics/pokemon/mantyke/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

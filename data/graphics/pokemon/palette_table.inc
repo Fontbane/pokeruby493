@@ -481,6 +481,9 @@ gMonPaletteTable:: @ 81EA5B4
 	obj_pal gMonPalette_Croagunk, SPECIES_CROAGUNK
 	obj_pal gMonPalette_Toxicroak, SPECIES_TOXICROAK
 	obj_pal gMonPalette_Carnivine, SPECIES_CARNIVINE
+	obj_pal gMonPalette_Finneon, SPECIES_FINNEON
+	obj_pal gMonPalette_Lumineon, SPECIES_LUMINEON
+	obj_pal gMonPalette_Mantyke, SPECIES_MANTYKE
 	obj_pal gMonPalette_Egg, SPECIES_EGG
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_B
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_C

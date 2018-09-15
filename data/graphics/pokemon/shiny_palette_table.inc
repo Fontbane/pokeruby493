@@ -483,6 +483,9 @@ gMonShinyPaletteTable:: @ 81EB374
 	obj_pal gMonShinyPalette_Croagunk, PAL_ID_SHINY + SPECIES_CROAGUNK
 	obj_pal gMonShinyPalette_Toxicroak, PAL_ID_SHINY + SPECIES_TOXICROAK
 	obj_pal gMonShinyPalette_Carnivine, PAL_ID_SHINY + SPECIES_CARNIVINE
+	obj_pal gMonShinyPalette_Finneon, PAL_ID_SHINY + SPECIES_FINNEON
+	obj_pal gMonShinyPalette_Lumineon, PAL_ID_SHINY + SPECIES_LUMINEON
+	obj_pal gMonShinyPalette_Mantyke, PAL_ID_SHINY + SPECIES_MANTYKE
 	obj_pal gMonPalette_Egg, PAL_ID_SHINY + SPECIES_EGG
 	obj_pal gMonShinyPalette_Unown, PAL_ID_SHINY + SPECIES_UNOWN_B
 	obj_pal gMonShinyPalette_Unown, PAL_ID_SHINY + SPECIES_UNOWN_C

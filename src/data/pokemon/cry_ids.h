@@ -209,7 +209,10 @@ const u16 gSpeciesIdToCryId[] = {
     453, // DRAPION
 	454, // CROAGUNK
 	455, // TOXICROAK
-	456  // CARNIVINE
+	456, // CARNIVINE
+	457, // FINNEON
+	458, // LUMINEON
+	459  // MANTYKE
 };
 
 #endif //POKERUBY_CRY_IDS_H

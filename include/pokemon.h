@@ -505,6 +505,7 @@ enum {
 #define EVO_MAP              0x0016 // Pokémon levels up in a specific map
 #define EVO_ITEM_DAY         0x0017 // Pokémon levels up during the day while holding the specified item
 #define EVO_ITEM_NIGHT       0x0018 // Pokémon levels up during the night while holding the specified item
+#define EVO_SPECIES          0x0019 // Pokémon levels up while a specific pokémon is in the party.
 
 struct Evolution
 {

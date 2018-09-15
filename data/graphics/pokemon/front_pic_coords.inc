@@ -481,6 +481,9 @@ gMonFrontPicCoords:: @ 81E7C74
 	.byte  85,  8, 0, 0 // Croagunk
 	.byte 102,  6, 0, 0 // Toxicroak
 	.byte 102, 10, 0, 0 // Carnivine
+	.byte 101, 13, 0, 0 // Finneon
+	.byte 102,  6, 0, 0 // Lumineon
+	.byte 101, 13, 0, 0 // Mantyke
 	.byte  51, 20, 0, 0 // EGG
 	.byte  52, 16, 0, 0 // UNOWN B
 	.byte  68, 16, 0, 0 // UNOWN C

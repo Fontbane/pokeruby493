@@ -5733,6 +5733,21 @@ static const u8 DexDescription_Carnivine_1[] = _(
   "It attracts prey with its sweet-\n"
   "smelling drool and gulps them down.");
 
+static const u8 DexDescription_Finneon_1[] = _(
+  "The line running down its side can\n"
+  "store sunlight. It shines vividly\n"
+  "at night.");
+
+static const u8 DexDescription_Lumineon_1[] = _(
+  "It crawls along the seafloor using\n"
+  "its long front fins like legs. It\n"
+  "competes for food with LANTURN.");
+
+static const u8 DexDescription_Mantyke_1[] = _(
+  "People organize tours to see this\n"
+  "POKéMON frolic and skim the tops of\n"
+  "the waves with REMORAID.");
+
 const struct PokedexEntry gPokedexEntries[] =
 {
     {  //Dummy
@@ -10746,6 +10761,39 @@ const struct PokedexEntry gPokedexEntries[] =
         .weight = 270,
         .descriptionPage1 = DexDescription_Carnivine_1,
         .descriptionPage2 = DexDescription_Carnivine_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+	{  //Finneon
+        .categoryName = _("WING FISH"),
+        .height = 4,
+        .weight = 70,
+        .descriptionPage1 = DexDescription_Finneon_1,
+        .descriptionPage2 = DexDescription_Finneon_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+	{  //Lumineon
+        .categoryName = _("NEON"),
+        .height = 12,
+        .weight = 240,
+        .descriptionPage1 = DexDescription_Lumineon_1,
+        .descriptionPage2 = DexDescription_Lumineon_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+	{  //Mantyke
+        .categoryName = _("KITE"),
+        .height = 10,
+        .weight = 650,
+        .descriptionPage1 = DexDescription_Mantyke_1,
+        .descriptionPage2 = DexDescription_Mantyke_1,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,

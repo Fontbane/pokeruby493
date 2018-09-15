@@ -1,10 +1,10 @@
 ### Description
-Attempt at making a public base of Pokeruby with expanded pokémon up to Arceus.
+Attempt at making a public base of Pokeruby with expanded pokémon up to Arceus with other Gen. 4 features.
 
 I don't know when or if I'll ever be able to complete it, so keep that in mind.
 
 ### Progress
-455/493 - 386 + Turtwig, Grotle, Torterra, Chimchar, Monferno, Infernape, Piplup, Prinplup, Empoleon, Starly, Staravia, Staraptor, Bidoof, Bibarel, Kricketot, Kricketune, Shinx, Luxio, Luxray, Budew, Roserade, Cranidos, Rampardos, Shieldon, Bastiodon, Burmy (Plant Cloak), Wormadam (Plant Cloak), Mothim, Combee, Vespiquen, Pachirisu, Buizel, Floatzel, Cherubi, Cherrim, Shellos (East Sea), Gastrodon (East Sea), Ambipom, Drifloon, Drifblim, Buneary, Lopunny, Mismagius, Honchkrow, Glameow, Purugly, Chingling, Stunky, Skuntank, Bronzor, Bronzong, Binsly, Mime Jr, Happiny, Chatot, Spiritomb, Gible, Gabite, Garchomp, Munchlax, Riolu, Lucario, Hippopotas, Hippowdon, Skorupi, Drapion, Croagunk, Toxicroak and Carnivine.
+458/493 - 386 + Turtwig, Grotle, Torterra, Chimchar, Monferno, Infernape, Piplup, Prinplup, Empoleon, Starly, Staravia, Staraptor, Bidoof, Bibarel, Kricketot, Kricketune, Shinx, Luxio, Luxray, Budew, Roserade, Cranidos, Rampardos, Shieldon, Bastiodon, Burmy (Plant Cloak), Wormadam (Plant Cloak), Mothim, Combee, Vespiquen, Pachirisu, Buizel, Floatzel, Cherubi, Cherrim, Shellos (East Sea), Gastrodon (East Sea), Ambipom, Drifloon, Drifblim, Buneary, Lopunny, Mismagius, Honchkrow, Glameow, Purugly, Chingling, Stunky, Skuntank, Bronzor, Bronzong, Binsly, Mime Jr, Happiny, Chatot, Spiritomb, Gible, Gabite, Garchomp, Munchlax, Riolu, Lucario, Hippopotas, Hippowdon, Skorupi, Drapion, Croagunk, Toxicroak, Carnivine, Finneon, Lumineon and Mantyke.
 
 ![Pic](https://i.imgur.com/F6jmvee.png)
 
@@ -57,7 +57,7 @@ I intend to implement as many Gen. 4 features as I can to this base. Right now, 
 
 * The Oval Stone was added too as Happiny requires it to evolve into Chansey.
 
-* New evolution methods have been implemented to account for the evolutions of certain pokémon like Combee, Happiny, Aipom, Sneasel, Gligar, Nosepass, Magneton, etc.
+* New evolution methods have been implemented to account for the evolutions of certain pokémon like Combee, Happiny, Aipom, Sneasel, Gligar, Nosepass, Magneton, Mantyke, etc.
 
 * Poisoning in the overworld works just like it does in the Gen. 4 Games.
 
@@ -77,6 +77,6 @@ I intend to implement as many Gen. 4 features as I can to this base. Right now, 
 
 -Shinny: Help with the front sprites' position issue and with the Level + Gender Based evolution.
 
--[BluRose](https://github.com/BluRosie): Map and move-based evolutions, Happiny's evolution method too and Gen. 4 styled OW Poisoning.
+-[BluRose](https://github.com/BluRosie): Map and move-based evolutions, Happiny's and Mantyke's evolution methods too and Gen. 4 styled OW Poisoning.
 
 -[Doesnt](https://github.com/Doesnty): I learned how to add new moves thanks to his commits, and I'm also using his implementations for Mud Bomb, Poison Jab, Power Whip, Brave Bird, Flare Blitz, Zen Headbutt, Ice Shard, Brine, Aqua Tail, Air Slash, Bug Buzz, Vacuum Wave, X-Scissor, Bullet Punch and Iron Head.

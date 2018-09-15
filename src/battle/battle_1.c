@@ -520,6 +520,9 @@ const u8 gEnemyMonElevation[] = {
 	[SPECIES_CROAGUNK] = 0,
 	[SPECIES_TOXICROAK] = 0,
 	[SPECIES_CARNIVINE] = 0,
+	[SPECIES_FINNEON] = 0,
+	[SPECIES_LUMINEON] = 0,
+	[SPECIES_MANTYKE] = 0,
 };
 
 #include "../data/trainer_parties.h"

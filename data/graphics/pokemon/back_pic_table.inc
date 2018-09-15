@@ -481,6 +481,9 @@ gMonBackPicTable:: @ 81E97F4
 	obj_tiles gMonBackPic_Croagunk, 0x800, SPECIES_CROAGUNK
 	obj_tiles gMonBackPic_Toxicroak, 0x800, SPECIES_TOXICROAK
 	obj_tiles gMonBackPic_Carnivine, 0x800, SPECIES_CARNIVINE
+	obj_tiles gMonBackPic_Finneon, 0x800, SPECIES_FINNEON
+	obj_tiles gMonBackPic_Lumineon, 0x800, SPECIES_LUMINEON
+	obj_tiles gMonBackPic_Mantyke, 0x800, SPECIES_MANTYKE
 	obj_tiles gMonPic_Egg, 0x800, SPECIES_EGG
 	obj_tiles gMonBackPic_UnownB, 0x800, SPECIES_UNOWN_B
 	obj_tiles gMonBackPic_UnownC, 0x800, SPECIES_UNOWN_C

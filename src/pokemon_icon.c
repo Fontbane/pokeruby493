@@ -499,6 +499,9 @@ const u8 * const gMonIconTable[] =
 	gMonIcon_Croagunk,
 	gMonIcon_Toxicroak,
 	gMonIcon_Carnivine,
+	gMonIcon_Finneon,
+	gMonIcon_Lumineon,
+	gMonIcon_Mantyke,
     gMonIcon_Egg,
     gMonIcon_UnownB,
     gMonIcon_UnownC,
@@ -1012,6 +1015,9 @@ const u8 gMonIconPaletteIndices[] =
 	0, // Croagunk
 	0, // Toxicroak
 	1, // Carnivine
+	0, // Finneon
+	0, // Lumineon
+	0, // Mantyke
     1, // Egg
     0, // Unown B
     0, // Unown C
