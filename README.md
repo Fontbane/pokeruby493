@@ -61,6 +61,8 @@ I intend to implement as many Gen. 4 features as I can to this base. Right now, 
 
 * Poisoning in the overworld works just like it does in the Gen. 4 Games.
 
+* The Light Ball now works just like in the Gen. 4 Games. It doubles not only Pikachu's Sp. Atk, but its Atk too.
+
 # Credits
 
 -[Gamer2020](https://github.com/Gamer2020): He created aseriestodis which is the tool that "motivated" me to create my pokeruby_gen4sprites repo which I'm using here, and for his [pokémon base stats file](https://github.com/Gamer2020/Pokeemerald-Pokemon-and-Move-Expansion-Files/blob/master/files/include/data/pokemon/base_stats.h) which I'm using as a base for this repo's.
