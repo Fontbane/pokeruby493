@@ -15850,7 +15850,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip        = FALSE,
     },
 
-	[SPECIES_FINNEON] =
+    [SPECIES_FINNEON] =
     {
         .baseHP        = 49,
         .baseAttack        = 49,
@@ -15949,7 +15949,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip        = FALSE,
     },
 
-	[SPECIES_SNOVER] =
+    [SPECIES_SNOVER] =
     {
         .baseHP        = 60,
         .baseAttack        = 62,

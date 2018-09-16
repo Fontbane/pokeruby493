@@ -10308,7 +10308,7 @@ const struct PokedexEntry gPokedexEntries[] =
     {  //Shieldon
         .categoryName = _("SHIELD"),
         .height = 5,
-        .weight = 570	,
+        .weight = 570    ,
         .descriptionPage1 = DexDescription_Shieldon_1,
         .descriptionPage2 = DexDescription_Shieldon_1,
         .pokemonScale = 444,
@@ -10778,7 +10778,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
     },
-	{  //Croagunk
+    {  //Croagunk
         .categoryName = _("TOXIC MOUTH"),
         .height = 7,
         .weight = 230,
@@ -10789,7 +10789,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
     },
-	{  //Toxicroak
+    {  //Toxicroak
         .categoryName = _("TOXIC MOUTH"),
         .height = 13,
         .weight = 444,
@@ -10800,7 +10800,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
     },
-	{  //Carnivine
+    {  //Carnivine
         .categoryName = _("BUG CATCHER"),
         .height = 14,
         .weight = 270,
@@ -10811,7 +10811,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
     },
-	{  //Finneon
+    {  //Finneon
         .categoryName = _("WING FISH"),
         .height = 4,
         .weight = 70,
@@ -10822,7 +10822,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
     },
-	{  //Lumineon
+    {  //Lumineon
         .categoryName = _("NEON"),
         .height = 12,
         .weight = 240,
@@ -10833,7 +10833,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
     },
-	{  //Mantyke
+    {  //Mantyke
         .categoryName = _("KITE"),
         .height = 10,
         .weight = 650,
@@ -10844,7 +10844,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
     },
-	{  //Snover
+    {  //Snover
         .categoryName = _("FROST TREE"),
         .height = 10,
         .weight = 505,
@@ -10855,7 +10855,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
     },
-	{  //Abomasnow
+    {  //Abomasnow
         .categoryName = _("FROST TREE"),
         .height = 22,
         .weight = 1355,
@@ -10866,7 +10866,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
     },
-	{  //Weavile
+    {  //Weavile
         .categoryName = _("SHARP CLAW"),
         .height = 11,
         .weight = 340,
@@ -10877,7 +10877,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
     },
-	{  //Magnezone
+    {  //Magnezone
         .categoryName = _("MAGNET AREA"),
         .height = 12,
         .weight = 1800,
@@ -10888,7 +10888,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
     },
-	{  //Lickilicky
+    {  //Lickilicky
         .categoryName = _("LICKING"),
         .height = 17,
         .weight = 1400,
@@ -10899,7 +10899,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
     },
-	{  //Rhyperior
+    {  //Rhyperior
         .categoryName = _("DRILL"),
         .height = 24,
         .weight = 2828,
@@ -10910,7 +10910,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
     },
-	{  //Tangrowth
+    {  //Tangrowth
         .categoryName = _("VINE"),
         .height = 20,
         .weight = 1286,
@@ -10921,7 +10921,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
     },
-	{  //Electivire
+    {  //Electivire
         .categoryName = _("THUNDERBOLT"),
         .height = 18,
         .weight = 1386,
@@ -10932,7 +10932,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
     },
-	{  //Magmortar
+    {  //Magmortar
         .categoryName = _("BLAST"),
         .height = 16,
         .weight = 680,

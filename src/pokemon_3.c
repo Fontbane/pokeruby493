@@ -268,7 +268,7 @@ u8 GetNatureFromPersonality(u32 personality)
 u16 GetEvolutionTargetSpecies(struct Pokemon *mon, u8 type, u16 evolutionItem)
 {
     int i;
-	int j;
+    int j;
     u16 targetSpecies = 0;
     u16 species = GetMonData(mon, MON_DATA_SPECIES, 0);
     u16 heldItem = GetMonData(mon, MON_DATA_HELD_ITEM, 0);
@@ -278,7 +278,7 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, u8 type, u16 evolutionItem)
     u8 beauty = GetMonData(mon, MON_DATA_BEAUTY, 0);
     u16 upperPersonality = personality >> 16;
     u8 holdEffect;
-	u8 gender = GetMonGender(mon);
+    u8 gender = GetMonGender(mon);
     u8 mapGroup = gSaveBlock1.location.mapGroup;
     u8 mapNum = gSaveBlock1.location.mapNum;
 
@@ -353,7 +353,7 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, u8 type, u16 evolutionItem)
                 if (gEvolutionTable[species][i].param <= level && (gender) == 0)
                     targetSpecies = gEvolutionTable[species][i].targetSpecies;
                 break;
-			case EVO_LEVEL_FEMALE:
+            case EVO_LEVEL_FEMALE:
                 if (gEvolutionTable[species][i].param <= level && (gender) == 254)
                     targetSpecies = gEvolutionTable[species][i].targetSpecies;
                 break;
@@ -389,11 +389,11 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, u8 type, u16 evolutionItem)
                 break;
             case EVO_SPECIES:
                 for (j = 0; j < PARTY_SIZE; j++)
-				{
+                {
                     u16 checkSpecies = GetMonData(&gPlayerParty[j], MON_DATA_SPECIES, NULL);
                     if (checkSpecies == gEvolutionTable[species][i].param)
                         targetSpecies = gEvolutionTable[species][i].targetSpecies;
-                }	
+                }
                 break;
             }
         }

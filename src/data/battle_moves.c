@@ -4277,7 +4277,7 @@ const struct BattleMove gBattleMoves[] = {
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT,
     },
 
-	[MOVE_DOUBLE_HIT] = {
+    [MOVE_DOUBLE_HIT] = {
         .effect = EFFECT_DOUBLE_HIT,
         .power = 35,
         .type = TYPE_NORMAL,
@@ -4325,7 +4325,7 @@ const struct BattleMove gBattleMoves[] = {
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT,
     },
 
-	[MOVE_SUCKER_PUNCH] = {
+    [MOVE_SUCKER_PUNCH] = {
         .effect = EFFECT_QUICK_ATTACK,
         .power = 80,
         .type = TYPE_DARK,
@@ -4337,7 +4337,7 @@ const struct BattleMove gBattleMoves[] = {
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT,
     },
 
-	[MOVE_FEINT] = {
+    [MOVE_FEINT] = {
         .effect = EFFECT_HIT,
         .power = 50,
         .type = TYPE_NORMAL,
@@ -4349,7 +4349,7 @@ const struct BattleMove gBattleMoves[] = {
         .flags = F_MIRROR_MOVE_COMPATIBLE,
     },
 
-	[MOVE_OMINOUS_WIND] = {
+    [MOVE_OMINOUS_WIND] = {
         .effect = EFFECT_ALL_STATS_UP_HIT,
         .power = 60,
         .type = TYPE_GHOST,
@@ -4361,7 +4361,7 @@ const struct BattleMove gBattleMoves[] = {
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT,
     },
 
-	[MOVE_SHADOW_SNEAK] = {
+    [MOVE_SHADOW_SNEAK] = {
         .effect = EFFECT_QUICK_ATTACK,
         .power = 40,
         .type = TYPE_GHOST,
@@ -4373,7 +4373,7 @@ const struct BattleMove gBattleMoves[] = {
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT,
     },
 
-	[MOVE_DRAGON_RUSH] = {
+    [MOVE_DRAGON_RUSH] = {
         .effect = EFFECT_FLINCH_HIT,
         .power = 100,
         .type = TYPE_DRAGON,
@@ -4385,7 +4385,7 @@ const struct BattleMove gBattleMoves[] = {
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT,
     },
 
-	[MOVE_FIRE_FANG] = {
+    [MOVE_FIRE_FANG] = {
         .effect = EFFECT_BURN_HIT,
         .power = 65,
         .type = TYPE_FIRE,
@@ -4397,7 +4397,7 @@ const struct BattleMove gBattleMoves[] = {
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT,
     },
 
-	[MOVE_ICE_FANG] = {
+    [MOVE_ICE_FANG] = {
         .effect = EFFECT_FREEZE_HIT,
         .power = 65,
         .type = TYPE_ICE,
@@ -4409,7 +4409,7 @@ const struct BattleMove gBattleMoves[] = {
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT,
     },
 
-	[MOVE_THUNDER_FANG] = {
+    [MOVE_THUNDER_FANG] = {
         .effect = EFFECT_PARALYZE_HIT,
         .power = 65,
         .type = TYPE_ELECTRIC,
@@ -4469,7 +4469,7 @@ const struct BattleMove gBattleMoves[] = {
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT,
     },
 
-	[MOVE_MUD_BOMB] = {
+    [MOVE_MUD_BOMB] = {
         .effect = EFFECT_ACCURACY_DOWN_HIT,
         .power = 65,
         .type = TYPE_GROUND,
@@ -4481,7 +4481,7 @@ const struct BattleMove gBattleMoves[] = {
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT,
     },
 
-	[MOVE_POISON_JAB] = {
+    [MOVE_POISON_JAB] = {
         .effect = EFFECT_POISON_HIT,
         .power = 80,
         .type = TYPE_POISON,
@@ -4493,7 +4493,7 @@ const struct BattleMove gBattleMoves[] = {
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT,
     },
 
-	[MOVE_POWER_WHIP] = {
+    [MOVE_POWER_WHIP] = {
         .effect = EFFECT_HIT,
         .power = 120,
         .type = TYPE_GRASS,
@@ -4505,7 +4505,7 @@ const struct BattleMove gBattleMoves[] = {
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT,
     },
 
-	[MOVE_BRAVE_BIRD] = {
+    [MOVE_BRAVE_BIRD] = {
         .effect = EFFECT_DOUBLE_EDGE,
         .power = 120,
         .type = TYPE_FLYING,
@@ -4517,7 +4517,7 @@ const struct BattleMove gBattleMoves[] = {
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT,
     },
 
-	[MOVE_FLARE_BLITZ] = {
+    [MOVE_FLARE_BLITZ] = {
         .effect = EFFECT_DOUBLE_EDGE,
         .power = 120,
         .type = TYPE_FIRE,
@@ -4529,19 +4529,19 @@ const struct BattleMove gBattleMoves[] = {
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT,
     },
 
-	[MOVE_ZEN_HEADBUTT] = {
-	    .effect = EFFECT_FLINCH_HIT,
-		.power = 80,
-		.type = TYPE_PSYCHIC,
-		.accuracy = 90,
-		.pp = 15,
-		.secondaryEffectChance = 20,
-		.target = TARGET_SELECTED_POKEMON,
-		.priority = 0,
+    [MOVE_ZEN_HEADBUTT] = {
+        .effect = EFFECT_FLINCH_HIT,
+        .power = 80,
+        .type = TYPE_PSYCHIC,
+        .accuracy = 90,
+        .pp = 15,
+        .secondaryEffectChance = 20,
+        .target = TARGET_SELECTED_POKEMON,
+        .priority = 0,
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT,
-	},
+    },
 
-	[MOVE_ICE_SHARD] = {
+    [MOVE_ICE_SHARD] = {
         .effect = EFFECT_QUICK_ATTACK,
         .power = 40,
         .type = TYPE_ICE,
@@ -4553,19 +4553,19 @@ const struct BattleMove gBattleMoves[] = {
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT,
     },
 
-	[MOVE_BRINE] = {
-		.effect = EFFECT_HIT,
-		.power = 80,
-		.type = TYPE_WATER,
-		.accuracy = 100,
-		.pp = 10,
-		.secondaryEffectChance = 0,
-		.target = TARGET_SELECTED_POKEMON,
+    [MOVE_BRINE] = {
+        .effect = EFFECT_HIT,
+        .power = 80,
+        .type = TYPE_WATER,
+        .accuracy = 100,
+        .pp = 10,
+        .secondaryEffectChance = 0,
+        .target = TARGET_SELECTED_POKEMON,
         .priority = 0,
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT,
-	},
+    },
 
-	[MOVE_AQUA_TAIL] = {
+    [MOVE_AQUA_TAIL] = {
         .effect = EFFECT_HIT,
         .power = 90,
         .type = TYPE_WATER,
@@ -4577,7 +4577,7 @@ const struct BattleMove gBattleMoves[] = {
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT,
     },
 
-	[MOVE_AIR_SLASH] = {
+    [MOVE_AIR_SLASH] = {
         .effect = EFFECT_FLINCH_HIT,
         .power = 75,
         .type = TYPE_FLYING,
@@ -4589,7 +4589,7 @@ const struct BattleMove gBattleMoves[] = {
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT,
     },
 
-	[MOVE_BUG_BUZZ] = {
+    [MOVE_BUG_BUZZ] = {
         .effect = EFFECT_SPECIAL_DEFENSE_DOWN_HIT,
         .power = 90,
         .type = TYPE_BUG,
@@ -4601,7 +4601,7 @@ const struct BattleMove gBattleMoves[] = {
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT,
     },
 
-	[MOVE_VACUUM_WAVE] = {
+    [MOVE_VACUUM_WAVE] = {
         .effect = EFFECT_QUICK_ATTACK,
         .power = 40,
         .type = TYPE_FIGHTING,
@@ -4613,7 +4613,7 @@ const struct BattleMove gBattleMoves[] = {
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT,
     },
 
-	[MOVE_X_SCISSOR] = {
+    [MOVE_X_SCISSOR] = {
         .effect = EFFECT_HIT,
         .power = 80,
         .type = TYPE_BUG,
@@ -4625,7 +4625,7 @@ const struct BattleMove gBattleMoves[] = {
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT,
     },
 
-	[MOVE_BULLET_PUNCH] = {
+    [MOVE_BULLET_PUNCH] = {
         .effect = EFFECT_QUICK_ATTACK,
         .power = 40,
         .type = TYPE_STEEL,
@@ -4637,7 +4637,7 @@ const struct BattleMove gBattleMoves[] = {
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT,
     },
 
-	[MOVE_IRON_HEAD] = {
+    [MOVE_IRON_HEAD] = {
         .effect = EFFECT_FLINCH_HIT,
         .power = 80,
         .type = TYPE_STEEL,
@@ -4649,7 +4649,7 @@ const struct BattleMove gBattleMoves[] = {
         .flags = F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT,
     },
 
-	[MOVE_WOOD_HAMMER] = {
+    [MOVE_WOOD_HAMMER] = {
         .effect = EFFECT_DOUBLE_EDGE,
         .power = 120,
         .type = TYPE_GRASS,
@@ -4661,7 +4661,7 @@ const struct BattleMove gBattleMoves[] = {
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT,
     },
 
-	[MOVE_MAGNET_BOMB] = {
+    [MOVE_MAGNET_BOMB] = {
         .effect = EFFECT_ALWAYS_HIT,
         .power = 60,
         .type = TYPE_STEEL,
@@ -4673,7 +4673,7 @@ const struct BattleMove gBattleMoves[] = {
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT,
     },
 
-	[MOVE_DISCHARGE] = {
+    [MOVE_DISCHARGE] = {
         .effect = EFFECT_ALWAYS_HIT,
         .power = 80,
         .type = TYPE_ELECTRIC,
@@ -4685,7 +4685,7 @@ const struct BattleMove gBattleMoves[] = {
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT,
     },
 
-	[MOVE_MIRROR_SHOT] = {
+    [MOVE_MIRROR_SHOT] = {
         .effect = EFFECT_ACCURACY_DOWN_HIT,
         .power = 65,
         .type = TYPE_STEEL,
@@ -4697,7 +4697,7 @@ const struct BattleMove gBattleMoves[] = {
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT,
     },
 
-	[MOVE_ROCK_WRECKER] = {
+    [MOVE_ROCK_WRECKER] = {
         .effect = EFFECT_RECHARGE,
         .power = 150,
         .type = TYPE_ROCK,
@@ -4709,7 +4709,7 @@ const struct BattleMove gBattleMoves[] = {
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT,
     },
 
-	[MOVE_STONE_EDGE] = {
+    [MOVE_STONE_EDGE] = {
         .effect = EFFECT_HIGH_CRITICAL,
         .power = 80,
         .type = TYPE_ROCK,
@@ -4721,7 +4721,7 @@ const struct BattleMove gBattleMoves[] = {
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT,
     },
 
-	[MOVE_GIGA_IMPACT] = {
+    [MOVE_GIGA_IMPACT] = {
         .effect = EFFECT_RECHARGE,
         .power = 150,
         .type = TYPE_NORMAL,
@@ -4733,7 +4733,7 @@ const struct BattleMove gBattleMoves[] = {
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT,
     },
 
-	[MOVE_LAVA_PLUME] = {
+    [MOVE_LAVA_PLUME] = {
         .effect = EFFECT_BURN_HIT,
         .power = 80,
         .type = TYPE_FIRE,

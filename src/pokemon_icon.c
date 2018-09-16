@@ -496,21 +496,21 @@ const u8 * const gMonIconTable[] =
     gMonIcon_Hippowdon,
     gMonIcon_Skorupi,
     gMonIcon_Drapion,
-	gMonIcon_Croagunk,
-	gMonIcon_Toxicroak,
-	gMonIcon_Carnivine,
-	gMonIcon_Finneon,
-	gMonIcon_Lumineon,
-	gMonIcon_Mantyke,
-	gMonIcon_Snover,
-	gMonIcon_Abomasnow,
-	gMonIcon_Weavile,
-	gMonIcon_Magnezone,
-	gMonIcon_Lickilicky,
-	gMonIcon_Rhyperior,
-	gMonIcon_Tangrowth,
-	gMonIcon_Electivire,
-	gMonIcon_Magmortar,
+    gMonIcon_Croagunk,
+    gMonIcon_Toxicroak,
+    gMonIcon_Carnivine,
+    gMonIcon_Finneon,
+    gMonIcon_Lumineon,
+    gMonIcon_Mantyke,
+    gMonIcon_Snover,
+    gMonIcon_Abomasnow,
+    gMonIcon_Weavile,
+    gMonIcon_Magnezone,
+    gMonIcon_Lickilicky,
+    gMonIcon_Rhyperior,
+    gMonIcon_Tangrowth,
+    gMonIcon_Electivire,
+    gMonIcon_Magmortar,
     gMonIcon_Egg,
     gMonIcon_UnownB,
     gMonIcon_UnownC,
@@ -1021,21 +1021,21 @@ const u8 gMonIconPaletteIndices[] =
     1, // Hippowdon
     0, // Skorupi
     2, // Drapion
-	0, // Croagunk
-	0, // Toxicroak
-	1, // Carnivine
-	0, // Finneon
-	0, // Lumineon
-	0, // Mantyke
-	1, // Snover
-	1, // Abomasnow
-	0, // Weavile
-	0, // Magnezone
-	1, // Lickilicky
-	0, // Rhyperior
-	2, // Tangrowth
-	1, // Electivire
-	0, // Magmortar
+    0, // Croagunk
+    0, // Toxicroak
+    1, // Carnivine
+    0, // Finneon
+    0, // Lumineon
+    0, // Mantyke
+    1, // Snover
+    1, // Abomasnow
+    0, // Weavile
+    0, // Magnezone
+    1, // Lickilicky
+    0, // Rhyperior
+    2, // Tangrowth
+    1, // Electivire
+    0, // Magmortar
     1, // Egg
     0, // Unown B
     0, // Unown C
