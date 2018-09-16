@@ -11079,6 +11079,78 @@ gMonFootprint_Weavile::
 	.incbin "graphics/pokemon/weavile/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Magnezone::
+	.incbin "graphics/pokemon/magnezone/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Magnezone::
+	.incbin "graphics/pokemon/magnezone/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Magnezone::
+	.incbin "graphics/pokemon/magnezone/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Magnezone::
+	.incbin "graphics/pokemon/magnezone/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Magnezone::
+	.incbin "graphics/pokemon/magnezone/icon.4bpp"
+
+	.align 2
+gMonFootprint_Magnezone::
+	.incbin "graphics/pokemon/magnezone/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Lickilicky::
+	.incbin "graphics/pokemon/lickilicky/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Lickilicky::
+	.incbin "graphics/pokemon/lickilicky/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Lickilicky::
+	.incbin "graphics/pokemon/lickilicky/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Lickilicky::
+	.incbin "graphics/pokemon/lickilicky/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Lickilicky::
+	.incbin "graphics/pokemon/lickilicky/icon.4bpp"
+
+	.align 2
+gMonFootprint_Lickilicky::
+	.incbin "graphics/pokemon/lickilicky/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Rhyperior::
+	.incbin "graphics/pokemon/rhyperior/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Rhyperior::
+	.incbin "graphics/pokemon/rhyperior/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Rhyperior::
+	.incbin "graphics/pokemon/rhyperior/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Rhyperior::
+	.incbin "graphics/pokemon/rhyperior/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Rhyperior::
+	.incbin "graphics/pokemon/rhyperior/icon.4bpp"
+
+	.align 2
+gMonFootprint_Rhyperior::
+	.incbin "graphics/pokemon/rhyperior/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

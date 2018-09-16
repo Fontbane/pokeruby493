@@ -498,7 +498,7 @@ enum {
 #define EVO_BEAUTY           0x000f // Pokémon levels up with beauty ≥ specified value
 #define EVO_LEVEL_MALE       0x0010 // Pokémon levels up with a specific gender.
 #define EVO_LEVEL_FEMALE     0x0011 // Pokémon levels up with a specific gender.
-#define EVO_LV42_HELD_ITEM   0x0012 // Pokémon reaches Lv42 while holding the specified item.
+#define EVO_LV52_HELD_ITEM   0x0012 // Pokémon reaches Lv52 while holding the specified item.
 #define EVO_MOVE             0x0013 // Pokémon levels up while knowing the specified move
 #define EVO_MAP              0x0014 // Pokémon levels up in a specific map
 #define EVO_HELD_ITEM_DAY    0x0015 // Pokémon levels up during the day while holding the specified item

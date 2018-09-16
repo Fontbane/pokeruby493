@@ -2115,6 +2115,18 @@ Cry_Weavile::
 	.incbin "sound/direct_sound_samples/cries/cry_weavile.bin"
 
 	.align 2
+Cry_Magnezone:: 
+	.incbin "sound/direct_sound_samples/cries/cry_magnezone.bin"
+
+	.align 2
+Cry_Lickilicky:: 
+	.incbin "sound/direct_sound_samples/cries/cry_lickilicky.bin"
+
+	.align 2
+Cry_Rhyperior:: 
+	.incbin "sound/direct_sound_samples/cries/cry_rhyperior.bin"
+
+	.align 2
 DirectSoundWaveData_Phoneme_Vowel7:: @ 8639898
 	.incbin "sound/direct_sound_samples/phonemes/vowel_7.bin"
 

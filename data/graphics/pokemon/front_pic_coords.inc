@@ -487,6 +487,9 @@ gMonFrontPicCoords:: @ 81E7C74
 	.byte 103, 11, 0, 0 // Snover
 	.byte 136,  1, 0, 0 // Abomasnow
 	.byte  85,  4, 0, 0 // Weavile
+	.byte  84,  4, 0, 0 // Magnezone
+	.byte 102,  3, 0, 0 // Lickilicky
+	.byte 136,  4, 0, 0 // Rhyperior
 	.byte  51, 20, 0, 0 // EGG
 	.byte  52, 16, 0, 0 // UNOWN B
 	.byte  68, 16, 0, 0 // UNOWN C

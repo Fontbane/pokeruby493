@@ -5763,6 +5763,21 @@ static const u8 DexDescription_Weavile_1[] = _(
   "It communicates by clawing signs in\n"
   "boulders.");
 
+static const u8 DexDescription_Magnezone_1[] = _(
+  "Exposure to a special magnetic field\n"
+  "changed MAGNETON’s molecular\n"
+  "structure, turning it into MAGNEZONE.");
+
+static const u8 DexDescription_Lickilicky_1[] = _(
+  "The long tongue is always soggy with\n"
+  "slobber. The saliva contains a\n"
+  "solvent that causes numbness.");
+
+static const u8 DexDescription_Rhyperior_1[] = _(
+  "It can launch a rock held in its\n"
+  "hand like a missile by tightening\n"
+  "then expanding its muscles instantly.");
+
 const struct PokedexEntry gPokedexEntries[] =
 {
     {  //Dummy
@@ -10842,6 +10857,39 @@ const struct PokedexEntry gPokedexEntries[] =
         .weight = 340,
         .descriptionPage1 = DexDescription_Weavile_1,
         .descriptionPage2 = DexDescription_Weavile_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+	{  //Magnezone
+        .categoryName = _("MAGNET AREA"),
+        .height = 12,
+        .weight = 1800,
+        .descriptionPage1 = DexDescription_Magnezone_1,
+        .descriptionPage2 = DexDescription_Magnezone_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+	{  //Lickilicky
+        .categoryName = _("LICKING"),
+        .height = 17,
+        .weight = 1400,
+        .descriptionPage1 = DexDescription_Lickilicky_1,
+        .descriptionPage2 = DexDescription_Lickilicky_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+	{  //Rhyperior
+        .categoryName = _("DRILL"),
+        .height = 24,
+        .weight = 2828,
+        .descriptionPage1 = DexDescription_Rhyperior_1,
+        .descriptionPage2 = DexDescription_Rhyperior_1,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,

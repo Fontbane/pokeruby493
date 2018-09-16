@@ -487,6 +487,9 @@ gMonBackPicTable:: @ 81E97F4
 	obj_tiles gMonBackPic_Snover, 0x800, SPECIES_SNOVER
 	obj_tiles gMonBackPic_Abomasnow, 0x800, SPECIES_ABOMASNOW
 	obj_tiles gMonBackPic_Weavile, 0x800, SPECIES_WEAVILE
+	obj_tiles gMonBackPic_Magnezone, 0x800, SPECIES_MAGNEZONE
+	obj_tiles gMonBackPic_Lickilicky, 0x800, SPECIES_LICKILICKY
+	obj_tiles gMonBackPic_Rhyperior, 0x800, SPECIES_RHYPERIOR
 	obj_tiles gMonPic_Egg, 0x800, SPECIES_EGG
 	obj_tiles gMonBackPic_UnownB, 0x800, SPECIES_UNOWN_B
 	obj_tiles gMonBackPic_UnownC, 0x800, SPECIES_UNOWN_C

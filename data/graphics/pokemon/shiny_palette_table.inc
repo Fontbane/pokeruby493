@@ -489,6 +489,9 @@ gMonShinyPaletteTable:: @ 81EB374
 	obj_pal gMonShinyPalette_Snover, PAL_ID_SHINY + SPECIES_SNOVER
 	obj_pal gMonShinyPalette_Abomasnow, PAL_ID_SHINY + SPECIES_ABOMASNOW
 	obj_pal gMonShinyPalette_Weavile, PAL_ID_SHINY + SPECIES_WEAVILE
+	obj_pal gMonShinyPalette_Magnezone, PAL_ID_SHINY + SPECIES_MAGNEZONE
+	obj_pal gMonShinyPalette_Lickilicky, PAL_ID_SHINY + SPECIES_LICKILICKY
+	obj_pal gMonShinyPalette_Rhyperior, PAL_ID_SHINY + SPECIES_RHYPERIOR
 	obj_pal gMonPalette_Egg, PAL_ID_SHINY + SPECIES_EGG
 	obj_pal gMonShinyPalette_Unown, PAL_ID_SHINY + SPECIES_UNOWN_B
 	obj_pal gMonShinyPalette_Unown, PAL_ID_SHINY + SPECIES_UNOWN_C

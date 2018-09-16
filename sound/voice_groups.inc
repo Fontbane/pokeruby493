@@ -12606,6 +12606,9 @@ voicegroup_8453790:: @ 8453790
 	cry Cry_Snover
 	cry Cry_Abomasnow
 	cry Cry_Weavile
+	cry Cry_Magnezone
+	cry Cry_Lickilicky
+	cry Cry_Rhyperior
 
 	.align 2
 voicegroup_84537C0:: @ 84537C0
@@ -13081,6 +13084,9 @@ voicegroup_84549C0:: @ 84549C0
 	cry2 Cry_Snover
 	cry2 Cry_Abomasnow
 	cry2 Cry_Weavile
+	cry2 Cry_Magnezone
+	cry2 Cry_Lickilicky
+	cry2 Cry_Rhyperior
 
 	.align 2
 voicegroup_84549F0:: @ 84549F0

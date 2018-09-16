@@ -487,6 +487,9 @@ gMonFrontPicTable:: @ 81E8354
 	obj_tiles gMonFrontPic_Snover, 0x800, SPECIES_SNOVER
 	obj_tiles gMonFrontPic_Abomasnow, 0x800, SPECIES_ABOMASNOW
 	obj_tiles gMonFrontPic_Weavile, 0x800, SPECIES_WEAVILE
+	obj_tiles gMonFrontPic_Magnezone, 0x800, SPECIES_MAGNEZONE
+	obj_tiles gMonFrontPic_Lickilicky, 0x800, SPECIES_LICKILICKY
+	obj_tiles gMonFrontPic_Rhyperior, 0x800, SPECIES_RHYPERIOR
 	obj_tiles gMonPic_Egg, 0x800, SPECIES_EGG
 	obj_tiles gMonFrontPic_UnownB, 0x800, SPECIES_UNOWN_B
 	obj_tiles gMonFrontPic_UnownC, 0x800, SPECIES_UNOWN_C

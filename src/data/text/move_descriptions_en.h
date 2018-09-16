@@ -1546,6 +1546,26 @@ static const u8 MoveDescription_WoodHammer[] = _(
     "A slam as hard as a\n"
     "hammer. It hurts the user.");
 
+static const u8 MoveDescription_MagnetBomb[] = _(
+    "The user throws a steel bomb\n"
+    "at the foe. It can’t miss.");
+
+static const u8 MoveDescription_Discharge[] = _(
+    "This attack hits everything\n"
+    "and it may cause paralysis.");
+
+static const u8 MoveDescription_MirrorShot[] = _(
+    "A flash of energy that may\n"
+    "lower the foe’s accuracy.");
+
+static const u8 MoveDescription_RockWrecker[] = _(
+    "Powerful, but leaves the\n"
+    "user immobile the next turn.");
+
+static const u8 MoveDescription_StoneEdge[] = _(
+    "A stab with a sharpened stone.\n"
+    "High critical-hit ratio.");
+
 const u8 * const gMoveDescriptions[] = {
     MoveDescription_Pound,
     MoveDescription_KarateChop,
@@ -1934,4 +1954,9 @@ const u8 * const gMoveDescriptions[] = {
 	MoveDescription_BulletPunch,
 	MoveDescription_IronHead,
 	MoveDescription_WoodHammer,
+	MoveDescription_MagnetBomb,
+	MoveDescription_Discharge,
+	MoveDescription_MirrorShot,
+	MoveDescription_RockWrecker,
+	MoveDescription_StoneEdge,
 };

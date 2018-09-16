@@ -487,6 +487,9 @@ gMonPaletteTable:: @ 81EA5B4
 	obj_pal gMonPalette_Snover, SPECIES_SNOVER
 	obj_pal gMonPalette_Abomasnow, SPECIES_ABOMASNOW
 	obj_pal gMonPalette_Weavile, SPECIES_WEAVILE
+	obj_pal gMonPalette_Magnezone, SPECIES_MAGNEZONE
+	obj_pal gMonPalette_Lickilicky, SPECIES_LICKILICKY
+	obj_pal gMonPalette_Rhyperior, SPECIES_RHYPERIOR
 	obj_pal gMonPalette_Egg, SPECIES_EGG
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_B
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_C

@@ -505,6 +505,9 @@ const u8 * const gMonIconTable[] =
 	gMonIcon_Snover,
 	gMonIcon_Abomasnow,
 	gMonIcon_Weavile,
+	gMonIcon_Magnezone,
+	gMonIcon_Lickilicky,
+	gMonIcon_Rhyperior,
     gMonIcon_Egg,
     gMonIcon_UnownB,
     gMonIcon_UnownC,
@@ -1024,6 +1027,9 @@ const u8 gMonIconPaletteIndices[] =
 	1, // Snover
 	1, // Abomasnow
 	0, // Weavile
+	0, // Magnezone
+	1, // Lickilicky
+	0, // Rhyperior
     1, // Egg
     0, // Unown B
     0, // Unown C

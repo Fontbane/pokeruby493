@@ -215,7 +215,10 @@ const u16 gSpeciesIdToCryId[] = {
 	459, // MANTYKE
 	460, // SNOVER
 	461, // ABOMASNOW
-	462  // WEAVILE
+	462, // WEAVILE
+	463, // MAGNEZONE
+	464, // LICKILICKY
+	465  // RHYPERIOR
 };
 
 #endif //POKERUBY_CRY_IDS_H
