@@ -490,6 +490,9 @@ gMonBackPicTable:: @ 81E97F4
 	obj_tiles gMonBackPic_Magnezone, 0x800, SPECIES_MAGNEZONE
 	obj_tiles gMonBackPic_Lickilicky, 0x800, SPECIES_LICKILICKY
 	obj_tiles gMonBackPic_Rhyperior, 0x800, SPECIES_RHYPERIOR
+	obj_tiles gMonBackPic_Tangrowth, 0x800, SPECIES_TANGROWTH
+	obj_tiles gMonBackPic_Electivire, 0x800, SPECIES_ELECTIVIRE
+	obj_tiles gMonBackPic_Magmortar, 0x800, SPECIES_MAGMORTAR
 	obj_tiles gMonPic_Egg, 0x800, SPECIES_EGG
 	obj_tiles gMonBackPic_UnownB, 0x800, SPECIES_UNOWN_B
 	obj_tiles gMonBackPic_UnownC, 0x800, SPECIES_UNOWN_C

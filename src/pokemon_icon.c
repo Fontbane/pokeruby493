@@ -508,6 +508,9 @@ const u8 * const gMonIconTable[] =
 	gMonIcon_Magnezone,
 	gMonIcon_Lickilicky,
 	gMonIcon_Rhyperior,
+	gMonIcon_Tangrowth,
+	gMonIcon_Electivire,
+	gMonIcon_Magmortar,
     gMonIcon_Egg,
     gMonIcon_UnownB,
     gMonIcon_UnownC,
@@ -1030,6 +1033,9 @@ const u8 gMonIconPaletteIndices[] =
 	0, // Magnezone
 	1, // Lickilicky
 	0, // Rhyperior
+	2, // Tangrowth
+	1, // Electivire
+	0, // Magmortar
     1, // Egg
     0, // Unown B
     0, // Unown C

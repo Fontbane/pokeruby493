@@ -6,7 +6,7 @@ Primary Goals:
 * Update Learnsets to Gen. 4 standards.
 
 Secondary Goals:
-* Make an animation for Wood Hammer, Magnet Bomb, Discharge, Mirror Shot, Rock Wrecker and Stone Edge.
+* Make an animation for Wood Hammer, Magnet Bomb, Discharge, Mirror Shot, Rock Wrecker, Stone Edge, Giga Impact and Lava Plume.
 * Fix Close Combat's effect.
 * Try to create new abilities and implement all the ones added in the Gen. 4 games, or at least most of them.
 
@@ -20,8 +20,11 @@ List of learnsets that were updated to Gen. 4 Standards (as much as I could righ
 84 and 85 - Doduo and Dodrio. (Missing: Acupressure)
 86 and 87 - Seel and Dewgong. (Missing: Aqua Ring)
 109 and 110 - Koffing and Weezing. (Missing: Assurance, Gyro Ball)
+114 - Tangela. (Missing: Natural Gift, Wring Out)
 115 - Kangaskhan.
 123 - Scyther.
+125 - Electabuzz.
+126 - Magmar.
 127 - Pinsir.
 140 and 141 - Kabuto and Kabutops. (Missing: Wring Out)
 190 - Aipom. (Missing: Fling, Last Resort)
@@ -36,3 +39,6 @@ List of learnsets that were updated to Gen. 4 Standards (as much as I could righ
 418 and 419 - Buizel and Floatzel.
 424 - Ambipom. (Missing: Fling, Last Resort)
 462 - Magnezone. (Missing: Magnet Rise, Gyro Ball)
+465 - Tangrowth. (Missing: Natural Gift, Wring Out)
+466 - Magmortar.
+467 - Electivire.

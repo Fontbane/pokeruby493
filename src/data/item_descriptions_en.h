@@ -956,6 +956,16 @@ static const u8 gItemDescription_Protector[] = _(
     "certain POKéMON.\n"
     "It’s pretty heavy.");
 
+static const u8 gItemDescription_Electirizer[] = _(
+    "A certain POKéMON\n"
+    "loves it. It’s full\n"
+    "of electricity.");
+
+static const u8 gItemDescription_Magmarizer[] = _(
+    "A certain POKéMON\n"
+    "loves it. It’s full\n"
+    "of magma energy.");
+
 static const u8 gItemDescription_RedScarf[] = _(
     "A hold item that\n"
     "raises COOL in\n"

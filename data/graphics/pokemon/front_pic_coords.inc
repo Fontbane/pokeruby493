@@ -490,6 +490,9 @@ gMonFrontPicCoords:: @ 81E7C74
 	.byte  84,  4, 0, 0 // Magnezone
 	.byte 102,  3, 0, 0 // Lickilicky
 	.byte 136,  4, 0, 0 // Rhyperior
+	.byte 102,  3, 0, 0 // Tangrowth
+	.byte 102,  3, 0, 0 // Electivire
+	.byte 102,  3, 0, 0 // Magmortar
 	.byte  51, 20, 0, 0 // EGG
 	.byte  52, 16, 0, 0 // UNOWN B
 	.byte  68, 16, 0, 0 // UNOWN C

@@ -5778,6 +5778,21 @@ static const u8 DexDescription_Rhyperior_1[] = _(
   "hand like a missile by tightening\n"
   "then expanding its muscles instantly.");
 
+static const u8 DexDescription_Tangrowth_1[] = _(
+  "Its arms are made of plants that bind\n"
+  "themselves to things. They grow back\n"
+  "right away if cut.");
+
+static const u8 DexDescription_Electivire_1[] = _(
+  "Heedless of enemy attacks, it closes\n"
+  "in, shoves its tails onto the foe,\n"
+  "then looses high voltage.");
+
+static const u8 DexDescription_Magmortar_1[] = _(
+  "When launching 3,600 degrees F\n"
+  "fireballs, its body takes on a\n"
+  "whitish hue from the intense heat.");
+
 const struct PokedexEntry gPokedexEntries[] =
 {
     {  //Dummy
@@ -10890,6 +10905,39 @@ const struct PokedexEntry gPokedexEntries[] =
         .weight = 2828,
         .descriptionPage1 = DexDescription_Rhyperior_1,
         .descriptionPage2 = DexDescription_Rhyperior_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+	{  //Tangrowth
+        .categoryName = _("VINE"),
+        .height = 20,
+        .weight = 1286,
+        .descriptionPage1 = DexDescription_Tangrowth_1,
+        .descriptionPage2 = DexDescription_Tangrowth_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+	{  //Electivire
+        .categoryName = _("THUNDERBOLT"),
+        .height = 18,
+        .weight = 1386,
+        .descriptionPage1 = DexDescription_Electivire_1,
+        .descriptionPage2 = DexDescription_Electivire_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+	{  //Magmortar
+        .categoryName = _("BLAST"),
+        .height = 16,
+        .weight = 680,
+        .descriptionPage1 = DexDescription_Magmortar_1,
+        .descriptionPage2 = DexDescription_Magmortar_1,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,

@@ -488,8 +488,11 @@ gMonBackPicCoords:: @ 81E9114
 	.byte 120,  2, 0, 0 // Abomasnow
 	.byte 133,  8, 0, 0 // Weavile
 	.byte 101, 12, 0, 0 // Magnezone
-	.byte 134,  9, 0, 0 // Lickilicky	
+	.byte 134,  9, 0, 0 // Lickilicky
 	.byte 120,  2, 0, 0 // Rhyperior
+	.byte 134,  9, 0, 0 // Tangrowth
+	.byte 134,  7, 0, 0 // Electivire
+	.byte 134,  9, 0, 0 // Magmortar
 	.byte  54, 10, 0, 0 // EGG
 	.byte  86,  9, 0, 0 // UNOWN B
 	.byte 103,  6, 0, 0 // UNOWN C

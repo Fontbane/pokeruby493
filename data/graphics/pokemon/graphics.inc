@@ -11151,6 +11151,78 @@ gMonFootprint_Rhyperior::
 	.incbin "graphics/pokemon/rhyperior/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Tangrowth::
+	.incbin "graphics/pokemon/tangrowth/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Tangrowth::
+	.incbin "graphics/pokemon/tangrowth/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Tangrowth::
+	.incbin "graphics/pokemon/tangrowth/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Tangrowth::
+	.incbin "graphics/pokemon/tangrowth/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Tangrowth::
+	.incbin "graphics/pokemon/tangrowth/icon.4bpp"
+
+	.align 2
+gMonFootprint_Tangrowth::
+	.incbin "graphics/pokemon/tangrowth/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Electivire::
+	.incbin "graphics/pokemon/electivire/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Electivire::
+	.incbin "graphics/pokemon/electivire/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Electivire::
+	.incbin "graphics/pokemon/electivire/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Electivire::
+	.incbin "graphics/pokemon/electivire/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Electivire::
+	.incbin "graphics/pokemon/electivire/icon.4bpp"
+
+	.align 2
+gMonFootprint_Electivire::
+	.incbin "graphics/pokemon/electivire/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Magmortar::
+	.incbin "graphics/pokemon/magmortar/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Magmortar::
+	.incbin "graphics/pokemon/magmortar/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Magmortar::
+	.incbin "graphics/pokemon/magmortar/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Magmortar::
+	.incbin "graphics/pokemon/magmortar/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Magmortar::
+	.incbin "graphics/pokemon/magmortar/icon.4bpp"
+
+	.align 2
+gMonFootprint_Magmortar::
+	.incbin "graphics/pokemon/magmortar/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

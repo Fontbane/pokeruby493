@@ -2127,6 +2127,18 @@ Cry_Rhyperior::
 	.incbin "sound/direct_sound_samples/cries/cry_rhyperior.bin"
 
 	.align 2
+Cry_Tangrowth:: 
+	.incbin "sound/direct_sound_samples/cries/cry_tangrowth.bin"
+
+	.align 2
+Cry_Electivire:: 
+	.incbin "sound/direct_sound_samples/cries/cry_electivire.bin"
+
+	.align 2
+Cry_Magmortar:: 
+	.incbin "sound/direct_sound_samples/cries/cry_magmortar.bin"
+
+	.align 2
 DirectSoundWaveData_Phoneme_Vowel7:: @ 8639898
 	.incbin "sound/direct_sound_samples/phonemes/vowel_7.bin"
 
