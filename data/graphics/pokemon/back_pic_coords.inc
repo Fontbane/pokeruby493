@@ -501,6 +501,9 @@ gMonBackPicCoords:: @ 81E9114
 	.byte 120,  7, 0, 0 // Mamoswine
 	.byte 120,  7, 0, 0 // Porygon-Z
 	.byte 134,  4, 0, 0 // Gallade
+	.byte 133,  8, 0, 0 // Probopass
+	.byte 120,  6, 0, 0 // Dusknoir
+	.byte 133,  8, 0, 0 // Froslass
 	.byte  54, 10, 0, 0 // EGG
 	.byte  86,  9, 0, 0 // UNOWN B
 	.byte 103,  6, 0, 0 // UNOWN C

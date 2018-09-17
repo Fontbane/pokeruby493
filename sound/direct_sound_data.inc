@@ -2171,6 +2171,18 @@ Cry_Gallade::
 	.incbin "sound/direct_sound_samples/cries/cry_gallade.bin"
 
 	.align 2
+Cry_Probopass:: 
+	.incbin "sound/direct_sound_samples/cries/cry_probopass.bin"
+
+	.align 2
+Cry_Dusknoir:: 
+	.incbin "sound/direct_sound_samples/cries/cry_dusknoir.bin"
+
+	.align 2
+Cry_Froslass:: 
+	.incbin "sound/direct_sound_samples/cries/cry_froslass.bin"
+
+	.align 2
 DirectSoundWaveData_Phoneme_Vowel7:: @ 8639898
 	.incbin "sound/direct_sound_samples/phonemes/vowel_7.bin"
 

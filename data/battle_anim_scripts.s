@@ -414,6 +414,8 @@ gBattleAnims_Moves:: @ 81C7168
     .4byte Move_GIGA_IMPACT
     .4byte Move_LAVA_PLUME
     .4byte Move_PSYCHO_CUT
+    .4byte Move_POWER_GEM
+    .4byte Move_EARTH_POWER
     .4byte PoundCopy
 
     .align 2
@@ -10469,6 +10471,30 @@ Move_LAVA_PLUME:
     end
 
 Move_PSYCHO_CUT:
+    loadspritegfx 10135
+    monbg ANIM_BANK_TARGET
+    setalpha 12, 8
+    playsewithpan SE_W003, 63
+    createsprite gBasicHitSplatSpriteTemplate, 2, 0, 0, 1, 2
+    createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_TARGET, 3, 0, 6, 1
+    waitforvisualfinish
+    clearmonbg ANIM_BANK_TARGET
+    blendoff
+    end
+
+Move_POWER_GEM:
+    loadspritegfx 10135
+    monbg ANIM_BANK_TARGET
+    setalpha 12, 8
+    playsewithpan SE_W003, 63
+    createsprite gBasicHitSplatSpriteTemplate, 2, 0, 0, 1, 2
+    createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_TARGET, 3, 0, 6, 1
+    waitforvisualfinish
+    clearmonbg ANIM_BANK_TARGET
+    blendoff
+    end
+
+Move_EARTH_POWER:
     loadspritegfx 10135
     monbg ANIM_BANK_TARGET
     setalpha 12, 8

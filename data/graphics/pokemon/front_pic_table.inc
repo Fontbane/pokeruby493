@@ -501,6 +501,9 @@ gMonFrontPicTable:: @ 81E8354
 	obj_tiles gMonFrontPic_Mamoswine, 0x800, SPECIES_MAMOSWINE
 	obj_tiles gMonFrontPic_PorygonZ, 0x800, SPECIES_PORYGONZ
 	obj_tiles gMonFrontPic_Gallade, 0x800, SPECIES_GALLADE
+	obj_tiles gMonFrontPic_Probopass, 0x800, SPECIES_PROBOPASS
+	obj_tiles gMonFrontPic_Dusknoir, 0x800, SPECIES_DUSKNOIR
+	obj_tiles gMonFrontPic_Froslass, 0x800, SPECIES_FROSLASS
 	obj_tiles gMonPic_Egg, 0x800, SPECIES_EGG
 	obj_tiles gMonFrontPic_UnownB, 0x800, SPECIES_UNOWN_B
 	obj_tiles gMonFrontPic_UnownC, 0x800, SPECIES_UNOWN_C

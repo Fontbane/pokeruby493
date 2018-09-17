@@ -11415,6 +11415,78 @@ gMonFootprint_Gallade::
 	.incbin "graphics/pokemon/gallade/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Probopass::
+	.incbin "graphics/pokemon/probopass/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Probopass::
+	.incbin "graphics/pokemon/probopass/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Probopass::
+	.incbin "graphics/pokemon/probopass/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Probopass::
+	.incbin "graphics/pokemon/probopass/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Probopass::
+	.incbin "graphics/pokemon/probopass/icon.4bpp"
+
+	.align 2
+gMonFootprint_Probopass::
+	.incbin "graphics/pokemon/probopass/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Dusknoir::
+	.incbin "graphics/pokemon/dusknoir/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Dusknoir::
+	.incbin "graphics/pokemon/dusknoir/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Dusknoir::
+	.incbin "graphics/pokemon/dusknoir/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Dusknoir::
+	.incbin "graphics/pokemon/dusknoir/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Dusknoir::
+	.incbin "graphics/pokemon/dusknoir/icon.4bpp"
+
+	.align 2
+gMonFootprint_Dusknoir::
+	.incbin "graphics/pokemon/dusknoir/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Froslass::
+	.incbin "graphics/pokemon/froslass/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Froslass::
+	.incbin "graphics/pokemon/froslass/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Froslass::
+	.incbin "graphics/pokemon/froslass/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Froslass::
+	.incbin "graphics/pokemon/froslass/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Froslass::
+	.incbin "graphics/pokemon/froslass/icon.4bpp"
+
+	.align 2
+gMonFootprint_Froslass::
+	.incbin "graphics/pokemon/froslass/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

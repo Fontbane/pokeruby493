@@ -395,4 +395,6 @@ const u8 gMoveNames[][13] = {
     [MOVE_GIGA_IMPACT] = _("GIGA IMPACT"),
     [MOVE_LAVA_PLUME] = _("LAVA PLUME"),
     [MOVE_PSYCHO_CUT] = _("PSYCHO CUT"),
+    [MOVE_POWER_GEM] = _("POWER GEM"),
+    [MOVE_EARTH_POWER] = _("EARTH POWER"),
 };

@@ -5833,6 +5833,21 @@ static const u8 DexDescription_Gallade_1[] = _(
   "its elbows as if they were swords\n"
   "and fights savagely.");
 
+static const u8 DexDescription_Probopass_1[] = _(
+  "It freely controls three small units\n"
+  "called Mini-Noses using magnetic\n"
+  "force.");
+
+static const u8 DexDescription_Dusknoir_1[] = _(
+  "It is said to take lost spirits into\n"
+  "its pliant body and guide them\n"
+  "home.");
+
+static const u8 DexDescription_Froslass_1[] = _(
+  "It freezes prey by blowing its -58\n"
+  "degree F breath. It is said to then\n"
+  "secretly display its prey.");
+
 const struct PokedexEntry gPokedexEntries[] =
 {
     {  //Dummy
@@ -11066,6 +11081,39 @@ const struct PokedexEntry gPokedexEntries[] =
         .weight = 520,
         .descriptionPage1 = DexDescription_Gallade_1,
         .descriptionPage2 = DexDescription_Gallade_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+	{  //Probopass
+        .categoryName = _("COMPASS"),
+        .height = 14,
+        .weight = 3400,
+        .descriptionPage1 = DexDescription_Probopass_1,
+        .descriptionPage2 = DexDescription_Probopass_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+	{  //Dusknoir
+        .categoryName = _("GRIPPER"),
+        .height = 22,
+        .weight = 1066,
+        .descriptionPage1 = DexDescription_Dusknoir_1,
+        .descriptionPage2 = DexDescription_Dusknoir_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+	{  //Froslass
+        .categoryName = _("SNOW LAND"),
+        .height = 13,
+        .weight = 266,
+        .descriptionPage1 = DexDescription_Froslass_1,
+        .descriptionPage2 = DexDescription_Froslass_1,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,

@@ -1578,6 +1578,14 @@ static const u8 MoveDescription_PsychoCut[] = _(
     "An attack with psychic blades\n"
     "High critical-hit ratio.");
 
+static const u8 MoveDescription_PowerGem[] = _(
+    "A ray of light. It shines as\n"
+    "if it was made of gemstones.");
+
+static const u8 MoveDescription_EarthPower[] = _(
+    "The ground under the foe erupts\n"
+    "with power lowering the SP. DEF.");
+
 const u8 * const gMoveDescriptions[] = {
     MoveDescription_Pound,
     MoveDescription_KarateChop,
@@ -1974,4 +1982,6 @@ const u8 * const gMoveDescriptions[] = {
     MoveDescription_GigaImpact,
     MoveDescription_LavaPlume,
     MoveDescription_PsychoCut,
+    MoveDescription_PowerGem,
+    MoveDescription_EarthPower,
 };

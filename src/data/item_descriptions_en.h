@@ -981,6 +981,11 @@ static const u8 gItemDescription_DubiousDisc[] = _(
     "love it. It’s over-\n"
     "flowing with data.");
 
+static const u8 gItemDescription_ReaperCloth[] = _(
+    "A certain POKéMON\n"
+    "loves it. It’s imbued\n"
+    "with strong energy.");
+
 static const u8 gItemDescription_RedScarf[] = _(
     "A hold item that\n"
     "raises COOL in\n"

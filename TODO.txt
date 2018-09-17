@@ -4,7 +4,7 @@ Primary Goals:
 * Implement formes for those that are supposed to have one.
 
 Secondary Goals:
-* Make an animation for Wood Hammer, Magnet Bomb, Discharge, Mirror Shot, Rock Wrecker, Stone Edge, Giga Impact, Lava Plume and Psycho Cut.
+* Make an animation for Wood Hammer, Magnet Bomb, Discharge, Mirror Shot, Rock Wrecker, Stone Edge, Giga Impact, Lava Plume, Psycho Cut, Power Gem and Earth Power.
 * Fix Close Combat's effect.
 * Give a proper effect to the Razor Fang and the Razor Claw.
 * Try to create new abilities and implement all the ones added in the Gen. 4 games, or at least most of them.

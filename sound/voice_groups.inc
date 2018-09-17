@@ -12620,6 +12620,9 @@ voicegroup_8453790:: @ 8453790
 	cry Cry_Mamoswine
 	cry Cry_PorygonZ
 	cry Cry_Gallade
+	cry Cry_Probopass
+	cry Cry_Dusknoir
+	cry Cry_Froslass
 
 	.align 2
 voicegroup_84537C0:: @ 84537C0
@@ -13109,6 +13112,9 @@ voicegroup_84549C0:: @ 84549C0
 	cry2 Cry_Mamoswine
 	cry2 Cry_PorygonZ
 	cry2 Cry_Gallade
+	cry2 Cry_Probopass
+	cry2 Cry_Dusknoir
+	cry2 Cry_Froslass
 
 	.align 2
 voicegroup_84549F0:: @ 84549F0

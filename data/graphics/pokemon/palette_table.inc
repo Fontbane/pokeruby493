@@ -501,6 +501,9 @@ gMonPaletteTable:: @ 81EA5B4
 	obj_pal gMonPalette_Mamoswine, SPECIES_MAMOSWINE
 	obj_pal gMonPalette_PorygonZ, SPECIES_PORYGONZ
 	obj_pal gMonPalette_Gallade, SPECIES_GALLADE
+	obj_pal gMonPalette_Probopass, SPECIES_PROBOPASS
+	obj_pal gMonPalette_Dusknoir, SPECIES_DUSKNOIR
+	obj_pal gMonPalette_Froslass, SPECIES_FROSLASS
 	obj_pal gMonPalette_Egg, SPECIES_EGG
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_B
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_C

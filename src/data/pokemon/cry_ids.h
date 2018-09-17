@@ -229,7 +229,10 @@ const u16 gSpeciesIdToCryId[] = {
 	473, // GLISCOR
 	474, // MAMOSWINE
 	475, // PORYGON-Z
-	476  // GALLADE
+	476, // GALLADE
+	477, // PROBOPASS
+	478, // DUSKNOIR
+	479  // FROSLASS
 };
 
 #endif //POKERUBY_CRY_IDS_H

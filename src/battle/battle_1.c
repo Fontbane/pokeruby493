@@ -540,6 +540,9 @@ const u8 gEnemyMonElevation[] = {
 	[SPECIES_MAMOSWINE] = 0,
 	[SPECIES_PORYGONZ] = 0,
 	[SPECIES_GALLADE] = 0,
+	[SPECIES_PROBOPASS] = 0,
+	[SPECIES_DUSKNOIR] = 0,
+	[SPECIES_FROSLASS] = 0,
 };
 
 #include "../data/trainer_parties.h"

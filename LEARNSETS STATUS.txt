@@ -35,3 +35,6 @@ List of the learnsets that I updated to Gen. 4 Standards as much as I could righ
 473 - Mamoswine.
 474 - Porygon-Z. (Missing: Trick Room, Magnet Rise, Embargo, )
 475 - Gallade.
+476 - Probopass (Missing: Gravity, Magnet Rise)
+477 - Dusknoir (Missing: Gravity, Payback)
+478 - Froslass (Missing: Wake-Up Slap, Captivate)
