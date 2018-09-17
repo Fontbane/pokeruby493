@@ -529,7 +529,11 @@ const u16 gSpeciesToHoennPokedexNum[] = // Assigns all species to the Hoenn Dex 
 	HOENN_DEX_GALLADE,          // SPECIES_GALLADE
 	HOENN_DEX_PROBOPASS,        // SPECIES_PROBOPASS
 	HOENN_DEX_DUSKNOIR,         // SPECIES_DUSKNOIR
-	HOENN_DEX_FROSLASS          // SPECIES_FROSLASS
+	HOENN_DEX_FROSLASS,         // SPECIES_FROSLASS
+	HOENN_DEX_ROTOM,            // SPECIES_ROTOM
+	HOENN_DEX_UXIE,             // SPECIES_UXIE
+	HOENN_DEX_MESPRIT,          // SPECIES_MESPRIT
+	HOENN_DEX_AZELF             // SPECIES_AZELF
 };
 
 const u16 gSpeciesToNationalPokedexNum[] = // Assigns all species to the National Dex Index (Summary No. for National Dex)
@@ -1037,7 +1041,11 @@ const u16 gSpeciesToNationalPokedexNum[] = // Assigns all species to the Nationa
 	NATIONAL_DEX_GALLADE,           // SPECIES_GALLADE
 	NATIONAL_DEX_PROBOPASS,         // SPECIES_PROBOPASS
 	NATIONAL_DEX_DUSKNOIR,          // SPECIES_DUSKNOIR
-	NATIONAL_DEX_FROSLASS           // SPECIES_FROSLASS
+	NATIONAL_DEX_FROSLASS,          // SPECIES_FROSLASS
+	NATIONAL_DEX_ROTOM,             // SPECIES_ROTOM
+	NATIONAL_DEX_UXIE,              // SPECIES_UXIE
+	NATIONAL_DEX_MESPRIT,           // SPECIES_MESPRIT
+	NATIONAL_DEX_AZELF              // SPECIES_AZELF
 };
 
 const u16 gHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using National Dex Index)
@@ -1521,6 +1529,10 @@ const u16 gHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using Nationa
 	NATIONAL_DEX_PROBOPASS,     // HOENN_DEX_PROBOPASS
 	NATIONAL_DEX_DUSKNOIR,      // HOENN_DEX_DUSKNOIR
 	NATIONAL_DEX_FROSLASS,      // HOENN_DEX_FROSLASS
+	NATIONAL_DEX_ROTOM,         // HOENN_DEX_ROTOM
+	NATIONAL_DEX_UXIE,          // HOENN_DEX_UXIE
+	NATIONAL_DEX_MESPRIT,       // HOENN_DEX_MESPRIT
+	NATIONAL_DEX_AZELF,         // HOENN_DEX_AZELF
 	NATIONAL_DEX_OLD_UNOWN_B,  	// HOENN_DEX_OLD_UNOWN_B
 	NATIONAL_DEX_OLD_UNOWN_C,  	// HOENN_DEX_OLD_UNOWN_C
 	NATIONAL_DEX_OLD_UNOWN_D,  	// HOENN_DEX_OLD_UNOWN_D

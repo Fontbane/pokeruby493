@@ -506,6 +506,10 @@ gMonShinyPaletteTable:: @ 81EB374
 	obj_pal gMonShinyPalette_Probopass, PAL_ID_SHINY + SPECIES_PROBOPASS
 	obj_pal gMonShinyPalette_Dusknoir, PAL_ID_SHINY + SPECIES_DUSKNOIR
 	obj_pal gMonShinyPalette_Froslass, PAL_ID_SHINY + SPECIES_FROSLASS
+	obj_pal gMonShinyPalette_Rotom, PAL_ID_SHINY + SPECIES_ROTOM
+	obj_pal gMonShinyPalette_Uxie, PAL_ID_SHINY + SPECIES_UXIE
+	obj_pal gMonShinyPalette_Mesprit, PAL_ID_SHINY + SPECIES_MESPRIT
+	obj_pal gMonShinyPalette_Azelf, PAL_ID_SHINY + SPECIES_AZELF
 	obj_pal gMonPalette_Egg, PAL_ID_SHINY + SPECIES_EGG
 	obj_pal gMonShinyPalette_Unown, PAL_ID_SHINY + SPECIES_UNOWN_B
 	obj_pal gMonShinyPalette_Unown, PAL_ID_SHINY + SPECIES_UNOWN_C

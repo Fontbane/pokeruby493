@@ -509,7 +509,11 @@ const u16 *gLevelUpLearnsets[] = {
     gGalladeLevelUpLearnset,
     gProbopassLevelUpLearnset,
     gDusknoirLevelUpLearnset,
-    gFroslassLevelUpLearnset
+    gFroslassLevelUpLearnset,
+    gRotomLevelUpLearnset,
+    gUxieLevelUpLearnset,
+    gMespritLevelUpLearnset,
+    gAzelfLevelUpLearnset
 };
 
 #endif //POKERUBY_LEVEL_UP_LEARNSET_POINTERS_H

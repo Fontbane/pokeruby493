@@ -11487,6 +11487,102 @@ gMonFootprint_Froslass::
 	.incbin "graphics/pokemon/froslass/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Rotom::
+	.incbin "graphics/pokemon/rotom/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Rotom::
+	.incbin "graphics/pokemon/rotom/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Rotom::
+	.incbin "graphics/pokemon/rotom/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Rotom::
+	.incbin "graphics/pokemon/rotom/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Rotom::
+	.incbin "graphics/pokemon/rotom/icon.4bpp"
+
+	.align 2
+gMonFootprint_Rotom::
+	.incbin "graphics/pokemon/rotom/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Uxie::
+	.incbin "graphics/pokemon/uxie/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Uxie::
+	.incbin "graphics/pokemon/uxie/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Uxie::
+	.incbin "graphics/pokemon/uxie/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Uxie::
+	.incbin "graphics/pokemon/uxie/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Uxie::
+	.incbin "graphics/pokemon/uxie/icon.4bpp"
+
+	.align 2
+gMonFootprint_Uxie::
+	.incbin "graphics/pokemon/uxie/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Mesprit::
+	.incbin "graphics/pokemon/mesprit/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Mesprit::
+	.incbin "graphics/pokemon/mesprit/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Mesprit::
+	.incbin "graphics/pokemon/mesprit/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Mesprit::
+	.incbin "graphics/pokemon/mesprit/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Mesprit::
+	.incbin "graphics/pokemon/mesprit/icon.4bpp"
+
+	.align 2
+gMonFootprint_Mesprit::
+	.incbin "graphics/pokemon/mesprit/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Azelf::
+	.incbin "graphics/pokemon/azelf/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Azelf::
+	.incbin "graphics/pokemon/azelf/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Azelf::
+	.incbin "graphics/pokemon/azelf/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Azelf::
+	.incbin "graphics/pokemon/azelf/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Azelf::
+	.incbin "graphics/pokemon/azelf/icon.4bpp"
+
+	.align 2
+gMonFootprint_Azelf::
+	.incbin "graphics/pokemon/azelf/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

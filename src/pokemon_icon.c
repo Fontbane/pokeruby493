@@ -522,6 +522,10 @@ const u8 * const gMonIconTable[] =
 	gMonIcon_Probopass,
 	gMonIcon_Dusknoir,
 	gMonIcon_Froslass,
+	gMonIcon_Rotom,
+	gMonIcon_Uxie,
+	gMonIcon_Mesprit,
+	gMonIcon_Azelf,
 	gMonIcon_Egg,
 	gMonIcon_UnownB,
 	gMonIcon_UnownC,
@@ -1058,6 +1062,10 @@ const u8 gMonIconPaletteIndices[] =
 	0, // Probopass
 	2, // Dusknoir
 	2, // Froslass
+	0, // Rotom
+	0, // Uxie
+	0, // Mesprit
+	0, // Azelf
 	1, // Egg
 	0, // Unown B
 	0, // Unown C

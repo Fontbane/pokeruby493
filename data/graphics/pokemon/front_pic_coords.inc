@@ -504,6 +504,10 @@ gMonFrontPicCoords:: @ 81E7C74
 	.byte 102,  2, 0, 0 // Probopass
 	.byte 136,  1, 0, 0 // Dusknoir
 	.byte  85,  4, 0, 0 // Froslass
+	.byte  84,  1, 0, 0 // Rotom
+	.byte 132,  2, 0, 0 // Uxie
+	.byte 132,  2, 0, 0 // Mesprit
+	.byte 132,  2, 0, 0 // Azelf
 	.byte  51, 20, 0, 0 // EGG
 	.byte  52, 16, 0, 0 // UNOWN B
 	.byte  68, 16, 0, 0 // UNOWN C

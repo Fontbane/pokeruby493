@@ -12623,6 +12623,10 @@ voicegroup_8453790:: @ 8453790
 	cry Cry_Probopass
 	cry Cry_Dusknoir
 	cry Cry_Froslass
+	cry Cry_Rotom
+	cry Cry_Uxie
+	cry Cry_Mesprit
+	cry Cry_Azelf
 
 	.align 2
 voicegroup_84537C0:: @ 84537C0
@@ -13115,6 +13119,10 @@ voicegroup_84549C0:: @ 84549C0
 	cry2 Cry_Probopass
 	cry2 Cry_Dusknoir
 	cry2 Cry_Froslass
+	cry2 Cry_Rotom
+	cry2 Cry_Uxie
+	cry2 Cry_Mesprit
+	cry2 Cry_Azelf
 
 	.align 2
 voicegroup_84549F0:: @ 84549F0

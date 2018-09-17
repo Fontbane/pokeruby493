@@ -5848,6 +5848,26 @@ static const u8 DexDescription_Froslass_1[] = _(
   "degree F breath. It is said to then\n"
   "secretly display its prey.");
 
+static const u8 DexDescription_Rotom_1[] = _(
+  "Its electric-like body can enter\n"
+  "some kinds of machines and take\n"
+  "control in order to make mischief.");
+
+static const u8 DexDescription_Uxie_1[] = _(
+  "When UXIE flew, people gained the\n"
+  "ability to solve problems.\n"
+  "It was the birth of knowledge.");
+
+static const u8 DexDescription_Mesprit_1[] = _(
+  "When MESPRIT flew, people learned\n"
+  "the joy and sadness of living.\n"
+  "It was the birth of emotions.");
+
+static const u8 DexDescription_Azelf_1[] = _(
+  "When AZELF flew, people gained the\n"
+  "determination to do things.\n"
+  "It was the birth of willpower.");
+
 const struct PokedexEntry gPokedexEntries[] =
 {
     {  //Dummy
@@ -11086,7 +11106,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
     },
-	{  //Probopass
+    {  //Probopass
         .categoryName = _("COMPASS"),
         .height = 14,
         .weight = 3400,
@@ -11097,7 +11117,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
     },
-	{  //Dusknoir
+    {  //Dusknoir
         .categoryName = _("GRIPPER"),
         .height = 22,
         .weight = 1066,
@@ -11108,12 +11128,56 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
     },
-	{  //Froslass
+    {  //Froslass
         .categoryName = _("SNOW LAND"),
         .height = 13,
         .weight = 266,
         .descriptionPage1 = DexDescription_Froslass_1,
         .descriptionPage2 = DexDescription_Froslass_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    {  //Rotom
+        .categoryName = _("PLASMA"),
+        .height = 3,
+        .weight = 3,
+        .descriptionPage1 = DexDescription_Rotom_1,
+        .descriptionPage2 = DexDescription_Rotom_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    {  //Uxie
+        .categoryName = _("KNOWLEDGE"),
+        .height = 3,
+        .weight = 3,
+        .descriptionPage1 = DexDescription_Uxie_1,
+        .descriptionPage2 = DexDescription_Uxie_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    {  //Mesprit
+        .categoryName = _("EMOTION"),
+        .height = 3,
+        .weight = 3,
+        .descriptionPage1 = DexDescription_Mesprit_1,
+        .descriptionPage2 = DexDescription_Mesprit_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    {  //Azelf
+        .categoryName = _("WILLPOWER"),
+        .height = 3,
+        .weight = 3,
+        .descriptionPage1 = DexDescription_Azelf_1,
+        .descriptionPage2 = DexDescription_Azelf_1,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,

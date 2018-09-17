@@ -38,3 +38,7 @@ List of the learnsets that I updated to Gen. 4 Standards as much as I could righ
 476 - Probopass (Missing: Gravity, Magnet Rise)
 477 - Dusknoir (Missing: Gravity, Payback)
 478 - Froslass (Missing: Wake-Up Slap, Captivate)
+479 - Rotom (Missing: Trick)
+480 - Uxie (Missing: Memento, Natural Gift)
+481 - Mesprit (Missing: Lucky Chant, Copycat, Natural Gift, Healing Wish)
+482 - Azelf (Missing: Last Resort, Natural Gift)

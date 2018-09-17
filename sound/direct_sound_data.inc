@@ -2183,6 +2183,22 @@ Cry_Froslass::
 	.incbin "sound/direct_sound_samples/cries/cry_froslass.bin"
 
 	.align 2
+Cry_Rotom:: 
+	.incbin "sound/direct_sound_samples/cries/cry_rotom.bin"
+
+	.align 2
+Cry_Uxie:: 
+	.incbin "sound/direct_sound_samples/cries/cry_uxie.bin"
+
+	.align 2
+Cry_Mesprit:: 
+	.incbin "sound/direct_sound_samples/cries/cry_mesprit.bin"
+
+	.align 2
+Cry_Azelf:: 
+	.incbin "sound/direct_sound_samples/cries/cry_azelf.bin"
+
+	.align 2
 DirectSoundWaveData_Phoneme_Vowel7:: @ 8639898
 	.incbin "sound/direct_sound_samples/phonemes/vowel_7.bin"
 
