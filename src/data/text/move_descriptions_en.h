@@ -1574,6 +1574,10 @@ static const u8 MoveDescription_LavaPlume[] = _(
     "An inferno of flames that may\n"
     "leave the target with a burn.");
 
+static const u8 MoveDescription_PsychoCut[] = _(
+    "An attack with psychic blades\n"
+    "High critical-hit ratio.");
+
 const u8 * const gMoveDescriptions[] = {
     MoveDescription_Pound,
     MoveDescription_KarateChop,
@@ -1969,4 +1973,5 @@ const u8 * const gMoveDescriptions[] = {
     MoveDescription_StoneEdge,
     MoveDescription_GigaImpact,
     MoveDescription_LavaPlume,
+    MoveDescription_PsychoCut,
 };

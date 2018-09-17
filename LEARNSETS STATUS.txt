@@ -1,0 +1,37 @@
+List of the learnsets that I updated to Gen. 4 Standards as much as I could right now:
+
+54 and 55 - Psyduck and Golduck.
+81 and 82 - Magnemite and Magneton. (Missing: Magnet Rise, Gyro Ball)
+84 and 85 - Doduo and Dodrio. (Missing: Acupressure)
+86 and 87 - Seel and Dewgong. (Missing: Aqua Ring)
+109 and 110 - Koffing and Weezing. (Missing: Assurance, Gyro Ball)
+114 - Tangela. (Missing: Natural Gift, Wring Out)
+115 - Kangaskhan.
+123 - Scyther.
+125 - Electabuzz.
+126 - Magmar.
+127 - Pinsir.
+140 and 141 - Kabuto and Kabutops. (Missing: Wring Out)
+190 - Aipom. (Missing: Fling, Last Resort)
+203 - Girafarig. (Missing: Power Swap, Guard Swap, Assurance)
+205 - Forretress. (Missing: Toxic Spikes, Bug Bite, Natural Gift, Payback, Gyro Ball, Magnet Rise)
+212 - Scizor.
+283 and 284 - Surskit and Masquerain.
+318 and 319 - Carvanha and Sharpedo. (Missing: Assurance)
+341 and 342 - Corphish and Crawdaunt.
+393, 394 and 395 - Piplup, Prinplup and Empoleon.
+399 and 400 - Bidoof and Bibarel.
+418 and 419 - Buizel and Floatzel.
+424 - Ambipom. (Missing: Fling, Last Resort)
+462 - Magnezone. (Missing: Magnet Rise, Gyro Ball)
+465 - Tangrowth. (Missing: Natural Gift, Wring Out)
+466 - Magmortar.
+467 - Electivire.
+468 - Togekiss.
+469 - Yanmega. (Missing: Bug Bite, U-Turn)
+470 - Leafeon. (Missing: Last Resort)
+471 - Glaceon. (Missing: Last Resort)
+472 - Gliscor. (Missing: U-Turn)
+473 - Mamoswine.
+474 - Porygon-Z. (Missing: Trick Room, Magnet Rise, Embargo, )
+475 - Gallade.

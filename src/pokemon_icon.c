@@ -515,6 +515,10 @@ const u8 * const gMonIconTable[] =
 	gMonIcon_Yanmega,
 	gMonIcon_Leafeon,
 	gMonIcon_Glaceon,
+	gMonIcon_Gliscor,
+	gMonIcon_Mamoswine,
+	gMonIcon_PorygonZ,
+	gMonIcon_Gallade,
 	gMonIcon_Egg,
 	gMonIcon_UnownB,
 	gMonIcon_UnownC,
@@ -1044,6 +1048,10 @@ const u8 gMonIconPaletteIndices[] =
 	1, // Yanmega
 	1, // Leafeon
 	0, // Glaceon
+	2, // Gliscor
+	2, // Mamoswine
+	0, // Porygon-Z
+	1, // Gallade
 	1, // Egg
 	0, // Unown B
 	0, // Unown C

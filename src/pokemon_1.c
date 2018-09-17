@@ -26,7 +26,7 @@ struct Pokemon gEnemyParty[6];
 
 const u16 gSpeciesToHoennPokedexNum[] = // Assigns all species to the Hoenn Dex Index (Summary No. for Hoenn Dex)
 {
-	         	                // SPECIES_NONE
+	                            // SPECIES_NONE
 	HOENN_DEX_BULBASAUR,       	// SPECIES_BULBASAUR
 	HOENN_DEX_IVYSAUR,         	// SPECIES_IVYSAUR
 	HOENN_DEX_VENUSAUR,        	// SPECIES_VENUSAUR
@@ -522,12 +522,16 @@ const u16 gSpeciesToHoennPokedexNum[] = // Assigns all species to the Hoenn Dex 
 	HOENN_DEX_TOGEKISS,         // SPECIES_TOGEKISS
 	HOENN_DEX_YANMEGA,          // SPECIES_YANMEGA
 	HOENN_DEX_LEAFEON,          // SPECIES_LEAFEON
-	HOENN_DEX_GLACEON           // SPECIES_GLACEON
+	HOENN_DEX_GLACEON,          // SPECIES_GLACEON
+	HOENN_DEX_GLISCOR,          // SPECIES_GLISCOR
+	HOENN_DEX_MAMOSWINE,        // SPECIES_MAMOSWINE
+	HOENN_DEX_PORYGONZ,         // SPECIES_PORYGONZ
+	HOENN_DEX_GALLADE           // SPECIES_GALLADE
 };
 
 const u16 gSpeciesToNationalPokedexNum[] = // Assigns all species to the National Dex Index (Summary No. for National Dex)
 {
-	         	                // SPECIES_NONE
+	                                // SPECIES_NONE
 	NATIONAL_DEX_BULBASAUR,       	// SPECIES_BULBASAUR
 	NATIONAL_DEX_IVYSAUR,         	// SPECIES_IVYSAUR
 	NATIONAL_DEX_VENUSAUR,        	// SPECIES_VENUSAUR
@@ -1023,7 +1027,11 @@ const u16 gSpeciesToNationalPokedexNum[] = // Assigns all species to the Nationa
 	NATIONAL_DEX_TOGEKISS,          // SPECIES_TOGEKISS
 	NATIONAL_DEX_YANMEGA,           // SPECIES_YANMEGA
 	NATIONAL_DEX_LEAFEON,           // SPECIES_LEAFEON
-	NATIONAL_DEX_GLACEON            // SPECIES_GLACEON
+	NATIONAL_DEX_GLACEON,           // SPECIES_GLACEON
+	NATIONAL_DEX_GLISCOR,           // SPECIES_GLISCOR
+	NATIONAL_DEX_MAMOSWINE,         // SPECIES_MAMOSWINE
+	NATIONAL_DEX_PORYGONZ,          // SPECIES_PORYGONZ
+	NATIONAL_DEX_GALLADE            // SPECIES_GALLADE
 };
 
 const u16 gHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using National Dex Index)
@@ -1500,6 +1508,10 @@ const u16 gHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using Nationa
 	NATIONAL_DEX_YANMEGA,       // HOENN_DEX_YANMEGA
 	NATIONAL_DEX_LEAFEON,       // HOENN_DEX_LEAFEON
 	NATIONAL_DEX_GLACEON,       // HOENN_DEX_GLACEON
+	NATIONAL_DEX_GLISCOR,       // HOENN_DEX_GLISCOR
+	NATIONAL_DEX_MAMOSWINE,     // HOENN_DEX_MAMOSWINE
+	NATIONAL_DEX_PORYGONZ,      // HOENN_DEX_PORYGONZ
+	NATIONAL_DEX_GALLADE,       // HOENN_DEX_GALLADE
 	NATIONAL_DEX_OLD_UNOWN_B,  	// HOENN_DEX_OLD_UNOWN_B
 	NATIONAL_DEX_OLD_UNOWN_C,  	// HOENN_DEX_OLD_UNOWN_C
 	NATIONAL_DEX_OLD_UNOWN_D,  	// HOENN_DEX_OLD_UNOWN_D

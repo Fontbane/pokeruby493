@@ -11319,6 +11319,102 @@ gMonFootprint_Glaceon::
 	.incbin "graphics/pokemon/glaceon/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Gliscor::
+	.incbin "graphics/pokemon/gliscor/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Gliscor::
+	.incbin "graphics/pokemon/gliscor/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Gliscor::
+	.incbin "graphics/pokemon/gliscor/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Gliscor::
+	.incbin "graphics/pokemon/gliscor/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Gliscor::
+	.incbin "graphics/pokemon/gliscor/icon.4bpp"
+
+	.align 2
+gMonFootprint_Gliscor::
+	.incbin "graphics/pokemon/gliscor/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Mamoswine::
+	.incbin "graphics/pokemon/mamoswine/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Mamoswine::
+	.incbin "graphics/pokemon/mamoswine/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Mamoswine::
+	.incbin "graphics/pokemon/mamoswine/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Mamoswine::
+	.incbin "graphics/pokemon/mamoswine/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Mamoswine::
+	.incbin "graphics/pokemon/mamoswine/icon.4bpp"
+
+	.align 2
+gMonFootprint_Mamoswine::
+	.incbin "graphics/pokemon/mamoswine/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_PorygonZ::
+	.incbin "graphics/pokemon/porygonZ/front.4bpp.lz"
+
+	.align 2
+gMonPalette_PorygonZ::
+	.incbin "graphics/pokemon/porygonZ/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_PorygonZ::
+	.incbin "graphics/pokemon/porygonZ/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_PorygonZ::
+	.incbin "graphics/pokemon/porygonZ/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_PorygonZ::
+	.incbin "graphics/pokemon/porygonZ/icon.4bpp"
+
+	.align 2
+gMonFootprint_PorygonZ::
+	.incbin "graphics/pokemon/porygonZ/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Gallade::
+	.incbin "graphics/pokemon/gallade/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Gallade::
+	.incbin "graphics/pokemon/gallade/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Gallade::
+	.incbin "graphics/pokemon/gallade/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Gallade::
+	.incbin "graphics/pokemon/gallade/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Gallade::
+	.incbin "graphics/pokemon/gallade/icon.4bpp"
+
+	.align 2
+gMonFootprint_Gallade::
+	.incbin "graphics/pokemon/gallade/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

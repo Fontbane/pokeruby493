@@ -497,6 +497,10 @@ gMonBackPicCoords:: @ 81E9114
 	.byte 101, 10, 0, 0 // Yanmega
 	.byte 134,  9, 0, 0 // Leafeon
 	.byte 134,  9, 0, 0 // Glaceon
+	.byte 101, 10, 0, 0 // Gliscor
+	.byte 120,  7, 0, 0 // Mamoswine
+	.byte 120,  7, 0, 0 // Porygon-Z
+	.byte 134,  4, 0, 0 // Gallade
 	.byte  54, 10, 0, 0 // EGG
 	.byte  86,  9, 0, 0 // UNOWN B
 	.byte 103,  6, 0, 0 // UNOWN C

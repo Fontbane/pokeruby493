@@ -4,7 +4,7 @@ Attempt at making a public base of Pokeruby with expanded pokémon up to Arceus 
 I don't know when or if I'll ever be able to complete it, so keep that in mind.
 
 ### Progress
-471/493 - 386 + Turtwig, Grotle, Torterra, Chimchar, Monferno, Infernape, Piplup, Prinplup, Empoleon, Starly, Staravia, Staraptor, Bidoof, Bibarel, Kricketot, Kricketune, Shinx, Luxio, Luxray, Budew, Roserade, Cranidos, Rampardos, Shieldon, Bastiodon, Burmy (Plant Cloak), Wormadam (Plant Cloak), Mothim, Combee, Vespiquen, Pachirisu, Buizel, Floatzel, Cherubi, Cherrim, Shellos (East Sea), Gastrodon (East Sea), Ambipom, Drifloon, Drifblim, Buneary, Lopunny, Mismagius, Honchkrow, Glameow, Purugly, Chingling, Stunky, Skuntank, Bronzor, Bronzong, Binsly, Mime Jr, Happiny, Chatot, Spiritomb, Gible, Gabite, Garchomp, Munchlax, Riolu, Lucario, Hippopotas, Hippowdon, Skorupi, Drapion, Croagunk, Toxicroak, Carnivine, Finneon, Lumineon, Mantyke, Snover, Abomasnow, Weavile, Magnezone, Lickilicky, Rhyperior, Tangrowth, Electivire, Magmortar, Togekiss, Yanmega, Leafeon and Glaceon.
+475/493 - 386 + Turtwig, Grotle, Torterra, Chimchar, Monferno, Infernape, Piplup, Prinplup, Empoleon, Starly, Staravia, Staraptor, Bidoof, Bibarel, Kricketot, Kricketune, Shinx, Luxio, Luxray, Budew, Roserade, Cranidos, Rampardos, Shieldon, Bastiodon, Burmy (Plant Cloak), Wormadam (Plant Cloak), Mothim, Combee, Vespiquen, Pachirisu, Buizel, Floatzel, Cherubi, Cherrim, Shellos (East Sea), Gastrodon (East Sea), Ambipom, Drifloon, Drifblim, Buneary, Lopunny, Mismagius, Honchkrow, Glameow, Purugly, Chingling, Stunky, Skuntank, Bronzor, Bronzong, Binsly, Mime Jr, Happiny, Chatot, Spiritomb, Gible, Gabite, Garchomp, Munchlax, Riolu, Lucario, Hippopotas, Hippowdon, Skorupi, Drapion, Croagunk, Toxicroak, Carnivine, Finneon, Lumineon, Mantyke, Snover, Abomasnow, Weavile, Magnezone, Lickilicky, Rhyperior, Tangrowth, Electivire, Magmortar, Togekiss, Yanmega, Leafeon and Glaceon, Gliscor, Mamoswine, Porygon-Z and Gallade.
 
 ![Pic](https://i.imgur.com/F6jmvee.png)
 
@@ -55,7 +55,7 @@ I intend to implement as many Gen. 4 features as I can to this base. Right now, 
 
 * There's 2 new evolution stones, the Shiny Stone for Roselia and the Dusk Stone for Misdreavus and Murkrow.
 
-* The Oval Stone and the Protector were also added because Happiny and Rhydon require them to evolve.
+* The following evolution-inducing items were added: Oval Stone, Protector, Electirizer, Magmarizer, Razor Claw, Razor Fang, Dubious Disc.
 
 * New evolution methods have been implemented to account for the evolutions of certain pokémon like Combee, Happiny, Aipom, Sneasel, Gligar, Nosepass, Magneton, Mantyke, etc.
 
@@ -63,7 +63,7 @@ I intend to implement as many Gen. 4 features as I can to this base. Right now, 
 
 * Poisoning in the overworld works just like it does in the Gen. 4 Games.
 
-* The Light Ball now works just like in the Gen. 4 Games. It doubles not only Pikachu's Sp. Atk, but its Atk too.
+* The Light Ball works just like in the Gen. 4 Games. It doubles not only Pikachu's Sp. Atk, but its Atk too.
 
 # Credits
 

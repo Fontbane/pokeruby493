@@ -536,6 +536,10 @@ const u8 gEnemyMonElevation[] = {
 	[SPECIES_YANMEGA] = 3,
 	[SPECIES_LEAFEON] = 0,
 	[SPECIES_GLACEON] = 0,
+	[SPECIES_GLISCOR] = 3,
+	[SPECIES_MAMOSWINE] = 0,
+	[SPECIES_PORYGONZ] = 0,
+	[SPECIES_GALLADE] = 0,
 };
 
 #include "../data/trainer_parties.h"

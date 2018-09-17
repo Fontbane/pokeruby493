@@ -225,7 +225,11 @@ const u16 gSpeciesIdToCryId[] = {
 	469, // TOGEKISS
 	470, // YANMEGA
 	471, // LEAFEON
-	472  // GLACEON
+	472, // GLACEON
+	473, // GLISCOR
+	474, // MAMOSWINE
+	475, // PORYGON-Z
+	476  // GALLADE
 };
 
 #endif //POKERUBY_CRY_IDS_H

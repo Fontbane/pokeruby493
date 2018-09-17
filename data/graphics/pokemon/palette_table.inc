@@ -497,6 +497,10 @@ gMonPaletteTable:: @ 81EA5B4
 	obj_pal gMonPalette_Yanmega, SPECIES_YANMEGA
 	obj_pal gMonPalette_Leafeon, SPECIES_LEAFEON
 	obj_pal gMonPalette_Glaceon, SPECIES_GLACEON
+	obj_pal gMonPalette_Gliscor, SPECIES_GLISCOR
+	obj_pal gMonPalette_Mamoswine, SPECIES_MAMOSWINE
+	obj_pal gMonPalette_PorygonZ, SPECIES_PORYGONZ
+	obj_pal gMonPalette_Gallade, SPECIES_GALLADE
 	obj_pal gMonPalette_Egg, SPECIES_EGG
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_B
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_C

@@ -12616,6 +12616,10 @@ voicegroup_8453790:: @ 8453790
 	cry Cry_Yanmega
 	cry Cry_Leafeon
 	cry Cry_Glaceon
+	cry Cry_Gliscor
+	cry Cry_Mamoswine
+	cry Cry_PorygonZ
+	cry Cry_Gallade
 
 	.align 2
 voicegroup_84537C0:: @ 84537C0
@@ -13101,6 +13105,10 @@ voicegroup_84549C0:: @ 84549C0
 	cry2 Cry_Yanmega
 	cry2 Cry_Leafeon
 	cry2 Cry_Glaceon
+	cry2 Cry_Gliscor
+	cry2 Cry_Mamoswine
+	cry2 Cry_PorygonZ
+	cry2 Cry_Gallade
 
 	.align 2
 voicegroup_84549F0:: @ 84549F0

@@ -1,7 +1,11 @@
 Primary Goals:
--Implement the rest of the Gen. 4 pokémon.
--Implement formes for those that have one.
+* Implement the rest of the Gen. 4 pokémon.
+* Update Learnsets to Gen. 4 standards.
+* Implement formes for those that are supposed to have one.
 
 Secondary Goals:
--Fix Close Combat's effect.
--Try to create new abilities and implement all the ones added in the Gen. 4 games.
+* Make an animation for Wood Hammer, Magnet Bomb, Discharge, Mirror Shot, Rock Wrecker, Stone Edge, Giga Impact, Lava Plume and Psycho Cut.
+* Fix Close Combat's effect.
+* Give a proper effect to the Razor Fang and the Razor Claw.
+* Try to create new abilities and implement all the ones added in the Gen. 4 games, or at least most of them.
+* Look into creating new move effects to add the moves that are missing in the Updated Learnsets section.

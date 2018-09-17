@@ -84,3 +84,5 @@
 	.set EVO_HELD_ITEM_DAY,    0x0015 @ Pokémon levels up during the day while holding the specified item
 	.set EVO_HELD_ITEM_NIGHT,  0x0016 @ Pokémon levels up during the night while holding the specified item
 	.set EVO_SPECIES,          0x0017 @ Pokémon levels up while a specific pokémon is in the party.
+	.set EVO_ITEM_MALE         0x0018 @ Specified item is used on male Pokémon
+	.set EVO_ITEM_FEMALE       0x0019 @ Specified item is used on female Pokémon

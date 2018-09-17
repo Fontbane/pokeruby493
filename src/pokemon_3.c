@@ -419,10 +419,12 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, u8 type, u16 evolutionItem)
         break;
     case 2:
     case 3:
-        for (i = 0; i < 7; i++)
+        RtcCalcLocalTime();
+        for (i = 0; i < 5; i++)
         {
-            if (gEvolutionTable[species][i].method == EVO_ITEM
-             && gEvolutionTable[species][i].param == evolutionItem)
+            if ((gEvolutionTable[species][i].method == EVO_ITEM && gEvolutionTable[species][i].param == evolutionItem)
+             || (gEvolutionTable[species][i].method == EVO_ITEM_MALE && gEvolutionTable[species][i].param == evolutionItem && gender == MON_MALE)
+             || (gEvolutionTable[species][i].method == EVO_ITEM_FEMALE && gEvolutionTable[species][i].param == evolutionItem && gender == MON_FEMALE))
             {
                 targetSpecies = gEvolutionTable[species][i].targetSpecies;
                 break;

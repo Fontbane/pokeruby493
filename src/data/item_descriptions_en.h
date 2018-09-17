@@ -394,6 +394,11 @@ static const u8 gItemDescription_DuskStone[] = _(
     "species of POKéMON\n"
     "evolve.");
 
+static const u8 gItemDescription_DawnStone[] = _(
+    "Makes certain\n"
+    "species of POKéMON\n"
+    "evolve.");
+
 static const u8 gItemDescription_TinyMushroom[] = _(
     "A plain, ordinary\n"
     "mushroom.\n"
@@ -965,6 +970,16 @@ static const u8 gItemDescription_Magmarizer[] = _(
     "A certain POKéMON\n"
     "loves it. It’s full\n"
     "of magma energy.");
+
+static const u8 gItemDescription_RazorFang[] = _(
+    "Helps a certain\n"
+    "POKéMON to evolve.\n"
+    "It’s a sharp fang.");
+
+static const u8 gItemDescription_DubiousDisc[] = _(
+    "Certain POKéMON\n"
+    "love it. It’s over-\n"
+    "flowing with data.");
 
 static const u8 gItemDescription_RedScarf[] = _(
     "A hold item that\n"

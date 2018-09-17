@@ -5813,6 +5813,26 @@ static const u8 DexDescription_Glaceon_1[] = _(
   "freeze the atmosphere around it to\n"
   "make a diamond-dust flurry.");
 
+static const u8 DexDescription_Gliscor_1[] = _(
+  "If it succeeds in catching even a\n"
+  "faint breeze properly, it can circle\n"
+  "the globe without flapping once.");
+
+static const u8 DexDescription_Mamoswine_1[] = _(
+  "A frozen one was dug up from soil\n"
+  "dating back 10,000 years. It woke up\n"
+  "to much amazement.");
+
+static const u8 DexDescription_PorygonZ_1[] = _(
+  "Its programming was modified to\n"
+  "enable work in alien dimensions. It\n"
+  "did not work as planned.");
+
+static const u8 DexDescription_Gallade_1[] = _(
+  "When protecting someone, it extends\n"
+  "its elbows as if they were swords\n"
+  "and fights savagely.");
+
 const struct PokedexEntry gPokedexEntries[] =
 {
     {  //Dummy
@@ -11002,6 +11022,50 @@ const struct PokedexEntry gPokedexEntries[] =
         .weight = 259,
         .descriptionPage1 = DexDescription_Glaceon_1,
         .descriptionPage2 = DexDescription_Glaceon_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    {  //Gliscor
+        .categoryName = _("FANG SCORP."),
+        .height = 20,
+        .weight = 425,
+        .descriptionPage1 = DexDescription_Gliscor_1,
+        .descriptionPage2 = DexDescription_Gliscor_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    {  //Mamoswine
+        .categoryName = _("TWIN TUSK"),
+        .height = 25,
+        .weight = 2910,
+        .descriptionPage1 = DexDescription_Mamoswine_1,
+        .descriptionPage2 = DexDescription_Mamoswine_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    {  //Porygon-Z
+        .categoryName = _("VIRTUAL"),
+        .height = 9,
+        .weight = 340,
+        .descriptionPage1 = DexDescription_PorygonZ_1,
+        .descriptionPage2 = DexDescription_PorygonZ_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    {  //Gallade
+        .categoryName = _("BLADE"),
+        .height = 16,
+        .weight = 520,
+        .descriptionPage1 = DexDescription_Gallade_1,
+        .descriptionPage2 = DexDescription_Gallade_1,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,

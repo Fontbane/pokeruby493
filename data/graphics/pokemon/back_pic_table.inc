@@ -497,6 +497,10 @@ gMonBackPicTable:: @ 81E97F4
 	obj_tiles gMonBackPic_Yanmega, 0x800, SPECIES_YANMEGA
 	obj_tiles gMonBackPic_Leafeon, 0x800, SPECIES_LEAFEON
 	obj_tiles gMonBackPic_Glaceon, 0x800, SPECIES_GLACEON
+	obj_tiles gMonBackPic_Gliscor, 0x800, SPECIES_GLISCOR
+	obj_tiles gMonBackPic_Mamoswine, 0x800, SPECIES_MAMOSWINE
+	obj_tiles gMonBackPic_PorygonZ, 0x800, SPECIES_PORYGONZ
+	obj_tiles gMonBackPic_Gallade, 0x800, SPECIES_GALLADE
 	obj_tiles gMonPic_Egg, 0x800, SPECIES_EGG
 	obj_tiles gMonBackPic_UnownB, 0x800, SPECIES_UNOWN_B
 	obj_tiles gMonBackPic_UnownC, 0x800, SPECIES_UNOWN_C
