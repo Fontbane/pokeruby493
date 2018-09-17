@@ -495,6 +495,10 @@ gMonShinyPaletteTable:: @ 81EB374
 	obj_pal gMonShinyPalette_Tangrowth, PAL_ID_SHINY + SPECIES_TANGROWTH
 	obj_pal gMonShinyPalette_Electivire, PAL_ID_SHINY + SPECIES_ELECTIVIRE
 	obj_pal gMonShinyPalette_Magmortar, PAL_ID_SHINY + SPECIES_MAGMORTAR
+	obj_pal gMonShinyPalette_Togekiss, PAL_ID_SHINY + SPECIES_TOGEKISS
+	obj_pal gMonShinyPalette_Yanmega, PAL_ID_SHINY + SPECIES_YANMEGA
+	obj_pal gMonShinyPalette_Leafeon, PAL_ID_SHINY + SPECIES_LEAFEON
+	obj_pal gMonShinyPalette_Glaceon, PAL_ID_SHINY + SPECIES_GLACEON
 	obj_pal gMonPalette_Egg, PAL_ID_SHINY + SPECIES_EGG
 	obj_pal gMonShinyPalette_Unown, PAL_ID_SHINY + SPECIES_UNOWN_B
 	obj_pal gMonShinyPalette_Unown, PAL_ID_SHINY + SPECIES_UNOWN_C

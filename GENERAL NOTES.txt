@@ -2,13 +2,14 @@
 
 Primary Goals:
 * Implement the rest of the Gen. 4 pokémon.
-* Implement formes for those that have one.
+* Implement formes for those that are supposed to have one.
 * Update Learnsets to Gen. 4 standards.
 
 Secondary Goals:
 * Make an animation for Wood Hammer, Magnet Bomb, Discharge, Mirror Shot, Rock Wrecker, Stone Edge, Giga Impact and Lava Plume.
 * Fix Close Combat's effect.
 * Try to create new abilities and implement all the ones added in the Gen. 4 games, or at least most of them.
+* Look into creating new move effects to add the moves that are missing in the Updated Learnsets section.
 
 ------------------------------------------------------------------------------------------------
 
@@ -16,7 +17,7 @@ Secondary Goals:
 
 List of learnsets that were updated to Gen. 4 Standards (as much as I could right now) so far:
 54 and 55 - Psyduck and Golduck.
-81 AND 82 - Magnemite and Magneton. (Missing: Magnet Rise, Gyro Ball)
+81 and 82 - Magnemite and Magneton. (Missing: Magnet Rise, Gyro Ball)
 84 and 85 - Doduo and Dodrio. (Missing: Acupressure)
 86 and 87 - Seel and Dewgong. (Missing: Aqua Ring)
 109 and 110 - Koffing and Weezing. (Missing: Assurance, Gyro Ball)
@@ -42,3 +43,7 @@ List of learnsets that were updated to Gen. 4 Standards (as much as I could righ
 465 - Tangrowth. (Missing: Natural Gift, Wring Out)
 466 - Magmortar.
 467 - Electivire.
+468 - Togekiss.
+469 - Yanmega. (Missing: Bug Bite, U-Turn)
+470 - Leafeon. (Missing: Last Resort)
+471 - Glaceon. (Missing: Last Resort)

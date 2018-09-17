@@ -493,6 +493,10 @@ gMonBackPicCoords:: @ 81E9114
 	.byte 134,  9, 0, 0 // Tangrowth
 	.byte 134,  7, 0, 0 // Electivire
 	.byte 134,  9, 0, 0 // Magmortar
+	.byte 101, 10, 0, 0 // Togekiss
+	.byte 101, 10, 0, 0 // Yanmega
+	.byte 134,  9, 0, 0 // Leafeon
+	.byte 134,  9, 0, 0 // Glaceon
 	.byte  54, 10, 0, 0 // EGG
 	.byte  86,  9, 0, 0 // UNOWN B
 	.byte 103,  6, 0, 0 // UNOWN C

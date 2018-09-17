@@ -11223,6 +11223,102 @@ gMonFootprint_Magmortar::
 	.incbin "graphics/pokemon/magmortar/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Togekiss::
+	.incbin "graphics/pokemon/togekiss/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Togekiss::
+	.incbin "graphics/pokemon/togekiss/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Togekiss::
+	.incbin "graphics/pokemon/togekiss/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Togekiss::
+	.incbin "graphics/pokemon/togekiss/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Togekiss::
+	.incbin "graphics/pokemon/togekiss/icon.4bpp"
+
+	.align 2
+gMonFootprint_Togekiss::
+	.incbin "graphics/pokemon/togekiss/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Yanmega::
+	.incbin "graphics/pokemon/yanmega/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Yanmega::
+	.incbin "graphics/pokemon/yanmega/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Yanmega::
+	.incbin "graphics/pokemon/yanmega/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Yanmega::
+	.incbin "graphics/pokemon/yanmega/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Yanmega::
+	.incbin "graphics/pokemon/yanmega/icon.4bpp"
+
+	.align 2
+gMonFootprint_Yanmega::
+	.incbin "graphics/pokemon/yanmega/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Leafeon::
+	.incbin "graphics/pokemon/leafeon/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Leafeon::
+	.incbin "graphics/pokemon/leafeon/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Leafeon::
+	.incbin "graphics/pokemon/leafeon/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Leafeon::
+	.incbin "graphics/pokemon/leafeon/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Leafeon::
+	.incbin "graphics/pokemon/leafeon/icon.4bpp"
+
+	.align 2
+gMonFootprint_Leafeon::
+	.incbin "graphics/pokemon/leafeon/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Glaceon::
+	.incbin "graphics/pokemon/glaceon/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Glaceon::
+	.incbin "graphics/pokemon/glaceon/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Glaceon::
+	.incbin "graphics/pokemon/glaceon/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Glaceon::
+	.incbin "graphics/pokemon/glaceon/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Glaceon::
+	.incbin "graphics/pokemon/glaceon/icon.4bpp"
+
+	.align 2
+gMonFootprint_Glaceon::
+	.incbin "graphics/pokemon/glaceon/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

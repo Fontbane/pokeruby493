@@ -498,7 +498,11 @@ const u16 *gLevelUpLearnsets[] = {
     gRhyperiorLevelUpLearnset,
     gTangrowthLevelUpLearnset,
     gElectivireLevelUpLearnset,
-    gMagmortarLevelUpLearnset
+    gMagmortarLevelUpLearnset,
+    gTogekissLevelUpLearnset,
+    gYanmegaLevelUpLearnset,
+    gLeafeonLevelUpLearnset,
+    gGlaceonLevelUpLearnset
 };
 
 #endif //POKERUBY_LEVEL_UP_LEARNSET_POINTERS_H

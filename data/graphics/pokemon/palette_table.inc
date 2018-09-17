@@ -493,6 +493,10 @@ gMonPaletteTable:: @ 81EA5B4
 	obj_pal gMonPalette_Tangrowth, SPECIES_TANGROWTH
 	obj_pal gMonPalette_Electivire, SPECIES_ELECTIVIRE
 	obj_pal gMonPalette_Magmortar, SPECIES_MAGMORTAR
+	obj_pal gMonPalette_Togekiss, SPECIES_TOGEKISS
+	obj_pal gMonPalette_Yanmega, SPECIES_YANMEGA
+	obj_pal gMonPalette_Leafeon, SPECIES_LEAFEON
+	obj_pal gMonPalette_Glaceon, SPECIES_GLACEON
 	obj_pal gMonPalette_Egg, SPECIES_EGG
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_B
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_C

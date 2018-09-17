@@ -493,6 +493,10 @@ gMonFrontPicTable:: @ 81E8354
 	obj_tiles gMonFrontPic_Tangrowth, 0x800, SPECIES_TANGROWTH
 	obj_tiles gMonFrontPic_Electivire, 0x800, SPECIES_ELECTIVIRE
 	obj_tiles gMonFrontPic_Magmortar, 0x800, SPECIES_MAGMORTAR
+	obj_tiles gMonFrontPic_Togekiss, 0x800, SPECIES_TOGEKISS
+	obj_tiles gMonFrontPic_Yanmega, 0x800, SPECIES_YANMEGA
+	obj_tiles gMonFrontPic_Leafeon, 0x800, SPECIES_LEAFEON
+	obj_tiles gMonFrontPic_Glaceon, 0x800, SPECIES_GLACEON
 	obj_tiles gMonPic_Egg, 0x800, SPECIES_EGG
 	obj_tiles gMonFrontPic_UnownB, 0x800, SPECIES_UNOWN_B
 	obj_tiles gMonFrontPic_UnownC, 0x800, SPECIES_UNOWN_C

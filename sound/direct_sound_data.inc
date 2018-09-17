@@ -2139,6 +2139,22 @@ Cry_Magmortar::
 	.incbin "sound/direct_sound_samples/cries/cry_magmortar.bin"
 
 	.align 2
+Cry_Togekiss:: 
+	.incbin "sound/direct_sound_samples/cries/cry_togekiss.bin"
+
+	.align 2
+Cry_Yanmega:: 
+	.incbin "sound/direct_sound_samples/cries/cry_yanmega.bin"
+
+	.align 2
+Cry_Leafeon:: 
+	.incbin "sound/direct_sound_samples/cries/cry_leafeon.bin"
+
+	.align 2
+Cry_Glaceon:: 
+	.incbin "sound/direct_sound_samples/cries/cry_glaceon.bin"
+
+	.align 2
 DirectSoundWaveData_Phoneme_Vowel7:: @ 8639898
 	.incbin "sound/direct_sound_samples/phonemes/vowel_7.bin"
 

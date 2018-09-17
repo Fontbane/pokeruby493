@@ -514,7 +514,7 @@ struct Evolution
 
 struct EvolutionData
 {
-    struct Evolution evolutions[5];
+    struct Evolution evolutions[7];
 };
 
 extern u8 gPlayerPartyCount;
@@ -525,7 +525,7 @@ extern const u8 *const gItemEffectTable[];
 extern const struct BaseStats gBaseStats[];
 extern const u32 gExperienceTables[][101];
 extern const u16 *gLevelUpLearnsets[];
-extern struct Evolution gEvolutionTable[][5];
+extern struct Evolution gEvolutionTable[][7];
 extern struct PokemonStorage gPokemonStorage;
 
 void ZeroBoxMonData(struct BoxPokemon *boxMon);

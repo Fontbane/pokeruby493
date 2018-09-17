@@ -12612,6 +12612,10 @@ voicegroup_8453790:: @ 8453790
 	cry Cry_Tangrowth
 	cry Cry_Electivire
 	cry Cry_Magmortar
+	cry Cry_Togekiss
+	cry Cry_Yanmega
+	cry Cry_Leafeon
+	cry Cry_Glaceon
 
 	.align 2
 voicegroup_84537C0:: @ 84537C0
@@ -13093,6 +13097,10 @@ voicegroup_84549C0:: @ 84549C0
 	cry2 Cry_Tangrowth
 	cry2 Cry_Electivire
 	cry2 Cry_Magmortar
+	cry2 Cry_Togekiss
+	cry2 Cry_Yanmega
+	cry2 Cry_Leafeon
+	cry2 Cry_Glaceon
 
 	.align 2
 voicegroup_84549F0:: @ 84549F0

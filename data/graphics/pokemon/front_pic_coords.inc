@@ -493,6 +493,10 @@ gMonFrontPicCoords:: @ 81E7C74
 	.byte 102,  3, 0, 0 // Tangrowth
 	.byte 102,  3, 0, 0 // Electivire
 	.byte 102,  3, 0, 0 // Magmortar
+	.byte  84,  1, 0, 0 // Togekiss
+	.byte  84,  1, 0, 0 // Yanmega
+	.byte 102,  9, 0, 0 // Leafeon
+	.byte 102,  9, 0, 0 // Glaceon
 	.byte  51, 20, 0, 0 // EGG
 	.byte  52, 16, 0, 0 // UNOWN B
 	.byte  68, 16, 0, 0 // UNOWN C

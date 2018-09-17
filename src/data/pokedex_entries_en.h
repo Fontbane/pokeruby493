@@ -5793,6 +5793,26 @@ static const u8 DexDescription_Magmortar_1[] = _(
   "fireballs, its body takes on a\n"
   "whitish hue from the intense heat.");
 
+static const u8 DexDescription_Togekiss_1[] = _(
+  "It shares many blessings with people\n"
+  "who respect one another’s rights and\n"
+  "avoid needless strife.");
+
+static const u8 DexDescription_Yanmega_1[] = _(
+  "Its jaw power is incredible. It is\n"
+  "adept at biting apart foes while\n"
+  "flying by at high speed.");
+
+static const u8 DexDescription_Leafeon_1[] = _(
+  "It basically does not fight. With\n"
+  "cells similar to those of plants, it\n"
+  "can perform photosynthesis.");
+
+static const u8 DexDescription_Glaceon_1[] = _(
+  "By controlling its body heat, it can\n"
+  "freeze the atmosphere around it to\n"
+  "make a diamond-dust flurry.");
+
 const struct PokedexEntry gPokedexEntries[] =
 {
     {  //Dummy
@@ -10938,6 +10958,50 @@ const struct PokedexEntry gPokedexEntries[] =
         .weight = 680,
         .descriptionPage1 = DexDescription_Magmortar_1,
         .descriptionPage2 = DexDescription_Magmortar_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    {  //Togekiss
+        .categoryName = _("JUBILEE"),
+        .height = 15,
+        .weight = 380,
+        .descriptionPage1 = DexDescription_Togekiss_1,
+        .descriptionPage2 = DexDescription_Togekiss_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    {  //Yanmega
+        .categoryName = _("OGRE DARNER"),
+        .height = 19,
+        .weight = 515,
+        .descriptionPage1 = DexDescription_Yanmega_1,
+        .descriptionPage2 = DexDescription_Yanmega_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    {  //Leafeon
+        .categoryName = _("VERDANT"),
+        .height = 10,
+        .weight = 255,
+        .descriptionPage1 = DexDescription_Leafeon_1,
+        .descriptionPage2 = DexDescription_Leafeon_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    {  //Glaceon
+        .categoryName = _("FRESH SNOW"),
+        .height = 8,
+        .weight = 259,
+        .descriptionPage1 = DexDescription_Glaceon_1,
+        .descriptionPage2 = DexDescription_Glaceon_1,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,
