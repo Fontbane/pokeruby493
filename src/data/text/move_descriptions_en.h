@@ -1563,7 +1563,7 @@ static const u8 MoveDescription_RockWrecker[] = _(
     "user immobile the next turn.");
 
 static const u8 MoveDescription_StoneEdge[] = _(
-    "A stab with a sharpened stone.\n"
+    "Stabs with sharpe stones.\n"
     "High critical-hit ratio.");
 
 static const u8 MoveDescription_GigaImpact[] = _(
@@ -1571,11 +1571,11 @@ static const u8 MoveDescription_GigaImpact[] = _(
     "user immobile the next turn.");
 
 static const u8 MoveDescription_LavaPlume[] = _(
-    "An inferno of flames that may\n"
-    "leave the target with a burn.");
+    "An inferno of flames.\n"
+    "May burn the target.");
 
 static const u8 MoveDescription_PsychoCut[] = _(
-    "An attack with psychic blades\n"
+    "An attack with psychic blades.\n"
     "High critical-hit ratio.");
 
 static const u8 MoveDescription_PowerGem[] = _(
@@ -1583,8 +1583,8 @@ static const u8 MoveDescription_PowerGem[] = _(
     "if it was made of gemstones.");
 
 static const u8 MoveDescription_EarthPower[] = _(
-    "The ground under the foe erupts\n"
-    "with power lowering the SP. DEF.");
+    "The ground erupts with pow-\n"
+    "er. May lower the SP. DEF.");
 
 const u8 * const gMoveDescriptions[] = {
     MoveDescription_Pound,

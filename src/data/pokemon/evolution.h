@@ -254,3 +254,6 @@ struct Evolution gEvolutionTable[NUM_SPECIES][7] =
 };
 
 #endif //POKERUBY_EVOLUTION_H
+
+
+

@@ -412,7 +412,7 @@ gMonBackPicCoords:: @ 81E9114
 	.byte 135,  5, 0, 0
 	.byte 134,  9, 0, 0
 	.byte  71,  7, 0, 0
-	.byte 100, 16, 0, 0 // Turtwig
+	.byte 136,  8, 0, 0
 	.byte 104, 11, 0, 0 // Grotle
 	.byte 135,  7, 0, 0 // Torterra
 	.byte 101, 14, 0, 0 // Chimchar
@@ -506,8 +506,8 @@ gMonBackPicCoords:: @ 81E9114
 	.byte 133,  8, 0, 0 // Froslass
 	.byte 101, 10, 0, 0 // Rotom
 	.byte 101, 10, 0, 0 // Uxie
-	.byte 101, 10, 0, 0 // Mesprit
-	.byte 101, 10, 0, 0 // Azelf
+	.byte 136, 10, 0, 0
+	.byte 136,  9, 0, 0
 	.byte  54, 10, 0, 0 // EGG
 	.byte  86,  9, 0, 0 // UNOWN B
 	.byte 103,  6, 0, 0 // UNOWN C
@@ -536,3 +536,6 @@ gMonBackPicCoords:: @ 81E9114
 	.byte  70, 10, 0, 0 // UNOWN Z
 	.byte  55,  6, 0, 0 // UNOWN EXCLAMATION
 	.byte  71,  6, 0, 0 // UNOWN QUESTION
+
+
+

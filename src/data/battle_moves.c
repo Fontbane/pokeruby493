@@ -4711,9 +4711,9 @@ const struct BattleMove gBattleMoves[] = {
 
     [MOVE_STONE_EDGE] = {
         .effect = EFFECT_HIGH_CRITICAL,
-        .power = 80,
+        .power = 100,
         .type = TYPE_ROCK,
-        .accuracy = 100,
+        .accuracy = 80,
         .pp = 5,
         .secondaryEffectChance = 0,
         .target = TARGET_SELECTED_POKEMON,
