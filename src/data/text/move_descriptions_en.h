@@ -1586,6 +1586,22 @@ static const u8 MoveDescription_EarthPower[] = _(
     "The ground erupts with pow-\n"
     "er. May lower the SP. DEF.");
 
+static const u8 MoveDescription_FlashCannon[] = _(
+    "A powerful ray of energy.\n"
+    "It may lower the SP. DEF.");
+
+static const u8 MoveDescription_RoarOfTime[] = _(
+    "A power that distorts time.\n"
+    "It exhausts the user.");
+
+static const u8 MoveDescription_SpacialRend[] = _(
+    "A power that tears space.\n"
+    "High critical-hit ratio.");
+
+static const u8 MoveDescription_MagmaStorm[] = _(
+    "An inferno of flames.\n"
+    "It may burn the foe.");
+
 const u8 * const gMoveDescriptions[] = {
     MoveDescription_Pound,
     MoveDescription_KarateChop,
@@ -1984,4 +2000,8 @@ const u8 * const gMoveDescriptions[] = {
     MoveDescription_PsychoCut,
     MoveDescription_PowerGem,
     MoveDescription_EarthPower,
+    MoveDescription_FlashCannon,
+    MoveDescription_RoarOfTime,
+    MoveDescription_SpacialRend,
+    MoveDescription_MagmaStorm,
 };

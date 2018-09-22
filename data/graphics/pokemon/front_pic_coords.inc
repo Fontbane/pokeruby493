@@ -506,8 +506,11 @@ gMonFrontPicCoords:: @ 81E7C74
 	.byte  85,  4, 0, 0 // Froslass
 	.byte  84,  1, 0, 0 // Rotom
 	.byte 132,  2, 0, 0 // Uxie
-	.byte 136,  0, 0, 0
-	.byte 136,  1, 0, 0
+	.byte 136,  0, 0, 0 // Mesprit
+	.byte 136,  1, 0, 0 // Azelf
+	.byte 136,  1, 0, 0 // Dialga
+	.byte 136,  1, 0, 0 // Palkia
+	.byte 102,  9, 0, 0 // Heatran
 	.byte  51, 20, 0, 0 // EGG
 	.byte  52, 16, 0, 0 // UNOWN B
 	.byte  68, 16, 0, 0 // UNOWN C

@@ -506,8 +506,11 @@ gMonBackPicCoords:: @ 81E9114
 	.byte 133,  8, 0, 0 // Froslass
 	.byte 101, 10, 0, 0 // Rotom
 	.byte 101, 10, 0, 0 // Uxie
-	.byte 136, 10, 0, 0
-	.byte 136,  9, 0, 0
+	.byte 136, 10, 0, 0 // Mesprit
+	.byte 136,  9, 0, 0 // Azelf
+	.byte 120,  2, 0, 0 // Dialga
+	.byte 120,  7, 0, 0 // Palkia
+	.byte 134,  9, 0, 0 // Heatran
 	.byte  54, 10, 0, 0 // EGG
 	.byte  86,  9, 0, 0 // UNOWN B
 	.byte 103,  6, 0, 0 // UNOWN C

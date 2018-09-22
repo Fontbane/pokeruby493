@@ -510,6 +510,9 @@ gMonShinyPaletteTable:: @ 81EB374
 	obj_pal gMonShinyPalette_Uxie, PAL_ID_SHINY + SPECIES_UXIE
 	obj_pal gMonShinyPalette_Mesprit, PAL_ID_SHINY + SPECIES_MESPRIT
 	obj_pal gMonShinyPalette_Azelf, PAL_ID_SHINY + SPECIES_AZELF
+	obj_pal gMonShinyPalette_Dialga, PAL_ID_SHINY + SPECIES_DIALGA
+	obj_pal gMonShinyPalette_Palkia, PAL_ID_SHINY + SPECIES_PALKIA
+	obj_pal gMonShinyPalette_Heatran, PAL_ID_SHINY + SPECIES_HEATRAN
 	obj_pal gMonPalette_Egg, PAL_ID_SHINY + SPECIES_EGG
 	obj_pal gMonShinyPalette_Unown, PAL_ID_SHINY + SPECIES_UNOWN_B
 	obj_pal gMonShinyPalette_Unown, PAL_ID_SHINY + SPECIES_UNOWN_C

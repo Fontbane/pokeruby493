@@ -526,6 +526,9 @@ const u8 * const gMonIconTable[] =
     gMonIcon_Uxie,
     gMonIcon_Mesprit,
     gMonIcon_Azelf,
+    gMonIcon_Dialga,
+    gMonIcon_Palkia,
+    gMonIcon_Heatran,
     gMonIcon_Egg,
     gMonIcon_UnownB,
     gMonIcon_UnownC,
@@ -1066,6 +1069,9 @@ const u8 gMonIconPaletteIndices[] =
     0, // Uxie
     0, // Mesprit
     0, // Azelf
+    2, // Dialga
+    2, // Palkia
+    0, // Heatran
     1, // Egg
     0, // Unown B
     0, // Unown C

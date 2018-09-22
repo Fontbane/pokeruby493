@@ -545,8 +545,11 @@ const u8 gEnemyMonElevation[] = {
 	[SPECIES_FROSLASS] = 0,
 	[SPECIES_ROTOM] = 1,
 	[SPECIES_UXIE] = 3,
-	[SPECIES_MESPRIT] =  4,
-	[SPECIES_AZELF] =  3,
+	[SPECIES_MESPRIT] = 4,
+	[SPECIES_AZELF] = 3,
+	[SPECIES_DIALGA] = 0,
+	[SPECIES_PALKIA] = 0,
+	[SPECIES_HEATRAN] = 0,
 };
 
 #include "../data/trainer_parties.h"

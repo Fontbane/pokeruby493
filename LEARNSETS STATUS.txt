@@ -42,3 +42,6 @@ List of the learnsets that I updated to Gen. 4 Standards as much as I could righ
 480 - Uxie (Missing: Memento, Natural Gift)
 481 - Mesprit (Missing: Lucky Chant, Copycat, Natural Gift, Healing Wish)
 482 - Azelf (Missing: Last Resort, Natural Gift)
+483 - Dialga (Missing: Metal Burst)
+484 - Palkia
+485 - Heatran

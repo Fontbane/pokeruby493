@@ -397,4 +397,8 @@ const u8 gMoveNames[][13] = {
     [MOVE_PSYCHO_CUT] = _("PSYCHO CUT"),
     [MOVE_POWER_GEM] = _("POWER GEM"),
     [MOVE_EARTH_POWER] = _("EARTH POWER"),
+    [MOVE_FLASH_CANNON] = _("FLASH CANNON"),
+    [MOVE_ROAR_OF_TIME] = _("ROAR OF TIME"),
+    [MOVE_SPACIAL_REND] = _("SPACIAL REND"),
+    [MOVE_MAGMA_STORM] = _("MAGMA STORM"),
 };

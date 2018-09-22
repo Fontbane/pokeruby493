@@ -416,6 +416,10 @@ gBattleAnims_Moves:: @ 81C7168
     .4byte Move_PSYCHO_CUT
     .4byte Move_POWER_GEM
     .4byte Move_EARTH_POWER
+    .4byte Move_FLASH_CANNON
+    .4byte Move_ROAR_OF_TIME
+    .4byte Move_SPACIAL_REND
+    .4byte Move_MAGMA_STORM
     .4byte PoundCopy
 
     .align 2
@@ -10495,6 +10499,54 @@ Move_POWER_GEM:
     end
 
 Move_EARTH_POWER:
+    loadspritegfx 10135
+    monbg ANIM_BANK_TARGET
+    setalpha 12, 8
+    playsewithpan SE_W003, 63
+    createsprite gBasicHitSplatSpriteTemplate, 2, 0, 0, 1, 2
+    createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_TARGET, 3, 0, 6, 1
+    waitforvisualfinish
+    clearmonbg ANIM_BANK_TARGET
+    blendoff
+    end
+
+Move_FLASH_CANNON:
+    loadspritegfx 10135
+    monbg ANIM_BANK_TARGET
+    setalpha 12, 8
+    playsewithpan SE_W003, 63
+    createsprite gBasicHitSplatSpriteTemplate, 2, 0, 0, 1, 2
+    createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_TARGET, 3, 0, 6, 1
+    waitforvisualfinish
+    clearmonbg ANIM_BANK_TARGET
+    blendoff
+    end
+
+Move_ROAR_OF_TIME:
+    loadspritegfx 10135
+    monbg ANIM_BANK_TARGET
+    setalpha 12, 8
+    playsewithpan SE_W003, 63
+    createsprite gBasicHitSplatSpriteTemplate, 2, 0, 0, 1, 2
+    createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_TARGET, 3, 0, 6, 1
+    waitforvisualfinish
+    clearmonbg ANIM_BANK_TARGET
+    blendoff
+    end
+
+Move_SPACIAL_REND:
+    loadspritegfx 10135
+    monbg ANIM_BANK_TARGET
+    setalpha 12, 8
+    playsewithpan SE_W003, 63
+    createsprite gBasicHitSplatSpriteTemplate, 2, 0, 0, 1, 2
+    createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_TARGET, 3, 0, 6, 1
+    waitforvisualfinish
+    clearmonbg ANIM_BANK_TARGET
+    blendoff
+    end
+
+Move_MAGMA_STORM:
     loadspritegfx 10135
     monbg ANIM_BANK_TARGET
     setalpha 12, 8

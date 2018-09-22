@@ -5466,7 +5466,7 @@ static const u8 DexDescription_Kricketot_1[] = _(
 static const u8 DexDescription_Kricketune_1[] = _(
   "There is a village that hosts a\n"
   "contest based on the amazingly\n"
-  "variable cries of this Pokémon.");
+  "variable cries of this POKéMON.");
 
 static const u8 DexDescription_Shinx_1[] = _(
   "The extension and contraction of its\n"
@@ -5626,7 +5626,7 @@ static const u8 DexDescription_Chingling_1[] = _(
 static const u8 DexDescription_Stunky_1[] = _(
   "It sprays a foul fluid from its rear.\n"
   "Its stench spreads over a mile radius,\n"
-  "driving Pokémon away.");
+  "driving POKéMON away.");
 
 static const u8 DexDescription_Skuntank_1[] = _(
   "It attacks by spraying a horribly\n"
@@ -5867,6 +5867,21 @@ static const u8 DexDescription_Azelf_1[] = _(
   "When AZELF flew, people gained the\n"
   "determination to do things.\n"
   "It was the birth of willpower.");
+
+static const u8 DexDescription_Dialga_1[] = _(
+  "A legendary POKéMON of Sinnoh.\n"
+  "It is said that time flows when\n"
+  "DIALGA’s heart beats.");
+
+static const u8 DexDescription_Palkia_1[] = _(
+  "A legendary POKéMON of Sinnoh.\n"
+  "It is said that space becomes more\n"
+  "stable with PALKIA’s every breath.");
+
+static const u8 DexDescription_Heatran_1[] = _(
+  "Its body is made of rugged steel.\n"
+  "However, it is partially melted in\n"
+  "spots because of its own heat.");
 
 const struct PokedexEntry gPokedexEntries[] =
 {
@@ -11178,6 +11193,39 @@ const struct PokedexEntry gPokedexEntries[] =
         .weight = 3,
         .descriptionPage1 = DexDescription_Azelf_1,
         .descriptionPage2 = DexDescription_Azelf_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    {  //Dialga
+        .categoryName = _("TEMPORAL"),
+        .height = 54,
+        .weight = 6830,
+        .descriptionPage1 = DexDescription_Dialga_1,
+        .descriptionPage2 = DexDescription_Dialga_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    {  //Palkia
+        .categoryName = _("SPATIAL"),
+        .height = 42,
+        .weight = 3360,
+        .descriptionPage1 = DexDescription_Palkia_1,
+        .descriptionPage2 = DexDescription_Palkia_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    {  //Heatran
+        .categoryName = _("LAVA DOME"),
+        .height = 17,
+        .weight = 4300,
+        .descriptionPage1 = DexDescription_Heatran_1,
+        .descriptionPage2 = DexDescription_Heatran_1,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,

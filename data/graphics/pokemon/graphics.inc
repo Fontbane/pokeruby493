@@ -11583,6 +11583,78 @@ gMonFootprint_Azelf::
 	.incbin "graphics/pokemon/azelf/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Dialga::
+	.incbin "graphics/pokemon/dialga/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Dialga::
+	.incbin "graphics/pokemon/dialga/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Dialga::
+	.incbin "graphics/pokemon/dialga/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Dialga::
+	.incbin "graphics/pokemon/dialga/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Dialga::
+	.incbin "graphics/pokemon/dialga/icon.4bpp"
+
+	.align 2
+gMonFootprint_Dialga::
+	.incbin "graphics/pokemon/dialga/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Palkia::
+	.incbin "graphics/pokemon/palkia/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Palkia::
+	.incbin "graphics/pokemon/palkia/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Palkia::
+	.incbin "graphics/pokemon/palkia/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Palkia::
+	.incbin "graphics/pokemon/palkia/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Palkia::
+	.incbin "graphics/pokemon/palkia/icon.4bpp"
+
+	.align 2
+gMonFootprint_Palkia::
+	.incbin "graphics/pokemon/palkia/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Heatran::
+	.incbin "graphics/pokemon/heatran/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Heatran::
+	.incbin "graphics/pokemon/heatran/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Heatran::
+	.incbin "graphics/pokemon/heatran/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Heatran::
+	.incbin "graphics/pokemon/heatran/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Heatran::
+	.incbin "graphics/pokemon/heatran/icon.4bpp"
+
+	.align 2
+gMonFootprint_Heatran::
+	.incbin "graphics/pokemon/heatran/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

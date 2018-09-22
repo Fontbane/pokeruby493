@@ -236,7 +236,10 @@ const u16 gSpeciesIdToCryId[] = {
 	480, // ROTOM
 	481, // UXIE
 	482, // MESPRIT
-	483  // AZELF
+	483, // AZELF
+	484, // DIALGA
+	485, // PALKIA
+	486  // HEATRAN
 };
 
 #endif //POKERUBY_CRY_IDS_H

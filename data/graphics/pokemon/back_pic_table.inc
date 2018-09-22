@@ -508,6 +508,9 @@ gMonBackPicTable:: @ 81E97F4
 	obj_tiles gMonBackPic_Uxie, 0x800, SPECIES_UXIE
 	obj_tiles gMonBackPic_Mesprit, 0x800, SPECIES_MESPRIT
 	obj_tiles gMonBackPic_Azelf, 0x800, SPECIES_AZELF
+	obj_tiles gMonBackPic_Dialga, 0x800, SPECIES_DIALGA
+	obj_tiles gMonBackPic_Palkia, 0x800, SPECIES_PALKIA
+	obj_tiles gMonBackPic_Heatran, 0x800, SPECIES_HEATRAN
 	obj_tiles gMonPic_Egg, 0x800, SPECIES_EGG
 	obj_tiles gMonBackPic_UnownB, 0x800, SPECIES_UNOWN_B
 	obj_tiles gMonBackPic_UnownC, 0x800, SPECIES_UNOWN_C

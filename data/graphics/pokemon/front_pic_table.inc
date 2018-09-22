@@ -508,6 +508,9 @@ gMonFrontPicTable:: @ 81E8354
 	obj_tiles gMonFrontPic_Uxie, 0x800, SPECIES_UXIE
 	obj_tiles gMonFrontPic_Mesprit, 0x800, SPECIES_MESPRIT
 	obj_tiles gMonFrontPic_Azelf, 0x800, SPECIES_AZELF
+	obj_tiles gMonFrontPic_Dialga, 0x800, SPECIES_DIALGA
+	obj_tiles gMonFrontPic_Palkia, 0x800, SPECIES_PALKIA
+	obj_tiles gMonFrontPic_Heatran, 0x800, SPECIES_HEATRAN
 	obj_tiles gMonPic_Egg, 0x800, SPECIES_EGG
 	obj_tiles gMonFrontPic_UnownB, 0x800, SPECIES_UNOWN_B
 	obj_tiles gMonFrontPic_UnownC, 0x800, SPECIES_UNOWN_C

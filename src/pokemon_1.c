@@ -533,7 +533,10 @@ const u16 gSpeciesToHoennPokedexNum[] = // Assigns all species to the Hoenn Dex 
 	HOENN_DEX_ROTOM,            // SPECIES_ROTOM
 	HOENN_DEX_UXIE,             // SPECIES_UXIE
 	HOENN_DEX_MESPRIT,          // SPECIES_MESPRIT
-	HOENN_DEX_AZELF             // SPECIES_AZELF
+	HOENN_DEX_AZELF,            // SPECIES_AZELF
+	HOENN_DEX_DIALGA,           // SPECIES_DIALGA
+	HOENN_DEX_PALKIA,           // SPECIES_PALKIA
+	HOENN_DEX_HEATRAN           // SPECIES_HEATRAN
 };
 
 const u16 gSpeciesToNationalPokedexNum[] = // Assigns all species to the National Dex Index (Summary No. for National Dex)
@@ -1045,7 +1048,10 @@ const u16 gSpeciesToNationalPokedexNum[] = // Assigns all species to the Nationa
 	NATIONAL_DEX_ROTOM,             // SPECIES_ROTOM
 	NATIONAL_DEX_UXIE,              // SPECIES_UXIE
 	NATIONAL_DEX_MESPRIT,           // SPECIES_MESPRIT
-	NATIONAL_DEX_AZELF              // SPECIES_AZELF
+	NATIONAL_DEX_AZELF,             // SPECIES_AZELF
+	NATIONAL_DEX_DIALGA,            // SPECIES_DIALGA
+	NATIONAL_DEX_PALKIA,            // SPECIES_PALKIA
+	NATIONAL_DEX_HEATRAN            // SPECIES_HEATRAN
 };
 
 const u16 gHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using National Dex Index)
@@ -1533,6 +1539,9 @@ const u16 gHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using Nationa
 	NATIONAL_DEX_UXIE,          // HOENN_DEX_UXIE
 	NATIONAL_DEX_MESPRIT,       // HOENN_DEX_MESPRIT
 	NATIONAL_DEX_AZELF,         // HOENN_DEX_AZELF
+	NATIONAL_DEX_DIALGA,        // HOENN_DEX_DIALGA
+	NATIONAL_DEX_PALKIA,        // HOENN_DEX_PALKIA
+	NATIONAL_DEX_HEATRAN,       // HOENN_DEX_HEATRAN
 	NATIONAL_DEX_OLD_UNOWN_B,  	// HOENN_DEX_OLD_UNOWN_B
 	NATIONAL_DEX_OLD_UNOWN_C,  	// HOENN_DEX_OLD_UNOWN_C
 	NATIONAL_DEX_OLD_UNOWN_D,  	// HOENN_DEX_OLD_UNOWN_D

@@ -2199,6 +2199,18 @@ Cry_Azelf::
 	.incbin "sound/direct_sound_samples/cries/cry_azelf.bin"
 
 	.align 2
+Cry_Dialga:: 
+	.incbin "sound/direct_sound_samples/cries/cry_dialga.bin"
+
+	.align 2
+Cry_Palkia:: 
+	.incbin "sound/direct_sound_samples/cries/cry_palkia.bin"
+
+	.align 2
+Cry_Heatran:: 
+	.incbin "sound/direct_sound_samples/cries/cry_heatran.bin"
+
+	.align 2
 DirectSoundWaveData_Phoneme_Vowel7:: @ 8639898
 	.incbin "sound/direct_sound_samples/phonemes/vowel_7.bin"
 

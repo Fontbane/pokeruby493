@@ -12627,6 +12627,9 @@ voicegroup_8453790:: @ 8453790
 	cry Cry_Uxie
 	cry Cry_Mesprit
 	cry Cry_Azelf
+	cry Cry_Dialga
+	cry Cry_Palkia
+	cry Cry_Heatran
 
 	.align 2
 voicegroup_84537C0:: @ 84537C0
@@ -13123,6 +13126,9 @@ voicegroup_84549C0:: @ 84549C0
 	cry2 Cry_Uxie
 	cry2 Cry_Mesprit
 	cry2 Cry_Azelf
+	cry2 Cry_Dialga
+	cry2 Cry_Palkia
+	cry2 Cry_Heatran
 
 	.align 2
 voicegroup_84549F0:: @ 84549F0
