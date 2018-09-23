@@ -513,6 +513,9 @@ gMonShinyPaletteTable:: @ 81EB374
 	obj_pal gMonShinyPalette_Dialga, PAL_ID_SHINY + SPECIES_DIALGA
 	obj_pal gMonShinyPalette_Palkia, PAL_ID_SHINY + SPECIES_PALKIA
 	obj_pal gMonShinyPalette_Heatran, PAL_ID_SHINY + SPECIES_HEATRAN
+    obj_pal gMonShinyPalette_Regigigas, PAL_ID_SHINY + SPECIES_REGIGIGAS
+    obj_pal gMonShinyPalette_Giratina, PAL_ID_SHINY + SPECIES_GIRATINA
+    obj_pal gMonShinyPalette_Cresselia, PAL_ID_SHINY + SPECIES_CRESSELIA
 	obj_pal gMonPalette_Egg, PAL_ID_SHINY + SPECIES_EGG
 	obj_pal gMonShinyPalette_Unown, PAL_ID_SHINY + SPECIES_UNOWN_B
 	obj_pal gMonShinyPalette_Unown, PAL_ID_SHINY + SPECIES_UNOWN_C

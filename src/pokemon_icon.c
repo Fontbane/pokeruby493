@@ -529,6 +529,9 @@ const u8 * const gMonIconTable[] =
     gMonIcon_Dialga,
     gMonIcon_Palkia,
     gMonIcon_Heatran,
+    gMonIcon_Regigigas,
+    gMonIcon_Giratina,
+    gMonIcon_Cresselia,
     gMonIcon_Egg,
     gMonIcon_UnownB,
     gMonIcon_UnownC,
@@ -1025,7 +1028,7 @@ const u8 gMonIconPaletteIndices[] =
     0, // Bronzor
     0, // Bronzong
     1, // Bonsly
-    0, // Mime Jr.
+    0, // MimeJr
     0, // Happiny
     0, // Chatot
     0, // Spiritomb
@@ -1072,6 +1075,9 @@ const u8 gMonIconPaletteIndices[] =
     2, // Dialga
     2, // Palkia
     0, // Heatran
+    0, // Regigigas
+    0, // Giratina
+    0, // Cresselia
     1, // Egg
     0, // Unown B
     0, // Unown C
@@ -1472,6 +1478,7 @@ void sub_809D824(struct Sprite *sprite, u8 animNum)
     sprite->animDelayCounter = 0;
     sprite->animCmdIndex = 0;
 }
+
 
 
 

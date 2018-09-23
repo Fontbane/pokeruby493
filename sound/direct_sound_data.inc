@@ -2211,6 +2211,18 @@ Cry_Heatran::
 	.incbin "sound/direct_sound_samples/cries/cry_heatran.bin"
 
 	.align 2
+Cry_Regigigas:: 
+	.incbin "sound/direct_sound_samples/cries/cry_regigigas.bin"
+
+	.align 2
+Cry_Giratina:: 
+	.incbin "sound/direct_sound_samples/cries/cry_giratina.bin"
+
+	.align 2
+Cry_Cresselia:: 
+	.incbin "sound/direct_sound_samples/cries/cry_cresselia.bin"
+
+	.align 2
 DirectSoundWaveData_Phoneme_Vowel7:: @ 8639898
 	.incbin "sound/direct_sound_samples/phonemes/vowel_7.bin"
 

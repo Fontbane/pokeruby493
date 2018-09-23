@@ -1,10 +1,10 @@
 ### Description
-Attempt at making a public base of Pokeruby with expanded pokémon up to Arceus with other Gen. 4 features.
+Attempt at making a public base of Pokeruby with expanded pokémon up to Arceus and other Gen. 4 features.
 
 I don't know when or if I'll ever be able to complete it, so keep that in mind.
 
 ### Progress
-485/493 - 386 + Turtwig, Grotle, Torterra, Chimchar, Monferno, Infernape, Piplup, Prinplup, Empoleon, Starly, Staravia, Staraptor, Bidoof, Bibarel, Kricketot, Kricketune, Shinx, Luxio, Luxray, Budew, Roserade, Cranidos, Rampardos, Shieldon, Bastiodon, Burmy (Plant Cloak), Wormadam (Plant Cloak), Mothim, Combee, Vespiquen, Pachirisu, Buizel, Floatzel, Cherubi, Cherrim, Shellos (East Sea), Gastrodon (East Sea), Ambipom, Drifloon, Drifblim, Buneary, Lopunny, Mismagius, Honchkrow, Glameow, Purugly, Chingling, Stunky, Skuntank, Bronzor, Bronzong, Binsly, Mime Jr, Happiny, Chatot, Spiritomb, Gible, Gabite, Garchomp, Munchlax, Riolu, Lucario, Hippopotas, Hippowdon, Skorupi, Drapion, Croagunk, Toxicroak, Carnivine, Finneon, Lumineon, Mantyke, Snover, Abomasnow, Weavile, Magnezone, Lickilicky, Rhyperior, Tangrowth, Electivire, Magmortar, Togekiss, Yanmega, Leafeon and Glaceon, Gliscor, Mamoswine, Porygon-Z, Gallade, Probopass, Dusknoir, Froslass, Rotom (Regular Form), Uxie, Mesprit, Azelf, Dialga, Palkia and Heatran.
+488/493 - 386 + Turtwig, Grotle, Torterra, Chimchar, Monferno, Infernape, Piplup, Prinplup, Empoleon, Starly, Staravia, Staraptor, Bidoof, Bibarel, Kricketot, Kricketune, Shinx, Luxio, Luxray, Budew, Roserade, Cranidos, Rampardos, Shieldon, Bastiodon, Burmy (Plant Cloak), Wormadam (Plant Cloak), Mothim, Combee, Vespiquen, Pachirisu, Buizel, Floatzel, Cherubi, Cherrim, Shellos (East Sea), Gastrodon (East Sea), Ambipom, Drifloon, Drifblim, Buneary, Lopunny, Mismagius, Honchkrow, Glameow, Purugly, Chingling, Stunky, Skuntank, Bronzor, Bronzong, Binsly, Mime Jr, Happiny, Chatot, Spiritomb, Gible, Gabite, Garchomp, Munchlax, Riolu, Lucario, Hippopotas, Hippowdon, Skorupi, Drapion, Croagunk, Toxicroak, Carnivine, Finneon, Lumineon, Mantyke, Snover, Abomasnow, Weavile, Magnezone, Lickilicky, Rhyperior, Tangrowth, Electivire, Magmortar, Togekiss, Yanmega, Leafeon and Glaceon, Gliscor, Mamoswine, Porygon-Z, Gallade, Probopass, Dusknoir, Froslass, Rotom (Regular Form), Uxie, Mesprit, Azelf, Dialga, Palkia, Heatran, Regigigas, Giratina (Altered Form) and Cresselia.
 
 ![Pic](https://i.imgur.com/F6jmvee.png)
 
@@ -51,15 +51,15 @@ I intend to implement as many Gen. 4 features as I can to this base. Right now, 
 
 * You can now run indoors
 
-* There's 40 Gen. 4 moves added, which are Aqua Jet, Double Hit, Nasty Plot, Night Slash, Dark Pulse, Sucker Punch, Feint, Ominous Wind, Shadow Sneak, Dragon Rush, Fire Fang, Ice Fang, Thunder Fang, Aura Sphere, Close Combat (although its effect isn't implemented yet), Dragon Pulse, Force Palm, Mud Bomb, Poison Jab, Power Whip, Brave Bird, Flare Blitz, Zen Headbutt, Ice Shard, Brine, Aqua Tail, Air Slash, Bug Buzz, Vacuum Wave, X-Scissor, Bullet Punch, Iron Head, Wood Hammer, Magnet Bomb, Discharge, Mirror Shot, Rock Wrecker, Stone Edge, Giga Impact, Lava Plume, Psycho Cut, Power Gem, Earth Power, Flash Cannon, Roar of Time, Spacial Rend and Magma Storm (the last 15 currently use Pound's animation as a placeholder).
+* There's 40 Gen. 4 moves added, which are Aqua Jet, Double Hit, Nasty Plot, Night Slash, Dark Pulse, Sucker Punch, Feint, Ominous Wind, Shadow Sneak, Dragon Rush, Fire Fang, Ice Fang, Thunder Fang, Aura Sphere, Close Combat (although its effect isn't implemented yet), Dragon Pulse, Force Palm, Mud Bomb, Poison Jab, Power Whip, Brave Bird, Flare Blitz, Zen Headbutt, Ice Shard, Brine, Aqua Tail, Air Slash, Bug Buzz, Vacuum Wave, X-Scissor, Bullet Punch, Iron Head, Wood Hammer, Magnet Bomb, Discharge, Mirror Shot, Rock Wrecker, Stone Edge, Giga Impact, Lava Plume, Psycho Cut, Power Gem, Earth Power, Flash Cannon, Roar of Time, Spacial Rend, Magma Storm, Shadow Force and Shadow Claw (the last 17 currently use Pound's animation as a placeholder).
 
-* There's 2 new evolution stones, the Shiny Stone for Roselia and the Dusk Stone for Misdreavus and Murkrow.
+* There's 2 new evolution stones, the Shiny Stone for Roselia and Togetic, and the Dusk Stone for Misdreavus and Murkrow.
 
-* The following evolution-inducing items were added: Oval Stone, Protector, Electirizer, Magmarizer, Razor Claw, Razor Fang, Dubious Disc.
+* The following evolution-inducing items were added: Oval Stone, Protector, Electirizer, Magmarizer, Razor Claw, Razor Fang, Dubious Disc, Reaper Cloth.
 
 * New evolution methods have been implemented to account for the evolutions of certain pokémon like Combee, Happiny, Aipom, Sneasel, Gligar, Nosepass, Magneton, Mantyke, etc.
 
-* Gen. 4 trade evolutions will use my own custom evolution method by default, where pokémon like Electabuzz or Magmar evolve at Lv52 while holding their evolutionary item (Electirizer and Magmarizer respectively, in this case).
+* Gen. 4 trade evolutions will use my own custom evolution method by default, where pokémon like Electabuzz or Magmar evolve starting at Lv52 while holding their evolutionary item (Electirizer and Magmarizer respectively, in this case).
 
 * Poisoning in the overworld works just like it does in the Gen. 4 Games.
 
@@ -83,4 +83,6 @@ I intend to implement as many Gen. 4 features as I can to this base. Right now, 
 
 -[BluRose](https://github.com/BluRosie): Map and move-based evolutions, Happiny's and Mantyke's evolution methods too and Gen. 4 styled OW Poisoning.
 
--[Doesnt](https://github.com/Doesnty): I learned how to add new moves thanks to his commits, and I'm also using a lot of content from his repo to add new moves.
+-[Doesnt](https://github.com/Doesnty): I learned how to add new moves thanks to his commits, Instant Text Speed, Close Combat's effect and I'm also using a lot of content from his repo to add new moves.
+
+-[ShantyTown](https://github.com/huderlem): Tips on how to debug any problems I may find while working with the decompilation projects.

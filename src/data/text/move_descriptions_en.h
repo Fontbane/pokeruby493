@@ -1575,7 +1575,7 @@ static const u8 MoveDescription_LavaPlume[] = _(
     "May burn the target.");
 
 static const u8 MoveDescription_PsychoCut[] = _(
-    "An attack with psychic blades.\n"
+    "Hits with psychic blades.\n"
     "High critical-hit ratio.");
 
 static const u8 MoveDescription_PowerGem[] = _(
@@ -1601,6 +1601,14 @@ static const u8 MoveDescription_SpacialRend[] = _(
 static const u8 MoveDescription_MagmaStorm[] = _(
     "An inferno of flames.\n"
     "It may burn the foe.");
+
+static const u8 MoveDescription_ShadowForce[] = _(
+    "The user disappears and\n"
+    "strikes in the next turn.");
+
+static const u8 MoveDescription_ShadowClaw[] = _(
+    "Hits with a blackened claw.\n"
+    "High critical-hit ratio.");
 
 const u8 * const gMoveDescriptions[] = {
     MoveDescription_Pound,
@@ -2004,4 +2012,6 @@ const u8 * const gMoveDescriptions[] = {
     MoveDescription_RoarOfTime,
     MoveDescription_SpacialRend,
     MoveDescription_MagmaStorm,
+    MoveDescription_ShadowForce,
+    MoveDescription_ShadowClaw,
 };

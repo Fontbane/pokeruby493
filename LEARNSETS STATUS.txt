@@ -35,13 +35,16 @@ List of the learnsets that I updated to Gen. 4 Standards as much as I could righ
 473 - Mamoswine.
 474 - Porygon-Z. (Missing: Trick Room, Magnet Rise, Embargo, )
 475 - Gallade.
-476 - Probopass (Missing: Gravity, Magnet Rise)
-477 - Dusknoir (Missing: Gravity, Payback)
-478 - Froslass (Missing: Wake-Up Slap, Captivate)
-479 - Rotom (Missing: Trick)
-480 - Uxie (Missing: Memento, Natural Gift)
-481 - Mesprit (Missing: Lucky Chant, Copycat, Natural Gift, Healing Wish)
-482 - Azelf (Missing: Last Resort, Natural Gift)
-483 - Dialga (Missing: Metal Burst)
-484 - Palkia
-485 - Heatran
+476 - Probopass. (Missing: Gravity, Magnet Rise)
+477 - Dusknoir. (Missing: Gravity, Payback)
+478 - Froslass. (Missing: Wake-Up Slap, Captivate)
+479 - Rotom. (Missing: Trick)
+480 - Uxie. (Missing: Memento, Natural Gift)
+481 - Mesprit. (Missing: Lucky Chant, Copycat, Natural Gift, Healing Wish)
+482 - Azelf. (Missing: Last Resort, Natural Gift)
+483 - Dialga. (Missing: Metal Burst)
+484 - Palkia.
+485 - Heatran.
+486 - Regigigas. (Missing: Crush Grip)
+487 - Giratina.
+488 - Cresselia. (Missing: Psycho Shift, Lunar Dance)

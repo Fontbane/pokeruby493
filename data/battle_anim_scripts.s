@@ -420,6 +420,8 @@ gBattleAnims_Moves:: @ 81C7168
     .4byte Move_ROAR_OF_TIME
     .4byte Move_SPACIAL_REND
     .4byte Move_MAGMA_STORM
+    .4byte Move_SHADOW_FORCE
+    .4byte Move_SHADOW_CLAW
     .4byte PoundCopy
 
     .align 2
@@ -10239,62 +10241,62 @@ Move_AIR_SLASH:
     end
 
 Move_BUG_BUZZ:
-    loadspritegfx 10225
-    loadspritegfx 10203
-    loadspritegfx 10291
-    monbg ANIM_BANK_DEF_PARTNER
-    jumpargeq 7, 1, _BugBuzzBG2
-    fadetobg 22
-    waitbgfadeout
-    createvisualtask sub_80E3A58, 5, 1536, 0, 0, -1
+	loadspritegfx 10225
+	loadspritegfx 10203
+	loadspritegfx 10291
+	monbg ANIM_BANK_DEF_PARTNER
+	jumpargeq 7, 1, _BugBuzzBG2
+	fadetobg 22
+	waitbgfadeout
+	createvisualtask sub_80E3A58, 5, 1536, 0, 0, -1
 _BugBuzzRejoin:
-    createvisualtask sub_80D2CF8, 2, 0
-    createsprite gBattleAnimSpriteTemplate_83D79A4, 3, 0, 0, 0, 0, 0x3E0, 4
-    playsewithpan SE_W253, 192
-    createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, 29, -12, 0
-    createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, -12, -29, 1
-    delay 8
-    createvisualtask sub_80D2CF8, 2, 0
-    createsprite gBattleAnimSpriteTemplate_83D79A4, 3, 0, 0, 0, 0, 0x3E0, 4
-    playsewithpan SE_W253, 192
-    createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, 12, -29, 1
-    createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, -29, -12, 0
-    delay 8
-    createvisualtask sub_80D2CF8, 2, 0
-    createsprite gBattleAnimSpriteTemplate_83D79A4, 3, 0, 0, 0, 0, 0x3E0, 4
-    playsewithpan SE_W253, 192
-    createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, 24, -24, 1
-    createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, -24, -24, 0
-    delay 8
-    createvisualtask sub_80D2CF8, 2, 0
-    createsprite gBattleAnimSpriteTemplate_83D79A4, 3, 0, 0, 0, 0, 0x3E0, 4
-    playsewithpan SE_W253, 192
-    createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, 29, -12, 0
-    createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, -12, -29, 1
-    delay 8
-    createvisualtask sub_80D2CF8, 2, 0
-    createsprite gBattleAnimSpriteTemplate_83D79A4, 3, 0, 0, 0, 0, 0x3E0, 4
-    playsewithpan SE_W253, 192
-    createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, 12, -29, 1
-    createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, -29, -12, 0
-    delay 8
-    createvisualtask sub_80D2CF8, 2, 0
-    createsprite gBattleAnimSpriteTemplate_83D79A4, 3, 0, 0, 0, 0, 0x3E0, 4
-    playsewithpan SE_W253, 192
-    createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, 24, -24, 1
-    createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, -24, -24, 0
-    waitforvisualfinish
-    clearmonbg ANIM_BANK_DEF_PARTNER
-    restorebg
-    waitbgfadeout
-    setarg 7, -1
-    waitbgfadein
-    end
+	createvisualtask sub_80D2CF8, 2, 0
+	createsprite gBattleAnimSpriteTemplate_83D79A4, 3, 0, 0, 0, 0, 0x3E0, 4
+	playsewithpan SE_W253, 192
+	createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, 29, -12, 0
+	createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, -12, -29, 1
+	delay 8
+	createvisualtask sub_80D2CF8, 2, 0
+	createsprite gBattleAnimSpriteTemplate_83D79A4, 3, 0, 0, 0, 0, 0x3E0, 4
+	playsewithpan SE_W253, 192
+	createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, 12, -29, 1
+	createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, -29, -12, 0
+	delay 8
+	createvisualtask sub_80D2CF8, 2, 0
+	createsprite gBattleAnimSpriteTemplate_83D79A4, 3, 0, 0, 0, 0, 0x3E0, 4
+	playsewithpan SE_W253, 192
+	createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, 24, -24, 1
+	createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, -24, -24, 0
+	delay 8
+	createvisualtask sub_80D2CF8, 2, 0
+	createsprite gBattleAnimSpriteTemplate_83D79A4, 3, 0, 0, 0, 0, 0x3E0, 4
+	playsewithpan SE_W253, 192
+	createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, 29, -12, 0
+	createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, -12, -29, 1
+	delay 8
+	createvisualtask sub_80D2CF8, 2, 0
+	createsprite gBattleAnimSpriteTemplate_83D79A4, 3, 0, 0, 0, 0, 0x3E0, 4
+	playsewithpan SE_W253, 192
+	createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, 12, -29, 1
+	createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, -29, -12, 0
+	delay 8
+	createvisualtask sub_80D2CF8, 2, 0
+	createsprite gBattleAnimSpriteTemplate_83D79A4, 3, 0, 0, 0, 0, 0x3E0, 4
+	playsewithpan SE_W253, 192
+	createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, 24, -24, 1
+	createsprite gBattleAnimSpriteTemplate_BugBuzz, 2, 0, -24, -24, 0
+	waitforvisualfinish
+	clearmonbg ANIM_BANK_DEF_PARTNER
+	restorebg
+	waitbgfadeout
+	setarg 7, -1
+	waitbgfadein
+	end
 _BugBuzzBG2:
-    fadetobg 23
-    waitbgfadeout
-    createvisualtask sub_80E3A58, 5, -1536, 0, 0, -1
-    goto _BugBuzzRejoin
+	fadetobg 23
+	waitbgfadeout
+	createvisualtask sub_80E3A58, 5, -1536, 0, 0, -1
+	goto _BugBuzzRejoin
 
 Move_VACUUM_WAVE:
     loadspritegfx 10135
@@ -10547,6 +10549,30 @@ Move_SPACIAL_REND:
     end
 
 Move_MAGMA_STORM:
+    loadspritegfx 10135
+    monbg ANIM_BANK_TARGET
+    setalpha 12, 8
+    playsewithpan SE_W003, 63
+    createsprite gBasicHitSplatSpriteTemplate, 2, 0, 0, 1, 2
+    createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_TARGET, 3, 0, 6, 1
+    waitforvisualfinish
+    clearmonbg ANIM_BANK_TARGET
+    blendoff
+    end
+
+Move_SHADOW_FORCE:
+    loadspritegfx 10135
+    monbg ANIM_BANK_TARGET
+    setalpha 12, 8
+    playsewithpan SE_W003, 63
+    createsprite gBasicHitSplatSpriteTemplate, 2, 0, 0, 1, 2
+    createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_TARGET, 3, 0, 6, 1
+    waitforvisualfinish
+    clearmonbg ANIM_BANK_TARGET
+    blendoff
+    end
+
+Move_SHADOW_CLAW:
     loadspritegfx 10135
     monbg ANIM_BANK_TARGET
     setalpha 12, 8

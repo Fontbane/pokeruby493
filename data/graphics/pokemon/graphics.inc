@@ -11655,6 +11655,78 @@ gMonFootprint_Heatran::
 	.incbin "graphics/pokemon/heatran/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Regigigas::
+	.incbin "graphics/pokemon/regigigas/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Regigigas::
+	.incbin "graphics/pokemon/regigigas/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Regigigas::
+	.incbin "graphics/pokemon/regigigas/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Regigigas::
+	.incbin "graphics/pokemon/regigigas/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Regigigas::
+	.incbin "graphics/pokemon/regigigas/icon.4bpp"
+
+	.align 2
+gMonFootprint_Regigigas::
+	.incbin "graphics/pokemon/regigigas/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Giratina::
+	.incbin "graphics/pokemon/giratina/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Giratina::
+	.incbin "graphics/pokemon/giratina/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Giratina::
+	.incbin "graphics/pokemon/giratina/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Giratina::
+	.incbin "graphics/pokemon/giratina/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Giratina::
+	.incbin "graphics/pokemon/giratina/icon.4bpp"
+
+	.align 2
+gMonFootprint_Giratina::
+	.incbin "graphics/pokemon/giratina/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Cresselia::
+	.incbin "graphics/pokemon/cresselia/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Cresselia::
+	.incbin "graphics/pokemon/cresselia/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Cresselia::
+	.incbin "graphics/pokemon/cresselia/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Cresselia::
+	.incbin "graphics/pokemon/cresselia/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Cresselia::
+	.incbin "graphics/pokemon/cresselia/icon.4bpp"
+
+	.align 2
+gMonFootprint_Cresselia::
+	.incbin "graphics/pokemon/cresselia/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

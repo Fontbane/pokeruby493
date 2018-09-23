@@ -464,7 +464,7 @@ gMonBackPicCoords:: @ 81E9114
 	.byte  85, 13, 0, 0 // Bronzor
 	.byte 101, 12, 0, 0 // Bronzong
 	.byte 102,  8, 0, 0 // Bonsly
-	.byte 102,  8, 0, 0 // Mime Jr.
+	.byte   0,  8, 0, 0
 	.byte 102,  8, 0, 0 // Happiny
 	.byte 102,  8, 0, 0 // Chatot
 	.byte 101, 12, 0, 0 // Spiritomb
@@ -511,6 +511,9 @@ gMonBackPicCoords:: @ 81E9114
 	.byte 120,  2, 0, 0 // Dialga
 	.byte 120,  7, 0, 0 // Palkia
 	.byte 134,  9, 0, 0 // Heatran
+	.byte  80,  1, 0, 0 // Regigigas
+	.byte 120,  2, 0, 0 // Giratina
+	.byte  80,  1, 0, 0 // Cresselia
 	.byte  54, 10, 0, 0 // EGG
 	.byte  86,  9, 0, 0 // UNOWN B
 	.byte 103,  6, 0, 0 // UNOWN C
@@ -539,6 +542,7 @@ gMonBackPicCoords:: @ 81E9114
 	.byte  70, 10, 0, 0 // UNOWN Z
 	.byte  55,  6, 0, 0 // UNOWN EXCLAMATION
 	.byte  71,  6, 0, 0 // UNOWN QUESTION
+
 
 
 

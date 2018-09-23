@@ -503,7 +503,7 @@ const u8 gEnemyMonElevation[] = {
 	[SPECIES_BRONZOR] = 0,
 	[SPECIES_BRONZONG] = 0,
 	[SPECIES_BONSLY] = 0,
-	[SPECIES_MIME_JR] = 0,
+	[SPECIES_MIME_JR] =  0,
 	[SPECIES_HAPPINY] = 0,
 	[SPECIES_CHATOT] = 0,
 	[SPECIES_SPIRITOMB] = 0,
@@ -550,6 +550,9 @@ const u8 gEnemyMonElevation[] = {
 	[SPECIES_DIALGA] = 0,
 	[SPECIES_PALKIA] = 0,
 	[SPECIES_HEATRAN] = 0,
+    [SPECIES_REGIGIGAS] = 0,
+    [SPECIES_GIRATINA] = 0,
+    [SPECIES_CRESSELIA] = 4,
 };
 
 #include "../data/trainer_parties.h"
@@ -567,6 +570,7 @@ const u8 gEnemyMonElevation[] = {
 #endif
 
 const u32 gUnknown_81F9528 = 0x101;
+
 
 
 

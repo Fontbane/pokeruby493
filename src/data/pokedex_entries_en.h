@@ -5883,6 +5883,21 @@ static const u8 DexDescription_Heatran_1[] = _(
   "However, it is partially melted in\n"
   "spots because of its own heat.");
 
+static const u8 DexDescription_Regigigas_1[] = _(
+  "It is said to have made POKéMON that\n"
+  "look like itself from a special ice\n"
+  "mountain, rocks, and magma.");
+
+static const u8 DexDescription_Giratina_1[] = _(
+  "It was banished for its violence. It\n"
+  "silently gazed upon the old world\n"
+  "from the Distortion World.");
+
+static const u8 DexDescription_Cresselia_1[] = _(
+  "On nights around the quarter moon,\n"
+  "the aurora from its tail extends and\n"
+  "undulates beautifully.");
+
 const struct PokedexEntry gPokedexEntries[] =
 {
     {  //Dummy
@@ -11226,6 +11241,39 @@ const struct PokedexEntry gPokedexEntries[] =
         .weight = 4300,
         .descriptionPage1 = DexDescription_Heatran_1,
         .descriptionPage2 = DexDescription_Heatran_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    {  //Regigigas
+        .categoryName = _("COLOSSAL"),
+        .height = 37,
+        .weight = 4200,
+        .descriptionPage1 = DexDescription_Regigigas_1,
+        .descriptionPage2 = DexDescription_Regigigas_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    {  //Giratina
+        .categoryName = _("RENEGADE"),
+        .height = 45,
+        .weight = 7500,
+        .descriptionPage1 = DexDescription_Giratina_1,
+        .descriptionPage2 = DexDescription_Giratina_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    {  //Cresselia
+        .categoryName = _("LUNAR"),
+        .height = 15,
+        .weight = 856,
+        .descriptionPage1 = DexDescription_Cresselia_1,
+        .descriptionPage2 = DexDescription_Cresselia_1,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,

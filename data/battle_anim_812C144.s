@@ -659,7 +659,7 @@ gBattleAnimSpriteTemplate_BraveBird::
 	spr_template 10284, 10290, gOamData_837DFFC, gDummySpriteAnimTable, NULL, gDummySpriteAffineAnimTable, sub_80DB5E4
 
 	.align 2
-gBattleAnimSpriteTemplate_BugBuzz::
+gBattleAnimSpriteTemplate_BugBuzz:: @ 83D7CC8
 	spr_template 10225, 10291, gOamData_837DF34, gDummySpriteAnimTable, NULL, gDummySpriteAffineAnimTable, sub_80D2D68
 
 	.align 2

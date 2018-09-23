@@ -239,7 +239,10 @@ const u16 gSpeciesIdToCryId[] = {
 	483, // AZELF
 	484, // DIALGA
 	485, // PALKIA
-	486  // HEATRAN
+	486, // HEATRAN
+    487, // REGIGIGAS
+    488, // GIRATINA
+    489  // CRESSELIA
 };
 
 #endif //POKERUBY_CRY_IDS_H

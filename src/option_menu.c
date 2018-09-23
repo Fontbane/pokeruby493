@@ -318,7 +318,7 @@ static u8 TextSpeed_ProcessInput(u8 selection)
 
 #if ENGLISH
 #define TEXTSPEED_SLOW_LEFT (120)
-#define TEXTSPEED_MIX_LEFT (155)
+#define TEXTSPEED_MIX_LEFT (151)
 #define TEXTSPEED_FAST_LEFT (184)
 #endif
 #if GERMAN
