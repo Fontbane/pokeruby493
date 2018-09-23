@@ -224,6 +224,7 @@ gBattleScriptsForMoveEffects:: @ 81D6BBC
 	.4byte BattleScript_EffectCalmMind
 	.4byte BattleScript_EffectDragonDance
 	.4byte BattleScript_EffectCamouflage
+	.4byte BattleScript_EffectCloseCombat
 
 BattleScript_EffectHit: @ 81D6F14
 BattleScript_EffectAccuracyDown2: @ 81D6F14
@@ -2928,6 +2929,50 @@ BattleScript_EffectCamouflage: @ 81D8C43
 	printstring BATTLE_TEXT_TypeTransform
 	waitmessage 64
 	goto BattleScript_MoveEnd
+
+BattleScript_EffectCloseCombat:
+	attackcanceler
+	accuracycheck BattleScript_PrintMoveMissed, ACC_CURR_MOVE
+	attackstring
+	ppreduce
+	critcalc
+	damagecalc
+	typecalc
+	adjustnormaldamage
+	attackanimation
+	waitanimation
+	effectivenesssound
+	hitanimation TARGET
+	waitstate
+	healthbarupdate TARGET
+	datahpupdate TARGET
+	critmessage
+	waitmessage 64
+	resultmessage
+	waitmessage 64
+	jumpifstat USER, GREATER_THAN, DEFENSE, 0, BattleScript_CloseCombatStartDrops
+	jumpifstat USER, EQUAL, SPEED, 0, BattleScript_CloseCombatFinish
+BattleScript_CloseCombatStartDrops:
+	jumpifmovehadnoeffect BattleScript_CloseCombatFinish
+	setbyte sFIELD_1B, 0
+	playstatchangeanimation USER, 0x24, 1
+	jumpifstat USER, EQUAL, DEFENSE, 0, BattleScriptCloseCombatSDefDrop
+	setstatchanger DEFENSE, 1, TRUE
+	statbuffchange AFFECTS_USER | 0x1, BattleScriptCloseCombatSDefDrop
+	printfromtable gStatDownStringIds
+	waitmessage 64
+BattleScriptCloseCombatSDefDrop:
+	jumpifstat USER, EQUAL, SP_DEFENSE, 0, BattleScript_CloseCombatFinish
+	setstatchanger SP_DEFENSE, 1, TRUE
+	statbuffchange AFFECTS_USER | 0x1, BattleScript_CloseCombatFinish
+	printfromtable gStatDownStringIds
+	waitmessage 64
+	
+BattleScript_CloseCombatFinish:
+	tryfaintmon TARGET, FALSE, NULL
+	setbyte sMOVEEND_STATE, 0
+	moveend 0, 0
+	end
 
 BattleScript_FaintAttacker:: @ 81D8C58
 	playfaintcry USER
