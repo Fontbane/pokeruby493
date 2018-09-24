@@ -48,3 +48,6 @@ List of the learnsets that I updated to Gen. 4 Standards as much as I could righ
 486 - Regigigas. (Missing: Crush Grip)
 487 - Giratina. (Missing: Shadow Force)
 488 - Cresselia. (Missing: Psycho Shift, Lunar Dance)
+489 - Phione. (Missing: Aqua Ring)
+490 - Manaphy. (Missing: Aqua Ring, Heart Swap)
+491 - Darkrai. (Missing: Dark Void)

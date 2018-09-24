@@ -532,6 +532,9 @@ const u8 * const gMonIconTable[] =
     gMonIcon_Regigigas,
     gMonIcon_Giratina,
     gMonIcon_Cresselia,
+    gMonIcon_Phione,
+    gMonIcon_Manaphy,
+    gMonIcon_Darkrai,
     gMonIcon_Egg,
     gMonIcon_UnownB,
     gMonIcon_UnownC,
@@ -1078,6 +1081,9 @@ const u8 gMonIconPaletteIndices[] =
     0, // Regigigas
     0, // Giratina
     0, // Cresselia
+    0, // Phione
+    0, // Manaphy
+    0, // Darkrai
     1, // Egg
     0, // Unown B
     0, // Unown C

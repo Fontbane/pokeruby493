@@ -511,9 +511,12 @@ gMonFrontPicTable:: @ 81E8354
 	obj_tiles gMonFrontPic_Dialga, 0x800, SPECIES_DIALGA
 	obj_tiles gMonFrontPic_Palkia, 0x800, SPECIES_PALKIA
 	obj_tiles gMonFrontPic_Heatran, 0x800, SPECIES_HEATRAN
-    obj_tiles gMonFrontPic_Regigigas, 0x800, SPECIES_REGIGIGAS
-    obj_tiles gMonFrontPic_Giratina, 0x800, SPECIES_GIRATINA
-    obj_tiles gMonFrontPic_Cresselia, 0x800, SPECIES_CRESSELIA
+	obj_tiles gMonFrontPic_Regigigas, 0x800, SPECIES_REGIGIGAS
+	obj_tiles gMonFrontPic_Giratina, 0x800, SPECIES_GIRATINA
+	obj_tiles gMonFrontPic_Cresselia, 0x800, SPECIES_CRESSELIA
+	obj_tiles gMonFrontPic_Phione, 0x800, SPECIES_PHIONE
+	obj_tiles gMonFrontPic_Manaphy, 0x800, SPECIES_MANAPHY
+	obj_tiles gMonFrontPic_Darkrai, 0x800, SPECIES_DARKRAI
 	obj_tiles gMonPic_Egg, 0x800, SPECIES_EGG
 	obj_tiles gMonFrontPic_UnownB, 0x800, SPECIES_UNOWN_B
 	obj_tiles gMonFrontPic_UnownC, 0x800, SPECIES_UNOWN_C

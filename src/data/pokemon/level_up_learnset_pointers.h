@@ -519,7 +519,10 @@ const u16 *gLevelUpLearnsets[] = {
     gHeatranLevelUpLearnset,
     gRegigigasLevelUpLearnset,
     gGiratinaLevelUpLearnset,
-    gCresseliaLevelUpLearnset
+    gCresseliaLevelUpLearnset,
+    gPhioneLevelUpLearnset,
+    gManaphyLevelUpLearnset,
+    gDarkraiLevelUpLearnset
 };
 
 #endif //POKERUBY_LEVEL_UP_LEARNSET_POINTERS_H

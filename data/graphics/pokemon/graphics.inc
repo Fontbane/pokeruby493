@@ -11727,6 +11727,78 @@ gMonFootprint_Cresselia::
 	.incbin "graphics/pokemon/cresselia/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Phione::
+	.incbin "graphics/pokemon/phione/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Phione::
+	.incbin "graphics/pokemon/phione/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Phione::
+	.incbin "graphics/pokemon/phione/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Phione::
+	.incbin "graphics/pokemon/phione/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Phione::
+	.incbin "graphics/pokemon/phione/icon.4bpp"
+
+	.align 2
+gMonFootprint_Phione::
+	.incbin "graphics/pokemon/phione/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Manaphy::
+	.incbin "graphics/pokemon/manaphy/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Manaphy::
+	.incbin "graphics/pokemon/manaphy/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Manaphy::
+	.incbin "graphics/pokemon/manaphy/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Manaphy::
+	.incbin "graphics/pokemon/manaphy/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Manaphy::
+	.incbin "graphics/pokemon/manaphy/icon.4bpp"
+
+	.align 2
+gMonFootprint_Manaphy::
+	.incbin "graphics/pokemon/manaphy/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Darkrai::
+	.incbin "graphics/pokemon/darkrai/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Darkrai::
+	.incbin "graphics/pokemon/darkrai/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Darkrai::
+	.incbin "graphics/pokemon/darkrai/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Darkrai::
+	.incbin "graphics/pokemon/darkrai/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Darkrai::
+	.incbin "graphics/pokemon/darkrai/icon.4bpp"
+
+	.align 2
+gMonFootprint_Darkrai::
+	.incbin "graphics/pokemon/darkrai/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

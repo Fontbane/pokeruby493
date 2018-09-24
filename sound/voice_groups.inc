@@ -12630,9 +12630,12 @@ voicegroup_8453790:: @ 8453790
 	cry Cry_Dialga
 	cry Cry_Palkia
 	cry Cry_Heatran
-    cry Cry_Regigigas
-    cry Cry_Giratina
-    cry Cry_Cresselia
+	cry Cry_Regigigas
+	cry Cry_Giratina
+	cry Cry_Cresselia
+	cry Cry_Phione
+	cry Cry_Manaphy
+	cry Cry_Darkrai
 
 	.align 2
 voicegroup_84537C0:: @ 84537C0
@@ -13132,9 +13135,12 @@ voicegroup_84549C0:: @ 84549C0
 	cry2 Cry_Dialga
 	cry2 Cry_Palkia
 	cry2 Cry_Heatran
-    cry2 Cry_Regigigas
-    cry2 Cry_Giratina
-    cry2 Cry_Cresselia
+	cry2 Cry_Regigigas
+	cry2 Cry_Giratina
+	cry2 Cry_Cresselia
+	cry2 Cry_Phione
+	cry2 Cry_Manaphy
+	cry2 Cry_Darkrai
 
 	.align 2
 voicegroup_84549F0:: @ 84549F0

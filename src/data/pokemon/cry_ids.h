@@ -240,9 +240,12 @@ const u16 gSpeciesIdToCryId[] = {
 	484, // DIALGA
 	485, // PALKIA
 	486, // HEATRAN
-    487, // REGIGIGAS
-    488, // GIRATINA
-    489  // CRESSELIA
+	487, // REGIGIGAS
+	488, // GIRATINA
+	489, // CRESSELIA
+	490, // PHIONE
+	491, // MANAPHY
+	492  // DARKRAI
 };
 
 #endif //POKERUBY_CRY_IDS_H

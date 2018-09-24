@@ -511,9 +511,12 @@ gMonPaletteTable:: @ 81EA5B4
 	obj_pal gMonPalette_Dialga, SPECIES_DIALGA
 	obj_pal gMonPalette_Palkia, SPECIES_PALKIA
 	obj_pal gMonPalette_Heatran, SPECIES_HEATRAN
-    obj_pal gMonPalette_Regigigas, SPECIES_REGIGIGAS
-    obj_pal gMonPalette_Giratina, SPECIES_GIRATINA
-    obj_pal gMonPalette_Cresselia, SPECIES_CRESSELIA
+	obj_pal gMonPalette_Regigigas, SPECIES_REGIGIGAS
+	obj_pal gMonPalette_Giratina, SPECIES_GIRATINA
+	obj_pal gMonPalette_Cresselia, SPECIES_CRESSELIA
+	obj_pal gMonPalette_Phione, SPECIES_PHIONE
+	obj_pal gMonPalette_Manaphy, SPECIES_MANAPHY
+	obj_pal gMonPalette_Darkrai, SPECIES_DARKRAI
 	obj_pal gMonPalette_Egg, SPECIES_EGG
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_B
 	obj_pal gMonPalette_Unown, SPECIES_UNOWN_C

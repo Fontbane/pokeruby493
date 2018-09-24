@@ -5898,6 +5898,21 @@ static const u8 DexDescription_Cresselia_1[] = _(
   "the aurora from its tail extends and\n"
   "undulates beautifully.");
 
+static const u8 DexDescription_Phione_1[] = _(
+  "It drifts in warm seas. It always\n"
+  "returns to where it was born, no\n"
+  "matter how far it may have drifted.");
+
+static const u8 DexDescription_Manaphy_1[] = _(
+  "It is born with a wondrous power\n"
+  "that lets it bond with any kind of\n"
+  "POKéMON.");
+
+static const u8 DexDescription_Darkrai_1[] = _(
+  "To protect itself, it afflicts those\n"
+  "around it with nightmares. However,\n"
+  "it means no harm.");
+
 const struct PokedexEntry gPokedexEntries[] =
 {
     {  //Dummy
@@ -11274,6 +11289,39 @@ const struct PokedexEntry gPokedexEntries[] =
         .weight = 856,
         .descriptionPage1 = DexDescription_Cresselia_1,
         .descriptionPage2 = DexDescription_Cresselia_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    {  //Phione
+        .categoryName = _("SEA DRIFTER"),
+        .height = 4,
+        .weight = 31,
+        .descriptionPage1 = DexDescription_Phione_1,
+        .descriptionPage2 = DexDescription_Phione_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    {  //Manaphy
+        .categoryName = _("SEAFARING"),
+        .height = 3,
+        .weight = 14,
+        .descriptionPage1 = DexDescription_Manaphy_1,
+        .descriptionPage2 = DexDescription_Manaphy_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    {  //Darkrai
+        .categoryName = _("PITCH-BLACK"),
+        .height = 15,
+        .weight = 505,
+        .descriptionPage1 = DexDescription_Darkrai_1,
+        .descriptionPage2 = DexDescription_Darkrai_1,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,

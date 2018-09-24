@@ -550,9 +550,12 @@ const u8 gEnemyMonElevation[] = {
 	[SPECIES_DIALGA] = 0,
 	[SPECIES_PALKIA] = 0,
 	[SPECIES_HEATRAN] = 0,
-    [SPECIES_REGIGIGAS] = 0,
-    [SPECIES_GIRATINA] = 0,
-    [SPECIES_CRESSELIA] = 4,
+	[SPECIES_REGIGIGAS] = 0,
+	[SPECIES_GIRATINA] = 0,
+	[SPECIES_CRESSELIA] = 4,
+	[SPECIES_PHIONE] = 0,
+	[SPECIES_MANAPHY] = 0,
+	[SPECIES_DARKRAI] = 4,
 };
 
 #include "../data/trainer_parties.h"

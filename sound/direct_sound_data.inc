@@ -2223,6 +2223,18 @@ Cry_Cresselia::
 	.incbin "sound/direct_sound_samples/cries/cry_cresselia.bin"
 
 	.align 2
+Cry_Phione:: 
+	.incbin "sound/direct_sound_samples/cries/cry_phione.bin"
+
+	.align 2
+Cry_Manaphy:: 
+	.incbin "sound/direct_sound_samples/cries/cry_manaphy.bin"
+
+	.align 2
+Cry_Darkrai:: 
+	.incbin "sound/direct_sound_samples/cries/cry_darkrai.bin"
+
+	.align 2
 DirectSoundWaveData_Phoneme_Vowel7:: @ 8639898
 	.incbin "sound/direct_sound_samples/phonemes/vowel_7.bin"
 
