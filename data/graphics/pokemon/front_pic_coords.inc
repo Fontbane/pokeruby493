@@ -517,6 +517,8 @@ gMonFrontPicCoords:: @ 81E7C74
 	.byte 102, 11, 0, 0 // Phione
 	.byte 102, 11, 0, 0 // Manaphy
 	.byte 136,  0, 0, 0 // Darkrai
+	.byte  85, 12, 0, 0 // Shaymin
+	.byte 136,  1, 0, 0 // Arceus
 	.byte  51, 20, 0, 0 // EGG
 	.byte  52, 16, 0, 0 // UNOWN B
 	.byte  68, 16, 0, 0 // UNOWN C

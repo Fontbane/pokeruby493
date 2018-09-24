@@ -1,12 +1,12 @@
 ~~|TO DO|~~
 
 Current Goals:
-* Implement the rest of the Gen. 4 pokémon.
 * Misc. changes so the repository can work correctly for the most part with InmortalKaktus' Pokémon Editor.
-* Implement formes for those that are supposed to have one.
 * Update Learnsets to Gen. 4 (Pt/HG/SS) standards.
 
 Long-term Goals:
 * Make an animation for Wood Hammer, Magnet Bomb, Discharge, Mirror Shot, Rock Wrecker, Stone Edge, Giga Impact, Lava Plume, Psycho Cut, Power Gem, Earth Power, Flash Cannon, Roar of Time, Spacial Rend, Magma Storm, Shadow Force and Shadow Claw.
+* Implement formes for the pokémon that are supposed to have one (Burmy, Cherrim, Rotom, Giratina, Shaymin, Arceus).
+* Make it so Judgment checks for an item (the plates) and changes its type depending on which one Arceus is holding at that time.
 * Try to create new abilities and implement all the ones added in the Gen. 4 games, or at least most of them.
 * Look into creating new move effects to add the moves that are missing in the Updated Learnsets section.

@@ -11799,6 +11799,54 @@ gMonFootprint_Darkrai::
 	.incbin "graphics/pokemon/darkrai/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_Shaymin::
+	.incbin "graphics/pokemon/shaymin/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Shaymin::
+	.incbin "graphics/pokemon/shaymin/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Shaymin::
+	.incbin "graphics/pokemon/shaymin/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Shaymin::
+	.incbin "graphics/pokemon/shaymin/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Shaymin::
+	.incbin "graphics/pokemon/shaymin/icon.4bpp"
+
+	.align 2
+gMonFootprint_Shaymin::
+	.incbin "graphics/pokemon/shaymin/footprint.1bpp"
+
+	.align 2
+gMonFrontPic_Arceus::
+	.incbin "graphics/pokemon/arceus/front.4bpp.lz"
+
+	.align 2
+gMonPalette_Arceus::
+	.incbin "graphics/pokemon/arceus/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_Arceus::
+	.incbin "graphics/pokemon/arceus/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_Arceus::
+	.incbin "graphics/pokemon/arceus/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_Arceus::
+	.incbin "graphics/pokemon/arceus/icon.4bpp"
+
+	.align 2
+gMonFootprint_Arceus::
+	.incbin "graphics/pokemon/arceus/footprint.1bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

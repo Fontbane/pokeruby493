@@ -2235,6 +2235,14 @@ Cry_Darkrai::
 	.incbin "sound/direct_sound_samples/cries/cry_darkrai.bin"
 
 	.align 2
+Cry_Shaymin:: 
+	.incbin "sound/direct_sound_samples/cries/cry_shaymin.bin"
+
+	.align 2
+Cry_Arceus:: 
+	.incbin "sound/direct_sound_samples/cries/cry_arceus.bin"
+
+	.align 2
 DirectSoundWaveData_Phoneme_Vowel7:: @ 8639898
 	.incbin "sound/direct_sound_samples/phonemes/vowel_7.bin"
 

@@ -535,6 +535,8 @@ const u8 * const gMonIconTable[] =
     gMonIcon_Phione,
     gMonIcon_Manaphy,
     gMonIcon_Darkrai,
+    gMonIcon_Shaymin,
+    gMonIcon_Arceus,
     gMonIcon_Egg,
     gMonIcon_UnownB,
     gMonIcon_UnownC,
@@ -1084,6 +1086,8 @@ const u8 gMonIconPaletteIndices[] =
     0, // Phione
     0, // Manaphy
     0, // Darkrai
+    1, // Shaymin
+    0, // Arceus
     1, // Egg
     0, // Unown B
     0, // Unown C

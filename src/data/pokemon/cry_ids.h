@@ -245,7 +245,9 @@ const u16 gSpeciesIdToCryId[] = {
 	489, // CRESSELIA
 	490, // PHIONE
 	491, // MANAPHY
-	492  // DARKRAI
+	492, // DARKRAI
+	493, // ARCEUS
+	494  // SHAYMIN
 };
 
 #endif //POKERUBY_CRY_IDS_H

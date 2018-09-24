@@ -51,3 +51,5 @@ List of the learnsets that I updated to Gen. 4 Standards as much as I could righ
 489 - Phione. (Missing: Aqua Ring)
 490 - Manaphy. (Missing: Aqua Ring, Heart Swap)
 491 - Darkrai. (Missing: Dark Void)
+492 - Shaymin. (Missing: Natural Gift, Worry Seed, Healing Wish)
+493 - Arceus. (Missing: Natural Gift, Punishment, Gravity)

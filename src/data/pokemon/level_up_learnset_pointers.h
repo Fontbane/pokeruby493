@@ -522,7 +522,9 @@ const u16 *gLevelUpLearnsets[] = {
     gCresseliaLevelUpLearnset,
     gPhioneLevelUpLearnset,
     gManaphyLevelUpLearnset,
-    gDarkraiLevelUpLearnset
+    gDarkraiLevelUpLearnset,
+    gShayminLevelUpLearnset,
+    gArceusLevelUpLearnset
 };
 
 #endif //POKERUBY_LEVEL_UP_LEARNSET_POINTERS_H

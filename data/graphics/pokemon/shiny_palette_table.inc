@@ -519,6 +519,8 @@ gMonShinyPaletteTable:: @ 81EB374
 	obj_pal gMonShinyPalette_Phione, PAL_ID_SHINY + SPECIES_PHIONE
 	obj_pal gMonShinyPalette_Manaphy, PAL_ID_SHINY + SPECIES_MANAPHY
 	obj_pal gMonShinyPalette_Darkrai, PAL_ID_SHINY + SPECIES_DARKRAI
+	obj_pal gMonShinyPalette_Shaymin, PAL_ID_SHINY + SPECIES_SHAYMIN
+	obj_pal gMonShinyPalette_Arceus, PAL_ID_SHINY + SPECIES_ARCEUS
 	obj_pal gMonPalette_Egg, PAL_ID_SHINY + SPECIES_EGG
 	obj_pal gMonShinyPalette_Unown, PAL_ID_SHINY + SPECIES_UNOWN_B
 	obj_pal gMonShinyPalette_Unown, PAL_ID_SHINY + SPECIES_UNOWN_C

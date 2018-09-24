@@ -1606,6 +1606,18 @@ static const u8 MoveDescription_ShadowClaw[] = _(
     "Hits with a blackened claw.\n"
     "High critical-hit ratio.");
 
+static const u8 MoveDescription_EnergyBall[] = _(
+    "A nature-filled attack. It\n"
+    "may lower the foe’s SP. DEF.");
+
+static const u8 MoveDescription_SeedFlare[] = _(
+    "A strong shock wave. It may\n"
+    "lower the foe’s SP. DEF.");
+
+static const u8 MoveDescription_Judgment[] = _(
+    "Its type depends on the\n"
+    "plate held by the user.");
+
 const u8 * const gMoveDescriptions[] = {
     MoveDescription_Pound,
     MoveDescription_KarateChop,
@@ -2009,4 +2021,7 @@ const u8 * const gMoveDescriptions[] = {
     MoveDescription_SpacialRend,
     MoveDescription_MagmaStorm,
     MoveDescription_ShadowClaw,
+    MoveDescription_EnergyBall,
+    MoveDescription_SeedFlare,
+    MoveDescription_Judgment,
 };

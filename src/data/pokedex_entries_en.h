@@ -5913,6 +5913,16 @@ static const u8 DexDescription_Darkrai_1[] = _(
   "around it with nightmares. However,\n"
   "it means no harm.");
 
+static const u8 DexDescription_Shaymin_1[] = _(
+  "The flowers all over its body burst\n"
+  "into bloom if it is lovingly hugged\n"
+  "and senses gratitude.");
+
+static const u8 DexDescription_Arceus_1[] = _(
+  "According to the legends of Sinnoh,\n"
+  "this POKéMOM emerged from an egg and\n"
+  "shaped all there is in this world.");
+
 const struct PokedexEntry gPokedexEntries[] =
 {
     {  //Dummy
@@ -11322,6 +11332,28 @@ const struct PokedexEntry gPokedexEntries[] =
         .weight = 505,
         .descriptionPage1 = DexDescription_Darkrai_1,
         .descriptionPage2 = DexDescription_Darkrai_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    {  //Shaymin
+        .categoryName = _("GRATITUDE"),
+        .height = 2,
+        .weight = 21,
+        .descriptionPage1 = DexDescription_Shaymin_1,
+        .descriptionPage2 = DexDescription_Shaymin_1,
+        .pokemonScale = 444,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    {  //Arceus
+        .categoryName = _("ALPHA"),
+        .height = 32,
+        .weight = 3200,
+        .descriptionPage1 = DexDescription_Arceus_1,
+        .descriptionPage2 = DexDescription_Arceus_1,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,

@@ -402,4 +402,7 @@ const u8 gMoveNames[][13] = {
     [MOVE_SPACIAL_REND] = _("SPACIAL REND"),
     [MOVE_MAGMA_STORM] = _("MAGMA STORM"),
     [MOVE_SHADOW_CLAW] = _("SHADOW CLAW"),
+    [MOVE_ENERGY_BALL] = _("ENERGY BALL"),
+    [MOVE_SEED_FLARE] = _("SEED FLARE"),
+    [MOVE_JUDGMENT] = _("JUDGMENT"),
 };
