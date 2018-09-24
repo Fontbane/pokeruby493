@@ -420,7 +420,6 @@ gBattleAnims_Moves:: @ 81C7168
     .4byte Move_ROAR_OF_TIME
     .4byte Move_SPACIAL_REND
     .4byte Move_MAGMA_STORM
-    .4byte Move_SHADOW_FORCE
     .4byte Move_SHADOW_CLAW
     .4byte PoundCopy
 
@@ -10558,27 +10557,6 @@ Move_MAGMA_STORM:
     waitforvisualfinish
     clearmonbg ANIM_BANK_TARGET
     blendoff
-    end
-
-Move_SHADOW_FORCE:
-    loadspritegfx 10156
-    loadspritegfx 10135
-    choosetwoturnanim _81D0480, _81D0498
-    playsewithpan SE_W019, 192
-    createsprite gBattleAnimSpriteTemplate_83DA450, 2, 0, 0, 13, 336
-    goto _81D047E
-    monbg ANIM_BANK_DEF_PARTNER
-    setalpha 12, 8
-    playsewithpan SE_W104, 192
-    createsprite gBattleAnimSpriteTemplate_83DA468, 2, 20
-    delay 20
-    createsprite gBasicHitSplatSpriteTemplate, 2, 0, 0, 1, 0
-    createvisualtask AnimTask_ShakeMon, 5, 1, 6, 0, 8, 1
-    playsewithpan SE_W013, 63
-    waitforvisualfinish
-    clearmonbg ANIM_BANK_DEF_PARTNER
-    blendoff
-    waitforvisualfinish
     end
 
 Move_SHADOW_CLAW:

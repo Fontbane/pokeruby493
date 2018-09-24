@@ -46,5 +46,5 @@ List of the learnsets that I updated to Gen. 4 Standards as much as I could righ
 484 - Palkia.
 485 - Heatran.
 486 - Regigigas. (Missing: Crush Grip)
-487 - Giratina.
+487 - Giratina. (Missing: Shadow Force)
 488 - Cresselia. (Missing: Psycho Shift, Lunar Dance)

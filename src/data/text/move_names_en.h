@@ -401,6 +401,5 @@ const u8 gMoveNames[][13] = {
     [MOVE_ROAR_OF_TIME] = _("ROAR OF TIME"),
     [MOVE_SPACIAL_REND] = _("SPACIAL REND"),
     [MOVE_MAGMA_STORM] = _("MAGMA STORM"),
-    [MOVE_SHADOW_FORCE] = _("SHADOW FORCE"),
     [MOVE_SHADOW_CLAW] = _("SHADOW CLAW"),
 };

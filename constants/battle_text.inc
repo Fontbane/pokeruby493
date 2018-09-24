@@ -306,7 +306,6 @@
 	enum BATTLE_TEXT_FireWeakened
 	enum BATTLE_TEXT_HidUnderwater
 	enum BATTLE_TEXT_SprangUp
-	enum BATTLE_TEXT_Vanished
 	enum BATTLE_TEXT_CantForgetHM
 	enum BATTLE_TEXT_FoundOne
 	enum BATTLE_TEXT_PlayerDefeatedTrainer2
