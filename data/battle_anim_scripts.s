@@ -10561,15 +10561,24 @@ Move_MAGMA_STORM:
     end
 
 Move_SHADOW_FORCE:
+    loadspritegfx 10156
     loadspritegfx 10135
-    monbg ANIM_BANK_TARGET
+    choosetwoturnanim _81D0480, _81D0498
+    playsewithpan SE_W019, 192
+    createsprite gBattleAnimSpriteTemplate_83DA450, 2, 0, 0, 13, 336
+    goto _81D047E
+    monbg ANIM_BANK_DEF_PARTNER
     setalpha 12, 8
-    playsewithpan SE_W003, 63
-    createsprite gBasicHitSplatSpriteTemplate, 2, 0, 0, 1, 2
-    createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_TARGET, 3, 0, 6, 1
+    playsewithpan SE_W104, 192
+    createsprite gBattleAnimSpriteTemplate_83DA468, 2, 20
+    delay 20
+    createsprite gBasicHitSplatSpriteTemplate, 2, 0, 0, 1, 0
+    createvisualtask AnimTask_ShakeMon, 5, 1, 6, 0, 8, 1
+    playsewithpan SE_W013, 63
     waitforvisualfinish
-    clearmonbg ANIM_BANK_TARGET
+    clearmonbg ANIM_BANK_DEF_PARTNER
     blendoff
+    waitforvisualfinish
     end
 
 Move_SHADOW_CLAW:

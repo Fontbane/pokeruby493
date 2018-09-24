@@ -11941,4 +11941,3 @@ const u32 gTMHMLearnsets[][2] =
 };
 
 #endif  // GUARD_TMHM_LEARNSETS_H
-

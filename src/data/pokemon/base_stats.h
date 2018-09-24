@@ -16941,4 +16941,3 @@ const struct BaseStats gBaseStats[] =
 };
 
 #endif //GUARD_BASE_STATS_H
-

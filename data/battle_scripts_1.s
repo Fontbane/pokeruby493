@@ -2070,6 +2070,7 @@ BattleScript_EffectSemiInvulnerable: @ 81D82C5
 	jumpifmove MOVE_FLY, BattleScript_FirstTurnFly
 	jumpifmove MOVE_DIVE, BattleScript_FirstTurnDive
 	jumpifmove MOVE_BOUNCE, BattleScript_FirstTurnBounce
+	jumpifmove MOVE_SHADOW_FORCE, BattleScript_FirstTurnShadowForce
 	setbyte sTWOTURN_STRINGID, 5
 	goto BattleScript_FirstTurnSemiInvulnerable
 
@@ -2083,6 +2084,11 @@ BattleScript_FirstTurnDive: @ 81D8317
 
 BattleScript_FirstTurnFly: @ 81D8322
 	setbyte sTWOTURN_STRINGID, 4
+
+BattleScript_FirstTurnShadowForce:
+	setbyte sTWOTURN_STRINGID, 8
+	waitmessage 64
+	goto BattleScript_FirstTurnSemiInvulnerable
 
 BattleScript_FirstTurnSemiInvulnerable: @ 81D8328
 	call BattleScriptFirstChargingTurn

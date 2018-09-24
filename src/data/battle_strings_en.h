@@ -309,6 +309,7 @@ enum
     BATTLE_TEXT_FireWeakened,
     BATTLE_TEXT_HidUnderwater,
     BATTLE_TEXT_SprangUp,
+    BATTLE_TEXT_Vanished,
     BATTLE_TEXT_CantForgetHM,
     BATTLE_TEXT_FoundOne,
     BATTLE_TEXT_PlayerDefeatedTrainer2,
@@ -443,6 +444,7 @@ const u8 BattleText_FlewHigh[] = _("{ATTACKING_MON} flew\nup high!");
 const u8 BattleText_DugHole[] = _("{ATTACKING_MON} dug a hole!");
 const u8 BattleText_HidUnderwater[] = _("{ATTACKING_MON} hid\nunderwater!");
 const u8 BattleText_SprangUp[] = _("{ATTACKING_MON} sprang up!");
+const u8 BattleText_Vanished[] = _("{ATTACKING_MON} vanished\ninstantly!");
 const u8 BattleText_SqueezedBind[] = _("{DEFENDING_MON} was squeezed by\n{ATTACKING_MON}’s BIND!");
 const u8 BattleText_TrappedVortex[] = _("{DEFENDING_MON} was trapped\nin the vortex!");
 const u8 BattleText_SandTombTrapped[] = _("{DEFENDING_MON} was trapped\nby SAND TOMB!");
@@ -1171,6 +1173,7 @@ const u8 *const gBattleStringsTable[] =
     BattleText_FireWeakened,
     BattleText_HidUnderwater,
     BattleText_SprangUp,
+    BattleText_Vanished,
     BattleText_CantForgetHM,
     BattleText_FoundOne,
     BattleText_PlayerDefeatedTrainer2,
@@ -1362,6 +1365,7 @@ const u16 gFirstTurnOfTwoStringIds[] =
     BATTLE_TEXT_DugHole,
     BATTLE_TEXT_HidUnderwater,
     BATTLE_TEXT_SprangUp,
+    BATTLE_TEXT_Vanished,
 };
 
 const u16 gWrappedStringIds[] =

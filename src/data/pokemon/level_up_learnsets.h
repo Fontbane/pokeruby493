@@ -7366,4 +7366,3 @@ const u16 gCresseliaLevelUpLearnset[] = {
 };
 
 #endif //POKERUBY_LEVEL_UP_LEARNSETS_H
-
