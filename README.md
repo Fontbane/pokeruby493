@@ -38,7 +38,7 @@ The following is a list of all the files involved in the task of expanding poké
 
 * pokeruby\src\data || [pokedex_entries_en.h](https://github.com/LOuroboros/pokeruby493/blob/master/src/data/pokedex_entries_en.h)  ;  [pokedex_orders.h](https://github.com/LOuroboros/pokeruby493/blob/master/src/data/pokedex_orders.h)
 
-* pokeruby\src || [pokedex.c](https://github.com/LOuroboros/pokeruby493/blob/master/src/pokedex.c)  ;  [pokemon_1.c](https://github.com/LOuroboros/pokeruby493/blob/master/src/pokemon_1.c)  ;  [pokemon_icon.c](https://github.com/LOuroboros/pokeruby493/blob/master/src/pokemon_icon.c)
+* pokeruby\src || [hall_of_fame.c](https://github.com/LOuroboros/pokeruby493/blob/7a746e15432542459a1650da4ab2ac074bde9020/src/hall_of_fame.c#L43)  ;  [pokedex.c](https://github.com/LOuroboros/pokeruby493/blob/master/src/pokedex.c)  ;  [pokemon_1.c](https://github.com/LOuroboros/pokeruby493/blob/master/src/pokemon_1.c)  ;  [pokemon_icon.c](https://github.com/LOuroboros/pokeruby493/blob/master/src/pokemon_icon.c)
 
 ### Bugs
 As of right now, there aren't any bugs. There's a small issue involving pokémon not showing up in the pokédex using existing savefiles, but in those cases you just need to catch the pokémon again and they'll show up correctly.
