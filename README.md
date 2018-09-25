@@ -83,7 +83,7 @@ I intend to implement as many Gen. 4 features as I can to this base. Right now, 
 
 -[BluRose](https://github.com/BluRosie): Map and move-based evolutions, Happiny's and Mantyke's evolution methods too and Gen. 4 styled OW Poisoning.
 
--[Doesnt](https://github.com/Doesnty): I learned how to add new moves thanks to his commits, Instant Text Speed, Close Combat's effect and I'm also using a lot of content from his repo to add new moves.
+-[Doesnt](https://github.com/Doesnty): I learned how to add new moves thanks to his commits and I'm also using some of the features from his repo, namely: Em+ Pickup System, Instant Text Speed, Close Combat's effect and several Gen. 4 moves data.
 
 -[ShantyTown](https://github.com/huderlem): Tips on how to debug any problems I may find while working with the decompilation projects.
 
