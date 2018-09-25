@@ -51,7 +51,7 @@ I intend to implement as many Gen. 4 features as I can to this base. Right now, 
 
 * You can now run indoors
 
-* There's 42 Gen. 4 moves added to Pokémon Ruby and Sapphire's 354. The list starts with Aqua Jet in [the moves.h file](https://github.com/LOuroboros/pokeruby493/blob/fa8a7c4745c3687a703dea9c7d2cd23b2c7244a0/include/constants/moves.h#L359). Judgment's effect isn't implemented yet and the last 19 moves currently use Pound's animation as a placeholder.
+* There's 42 Gen. 4 moves added to Pokémon Ruby and Sapphire's 354. The list starts with Aqua Jet in [the moves.h file](https://github.com/LOuroboros/pokeruby493/blob/fa8a7c4745c3687a703dea9c7d2cd23b2c7244a0/include/constants/moves.h#L359). Judgment's effect isn't implemented yet and the last 20 moves currently use Pound's animation as a placeholder.
 
 * There's 2 new evolution stones: The Shiny Stone for Roselia and Togetic, and the Dusk Stone for Misdreavus and Murkrow.
 

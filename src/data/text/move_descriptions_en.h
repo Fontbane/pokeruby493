@@ -1618,6 +1618,22 @@ static const u8 MoveDescription_Judgment[] = _(
     "Its type depends on the\n"
     "plate held by the user.");
 
+static const u8 MoveDescription_SeedBomb[] = _(
+    "The user slams a barrage of\n"
+    "hardened seeds from above.");
+
+static const u8 MoveDescription_Roost[] = _(
+    "Recovers up to half the\n"
+    "user’s maximum HP.");
+
+static const u8 MoveDescription_GunkShot[] = _(
+    "A barrage of filthy gar-\n"
+    "bage. May poison the foe.");
+
+static const u8 MoveDescription_CrossPoison[] = _(
+    "Has a high critical-hit\n"
+    "ratio. May also poison.");
+
 const u8 * const gMoveDescriptions[] = {
     MoveDescription_Pound,
     MoveDescription_KarateChop,
@@ -2024,4 +2040,8 @@ const u8 * const gMoveDescriptions[] = {
     MoveDescription_EnergyBall,
     MoveDescription_SeedFlare,
     MoveDescription_Judgment,
+    MoveDescription_SeedBomb,
+    MoveDescription_Roost,
+    MoveDescription_GunkShot,
+    MoveDescription_CrossPoison,
 };

@@ -1,5 +1,25 @@
 List of the learnsets that I updated to Gen. 4 Standards as much as I could right now:
 
+1, 2, and 3 - Bulbasaur, Ivysaur, Venusaur. (Missing: Worry Seed)
+4, 5 and 6 - Charmander, Charmeleon, Charizard.
+7, 8 and 9 - Squirtle, Wartortle, Blastoise.
+10, 11 and 12 - Caterpie, Metapod, Butterfree. (Missing: Bug Bite, Captivate, Tailwind)
+13, 14, and 15 - Weedle, Kakuna, Beedrill. (Missing: Bug Bite, Assurance, Toxic Spikes)
+16, 17 and 18 - Pidgey, Pidgeotto, Pidgeot. (Missing: Tailwind)
+19 and 20 - Rattata, Raticate. (Missing: Assurance)
+21 and 22 - Spearow, Fearow. (Missing: Assurance, Pluck)
+23 and 24 - Ekans, Arbok. (Missing: Gastro Acid)
+25 and 26 - Pikachu, Raichu.
+27 and 28 - Sandshrew, Sandslash. (Missing: Gyro Ball)
+29, 30 and 31 - NidoranF, Nidorina, Nidoqueen. (Missing: Toxic Spikes, Captivate)
+32, 33 and 34 - NidoranM, Nidorino, Nidoking. (Missing: Toxic Spikes, Captivate)
+35 and 36 - Clefairy, Clefable. (Missing: Wake-Up Slap, Lucky Chant, Gravity, Healing Wish)
+37 and 38 - Vulpix, Ninetales. (Missing: Payback, Captivate)
+39 and 40 - Jigglypuff, Wigglytuff. (Missing: Gyro Ball, Wake-Up Slap)
+41 and 42 - Zubat, Golbat.
+43, 44 and 45 - Oddish, Gloom, Vileplume. (Missing: Lucky Chant, Natural Gift)
+46 and 47 - Paras, Parasect.
+48 and 49 - Venonat, Venomoth.
 54 and 55 - Psyduck and Golduck.
 81 and 82 - Magnemite and Magneton. (Missing: Magnet Rise, Gyro Ball)
 84 and 85 - Doduo and Dodrio. (Missing: Acupressure)

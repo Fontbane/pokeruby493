@@ -405,4 +405,8 @@ const u8 gMoveNames[][13] = {
     [MOVE_ENERGY_BALL] = _("ENERGY BALL"),
     [MOVE_SEED_FLARE] = _("SEED FLARE"),
     [MOVE_JUDGMENT] = _("JUDGMENT"),
+    [MOVE_SEED_BOMB] = _("SEED BOMB"),
+    [MOVE_ROOST] = _("ROOST"),
+    [MOVE_GUNK_SHOT] = _("GUNK SHOT"),
+    [MOVE_CROSS_POISON] = _("CROSS POISON"),
 };

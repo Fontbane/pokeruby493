@@ -373,57 +373,61 @@ gBattleAnims_Moves:: @ 81C7168
 	.4byte Move_WATER_PULSE
 	.4byte Move_DOOM_DESIRE
 	.4byte Move_PSYCHO_BOOST
-    .4byte Move_AQUA_JET
-    .4byte Move_DOUBLE_HIT
-    .4byte Move_NASTY_PLOT
-    .4byte Move_NIGHT_SLASH
-    .4byte Move_DARK_PULSE
-    .4byte Move_SUCKER_PUNCH
-    .4byte Move_FEINT
-    .4byte Move_OMINOUS_WIND
-    .4byte Move_SHADOW_SNEAK
-    .4byte Move_DRAGON_RUSH
-    .4byte Move_FIRE_FANG
-    .4byte Move_ICE_FANG
-    .4byte Move_THUNDER_FANG
-    .4byte Move_AURA_SPHERE
-    .4byte Move_CLOSE_COMBAT
-    .4byte Move_DRAGON_PULSE
-    .4byte Move_FORCE_PALM
-    .4byte Move_MUD_BOMB
-    .4byte Move_POISON_JAB
-    .4byte Move_POWER_WHIP
-    .4byte Move_BRAVE_BIRD
-    .4byte Move_FLARE_BLITZ
-    .4byte Move_ZEN_HEADBUTT
-    .4byte Move_ICE_SHARD
-    .4byte Move_BRINE
-    .4byte Move_AQUA_TAIL
-    .4byte Move_AIR_SLASH
-    .4byte Move_BUG_BUZZ
-    .4byte Move_VACUUM_WAVE
-    .4byte Move_X_SCISSOR
-    .4byte Move_BULLET_PUNCH
-    .4byte Move_IRON_HEAD
-    .4byte Move_WOOD_HAMMER
-    .4byte Move_MAGNET_BOMB
-    .4byte Move_DISCHARGE
-    .4byte Move_MIRROR_SHOT
-    .4byte Move_ROCK_WRECKER
-    .4byte Move_STONE_EDGE
-    .4byte Move_GIGA_IMPACT
-    .4byte Move_LAVA_PLUME
-    .4byte Move_PSYCHO_CUT
-    .4byte Move_POWER_GEM
-    .4byte Move_EARTH_POWER
-    .4byte Move_FLASH_CANNON
-    .4byte Move_ROAR_OF_TIME
-    .4byte Move_SPACIAL_REND
-    .4byte Move_MAGMA_STORM
-    .4byte Move_SHADOW_CLAW
-    .4byte Move_ENERGY_BALL
-    .4byte Move_SEED_FLARE
-    .4byte Move_JUDGMENT
+	.4byte Move_AQUA_JET
+	.4byte Move_DOUBLE_HIT
+	.4byte Move_NASTY_PLOT
+	.4byte Move_NIGHT_SLASH
+	.4byte Move_DARK_PULSE
+	.4byte Move_SUCKER_PUNCH
+	.4byte Move_FEINT
+	.4byte Move_OMINOUS_WIND
+	.4byte Move_SHADOW_SNEAK
+	.4byte Move_DRAGON_RUSH
+	.4byte Move_FIRE_FANG
+	.4byte Move_ICE_FANG
+	.4byte Move_THUNDER_FANG
+	.4byte Move_AURA_SPHERE
+	.4byte Move_CLOSE_COMBAT
+	.4byte Move_DRAGON_PULSE
+	.4byte Move_FORCE_PALM
+	.4byte Move_MUD_BOMB
+	.4byte Move_POISON_JAB
+	.4byte Move_POWER_WHIP
+	.4byte Move_BRAVE_BIRD
+	.4byte Move_FLARE_BLITZ
+	.4byte Move_ZEN_HEADBUTT
+	.4byte Move_ICE_SHARD
+	.4byte Move_BRINE
+	.4byte Move_AQUA_TAIL
+	.4byte Move_AIR_SLASH
+	.4byte Move_BUG_BUZZ
+	.4byte Move_VACUUM_WAVE
+	.4byte Move_X_SCISSOR
+	.4byte Move_BULLET_PUNCH
+	.4byte Move_IRON_HEAD
+	.4byte Move_WOOD_HAMMER
+	.4byte Move_MAGNET_BOMB
+	.4byte Move_DISCHARGE
+	.4byte Move_MIRROR_SHOT
+	.4byte Move_ROCK_WRECKER
+	.4byte Move_STONE_EDGE
+	.4byte Move_GIGA_IMPACT
+	.4byte Move_LAVA_PLUME
+	.4byte Move_PSYCHO_CUT
+	.4byte Move_POWER_GEM
+	.4byte Move_EARTH_POWER
+	.4byte Move_FLASH_CANNON
+	.4byte Move_ROAR_OF_TIME
+	.4byte Move_SPACIAL_REND
+	.4byte Move_MAGMA_STORM
+	.4byte Move_SHADOW_CLAW
+	.4byte Move_ENERGY_BALL
+	.4byte Move_SEED_FLARE
+	.4byte Move_JUDGMENT
+	.4byte Move_SEED_BOMB
+	.4byte Move_ROOST
+	.4byte Move_GUNK_SHOT
+	.4byte Move_CROSS_POISON
 	.4byte PoundCopy
 
 	.align 2
@@ -10596,6 +10600,60 @@ Move_SEED_FLARE:
     end
 
 Move_JUDGMENT:
+    loadspritegfx 10135
+    monbg ANIM_BANK_TARGET
+    setalpha 12, 8
+    playsewithpan SE_W003, 63
+    createsprite gBasicHitSplatSpriteTemplate, 2, 0, 0, 1, 2
+    createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_TARGET, 3, 0, 6, 1
+    waitforvisualfinish
+    clearmonbg ANIM_BANK_TARGET
+    blendoff
+    end
+
+Move_SEED_BOMB:
+    loadspritegfx 10135
+    monbg ANIM_BANK_TARGET
+    setalpha 12, 8
+    playsewithpan SE_W003, 63
+    createsprite gBasicHitSplatSpriteTemplate, 2, 0, 0, 1, 2
+    createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_TARGET, 3, 0, 6, 1
+    waitforvisualfinish
+    clearmonbg ANIM_BANK_TARGET
+    blendoff
+    end
+
+Move_ROOST:
+	loadspritegfx 10147
+	loadspritegfx 10031
+	monbg ANIM_BANK_ATK_PARTNER
+	setalpha 12, 8
+	loopsewithpan SE_W025, 192, 13, 3
+	createvisualtask sub_80E1F8C, 2, 2, 0, 6, 0, 11, 12287
+	call _81D1F5F
+	call _81D1F5F
+	call _81D1F5F
+	waitforvisualfinish
+	clearmonbg ANIM_BANK_ATK_PARTNER
+	blendoff
+	delay 1
+	call Unknown_81D5EF5
+	waitforvisualfinish
+	end
+
+Move_GUNK_SHOT:
+    loadspritegfx 10135
+    monbg ANIM_BANK_TARGET
+    setalpha 12, 8
+    playsewithpan SE_W003, 63
+    createsprite gBasicHitSplatSpriteTemplate, 2, 0, 0, 1, 2
+    createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_TARGET, 3, 0, 6, 1
+    waitforvisualfinish
+    clearmonbg ANIM_BANK_TARGET
+    blendoff
+    end
+
+Move_CROSS_POISON:
     loadspritegfx 10135
     monbg ANIM_BANK_TARGET
     setalpha 12, 8
