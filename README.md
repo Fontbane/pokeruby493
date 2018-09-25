@@ -86,3 +86,5 @@ I intend to implement as many Gen. 4 features as I can to this base. Right now, 
 -[Doesnt](https://github.com/Doesnty): I learned how to add new moves thanks to his commits, Instant Text Speed, Close Combat's effect and I'm also using a lot of content from his repo to add new moves.
 
 -[ShantyTown](https://github.com/huderlem): Tips on how to debug any problems I may find while working with the decompilation projects.
+
+-[Rubyruby](https://github.com/hiddenruby): Attribution screen which I repurposed into an Anti-Piracy screen.

@@ -4445,6 +4445,18 @@ gIntroCopyright_Tilemap:: @ 8E9CA44
 	.incbin "graphics/intro/copyright.bin"
 
 	.align 2
+gIntroAntiPiracy_Gfx::
+	.incbin "graphics/intro/antipiracy.8bpp.lz"
+
+	.align 2
+gIntroAntiPiracy_Pal::
+	.incbin "graphics/intro/antipiracy.gbapal"
+
+	.align 2
+gIntroAntiPiracy_Tilemap::
+	.incbin "graphics/intro/antipiracy.bin"
+
+	.align 2
 gInterviewOutlineCursorTiles:: @ 8E9CF44
 	.incbin "graphics/misc/interview_outline_cursor.4bpp"
 
