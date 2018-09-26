@@ -20,10 +20,26 @@ List of the learnsets that I updated to Gen. 4 Standards as much as I could righ
 43, 44 and 45 - Oddish, Gloom, Vileplume. (Missing: Lucky Chant, Natural Gift)
 46 and 47 - Paras, Parasect.
 48 and 49 - Venonat, Venomoth.
-54 and 55 - Psyduck and Golduck.
-81 and 82 - Magnemite and Magneton. (Missing: Magnet Rise, Gyro Ball)
-84 and 85 - Doduo and Dodrio. (Missing: Acupressure)
-86 and 87 - Seel and Dewgong. (Missing: Aqua Ring)
+50 and 51 - Diglett, Dugtrio.
+52 and 53 - Meowth, Persian. (Missing: Assurance, Captivate)
+54 and 55 - Psyduck, Golduck.
+56 and 57 - Mankey, Primeape. (Missing: Assurance, Punishment, Fling)
+58 and 59 - Growlithe, Arcanine.
+60, 61 and 62 - Poliwag, Poliwhirl, Poliwrath. (Missing: Wake-Up Slap)
+63, 64 and 65 - Abra, Kadabra, Alakazam.
+66, 67 and 68 - Machop, Machoke, Machamp. (Missing: Wake-Up Slap)
+69, 70 and 71 - Bellsprout, Weepinbell, Victreebel. (Missing: Gastro Acid, Wring Out)
+72 and 73 - Tentacool, Tentacruel. (Missing: Toxic Spikes, Wring Out) 
+74, 75 and 76 - Geodude, Graveler, Golem.
+77 and 78 - Ponyta, Rapidash.
+79 and 80 - Slowpoke, Slowbro.
+81 and 82 - Magnemite, Magneton. (Missing: Magnet Rise, Gyro Ball)
+83 - Farfetch'd.
+84 and 85 - Doduo, Dodrio. (Missing: Acupressure, Pluck)
+86 and 87 - Seel, Dewgong. (Missing: Aqua Ring)
+88 and 89 - Grimer, Muk. (Missing: Fling)
+90 and 91 - Shellder, Cloyster. (Missing: Toxic Spikes)
+92, 93 and 94 - Gastly, Haunter, Gengar. (Missing: Payback)
 109 and 110 - Koffing and Weezing. (Missing: Assurance, Gyro Ball)
 114 - Tangela. (Missing: Natural Gift, Wring Out)
 115 - Kangaskhan.

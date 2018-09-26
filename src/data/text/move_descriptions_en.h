@@ -1634,6 +1634,22 @@ static const u8 MoveDescription_CrossPoison[] = _(
     "Has a high critical-hit\n"
     "ratio. May also poison.");
 
+static const u8 MoveDescription_Switcheroo[] = _(
+    "Hastily trades held items\n"
+    "with the foe.");
+
+static const u8 MoveDescription_MiracleEye[] = _(
+    "Negates evasion boosts and\n"
+    "exposes GHOST types.");
+
+static const u8 MoveDescription_LeafStorm[] = _(
+    "A storm of sharp leaves.\n"
+    "It greatly lowers SP. ATK.");
+
+static const u8 MoveDescription_RockPolish[] = _(
+    "The user polishes its body\n"
+    "thus becoming faster.");
+
 const u8 * const gMoveDescriptions[] = {
     MoveDescription_Pound,
     MoveDescription_KarateChop,
@@ -2044,4 +2060,8 @@ const u8 * const gMoveDescriptions[] = {
     MoveDescription_Roost,
     MoveDescription_GunkShot,
     MoveDescription_CrossPoison,
+    MoveDescription_Switcheroo,
+    MoveDescription_MiracleEye,
+    MoveDescription_LeafStorm,
+    MoveDescription_RockPolish,
 };

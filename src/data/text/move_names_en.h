@@ -409,4 +409,8 @@ const u8 gMoveNames[][13] = {
     [MOVE_ROOST] = _("ROOST"),
     [MOVE_GUNK_SHOT] = _("GUNK SHOT"),
     [MOVE_CROSS_POISON] = _("CROSS POISON"),
+    [MOVE_SWITCHEROO] = _("SWITCHEROO"),
+    [MOVE_MIRACLE_EYE] = _("MIRACLE EYE"),
+    [MOVE_LEAF_STORM] = _("LEAF STORM"),
+    [MOVE_ROCK_POLISH] = _("ROCK POLISH"),
 };
