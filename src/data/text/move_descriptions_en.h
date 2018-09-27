@@ -1650,6 +1650,14 @@ static const u8 MoveDescription_RockPolish[] = _(
     "The user polishes its body\n"
     "thus becoming faster.");
 
+static const u8 MoveDescription_ChargeBeam[] = _(
+    "A intense beam of elec-\n"
+    "tricity. Can raise SP. ATK.");
+
+static const u8 MoveDescription_Avalanche[] = _(
+    "An attack that gains power\n"
+    "if injured by the foe.");
+
 const u8 * const gMoveDescriptions[] = {
     MoveDescription_Pound,
     MoveDescription_KarateChop,
@@ -2064,4 +2072,6 @@ const u8 * const gMoveDescriptions[] = {
     MoveDescription_MiracleEye,
     MoveDescription_LeafStorm,
     MoveDescription_RockPolish,
+    MoveDescription_ChargeBeam,
+    MoveDescription_Avalanche,
 };

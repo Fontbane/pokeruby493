@@ -413,4 +413,6 @@ const u8 gMoveNames[][13] = {
     [MOVE_MIRACLE_EYE] = _("MIRACLE EYE"),
     [MOVE_LEAF_STORM] = _("LEAF STORM"),
     [MOVE_ROCK_POLISH] = _("ROCK POLISH"),
+    [MOVE_CHARGE_BEAM] = _("CHARGE BEAM"),
+    [MOVE_AVALANCHE] = _("AVALANCHE"),
 };

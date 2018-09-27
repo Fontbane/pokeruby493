@@ -40,14 +40,48 @@ List of the learnsets that I updated to Gen. 4 Standards as much as I could righ
 88 and 89 - Grimer, Muk. (Missing: Fling)
 90 and 91 - Shellder, Cloyster. (Missing: Toxic Spikes)
 92, 93 and 94 - Gastly, Haunter, Gengar. (Missing: Payback)
-109 and 110 - Koffing and Weezing. (Missing: Assurance, Gyro Ball)
+95 - Onix.
+96 and 97 - Drowzee, Hypno.
+98 and 99 - Krabby, Kingler.
+100 and 101 - Voltorb, Electrode. (Missing: Magnet Rise, Gyro Ball)
+102 and 103 - Exeggcute, Exeggutor. (Missing: Worry Seed, Natural Gift)
+104 and 105 - Cubone, Marowak. (Missing: Fling)
+106 - Hitmonlee.
+107 - Hitmonchan.
+108 - Lickitung. (Missing: Me First, Wring Out)
+109 and 110 - Koffing, Weezing. (Missing: Assurance, Gyro Ball)
+111 and 112 - Rhyhorn, Rhydon. (Missing: Hammer Arm)
+113 - Chansey. (Missing: Fling, Healing Wish)
 114 - Tangela. (Missing: Natural Gift, Wring Out)
 115 - Kangaskhan.
+116 and 117 - Horsea, Seadra.
+118 and 119 - Goldeen, Seaking. (Missing: Aqua Ring)
+120 and 121 - Staryu, Starmie. (Missing: Gyro Ball)
+122 - Mr. Mime. (Missing: Power Swap, Guard Swap, Copycat)
 123 - Scyther.
+124 - Jynx. (Missing: Wake-Up Slap, Wring Out)
 125 - Electabuzz.
 126 - Magmar.
 127 - Pinsir.
+128 - Tauros. (Missing: Payback)
+129 and 130 - Magikarp, Gyarados.
+131 - Lapras.
+132 - Ditto.
+133 - Eevee. (Missing: Last Resort, Trump Card)
+134 - Vaporeon. (Missing: Aqua Ring, Last Resort)
+135 - Jolteon. (Missing: Last Resort)
+136 - Flareon. (Missing: Last Resort)
+137 - Porygon. (Missing: Magnet Rise)
+138 and 139 - Omanyte, Omastar.
 140 and 141 - Kabuto and Kabutops. (Missing: Wring Out)
+142 - Aerodactyl.
+143 - Snorlax.
+144 - Articuno. (Missing: Tailwind)
+145 - Zapdos. (Missing: Pluck)
+146 - Moltres.
+147, 148 and 149 - Dratini, Dragonair, Dragonite.
+150 - Mewtwo. (Missing: Guard Swap, Power Swap, Me First)
+151 - Mew. (Missing: Me First)
 190 - Aipom. (Missing: Fling, Last Resort)
 203 - Girafarig. (Missing: Power Swap, Guard Swap, Assurance)
 205 - Forretress. (Missing: Toxic Spikes, Bug Bite, Natural Gift, Payback, Gyro Ball, Magnet Rise)
