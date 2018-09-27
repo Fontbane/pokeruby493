@@ -3,6 +3,9 @@
 
 #include "sprite.h"
 
+#define EVO_MAP_GROUP(map) (map >> 8)
+#define EVO_MAP_NUM(map) (map & 0xFF)
+
 #define MON_DATA_PERSONALITY        0
 #define MON_DATA_OT_ID              1
 #define MON_DATA_NICKNAME           2
