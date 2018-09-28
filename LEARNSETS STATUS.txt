@@ -89,9 +89,37 @@ List of the learnsets that I updated to Gen. 4 Standards as much as I could righ
 163 and 164 - Hoothoot, Noctowl. (Missing: Psycho Shift)
 165 and 166 - Ledyba, Ledian.
 167 and 168 - Spinarak, Ariados. (Missing: Bug Bite)
+169 - Crobat.
+170 and 171 - Chinchou, Lanturn. (Missing: Aqua Ring)
+172 - Pichu.
+173 - Cleffa. (Missing: Copycat)
+174 - Igglybuff. (Missing: Copycat)
+175 and 176 - Togepi, Togetic. (Missing: Last Resort)
+177 and 178 - Natu, Xatu. (Missing: Lucky Chant, Me First, Tailwind, Psycho Shift, Power Swap, Guard Swap)
+179, 180 and 181 - Mareep, Flaaffy, Ampharos.
+182 - Bellossom.
+183 and 184 - Marill, Azumarill. (Missing: Aqua Ring)
+185 - Sudowoodo. (Missing: Copycat, Hammer Arm)
+186 - Politoed.
+187, 188 and 189 - Hoppip, Skiploom, Jumpluff. (Missing: U-Turn, Worry Seed)
 190 - Aipom. (Missing: Fling, Last Resort)
+191 and 192 - Sunkern, Sunflora. (Missing: Worry Seed)
+193 - Yanma. (Missing: U-Turn)
+194 and 195 - Wooper, Quagsire.
+196 - Espeon. (Missing: Last Resort, Power Swap)
+197 - Umbreon. (Missing: Assurance, Last Resort, Guard Swap)
+198 - Murkrow. (Missing: Assurance)
+199 - Slowking. (Missing: Trump Card)
+200 - Misdreavus. (Missing: Payback)
+201 - Unown.
+202 - Wobbuffet.
 203 - Girafarig. (Missing: Power Swap, Guard Swap, Assurance)
-205 - Forretress. (Missing: Toxic Spikes, Bug Bite, Natural Gift, Payback, Gyro Ball, Magnet Rise)
+204 and 205 - Pineco, Forretress. (Missing: Toxic Spikes, Bug Bite, Natural Gift, Payback, Gyro Ball, Magnet Rise)
+206 - Dunsparce.
+207 - Gligar. (Missing: U-Turn)
+208 - Steelix.
+209 and 210 - Snubbull, Granbull. (Missing: Payback)
+211 - Qwilfish. (Missing: Toxic Spikes)
 212 - Scizor.
 283 and 284 - Surskit and Masquerain.
 318 and 319 - Carvanha and Sharpedo. (Missing: Assurance)
