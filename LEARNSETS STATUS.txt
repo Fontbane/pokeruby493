@@ -82,6 +82,13 @@ List of the learnsets that I updated to Gen. 4 Standards as much as I could righ
 147, 148 and 149 - Dratini, Dragonair, Dragonite.
 150 - Mewtwo. (Missing: Guard Swap, Power Swap, Me First)
 151 - Mew. (Missing: Me First)
+152, 153 and 154 - Chikorita, Bayleef, Meganium. (Missing: Natural Gift)
+155, 156 and 157 - Cyndaquil, Quilava, Typhlosion. (Missing: Gyro Ball)
+158, 159 and 160 - Totodile, Croconaw, Feraligatr.
+161 and 162 - Sentret, Furret. (Missing: Me First)
+163 and 164 - Hoothoot, Noctowl. (Missing: Psycho Shift)
+165 and 166 - Ledyba, Ledian.
+167 and 168 - Spinarak, Ariados. (Missing: Bug Bite)
 190 - Aipom. (Missing: Fling, Last Resort)
 203 - Girafarig. (Missing: Power Swap, Guard Swap, Assurance)
 205 - Forretress. (Missing: Toxic Spikes, Bug Bite, Natural Gift, Payback, Gyro Ball, Magnet Rise)

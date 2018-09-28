@@ -5,6 +5,7 @@ Current Goals:
 * Update Learnsets to Gen. 4 (Pt/HG/SS) standards.
 
 Long-term Goals:
+* Fix Roost's effect.
 * Fix Charge Beam's effect and stats. It is temporarily boosted to 100 Power Points due to its effect being missing.
 * Make an animation for Wood Hammer and the other moves that come afterwards.
 * Implement formes for the pokémon that are supposed to have one (Burmy, Cherrim, Rotom, Giratina, Shaymin, Arceus).
