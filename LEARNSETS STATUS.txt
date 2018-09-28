@@ -121,6 +121,8 @@ List of the learnsets that I updated to Gen. 4 Standards as much as I could righ
 209 and 210 - Snubbull, Granbull. (Missing: Payback)
 211 - Qwilfish. (Missing: Toxic Spikes)
 212 - Scizor.
+213 - Shuckle. (Missing: Gastro Acid, Bug Bite, Power Trick)
+214 - Heracross.
 283 and 284 - Surskit and Masquerain.
 318 and 319 - Carvanha and Sharpedo. (Missing: Assurance)
 341 and 342 - Corphish and Crawdaunt.
