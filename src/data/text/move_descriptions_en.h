@@ -1658,6 +1658,10 @@ static const u8 MoveDescription_Avalanche[] = _(
     "An attack that gains power\n"
     "if injured by the foe.");
 
+static const u8 MoveDescription_HeadSmash[] = _(
+    "A full-power headbutt.\n"
+    "It also hurts the user.");
+
 const u8 * const gMoveDescriptions[] = {
     MoveDescription_Pound,
     MoveDescription_KarateChop,
@@ -2074,4 +2078,5 @@ const u8 * const gMoveDescriptions[] = {
     MoveDescription_RockPolish,
     MoveDescription_ChargeBeam,
     MoveDescription_Avalanche,
+    MoveDescription_HeadSmash,
 };

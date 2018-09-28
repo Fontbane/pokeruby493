@@ -1,191 +1,263 @@
-List of the learnsets that I updated to Gen. 4 Standards as much as I could right now:
+List of the learnsets that I updated to Gen 4 Standards as much as I could right now:
 
-1, 2, and 3 - Bulbasaur, Ivysaur, Venusaur. (Missing: Worry Seed)
-4, 5 and 6 - Charmander, Charmeleon, Charizard.
-7, 8 and 9 - Squirtle, Wartortle, Blastoise.
-10, 11 and 12 - Caterpie, Metapod, Butterfree. (Missing: Bug Bite, Captivate, Tailwind)
-13, 14, and 15 - Weedle, Kakuna, Beedrill. (Missing: Bug Bite, Assurance, Toxic Spikes)
-16, 17 and 18 - Pidgey, Pidgeotto, Pidgeot. (Missing: Tailwind)
-19 and 20 - Rattata, Raticate. (Missing: Assurance)
-21 and 22 - Spearow, Fearow. (Missing: Assurance, Pluck)
-23 and 24 - Ekans, Arbok. (Missing: Gastro Acid)
-25 and 26 - Pikachu, Raichu.
-27 and 28 - Sandshrew, Sandslash. (Missing: Gyro Ball)
-29, 30 and 31 - NidoranF, Nidorina, Nidoqueen. (Missing: Toxic Spikes, Captivate)
-32, 33 and 34 - NidoranM, Nidorino, Nidoking. (Missing: Toxic Spikes, Captivate)
-35 and 36 - Clefairy, Clefable. (Missing: Wake-Up Slap, Lucky Chant, Gravity, Healing Wish)
-37 and 38 - Vulpix, Ninetales. (Missing: Payback, Captivate)
-39 and 40 - Jigglypuff, Wigglytuff. (Missing: Gyro Ball, Wake-Up Slap)
-41 and 42 - Zubat, Golbat.
-43, 44 and 45 - Oddish, Gloom, Vileplume. (Missing: Lucky Chant, Natural Gift)
-46 and 47 - Paras, Parasect.
-48 and 49 - Venonat, Venomoth.
-50 and 51 - Diglett, Dugtrio.
-52 and 53 - Meowth, Persian. (Missing: Assurance, Captivate)
-54 and 55 - Psyduck, Golduck.
-56 and 57 - Mankey, Primeape. (Missing: Assurance, Punishment, Fling)
-58 and 59 - Growlithe, Arcanine.
-60, 61 and 62 - Poliwag, Poliwhirl, Poliwrath. (Missing: Wake-Up Slap)
-63, 64 and 65 - Abra, Kadabra, Alakazam.
-66, 67 and 68 - Machop, Machoke, Machamp. (Missing: Wake-Up Slap)
-69, 70 and 71 - Bellsprout, Weepinbell, Victreebel. (Missing: Gastro Acid, Wring Out)
-72 and 73 - Tentacool, Tentacruel. (Missing: Toxic Spikes, Wring Out) 
-74, 75 and 76 - Geodude, Graveler, Golem.
-77 and 78 - Ponyta, Rapidash.
-79 and 80 - Slowpoke, Slowbro.
-81 and 82 - Magnemite, Magneton. (Missing: Magnet Rise, Gyro Ball)
-83 - Farfetch'd.
-84 and 85 - Doduo, Dodrio. (Missing: Acupressure, Pluck)
-86 and 87 - Seel, Dewgong. (Missing: Aqua Ring)
-88 and 89 - Grimer, Muk. (Missing: Fling)
-90 and 91 - Shellder, Cloyster. (Missing: Toxic Spikes)
-92, 93 and 94 - Gastly, Haunter, Gengar. (Missing: Payback)
-95 - Onix.
-96 and 97 - Drowzee, Hypno.
-98 and 99 - Krabby, Kingler.
-100 and 101 - Voltorb, Electrode. (Missing: Magnet Rise, Gyro Ball)
-102 and 103 - Exeggcute, Exeggutor. (Missing: Worry Seed, Natural Gift)
-104 and 105 - Cubone, Marowak. (Missing: Fling)
-106 - Hitmonlee.
-107 - Hitmonchan.
-108 - Lickitung. (Missing: Me First, Wring Out)
-109 and 110 - Koffing, Weezing. (Missing: Assurance, Gyro Ball)
-111 and 112 - Rhyhorn, Rhydon. (Missing: Hammer Arm)
-113 - Chansey. (Missing: Fling, Healing Wish)
-114 - Tangela. (Missing: Natural Gift, Wring Out)
-115 - Kangaskhan.
-116 and 117 - Horsea, Seadra.
-118 and 119 - Goldeen, Seaking. (Missing: Aqua Ring)
-120 and 121 - Staryu, Starmie. (Missing: Gyro Ball)
-122 - Mr. Mime. (Missing: Power Swap, Guard Swap, Copycat)
-123 - Scyther.
-124 - Jynx. (Missing: Wake-Up Slap, Wring Out)
-125 - Electabuzz.
-126 - Magmar.
-127 - Pinsir.
-128 - Tauros. (Missing: Payback)
-129 and 130 - Magikarp, Gyarados.
-131 - Lapras.
-132 - Ditto.
-133 - Eevee. (Missing: Last Resort, Trump Card)
-134 - Vaporeon. (Missing: Aqua Ring, Last Resort)
-135 - Jolteon. (Missing: Last Resort)
-136 - Flareon. (Missing: Last Resort)
-137 - Porygon. (Missing: Magnet Rise)
-138 and 139 - Omanyte, Omastar.
-140 and 141 - Kabuto and Kabutops. (Missing: Wring Out)
-142 - Aerodactyl.
-143 - Snorlax.
-144 - Articuno. (Missing: Tailwind)
-145 - Zapdos. (Missing: Pluck)
-146 - Moltres.
-147, 148 and 149 - Dratini, Dragonair, Dragonite.
-150 - Mewtwo. (Missing: Guard Swap, Power Swap, Me First)
-151 - Mew. (Missing: Me First)
-152, 153 and 154 - Chikorita, Bayleef, Meganium. (Missing: Natural Gift)
-155, 156 and 157 - Cyndaquil, Quilava, Typhlosion. (Missing: Gyro Ball)
-158, 159 and 160 - Totodile, Croconaw, Feraligatr.
-161 and 162 - Sentret, Furret. (Missing: Me First)
-163 and 164 - Hoothoot, Noctowl. (Missing: Psycho Shift)
-165 and 166 - Ledyba, Ledian.
-167 and 168 - Spinarak, Ariados. (Missing: Bug Bite)
-169 - Crobat.
-170 and 171 - Chinchou, Lanturn. (Missing: Aqua Ring)
-172 - Pichu.
-173 - Cleffa. (Missing: Copycat)
-174 - Igglybuff. (Missing: Copycat)
-175 and 176 - Togepi, Togetic. (Missing: Last Resort)
-177 and 178 - Natu, Xatu. (Missing: Lucky Chant, Me First, Tailwind, Psycho Shift, Power Swap, Guard Swap)
-179, 180 and 181 - Mareep, Flaaffy, Ampharos.
-182 - Bellossom.
-183 and 184 - Marill, Azumarill. (Missing: Aqua Ring)
-185 - Sudowoodo. (Missing: Copycat, Hammer Arm)
-186 - Politoed.
-187, 188 and 189 - Hoppip, Skiploom, Jumpluff. (Missing: U-Turn, Worry Seed)
-190 - Aipom. (Missing: Fling, Last Resort)
-191 and 192 - Sunkern, Sunflora. (Missing: Worry Seed)
-193 - Yanma. (Missing: U-Turn)
-194 and 195 - Wooper, Quagsire.
-196 - Espeon. (Missing: Last Resort, Power Swap)
-197 - Umbreon. (Missing: Assurance, Last Resort, Guard Swap)
-198 - Murkrow. (Missing: Assurance)
-199 - Slowking. (Missing: Trump Card)
-200 - Misdreavus. (Missing: Payback)
-201 - Unown.
-202 - Wobbuffet.
-203 - Girafarig. (Missing: Power Swap, Guard Swap, Assurance)
-204 and 205 - Pineco, Forretress. (Missing: Toxic Spikes, Bug Bite, Natural Gift, Payback, Gyro Ball, Magnet Rise)
-206 - Dunsparce.
-207 - Gligar. (Missing: U-Turn)
-208 - Steelix.
-209 and 210 - Snubbull, Granbull. (Missing: Payback)
-211 - Qwilfish. (Missing: Toxic Spikes)
-212 - Scizor.
-213 - Shuckle. (Missing: Gastro Acid, Bug Bite, Power Trick)
-214 - Heracross.
-215 - Sneasel.
-216 and 217 - Teddiursa, Ursaring. (Missing: Fling, Hammer Arm)
-218 and 219 - Slugma, Magcargo.
-220 and 221 - Swinub, Piloswine.
-222 - Corsola. (Missing: Lucky Chant, Aqua Ring)
-223 and 224 - Remoraid, Octillery. (Missing: Wring Out)
-225 - Delibird.
-226 - Mantine. (Missing: Aqua Ring)
-227 - Skarmory.
-228 and 229 - Houndour, Houndoom. (Missing: Embargo)
-230 - Kingdra.
-231 and 232 - Phanpy, Donphan. (Missing: Natural Gift, Last Resort, Assurance)
-233 - Porygon2. (Missing: Magnet Rise)
-234 - Stantler. (Missing: Captivate, Me First)
-235 - Smeargle.
-236 - Tyrogue.
-237 - Hitmontop. (Missing: Gyro Ball)
-238 - Smoochum. (Missing: Lucky Chant, Copycat)
-239 - Elekid.
-240 - Magby.
-241 - Miltank. (Missing: Captivate, Gyro Ball, Wake-Up Slap)
-242 - Blissey. (Missing: Fling, Healing Wish)
-243 - Raikou.
-244 - Entei.
-245 - Suicune. (Missing: Tailwind)
-246, 247 and 248 - Larvitar, Pupitar, Tyranitar. (Missing: Payback)
-249 - Lugia. (Missing: Punishment, Natural Gift)
-250 - Ho-Oh. (Missing: Punishment, Natural Gift)
-251 - Celebi. (Missing: Natural Gift, Heal Block, Healing Wish)
-283 and 284 - Surskit and Masquerain.
-318 and 319 - Carvanha and Sharpedo. (Missing: Assurance)
-341 and 342 - Corphish and Crawdaunt.
-393, 394 and 395 - Piplup, Prinplup and Empoleon.
-399 and 400 - Bidoof and Bibarel.
-418 and 419 - Buizel and Floatzel.
-424 - Ambipom. (Missing: Fling, Last Resort)
-462 - Magnezone. (Missing: Magnet Rise, Gyro Ball)
-465 - Tangrowth. (Missing: Natural Gift, Wring Out)
-466 - Magmortar.
-467 - Electivire.
-468 - Togekiss.
-469 - Yanmega. (Missing: Bug Bite, U-Turn)
-470 - Leafeon. (Missing: Last Resort)
-471 - Glaceon. (Missing: Last Resort)
-472 - Gliscor. (Missing: U-Turn)
-473 - Mamoswine.
-474 - Porygon-Z. (Missing: Trick Room, Magnet Rise, Embargo, )
-475 - Gallade.
-476 - Probopass. (Missing: Gravity, Magnet Rise)
-477 - Dusknoir. (Missing: Gravity, Payback)
-478 - Froslass. (Missing: Wake-Up Slap, Captivate)
-479 - Rotom. (Missing: Trick)
-480 - Uxie. (Missing: Memento, Natural Gift)
-481 - Mesprit. (Missing: Lucky Chant, Copycat, Natural Gift, Healing Wish)
-482 - Azelf. (Missing: Last Resort, Natural Gift)
-483 - Dialga. (Missing: Metal Burst)
-484 - Palkia.
-485 - Heatran.
-486 - Regigigas. (Missing: Crush Grip)
-487 - Giratina. (Missing: Shadow Force)
-488 - Cresselia. (Missing: Psycho Shift, Lunar Dance)
-489 - Phione. (Missing: Aqua Ring)
-490 - Manaphy. (Missing: Aqua Ring, Heart Swap)
-491 - Darkrai. (Missing: Dark Void)
-492 - Shaymin. (Missing: Natural Gift, Worry Seed, Healing Wish)
-493 - Arceus. (Missing: Natural Gift, Punishment, Gravity)
+Bulbasaur, Ivysaur and Venusaur (Missing: Worry Seed)
+Charmander, Charmeleon and Charizard
+Squirtle, Wartortle and Blastoise
+Caterpie, Metapod and Butterfree (Missing: Bug Bite, Captivate, Tailwind)
+Weedle, Kakuna and Beedrill (Missing: Bug Bite, Assurance, Toxic Spikes)
+Pidgey, Pidgeotto and Pidgeot (Missing: Tailwind)
+Rattata and Raticate (Missing: Assurance)
+Spearow and Fearow (Missing: Assurance, Pluck)
+Ekans and Arbok (Missing: Gastro Acid)
+Pikachu and Raichu
+Sandshrew and Sandslash (Missing: Gyro Ball)
+NidoranF, Nidorina and Nidoqueen (Missing: Toxic Spikes, Captivate)
+NidoranM, Nidorino and Nidoking (Missing: Toxic Spikes, Captivate)
+Clefairy and Clefable (Missing: Wake-Up Slap, Lucky Chant, Gravity, Healing Wish)
+Vulpix and Ninetales (Missing: Payback, Captivate)
+Jigglypuff and Wigglytuff (Missing: Gyro Ball, Wake-Up Slap)
+Zubat and Golbat
+Oddish, Gloom and Vileplume (Missing: Lucky Chant, Natural Gift)
+Paras and Parasect
+Venonat and Venomoth
+Diglett and Dugtrio
+Meowth and Persian (Missing: Assurance, Captivate)
+Psyduck and Golduck
+Mankey and Primeape (Missing: Assurance, Punishment, Fling)
+Growlithe and Arcanine
+Poliwag, Poliwhirl and Poliwrath (Missing: Wake-Up Slap)
+Abra, Kadabra and Alakazam
+Machop, Machoke and Machamp (Missing: Wake-Up Slap)
+Bellsprout and Weepinbell, Victreebel (Missing: Gastro Acid, Wring Out)
+Tentacool and Tentacruel (Missing: Toxic Spikes, Wring Out) 
+Geodude, Graveler and Golem
+Ponyta and Rapidash
+Slowpoke and Slowbro
+Magnemite and Magneton (Missing: Magnet Rise, Gyro Ball)
+Farfetch'd
+Doduo and Dodrio (Missing: Acupressure, Pluck)
+Seel and Dewgong (Missing: Aqua Ring)
+Grimer and Muk (Missing: Fling)
+Shellder and Cloyster (Missing: Toxic Spikes)
+Gastly, Haunter and Gengar (Missing: Payback)
+Onix
+Drowzee and Hypno
+Krabby and Kingler
+Voltorb and Electrode (Missing: Magnet Rise, Gyro Ball)
+Exeggcute and Exeggutor (Missing: Worry Seed, Natural Gift)
+Cubone and Marowak (Missing: Fling)
+Hitmonlee
+Hitmonchan
+Lickitung (Missing: Me First, Wring Out)
+Koffing and Weezing (Missing: Assurance, Gyro Ball)
+Rhyhorn and Rhydon (Missing: Hammer Arm)
+Chansey (Missing: Fling, Healing Wish)
+Tangela (Missing: Natural Gift, Wring Out)
+Kangaskhan
+Horsea and Seadra
+Goldeen and Seaking (Missing: Aqua Ring)
+Staryu and Starmie (Missing: Gyro Ball)
+Mr Mime (Missing: Power Swap, Guard Swap, Copycat)
+Scyther
+Jynx (Missing: Wake-Up Slap, Wring Out)
+Electabuzz
+Magmar
+Pinsir
+Tauros (Missing: Payback)
+Magikarp and Gyarados
+Lapras
+Ditto
+Eevee (Missing: Last Resort, Trump Card)
+Vaporeon (Missing: Aqua Ring, Last Resort)
+Jolteon (Missing: Last Resort)
+Flareon (Missing: Last Resort)
+Porygon (Missing: Magnet Rise)
+Omanyte and Omastar
+Kabuto and Kabutops (Missing: Wring Out)
+Aerodactyl
+Snorlax
+Articuno (Missing: Tailwind)
+Zapdos (Missing: Pluck)
+Moltres
+Dratini, Dragonair and Dragonite
+Mewtwo (Missing: Guard Swap, Power Swap, Me First)
+Mew (Missing: Me First)
+Chikorita, Bayleef and Meganium (Missing: Natural Gift)
+Cyndaquil, Quilava and Typhlosion (Missing: Gyro Ball)
+Totodile, Croconaw and Feraligatr
+Sentret and Furret (Missing: Me First)
+Hoothoot and Noctowl (Missing: Psycho Shift)
+Ledyba and Ledian
+Spinarak and Ariados (Missing: Bug Bite)
+Crobat
+Chinchou and Lanturn (Missing: Aqua Ring)
+Pichu
+Cleffa (Missing: Copycat)
+Igglybuff (Missing: Copycat)
+Togepi and Togetic (Missing: Last Resort)
+Natu and Xatu (Missing: Lucky Chant, Me First, Tailwind, Psycho Shift, Power Swap, Guard Swap)
+Mareep, Flaaffy and Ampharos
+Bellossom
+Marill and Azumarill (Missing: Aqua Ring)
+Sudowoodo (Missing: Copycat, Hammer Arm)
+Politoed
+Hoppip, Skiploom and Jumpluff (Missing: U-Turn, Worry Seed)
+Aipom (Missing: Fling, Last Resort)
+Sunkern and Sunflora (Missing: Worry Seed)
+Yanma (Missing: U-Turn)
+Wooper, Quagsire
+Espeon (Missing: Last Resort, Power Swap)
+Umbreon (Missing: Assurance, Last Resort, Guard Swap)
+Murkrow (Missing: Assurance)
+Slowking (Missing: Trump Card)
+Misdreavus (Missing: Payback)
+Unown
+Wobbuffet
+Girafarig (Missing: Power Swap, Guard Swap, Assurance)
+Pineco and Forretress (Missing: Toxic Spikes, Bug Bite, Natural Gift, Payback, Gyro Ball, Magnet Rise)
+Dunsparce
+Gligar (Missing: U-Turn)
+Steelix
+Snubbull and Granbull (Missing: Payback)
+Qwilfish (Missing: Toxic Spikes)
+Scizor
+Shuckle (Missing: Gastro Acid, Bug Bite, Power Trick)
+Heracross
+Sneasel
+Teddiursa and Ursaring (Missing: Fling, Hammer Arm)
+Slugma and Magcargo
+Swinub and Piloswine
+Corsola (Missing: Lucky Chant, Aqua Ring)
+Remoraid and Octillery (Missing: Wring Out)
+Delibird
+Mantine (Missing: Aqua Ring)
+Skarmory
+Houndour and Houndoom (Missing: Embargo)
+Kingdra
+Phanpy and Donphan (Missing: Natural Gift, Last Resort, Assurance)
+Porygon2 (Missing: Magnet Rise)
+Stantler (Missing: Captivate, Me First)
+Smeargle
+Tyrogue
+Hitmontop (Missing: Gyro Ball)
+Smoochum (Missing: Lucky Chant, Copycat)
+Elekid
+Magby
+Miltank (Missing: Captivate, Gyro Ball, Wake-Up Slap)
+Blissey (Missing: Fling, Healing Wish)
+Raikou
+Entei
+Suicune (Missing: Tailwind)
+Larvitar, Pupitar and Tyranitar (Missing: Payback)
+Lugia (Missing: Punishment, Natural Gift)
+Ho-Oh (Missing: Punishment, Natural Gift)
+Celebi (Missing: Natural Gift, Heal Block, Healing Wish)
+Treecko, Grovyle and Sceptile
+Torchic, Combusken and Blaziken
+Mudkip, Marshtomp and Swampert (Missing: Hammer Arm)
+Poochyena and Mightyena (Missing: Assurance, Embargo)
+Zigzagoon and Linoone (Missing: Fling)
+Wurmple, Silcoon, Beautifly, Cascoon and Dustox (Missing: Bug Bite)
+Lotad, Lombre and Ludicolo (Missing: Natural Gift)
+Seedot, Nuzleaf and Shiftry
+Nincada, Ninjask and Shedinja (Missing: Bug Bite, Heal Block)
+Taillow and Swellow (Missing: Pluck)
+Shroomish and Breloom (Missing: Worry Seed)
+Spinda (Missing: Copycat)
+Wingull and Pelipper (Missing: Payback, Fling, Tailwind)
+Surskit and Masquerain
+Wailmer and Wailord
+Skitty, Delcatty (Missing: Copycat, Wake-Up Slap, Captivate)
+Kecleon
+Baltoy and Claydol (Missing: Power Trick, Heal Block)
+Nosepass
+Torkoal
+Sableye (Missing: Punishment)
+Barboach and Whiscash
+Luvdisc (Missing: Lucky Chant, Aqua Ring, Captivate)
+Corphish and Crawdaunt
+Feebas and Milotic (Missing: Captivate, Aqua Ring)
+Carvanha and Sharpedo (Missing: Assurance)
+Trapinch, Vibrava and Flygon
+Makuhita and Hariyama (Missing: Wake-Up Slap)
+Electrike and Manectric
+Numel and Camerupt
+Spheal, Sealeo and Walrein
+Cacnea and Cacturne (Missing: Payback)
+Snorunt and Glalie
+Lunatone (Missing: Embargo, Heal Block)
+Solrock (Missing: Embargo, Heal Block)
+Azurill
+Spoink and Grumpig (Missing: Payback)
+Plusle (Missing: Copycat, Last Resort)
+Minun (Missing: Copycat, Trump Card)
+Mawile
+Meditite and Medicham (Missing: Power Trick)
+Swablu and Altaria (Missing: Pluck, Natural Gift)
+Wynaut
+Duskull and Dusclops (Missing: Payback, Gravity)
+Roselia (Missing: Toxic Spikes)
+Slakoth, Vigoroth, Slaking (Missing: Fling, Punishment, Hammer Arm)
+Gulpin and Swalot (Missing: Gastro Acid, Wring Out)
+Tropius (Missing: Natural Gift)
+Whismur, Loudred, Exploud
+Clamperl, Huntail and Gorebyss (Missing: Aqua Ring, Captivate)
+Absol (Missing: Me First)
+Shuppet and Banette (Missing: Embargo)
+Seviper (Missing: Wring Out)
+Zangoose (Missing: Embargo)
+Relicanth (Missing: )
+Aron, Lairon and Aggron (Missing: Metal Burst)
+Castform
+Volbeat
+Illumise
+Lileep and Cradily (Missing: Gastro Acid, Wring Out)
+Anorith and Armaldo
+Ralts, Kirlia and Gardevoir (Missing: Healing Wish, Lucky Chant, Captivate)
+Bagon, Shelgon and Salamence
+Beldum, Metang and Metagross (Missing: Magnet Rise, Hammer Arm)
+Regirock (Missing: Hammer Arm)
+Regice (Missing: Hammer Arm)
+Registeel (Missing: Hammer Arm)
+Kyogre (Missing: Aqua Ring)
+Groudon (Missing: Hammer Arm)
+Rayquaza
+Latias (Missing: Psycho Shift, Healing Wish)
+Latios (Missing: Heal Block, Psycho Shift)
+Jirachi (Missing: Gravity, Healing Wish, Last Resort)
+Deoxys (Missing: Psycho Shift)
+Chimecho (Missing: Healing Wish)
+Piplup, Prinplup and Empoleon
+Bidoof and Bibarel
+Buizel and Floatzel
+Ambipom (Missing: Fling, Last Resort)
+Magnezone (Missing: Magnet Rise, Gyro Ball)
+Tangrowth (Missing: Natural Gift, Wring Out)
+Magmortar
+Electivire
+Togekiss
+Yanmega (Missing: Bug Bite, U-Turn)
+Leafeon (Missing: Last Resort)
+Glaceon (Missing: Last Resort)
+Gliscor (Missing: U-Turn)
+Mamoswine
+Porygon-Z (Missing: Trick Room, Magnet Rise, Embargo, )
+Gallade
+Probopass (Missing: Gravity, Magnet Rise)
+Dusknoir (Missing: Gravity, Payback)
+Froslass (Missing: Wake-Up Slap, Captivate)
+Rotom (Missing: Trick)
+Uxie (Missing: Memento, Natural Gift)
+Mesprit (Missing: Lucky Chant, Copycat, Natural Gift, Healing Wish)
+Azelf (Missing: Last Resort, Natural Gift)
+Dialga (Missing: Metal Burst)
+Palkia
+Heatran
+Regigigas (Missing: Crush Grip)
+Giratina (Missing: Shadow Force)
+Cresselia (Missing: Psycho Shift, Lunar Dance)
+Phione (Missing: Aqua Ring)
+Manaphy (Missing: Aqua Ring, Heart Swap)
+Darkrai (Missing: Dark Void)
+Shaymin (Missing: Natural Gift, Worry Seed, Healing Wish)
+Arceus (Missing: Natural Gift, Punishment, Gravity)

@@ -434,6 +434,7 @@ gBattleAnims_Moves:: @ 81C7168
 	.4byte Move_ROCK_POLISH
 	.4byte Move_CHARGE_BEAM
 	.4byte Move_AVALANCHE
+	.4byte Move_HEAD_SMASH
 	.4byte PoundCopy
 
 	.align 2
@@ -10732,6 +10733,18 @@ Move_CHARGE_BEAM:
     end
 
 Move_AVALANCHE:
+    loadspritegfx 10135
+    monbg ANIM_BANK_TARGET
+    setalpha 12, 8
+    playsewithpan SE_W003, 63
+    createsprite gBasicHitSplatSpriteTemplate, 2, 0, 0, 1, 2
+    createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_TARGET, 3, 0, 6, 1
+    waitforvisualfinish
+    clearmonbg ANIM_BANK_TARGET
+    blendoff
+    end
+
+Move_HEAD_SMASH:
     loadspritegfx 10135
     monbg ANIM_BANK_TARGET
     setalpha 12, 8
