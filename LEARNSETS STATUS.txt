@@ -123,6 +123,35 @@ List of the learnsets that I updated to Gen. 4 Standards as much as I could righ
 212 - Scizor.
 213 - Shuckle. (Missing: Gastro Acid, Bug Bite, Power Trick)
 214 - Heracross.
+215 - Sneasel.
+216 and 217 - Teddiursa, Ursaring. (Missing: Fling, Hammer Arm)
+218 and 219 - Slugma, Magcargo.
+220 and 221 - Swinub, Piloswine.
+222 - Corsola. (Missing: Lucky Chant, Aqua Ring)
+223 and 224 - Remoraid, Octillery. (Missing: Wring Out)
+225 - Delibird.
+226 - Mantine. (Missing: Aqua Ring)
+227 - Skarmory.
+228 and 229 - Houndour, Houndoom. (Missing: Embargo)
+230 - Kingdra.
+231 and 232 - Phanpy, Donphan. (Missing: Natural Gift, Last Resort, Assurance)
+233 - Porygon2. (Missing: Magnet Rise)
+234 - Stantler. (Missing: Captivate, Me First)
+235 - Smeargle.
+236 - Tyrogue.
+237 - Hitmontop. (Missing: Gyro Ball)
+238 - Smoochum. (Missing: Lucky Chant, Copycat)
+239 - Elekid.
+240 - Magby.
+241 - Miltank. (Missing: Captivate, Gyro Ball, Wake-Up Slap)
+242 - Blissey. (Missing: Fling, Healing Wish)
+243 - Raikou.
+244 - Entei.
+245 - Suicune. (Missing: Tailwind)
+246, 247 and 248 - Larvitar, Pupitar, Tyranitar. (Missing: Payback)
+249 - Lugia. (Missing: Punishment, Natural Gift)
+250 - Ho-Oh. (Missing: Punishment, Natural Gift)
+251 - Celebi. (Missing: Natural Gift, Heal Block, Healing Wish)
 283 and 284 - Surskit and Masquerain.
 318 and 319 - Carvanha and Sharpedo. (Missing: Assurance)
 341 and 342 - Corphish and Crawdaunt.
