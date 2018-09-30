@@ -227,12 +227,52 @@ Latios (Missing: Heal Block, Psycho Shift)
 Jirachi (Missing: Gravity, Healing Wish, Last Resort)
 Deoxys (Missing: Psycho Shift)
 Chimecho (Missing: Healing Wish)
+Turtwig, Grotle and Torterra
+Chimchar, Monferno and Infernape (Missing: Punishment)
 Piplup, Prinplup and Empoleon
+Starly, Staravia and Staraptor
 Bidoof and Bibarel
+Kricketot and Kricketune (Missing: Bug Bite)
+Shinx, Luxio and Luxray
+Budew and Roserade (Missing: Worry Seed)
+Cranidos and Rampardos (Missing: Assurance)
+Shieldon and Bastiodon (Missing: Metal Burst)
+Burmy, Wormadam and Mothim (Missing: Bug Bite, Captivate)
+Combee and Vespiquen (Missing: Bug Bite, Defend Order, Heal Order, Captivate, Attack Order)
+Pachirisu (Missing: Last Resort)
 Buizel and Floatzel
+Cherubi and Cherrim (Missing: Worry Seed, Lucky Chant)
+Shellos and Gastrodon [East]
 Ambipom (Missing: Fling, Last Resort)
+Drifloon and Drifblim (Missing: Payback)
+Buneary and Lopunny (Missing: Healing Wish)
+Mismagius (Missing: Lucky Chant)
+Honchkrow
+Glameow and Purugly (Missing: Captivate)
+Chingling (Missing: Last Resort)
+Stunky and Skuntank
+Bronzor and Bronzong (Missing: Gyro Ball, Payback, Heal Block)
+Bonsly (Missing: Copycat)
+Mime Jr. (Missing: Copycat)
+Happiny (Missing: Copycat)
+Chatot (Missing: Chatter)
+Spiritomb
+Gible, Gabite and Garchomp
+Munchlax (Missing: Fling, Natural Gift, Last Resort)
+Riolu and Lucario (Missing: Copycat, Me First)
+Hippopotas and Hippowdon
+Skorupi and Drapion (Missing: Acupressure, Toxic Spikes, Bug Bite)
+Croagunk and Toxicroak
+Carnivine (Missing: Wring Out)
+Finneon and Lumineon (Missing: Captivate, Aqua Ring, U-Turn)
+Mantyke (Missing: Aqua Ring)
+Snover and Abomasnow
+Weavile (Missing: Assurance, Embargo, Fling)
 Magnezone (Missing: Magnet Rise, Gyro Ball)
+Lickilicky (Missing: Me First, Wring Out, Gyro Ball)
+Rhyperior (Missing: Hammer Arm)
 Tangrowth (Missing: Natural Gift, Wring Out)
+Electivire
 Magmortar
 Electivire
 Togekiss
@@ -241,13 +281,13 @@ Leafeon (Missing: Last Resort)
 Glaceon (Missing: Last Resort)
 Gliscor (Missing: U-Turn)
 Mamoswine
-Porygon-Z (Missing: Trick Room, Magnet Rise, Embargo, )
+Porygon-Z (Missing: Trick Room, Magnet Rise, Embargo)
 Gallade
 Probopass (Missing: Gravity, Magnet Rise)
 Dusknoir (Missing: Gravity, Payback)
 Froslass (Missing: Wake-Up Slap, Captivate)
-Rotom (Missing: Trick)
-Uxie (Missing: Memento, Natural Gift)
+Rotom
+Uxie (Missing: Natural Gift)
 Mesprit (Missing: Lucky Chant, Copycat, Natural Gift, Healing Wish)
 Azelf (Missing: Last Resort, Natural Gift)
 Dialga (Missing: Metal Burst)
