@@ -437,6 +437,7 @@ gBattleAnims_Moves:: @ 81C7168
 	.4byte Move_HEAD_SMASH
     .4byte Move_FOCUS_BLAST
     .4byte Move_GRASS_KNOT
+    .4byte Move_DRAIN_PUNCH
 	.4byte PoundCopy
 
 	.align 2
@@ -10850,6 +10851,36 @@ Move_GRASS_KNOT:
 	delay 12
 	loopsewithpan SE_W039, 63, 10, 8
 	waitforvisualfinish
+	end
+
+Move_DRAIN_PUNCH:
+	loadspritegfx 10135
+	loadspritegfx 10143
+	loadspritegfx 10147
+	loadspritegfx 10031
+	loadspritegfx 10135
+	monbg ANIM_BANK_TARGET
+	delay 2
+	setalpha 12, 8
+	createsprite gSimplePaletteBlendSpriteTemplate, 2, 1, 1, 0, 8, rgb(13, 31, 12)
+	playsewithpan SE_W025, 63
+	createsprite gMegaPunchKickSpriteTemplate, 3, 0, 0, 0, 50
+	createvisualtask sub_80E2A38, 10, 4, 2, 0, 7, 32767
+	waitforvisualfinish
+	createsprite gBasicHitSplatSpriteTemplate, 2, 0, 0, 1, 1
+	delay 2
+	createvisualtask AnimTask_ShakeMon, 5, 1, 0, 5, 5, 1
+	waitforvisualfinish
+	delay 3
+	call _81CF5AE
+	waitforvisualfinish
+	delay 15
+	call Unknown_81D5EF5
+	waitforvisualfinish
+	createsprite gSimplePaletteBlendSpriteTemplate, 40, 31, 4, 4, 0, rgb(0, 0, 0)
+	waitforvisualfinish
+	clearmonbg ANIM_BANK_DEF_PARTNER
+	blendoff
 	end
 
 Move_KNOCK_OFF: @ 81D523B
