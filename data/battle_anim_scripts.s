@@ -436,6 +436,7 @@ gBattleAnims_Moves:: @ 81C7168
 	.4byte Move_AVALANCHE
 	.4byte Move_HEAD_SMASH
     .4byte Move_FOCUS_BLAST
+    .4byte Move_GRASS_KNOT
 	.4byte PoundCopy
 
 	.align 2
@@ -10834,6 +10835,21 @@ Move_FOCUS_BLAST:
 	restorebg
 	waitbgfadeout
 	delay 1
+	end
+
+Move_GRASS_KNOT:
+	loadspritegfx 10006
+	playsewithpan SE_W077, 192
+	createsprite gLeechSeedSpriteTemplate, 130, 15, 0, 0, 24, 35, -32
+	delay 8
+	playsewithpan SE_W077, 192
+	createsprite gLeechSeedSpriteTemplate, 130, 15, 0, -16, 24, 35, -40
+	delay 8
+	playsewithpan SE_W077, 192
+	createsprite gLeechSeedSpriteTemplate, 130, 15, 0, 16, 24, 35, -37
+	delay 12
+	loopsewithpan SE_W039, 63, 10, 8
+	waitforvisualfinish
 	end
 
 Move_KNOCK_OFF: @ 81D523B

@@ -1666,6 +1666,10 @@ static const u8 MoveDescription_FocusBlast[] = _(
     "A mental-focused blast. May\n"
     "lower the foe’s SP. DEF.");
 
+static const u8 MoveDescription_GrassKnot[] = _(
+	"A snare attack that hits\n"
+	"harder the heavier the foe.");
+
 const u8 * const gMoveDescriptions[] = {
     MoveDescription_Pound,
     MoveDescription_KarateChop,
@@ -2084,4 +2088,5 @@ const u8 * const gMoveDescriptions[] = {
     MoveDescription_Avalanche,
     MoveDescription_HeadSmash,
     MoveDescription_FocusBlast,
+    MoveDescription_GrassKnot,
 };
