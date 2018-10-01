@@ -12,3 +12,4 @@ Long-term Goals:
 * Make it so Judgment checks for an item (the plates) and changes its type depending on which one Arceus is holding at that time.
 * Try to create new abilities and implement all the ones added in the Gen. 4 games, or at least most of them.
 * Look into creating new move effects to add the moves that are missing in [the LEARNSETS STATUS document](https://github.com/LOuroboros/pokeruby493/blob/master/LEARNSETS%20STATUS.txt).
+* Look into creating new sprites or at least make modified copies of existing assets for certain move animations, like Gunk Shot's or Ominous Wind.

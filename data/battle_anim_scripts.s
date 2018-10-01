@@ -10567,16 +10567,32 @@ Move_ROAR_OF_TIME:
     end
 
 Move_SPACIAL_REND:
-    loadspritegfx 10135
-    monbg ANIM_BANK_TARGET
-    setalpha 12, 8
-    playsewithpan SE_W003, 63
-    createsprite gBasicHitSplatSpriteTemplate, 2, 0, 0, 1, 2
-    createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_TARGET, 3, 0, 6, 1
-    waitforvisualfinish
-    clearmonbg ANIM_BANK_TARGET
-    blendoff
-    end
+	loadspritegfx 10249
+	monbg ANIM_BANK_ATTACKER
+	monbgprio_28 0
+	fadetobg 16
+	waitbgfadeout
+	delay 1
+	createvisualtask sub_80DF924, 5
+	playsewithpan SE_W100, 192
+	delay 8
+	createvisualtask sub_80798AC, 5, 10249, 19456, 14, 0, 3
+	createsprite gBattleAnimSpriteTemplate_83DB0E8, 2, 0
+	createsprite gBattleAnimSpriteTemplate_83DB0E8, 2, 43
+	createsprite gBattleAnimSpriteTemplate_83DB0E8, 2, 85
+	createsprite gBattleAnimSpriteTemplate_83DB0E8, 2, 128
+	createsprite gBattleAnimSpriteTemplate_83DB0E8, 2, 170
+	createsprite gBattleAnimSpriteTemplate_83DB0E8, 2, 213
+	delay 30
+	playsewithpan SE_W100, 192
+	delay 30
+	playsewithpan SE_W100, 192
+	waitforvisualfinish
+    clearmonbg ANIM_BANK_ATTACKER
+	restorebg
+    waitbgfadein
+    delay 1
+	end
 
 Move_MAGMA_STORM:
     loadspritegfx 10135
@@ -10603,16 +10619,22 @@ Move_SHADOW_CLAW:
     end
 
 Move_ENERGY_BALL:
-    loadspritegfx 10135
-    monbg ANIM_BANK_TARGET
-    setalpha 12, 8
-    playsewithpan SE_W003, 63
-    createsprite gBasicHitSplatSpriteTemplate, 2, 0, 0, 1, 2
-    createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_TARGET, 3, 0, 6, 1
+	loadspritegfx 10212
+	loadspritegfx 10256
+	loadspritegfx 10257
+    createsprite gSimplePaletteBlendSpriteTemplate, 2, 31, 2, 0, 4, rgb(0, 255, 68)
+	monbg ANIM_BANK_ATK_PARTNER
+	monbgprio_28 0
+	setalpha 12, 8
+	createsprite gBattleAnimSpriteTemplate_83DA0FC, 130, 0
+	playsewithpan SE_W025, 192
     waitforvisualfinish
-    clearmonbg ANIM_BANK_TARGET
-    blendoff
-    end
+	createvisualtask AnimTask_ShakeMon2, 2, ANIM_BANK_TARGET, 8, 0, 16, 1
+	playsewithpan SE_W025B, 63
+	clearmonbg ANIM_BANK_ATK_PARTNER
+	blendoff
+    createsprite gSimplePaletteBlendSpriteTemplate, 40, 31, 4, 4, 0, rgb(0, 0, 0)
+	end
 
 Move_SEED_FLARE:
     loadspritegfx 10135
