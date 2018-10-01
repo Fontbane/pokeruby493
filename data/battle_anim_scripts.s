@@ -435,6 +435,7 @@ gBattleAnims_Moves:: @ 81C7168
 	.4byte Move_CHARGE_BEAM
 	.4byte Move_AVALANCHE
 	.4byte Move_HEAD_SMASH
+    .4byte Move_FOCUS_BLAST
 	.4byte PoundCopy
 
 	.align 2
@@ -9574,11 +9575,30 @@ Move_PSYCHO_BOOST: @ 81D51C7
 	end
 
 Move_AQUA_JET:
-    createvisualtask sub_80D074C, 2, 0, 3
-    delay 8
-    loopsewithpan SE_W039, 192, 38, 3
-    waitforvisualfinish
-    end
+	loadspritegfx 10135
+	loadspritegfx 10155
+	loadspritegfx 10272
+	loadspritegfx 10273
+	createvisualtask AnimTask_TranslateMonEllipticalRespectSide, 2, ANIM_BANK_ATTACKER, 24, 6, 1, 5
+	createvisualtask sub_80E2DD8, 2, 0, 4, 7, 3
+	playsewithpan SE_W026, 192
+	setalpha 12, 8
+    delay 24
+	playsewithpan SE_W153, 63
+	createsprite gBattleAnimSpriteTemplate_83DA614, 131, 1
+	call _81D4A48
+	call _81D4A48
+	call _81D4A48
+	call _81D4A48
+	call _81D4A48
+	delay 12
+	call _81C9502
+	monbg ANIM_BANK_DEF_PARTNER
+	waitforvisualfinish
+	visible 0
+	clearmonbg ANIM_BANK_DEF_PARTNER
+	blendoff
+	end
 
 Move_DOUBLE_HIT:
     loadspritegfx 10135
@@ -10755,6 +10775,44 @@ Move_HEAD_SMASH:
     clearmonbg ANIM_BANK_TARGET
     blendoff
     end
+
+Move_FOCUS_BLAST:
+	loadspritegfx 10212
+	loadspritegfx 10256
+	loadspritegfx 10257
+	monbg ANIM_BANK_ATK_PARTNER
+	monbgprio_28 0
+	setalpha 12, 8
+    fadetobg 9
+    waitbgfadeout
+	createsprite gBattleAnimSpriteTemplate_83DA0FC, 130, 0
+	playsewithpan SE_W025, 192
+	delay 20
+	createsprite gBattleAnimSpriteTemplate_83DB428, 2, 4, 1, 180, 1
+	createvisualtask sub_812B340, 5, 234, 0
+	delay 40
+	createsprite gBattleAnimSpriteTemplate_83DA114, 41, 200, 96, 1, 120
+	delay 8
+	createsprite gBattleAnimSpriteTemplate_83DA114, 41, 20, 248, 4, 112
+	delay 8
+	createsprite gBattleAnimSpriteTemplate_83DA114, 41, 130, 160, 2, 104
+	delay 8
+	createsprite gBattleAnimSpriteTemplate_83DA114, 41, 160, 192, 0, 96
+	delay 8
+	createsprite gBattleAnimSpriteTemplate_83DA114, 41, 60, 288, 3, 88
+	delay 74
+	createsprite gBattleAnimSpriteTemplate_83DA12C, 131, 0
+	playsewithpan SE_W207, 192
+	delay 16
+	createvisualtask AnimTask_ShakeMon2, 2, ANIM_BANK_TARGET, 8, 0, 16, 1
+	playsewithpan SE_W025B, 63
+	waitforvisualfinish
+	clearmonbg ANIM_BANK_ATK_PARTNER
+	blendoff
+	restorebg
+	waitbgfadeout
+	delay 1
+	end
 
 Move_KNOCK_OFF: @ 81D523B
 	loadspritegfx 10277

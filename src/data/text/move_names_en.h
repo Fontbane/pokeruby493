@@ -416,4 +416,5 @@ const u8 gMoveNames[][13] = {
     [MOVE_CHARGE_BEAM] = _("CHARGE BEAM"),
     [MOVE_AVALANCHE] = _("AVALANCHE"),
     [MOVE_HEAD_SMASH] = _("HEAD SMASH"),
+    [MOVE_FOCUS_BLAST] = _("FOCUS BLAST"),
 };

@@ -51,7 +51,7 @@ I intend to implement as many Gen. 4 features as I can to this base. Right now, 
 
 * You can now run indoors
 
-* There's 62 Gen. 4 moves added to Pokémon Ruby and Sapphire's 354. The list starts with Aqua Jet in [the moves.h file](https://github.com/LOuroboros/pokeruby493/blob/fa8a7c4745c3687a703dea9c7d2cd23b2c7244a0/include/constants/moves.h#L359). Judgment's, Roost's and Charge Beam's effects aren't implemented yet and the last 29 moves currently use Pound's animation as a placeholder.
+* There's 63 Gen. 4 moves added to Pokémon Ruby and Sapphire's 354. The list starts with Aqua Jet in [the moves.h file](https://github.com/LOuroboros/pokeruby493/blob/fa8a7c4745c3687a703dea9c7d2cd23b2c7244a0/include/constants/moves.h#L359). Judgment's, Roost's and Charge Beam's effects aren't implemented yet and the last 29 moves currently use Pound's animation as a placeholder.
 
 * There's 2 new evolution stones: The Shiny Stone for Roselia and Togetic, and the Dusk Stone for Misdreavus and Murkrow.
 
@@ -88,3 +88,5 @@ I intend to implement as many Gen. 4 features as I can to this base. Right now, 
 -[ShantyTown](https://github.com/huderlem): Tips on how to debug any problems I may find while working with the decompilation projects.
 
 -[Rubyruby](https://github.com/hiddenruby): Attribution screen which I repurposed into an Anti-Piracy screen.
+
+-[MrDollSteak](https://www.pokecommunity.com/showthread.php?t=326301) and [DestinedJagold](https://www.pokecommunity.com/member.php?u=48504): Inspiration for some of the moves' animations.

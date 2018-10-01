@@ -4998,14 +4998,26 @@ const struct BattleMove gBattleMoves[] = {
     },
 
     [MOVE_HEAD_SMASH] = {
-        .effect = EFFECT_RECOIL,
+        .effect = EFFECT_DOUBLE_EDGE,
         .power = 150,
         .type = TYPE_FIGHTING,
         .accuracy = 80,
-        .pp = 55,
+        .pp = 5,
         .secondaryEffectChance = 0,
         .target = TARGET_SELECTED_POKEMON,
         .priority = 0,
         .flags = F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT,
+    },
+
+    [MOVE_FOCUS_BLAST] = {
+        .effect = EFFECT_SPECIAL_DEFENSE_DOWN_HIT,
+        .power = 120,
+        .type = TYPE_FIGHTING,
+        .accuracy = 70,
+        .pp = 5,
+        .secondaryEffectChance = 10,
+        .target = TARGET_SELECTED_POKEMON,
+        .priority = 0,
+        .flags = F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT,
     },
 };

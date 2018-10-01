@@ -2,12 +2,12 @@
 
 Current Goals:
 * Misc. changes so the repository can work correctly for the most part with InmortalKaktus' Pokémon Editor.
-* Update Learnsets to Gen. 4 (Pt/HG/SS) standards.
+* Make an animation for Wood Hammer and the other moves that come afterwards.
 
 Long-term Goals:
 * Fix Roost's effect.
 * Fix Charge Beam's effect and stats. It is temporarily boosted to 100 Power Points due to its effect being missing.
-* Make an animation for Wood Hammer and the other moves that come afterwards.
+* Make a proper effect for Head Smash. It's supposed to hit the user for half of the damage it does to the opponent.
 * Implement formes for the pokémon that are supposed to have one (Burmy, Cherrim, Rotom, Giratina, Shaymin, Arceus).
 * Make it so Judgment checks for an item (the plates) and changes its type depending on which one Arceus is holding at that time.
 * Try to create new abilities and implement all the ones added in the Gen. 4 games, or at least most of them.
