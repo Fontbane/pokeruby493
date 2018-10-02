@@ -10464,8 +10464,20 @@ Move_ROCK_WRECKER:
 	loadspritegfx 10035
     loadspritegfx 10058
 	loadspritegfx 10135
-	monbg ANIM_BANK_DEF_PARTNER
-	setalpha 12, 8
+	loadspritegfx 10135
+	playsewithpan SE_W129, 192
+	createsprite gBattleAnimSpriteTemplate_83DB3DC, 2, 2, 4, 2, 32767, 10, 0, 0
+	waitforvisualfinish
+	delay 10
+	playsewithpan SE_W207, 192
+	waitplaysewithpan SE_W207, 192, 8
+	createvisualtask AnimTask_TranslateMonEllipticalRespectSide, 2, ANIM_BANK_ATTACKER, 18, 6, 2, 4
+	waitforvisualfinish
+	createsprite gSimplePaletteBlendSpriteTemplate, 2, 1, 0, 16, 16, rgb(31, 31, 31)
+	createsprite gSlideMonToOffsetSpriteTemplate, 2, 0, 20, 0, 0, 4
+	delay 3
+    call _MegaSlide0
+    waitforvisualfinish
     createvisualtask sub_80E2324, 2, 257, 257, 257
 	playsewithpan SE_W207, 192
 	createsprite gBattleAnimSpriteTemplate_83DADE8, 130, 16, 0, 0, 0, 25, 257
@@ -10478,10 +10490,33 @@ Move_ROCK_WRECKER:
 	createsprite gBattleAnimSpriteTemplate_83DAC64, 130, 0, 5, 20, -24, 14, 2
 	createsprite gBattleAnimSpriteTemplate_83DAC64, 130, -5, 0, -20, -24, 14, 2
 	createvisualtask sub_80E2324, 2, 257, 257, 257
-	waitforvisualfinish
-	clearmonbg ANIM_BANK_DEF_PARTNER
-	blendoff
-	end
+	createvisualtask sub_80E1864, 5, 1, 5, 14
+	createvisualtask sub_80E1864, 5, 1, 5, 14
+	loopsewithpan SE_W070, 63, 8, 10
+    waitforvisualfinish
+    restorebg
+    createsprite gSlideMonToOriginalPosSpriteTemplate, 2, 0, 0, 9
+    waitbgfadein
+    createsprite gSimplePaletteBlendSpriteTemplate, 2, 1, 1, 4, 0, rgb(0, 0, 0)
+    clearmonbg ANIM_BANK_ATK_PARTNER
+    blendoff
+    end
+_MegaSlide0:
+	delay 2
+	createvisualtask sub_80E4200, 2
+	jumpargeq 7, 1, _MegaSlide3
+	createvisualtask sub_812C924, 2
+	jumpargeq 7, 0, _MegaSlide1
+	jumpargeq 7, 1, _MegaSlide2
+_MegaSlide1:
+	changebg 4
+	return
+_MegaSlide2:
+	changebg 5
+	return
+_MegaSlide3:
+	changebg 6
+	return
 
 Move_STONE_EDGE:
 	loadspritegfx 10058
@@ -10506,16 +10541,60 @@ Move_STONE_EDGE:
 	end
 
 Move_GIGA_IMPACT:
-    loadspritegfx 10135
-    monbg ANIM_BANK_TARGET
-    setalpha 12, 8
-    playsewithpan SE_W003, 63
-    createsprite gBasicHitSplatSpriteTemplate, 2, 0, 0, 1, 2
-    createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_TARGET, 3, 0, 6, 1
-    waitforvisualfinish
-    clearmonbg ANIM_BANK_TARGET
+	loadspritegfx 10135
+	playsewithpan SE_W129, 192
+	createsprite gBattleAnimSpriteTemplate_83DB3DC, 2, 2, 4, 2, 32767, 10, 0, 0
+	waitforvisualfinish
+	delay 10
+	playsewithpan SE_W207, 192
+	waitplaysewithpan SE_W207, 192, 8
+	createvisualtask AnimTask_TranslateMonEllipticalRespectSide, 2, ANIM_BANK_ATTACKER, 18, 6, 2, 4
+	waitforvisualfinish
+	createsprite gSimplePaletteBlendSpriteTemplate, 2, 1, 0, 16, 16, rgb(31, 31, 31)
+	createsprite gSlideMonToOffsetSpriteTemplate, 2, 0, 20, 0, 0, 4
+	delay 3
+    call _GigaSlide0
+	waitforvisualfinish
+	playsewithpan SE_W025B, 63
+	createsprite gBasicHitSplatSpriteTemplate, 132, -10, 0, 1, 0
+	createsprite gSlideMonToOffsetSpriteTemplate, 2, 1, -32, 0, 0, 3
+	waitforvisualfinish
+	createvisualtask sub_80A8E04, 2, 8, -256, 0, 0
+	createvisualtask sub_80A8E04, 2, 8, -256, 1, 0
+	createvisualtask AnimTask_ShakeMonInPlace, 2, ANIM_BANK_ATTACKER, 4, 0, 12, 1
+	createvisualtask AnimTask_ShakeMonInPlace, 2, ANIM_BANK_TARGET, 4, 0, 12, 1
+	createsprite gSimplePaletteBlendSpriteTemplate, 2, 1, 2, 16, 0, rgb(31, 31, 31)
+	waitforvisualfinish
+	createvisualtask sub_80A8E04, 2, 8, -256, 0, 1
+	createvisualtask sub_80A8E04, 2, 8, -256, 1, 1
+	waitforvisualfinish
+	clearmonbg ANIM_BANK_TARGET
+	blendoff
+	createsprite gSlideMonToOriginalPosSpriteTemplate, 2, 0, 0, 5
+	delay 3
+	createsprite gSlideMonToOriginalPosSpriteTemplate, 2, 1, 0, 7
+    restorebg
+    waitbgfadein
+    createsprite gSimplePaletteBlendSpriteTemplate, 2, 1, 1, 4, 0, rgb(0, 0, 0)
+    clearmonbg ANIM_BANK_ATK_PARTNER
     blendoff
     end
+_GigaSlide0:
+	delay 2
+	createvisualtask sub_80E4200, 2
+	jumpargeq 7, 1, _GigaSlide3
+	createvisualtask sub_812C924, 2
+	jumpargeq 7, 0, _GigaSlide1
+	jumpargeq 7, 1, _GigaSlide2
+_GigaSlide1:
+	changebg 4
+	return
+_GigaSlide2:
+	changebg 5
+	return
+_GigaSlide3:
+	changebg 6
+	return
 
 Move_LAVA_PLUME:
     loadspritegfx 10135
