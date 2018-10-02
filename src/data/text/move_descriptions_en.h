@@ -1563,7 +1563,7 @@ static const u8 MoveDescription_RockWrecker[] = _(
     "user immobile the next turn.");
 
 static const u8 MoveDescription_StoneEdge[] = _(
-    "Stabs with sharpe stones.\n"
+    "Stabs with sharp stones.\n"
     "High critical-hit ratio.");
 
 static const u8 MoveDescription_GigaImpact[] = _(
