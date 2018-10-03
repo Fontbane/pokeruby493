@@ -10874,16 +10874,38 @@ Move_ROOST:
 	end
 
 Move_GUNK_SHOT:
-    loadspritegfx 10135
-    monbg ANIM_BANK_TARGET
-    setalpha 12, 8
-    playsewithpan SE_W003, 63
-    createsprite gBasicHitSplatSpriteTemplate, 2, 0, 0, 1, 2
-    createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_TARGET, 3, 0, 6, 1
-    waitforvisualfinish
-    clearmonbg ANIM_BANK_TARGET
-    blendoff
-    end
+	loadspritegfx 10029
+	loadspritegfx 10150
+	monbg ANIM_BANK_DEF_PARTNER
+	monbgprio_28 1
+	setalpha 12, 8
+	createvisualtask AnimTask_ShakeMon, 5, 0, 0, 2, 46, 1
+	delay 6
+	createvisualtask sub_80D3630, 5, 100
+	panse_1B SE_W053, 192, 63, 2, 0
+	call _GunkShotProjectiles
+	call _GunkShotProjectiles
+	call _GunkShotProjectiles
+	createvisualtask AnimTask_ShakeMon, 5, 1, 3, 0, 43, 1
+	call _GunkShotProjectiles
+	call _GunkShotProjectiles
+	call _GunkShotProjectiles
+	call _GunkShotProjectiles
+	call _GunkShotProjectiles
+	call _GunkShotProjectiles
+	call _GunkShotProjectiles
+	call _GunkShotProjectiles
+	waitforvisualfinish
+	clearmonbg ANIM_BANK_DEF_PARTNER
+	blendoff
+	end
+_GunkShotProjectiles:
+	createsprite gBattleAnimSpriteTemplate_83DA2D0, 130, 20, 0, 40, 1, -24, 0
+	playsewithpan SE_W145C, 192
+	delay 1
+	createsprite gBattleAnimSpriteTemplate_83DA2D0, 130, 20, 0, 40, 1, -24, 0
+	playsewithpan SE_W145C, 192
+	return
 
 Move_CROSS_POISON:
     loadspritegfx 10135
