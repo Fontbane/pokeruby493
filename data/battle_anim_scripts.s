@@ -10441,53 +10441,25 @@ Move_MAGNET_BOMB:
     end
 
 Move_DISCHARGE:
-	loadspritegfx 10135
-	loadspritegfx 10011
-	delay 0
-	createvisualtask sub_80E1F8C, 2, 3, -31, 1, 5, 5, 23551
-	playsewithpan SE_W085B, 192
-	createsprite gBattleAnimSpriteTemplate_83D985C, 0, 32, 24, 190, 12, 0, 1, 0
-	delay 0
-	createsprite gBattleAnimSpriteTemplate_83D985C, 0, 80, 24, 22, 12, 0, 1, 0
-	createsprite gBattleAnimSpriteTemplate_83D985C, 0, 156, 24, 121, 13, 0, 1, 1
-	delay 0
-	createvisualtask sub_80E1F8C, 2, 3, -31, 1, 0, 0, 23551
-	delay 10
-	createvisualtask sub_80E1F8C, 2, 3, -31, 1, 5, 5, 23551
-	playsewithpan SE_W085B, 192
-	createsprite gBattleAnimSpriteTemplate_83D985C, 0, 100, 24, 60, 10, 0, 1, 0
-	createsprite gBattleAnimSpriteTemplate_83D985C, 0, 170, 24, 42, 11, 0, 1, 1
-	delay 0
-	createsprite gBattleAnimSpriteTemplate_83D985C, 0, 238, 24, 165, 10, 0, 1, 1
-	delay 0
-	createvisualtask sub_80E1F8C, 2, 3, -31, 1, 0, 0, 23551
-	delay 20
-	createvisualtask sub_80E1F8C, 2, 3, -31, 1, 7, 7, 23551
-	playsewithpan SE_W085B, 192
-	createsprite gBattleAnimSpriteTemplate_83D9908, 4, 0, 0, 32, 12, 0, 20, 0, 0
-	createsprite gBattleAnimSpriteTemplate_83D9908, 4, 0, 0, 32, 12, 64, 20, 1, 0
-	createsprite gBattleAnimSpriteTemplate_83D9908, 4, 0, 0, 32, 12, 128, 20, 0, 0
-    createvisualtask sub_80E2324, 2, 257, 257, 257
-	delay 1
-	createsprite gBattleAnimSpriteTemplate_83D9908, 4, 0, 0, 32, 12, 192, 20, 2, 0
-	createsprite gBattleAnimSpriteTemplate_83D9908, 4, 0, 0, 16, 12, 32, 20, 0, 0
-	createsprite gBattleAnimSpriteTemplate_83D9908, 4, 0, 0, 16, 12, 96, 20, 1, 0
-	createvisualtask sub_80E2324, 2, 20, 20, 20 // Gives inverted colors to the opponent's sprite
-	delay 1
-	createsprite gBattleAnimSpriteTemplate_83D9908, 4, 0, 0, 16, 12, 160, 20, 0, 0
-	createsprite gBattleAnimSpriteTemplate_83D9908, 4, 0, 0, 16, 12, 224, 20, 2, 0
-	delay 4
+    loadspritegfx 10011
+	loadspritegfx 10211
+	loadspritegfx 10212
+	monbg ANIM_BANK_ATTACKER
+	setalpha 12, 8
+	createsprite gSimplePaletteBlendSpriteTemplate, 2, 1, 2, 0, 4, rgb(0, 0, 0)
 	waitforvisualfinish
-	createvisualtask sub_80E1F8C, 2, 3, -31, 1, 0, 0, 23551
-	createsprite gHorizontalLungeSpriteTemplate, 2, 4, 4
-	delay 4
-	playsewithpan SE_W063, 63
-	createsprite gBasicHitSplatSpriteTemplate, 130, 0, 0, 1, 2
-	createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_TARGET, 3, 0, 6, 1
-	waitforvisualfinish
-	createvisualtask sub_80E1F8C, 2, 4, -31, 2, 0, 6, 23551
-	call ElectricityEffect
-	waitforvisualfinish
+	createvisualtask sub_80D6B3C, 2, 0, 20, 0, 2
+	playsewithpan SE_W268, 192
+	delay 12
+	createsprite gBattleAnimSpriteTemplate_83D9B28, 2
+	delay 30
+	playsewithpan SE_W043, 192
+	createvisualtask sub_80E388C, 2
+    createvisualtask AnimTask_ShakeMon, 3, 1, 3, 0, 10, 1
+    call ElectricityEffect
+    waitforvisualfinish
+	clearmonbg ANIM_BANK_ATTACKER
+	blendoff
 	end
 
 Move_MIRROR_SHOT:
@@ -10663,16 +10635,53 @@ Move_PSYCHO_CUT:
     end
 
 Move_POWER_GEM:
-    loadspritegfx 10135
-    monbg ANIM_BANK_TARGET
-    setalpha 12, 8
-    playsewithpan SE_W003, 63
-    createsprite gBasicHitSplatSpriteTemplate, 2, 0, 0, 1, 2
-    createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_TARGET, 3, 0, 6, 1
-    waitforvisualfinish
-    clearmonbg ANIM_BANK_TARGET
-    blendoff
-    end
+	loadspritegfx 10147
+	createsprite gSimplePaletteBlendSpriteTemplate, 2, 1, 4, 0, 16, rgb(0, 0, 0)
+	waitforvisualfinish
+	delay 10
+	playsewithpan SE_W063, 192
+	createvisualtask AnimTask_ShakeMon2, 2, ANIM_BANK_ATTACKER, 1, 0, 4, 1
+	waitforvisualfinish
+	delay 30
+	createsoundtask sub_812B058, 247, -64, 63, 1, 15, 0, 5
+    createvisualtask sub_80E388C, 255
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_ATTACKER, 0, 4, 50, 1
+	createvisualtask sub_80E21A8, 2, 10147, 1, 12, 31, 16, 0, 0
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	createvisualtask AnimTask_ShakeMon2, 2, ANIM_BANK_TARGET, 4, 0, 50, 1
+	createvisualtask sub_80E2A38, 10, 4, 2, 0, 11, 26425
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	call _81D331B
+	createvisualtask sub_80E2A38, 10, 4, 2, 11, 0, 26425
+	createvisualtask sub_80E1864, 5, 1, 5, 14
+	createvisualtask sub_80E1864, 5, 1, 5, 14
+	loopsewithpan SE_W070, 63, 8, 10
+	waitforvisualfinish
+	createsprite gSimplePaletteBlendSpriteTemplate, 2, 1, 4, 16, 0, rgb(0, 0, 0)
+	end
 
 Move_EARTH_POWER:
     loadspritegfx 10135

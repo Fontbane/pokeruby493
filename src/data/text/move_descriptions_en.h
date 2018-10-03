@@ -1579,8 +1579,8 @@ static const u8 MoveDescription_PsychoCut[] = _(
     "High critical-hit ratio.");
 
 static const u8 MoveDescription_PowerGem[] = _(
-    "A ray of light. It shines as\n"
-    "if it was made of gemstones.");
+    "A ray of light. Shines as if\n"
+    "it was made of gemstones.");
 
 static const u8 MoveDescription_EarthPower[] = _(
     "The ground erupts with pow-\n"
