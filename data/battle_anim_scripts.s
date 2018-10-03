@@ -10349,10 +10349,14 @@ Move_VACUUM_WAVE:
 
 Move_X_SCISSOR:
     loadspritegfx 10285
+    fadetobg 22
+	waitbgfadeout
     createvisualtask AnimTask_ShakeMon2, 2, ANIM_BANK_TARGET, 6, 0, 18, 1
     createsprite gBattleAnimSpriteTemplate_83DB520, 130, 0, 0, 1, 36
     playsewithpan SE_W013, 63
     waitforvisualfinish
+    restorebg
+    waitbgfadein
     blendoff
     end
 
