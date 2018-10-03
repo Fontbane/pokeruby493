@@ -7,6 +7,36 @@
 	.include "include/macros/battle_anim.inc"
 	.include "constants/constants.inc"
 
+/* Fadetobg Documentation:
+fadetobg 0 = Faint Attack BG
+fadetobg 1 = Faint Attack BG
+fadetobg 2 = Confuse Ray BG
+fadetobg 3 = Confusion/Amnesia/Psychic BG
+fadetobg 4 = Mega Punch BG (Opponent is the focus)
+fadetobg 5 = Mega Punch BG (User is the focus)
+fadetobg 6 = Mega Punch BG (Focus is on the left side of the screen)
+fadetobg 7 = Megahorn BG (Opponent is the focus)
+fadetobg 8 = Megahorn BG (User is the focus)
+fadetobg 9 = Extremespeed BG
+fadetobg 10 = Extremespeed BG
+fadetobg 11 = Thunder BG
+fadetobg 12 = Guillotine BG (Opponent is the focus)
+fadetobg 13 = Guillotine BG (User is the focus)
+fadetobg 14 = Guillotine BG (Focus is on the left side of the screen)
+fadetobg 15 = Sheer Cold BG
+fadetobg 16 = Sheer Cold BG
+fadetobg 17 = Cosmic Power BG
+fadetobg 18 = Sky Uppercut BG
+fadetobg 19 = Sky Attack BG
+fadetobg 20 = Aurora Beam BG
+fadetobg 21 = Fissure (Left) BG
+fadetobg 22 = Silver Wind BG
+fadetobg 23 = Silver Wind BG
+fadetobg 24 = Solarbeam BG (Opponent is the focus)
+fadetobg 25 = Solarbeam BG (User is the focus)
+fadetobg 26 = Solarbeam BG (Focus is on the left side of the screen)
+fadetobg 27 = The visual representation of my nightmares.
+fadetobg 28+ = The game just resets.*/
 
 	.section script_data, "aw", %progbits
 
@@ -10636,15 +10666,14 @@ Move_PSYCHO_CUT:
 
 Move_POWER_GEM:
 	loadspritegfx 10147
-	createsprite gSimplePaletteBlendSpriteTemplate, 2, 1, 4, 0, 16, rgb(0, 0, 0)
+	createsprite gSimplePaletteBlendSpriteTemplate, 2, 1, 4, 0, 16, rgb(255, 255, 255) // Fade to white
 	waitforvisualfinish
 	delay 10
 	playsewithpan SE_W063, 192
 	createvisualtask AnimTask_ShakeMon2, 2, ANIM_BANK_ATTACKER, 1, 0, 4, 1
 	waitforvisualfinish
-	delay 30
+	delay 10
 	createsoundtask sub_812B058, 247, -64, 63, 1, 15, 0, 5
-    createvisualtask sub_80E388C, 255
 	createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_ATTACKER, 0, 4, 50, 1
 	createvisualtask sub_80E21A8, 2, 10147, 1, 12, 31, 16, 0, 0
 	call _81D331B
@@ -10676,12 +10705,13 @@ Move_POWER_GEM:
 	call _81D331B
 	call _81D331B
 	createvisualtask sub_80E2A38, 10, 4, 2, 11, 0, 26425
-	createvisualtask sub_80E1864, 5, 1, 5, 14
+	waitforvisualfinish
 	createvisualtask sub_80E1864, 5, 1, 5, 14
 	loopsewithpan SE_W070, 63, 8, 10
+	call Unknown_81D61F3
+    createsprite gSimplePaletteBlendSpriteTemplate, 40, 31, 4, 4, 0, rgb(0, 0, 0)
 	waitforvisualfinish
-	createsprite gSimplePaletteBlendSpriteTemplate, 2, 1, 4, 16, 0, rgb(0, 0, 0)
-	end
+    end
 
 Move_EARTH_POWER:
     loadspritegfx 10135
