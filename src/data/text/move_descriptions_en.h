@@ -1551,8 +1551,8 @@ static const u8 MoveDescription_MagnetBomb[] = _(
     "at the foe. It can’t miss.");
 
 static const u8 MoveDescription_Discharge[] = _(
-    "This attack hits everything\n"
-    "and it may cause paralysis.");
+    "Targets everything and may\n"
+    "cause paralysis.");
 
 static const u8 MoveDescription_MirrorShot[] = _(
     "A flash of energy that may\n"

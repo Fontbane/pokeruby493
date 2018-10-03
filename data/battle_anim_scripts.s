@@ -10437,16 +10437,54 @@ Move_MAGNET_BOMB:
     end
 
 Move_DISCHARGE:
-    loadspritegfx 10135
-    monbg ANIM_BANK_TARGET
-    setalpha 12, 8
-    playsewithpan SE_W003, 63
-    createsprite gBasicHitSplatSpriteTemplate, 2, 0, 0, 1, 2
-    createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_TARGET, 3, 0, 6, 1
-    waitforvisualfinish
-    clearmonbg ANIM_BANK_TARGET
-    blendoff
-    end
+	loadspritegfx 10135
+	loadspritegfx 10011
+	delay 0
+	createvisualtask sub_80E1F8C, 2, 3, -31, 1, 5, 5, 23551
+	playsewithpan SE_W085B, 192
+	createsprite gBattleAnimSpriteTemplate_83D985C, 0, 32, 24, 190, 12, 0, 1, 0
+	delay 0
+	createsprite gBattleAnimSpriteTemplate_83D985C, 0, 80, 24, 22, 12, 0, 1, 0
+	createsprite gBattleAnimSpriteTemplate_83D985C, 0, 156, 24, 121, 13, 0, 1, 1
+	delay 0
+	createvisualtask sub_80E1F8C, 2, 3, -31, 1, 0, 0, 23551
+	delay 10
+	createvisualtask sub_80E1F8C, 2, 3, -31, 1, 5, 5, 23551
+	playsewithpan SE_W085B, 192
+	createsprite gBattleAnimSpriteTemplate_83D985C, 0, 100, 24, 60, 10, 0, 1, 0
+	createsprite gBattleAnimSpriteTemplate_83D985C, 0, 170, 24, 42, 11, 0, 1, 1
+	delay 0
+	createsprite gBattleAnimSpriteTemplate_83D985C, 0, 238, 24, 165, 10, 0, 1, 1
+	delay 0
+	createvisualtask sub_80E1F8C, 2, 3, -31, 1, 0, 0, 23551
+	delay 20
+	createvisualtask sub_80E1F8C, 2, 3, -31, 1, 7, 7, 23551
+	playsewithpan SE_W085B, 192
+	createsprite gBattleAnimSpriteTemplate_83D9908, 4, 0, 0, 32, 12, 0, 20, 0, 0
+	createsprite gBattleAnimSpriteTemplate_83D9908, 4, 0, 0, 32, 12, 64, 20, 1, 0
+	createsprite gBattleAnimSpriteTemplate_83D9908, 4, 0, 0, 32, 12, 128, 20, 0, 0
+    createvisualtask sub_80E2324, 2, 257, 257, 257
+	delay 1
+	createsprite gBattleAnimSpriteTemplate_83D9908, 4, 0, 0, 32, 12, 192, 20, 2, 0
+	createsprite gBattleAnimSpriteTemplate_83D9908, 4, 0, 0, 16, 12, 32, 20, 0, 0
+	createsprite gBattleAnimSpriteTemplate_83D9908, 4, 0, 0, 16, 12, 96, 20, 1, 0
+	createvisualtask sub_80E2324, 2, 20, 20, 20 // Gives inverted colors to the opponent's sprite
+	delay 1
+	createsprite gBattleAnimSpriteTemplate_83D9908, 4, 0, 0, 16, 12, 160, 20, 0, 0
+	createsprite gBattleAnimSpriteTemplate_83D9908, 4, 0, 0, 16, 12, 224, 20, 2, 0
+	delay 4
+	waitforvisualfinish
+	createvisualtask sub_80E1F8C, 2, 3, -31, 1, 0, 0, 23551
+	createsprite gHorizontalLungeSpriteTemplate, 2, 4, 4
+	delay 4
+	playsewithpan SE_W063, 63
+	createsprite gBasicHitSplatSpriteTemplate, 130, 0, 0, 1, 2
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_TARGET, 3, 0, 6, 1
+	waitforvisualfinish
+	createvisualtask sub_80E1F8C, 2, 4, -31, 2, 0, 6, 23551
+	call ElectricityEffect
+	waitforvisualfinish
+	end
 
 Move_MIRROR_SHOT:
     loadspritegfx 10135
