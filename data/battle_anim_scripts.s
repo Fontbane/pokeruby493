@@ -10876,17 +10876,15 @@ Move_ROOST:
 Move_GUNK_SHOT:
 	loadspritegfx 10029
 	loadspritegfx 10150
+	loadspritegfx 10151
 	monbg ANIM_BANK_DEF_PARTNER
 	monbgprio_28 1
 	setalpha 12, 8
-	createvisualtask AnimTask_ShakeMon, 5, 0, 0, 2, 46, 1
-	delay 6
 	createvisualtask sub_80D3630, 5, 100
 	panse_1B SE_W053, 192, 63, 2, 0
 	call _GunkShotProjectiles
 	call _GunkShotProjectiles
 	call _GunkShotProjectiles
-	createvisualtask AnimTask_ShakeMon, 5, 1, 3, 0, 43, 1
 	call _GunkShotProjectiles
 	call _GunkShotProjectiles
 	call _GunkShotProjectiles
@@ -10895,6 +10893,10 @@ Move_GUNK_SHOT:
 	call _GunkShotProjectiles
 	call _GunkShotProjectiles
 	call _GunkShotProjectiles
+	createvisualtask sub_80E1F8C, 2, 4, 1, 2, 0, 12, 31774
+	call _81CF99D
+	waitforvisualfinish
+	call PoisonBubblesAnim
 	waitforvisualfinish
 	clearmonbg ANIM_BANK_DEF_PARTNER
 	blendoff
@@ -10905,6 +10907,7 @@ _GunkShotProjectiles:
 	delay 1
 	createsprite gBattleAnimSpriteTemplate_83DA2D0, 130, 20, 0, 40, 1, -24, 0
 	playsewithpan SE_W145C, 192
+	createvisualtask AnimTask_ShakeMon, 5, 1, 3, 0, 43, 1
 	return
 
 Move_CROSS_POISON:
@@ -10913,7 +10916,6 @@ Move_CROSS_POISON:
     setalpha 12, 8
     playsewithpan SE_W003, 63
     createsprite gBasicHitSplatSpriteTemplate, 2, 0, 0, 1, 2
-    createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_TARGET, 3, 0, 6, 1
     waitforvisualfinish
     clearmonbg ANIM_BANK_TARGET
     blendoff
