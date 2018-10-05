@@ -90,3 +90,5 @@ I intend to implement as many Gen. 4 features as I can to this base. Right now, 
 -[Rubyruby](https://github.com/hiddenruby): Attribution screen which I repurposed into an Anti-Piracy screen.
 
 -[MrDollSteak](https://www.pokecommunity.com/showthread.php?t=326301) and [DestinedJagold](https://www.pokecommunity.com/member.php?u=48504): Inspiration for some of the moves' animations.
+
+-[Sewef](https://github.com/Sewef): Physical/Special/Status Split.

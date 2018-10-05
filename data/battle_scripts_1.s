@@ -225,6 +225,7 @@ gBattleScriptsForMoveEffects:: @ 81D6BBC
 	.4byte BattleScript_EffectDragonDance
 	.4byte BattleScript_EffectCamouflage
 	.4byte BattleScript_EffectCloseCombat
+    .4byte BattleScript_EffectSpAtkUpHit
 
 BattleScript_EffectHit: @ 81D6F14
 BattleScript_EffectAccuracyDown2: @ 81D6F14
@@ -2973,6 +2974,10 @@ BattleScript_CloseCombatFinish:
 	setbyte sMOVEEND_STATE, 0
 	moveend 0, 0
 	end
+
+BattleScript_EffectSpAtkUpHit:
+    setmoveeffect EFFECT_SP_ATK_PLUS_1 | AFFECTS_USER
+	goto BattleScript_EffectHit
 
 BattleScript_FaintAttacker:: @ 81D8C58
 	playfaintcry USER

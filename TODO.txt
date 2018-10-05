@@ -6,7 +6,7 @@ Current Goals:
 
 Long-term Goals:
 * Fix Roost's effect.
-* Fix Charge Beam's effect and stats. It is temporarily boosted to 100 Power Points due to its effect being missing.
+* Fix Charge Beam's and Brine's effects. I temporarily boosted their Power Points due to its effects being missing.
 * Make a proper effect for Head Smash. It's supposed to hit the user for half of the damage it does to the opponent.
 * Implement formes for the pokémon that are supposed to have one (Burmy, Cherrim, Rotom, Giratina, Shaymin, Arceus).
 * Make it so Judgment checks for an item (the plates) and changes its type depending on which one Arceus is holding at that time.
