@@ -2,7 +2,7 @@
 
 Current Goals:
 * Misc. changes so the repository can work correctly for the most part with InmortalKaktus' Pokémon Editor.
-* Make an animation for Wood Hammer and the other moves that come afterwards.
+* Make an animation for: Wood Hammer, Magnet Bomb, Mirror Shot, Lava Plume, Psycho Cut, Earth Power, Flash Cannon, Roar of Time, Magma Storm, Shadow Claw, Seed Flare, Judgment, Seed Bomb, Cross Poison, Switcheroo, Miracle Eye, Leaf Storm, Rock Polish, Charge Beam, Avalanche, Head Smash and Focus Blast.
 
 Long-term Goals:
 * Fix Roost's effect.
