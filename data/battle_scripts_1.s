@@ -2987,13 +2987,15 @@ BattleScript_EffectUTurn:
 	damagecalc
 	typecalc
 	adjustnormaldamage
-	attackanimation
-	waitanimation
 	effectivenesssound
 	hitanimation TARGET
 	waitstate
 	healthbarupdate TARGET
 	datahpupdate TARGET
+	tryfaintmon TARGET, FALSE, NULL
+	tryfaintmon TARGET, TRUE, BattleScript_MoveEnd
+	attackanimation
+	waitanimation
 	critmessage
 	waitmessage 64
 	resultmessage
