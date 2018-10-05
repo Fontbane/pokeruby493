@@ -226,6 +226,7 @@ gBattleScriptsForMoveEffects:: @ 81D6BBC
 	.4byte BattleScript_EffectCamouflage
 	.4byte BattleScript_EffectCloseCombat
     .4byte BattleScript_EffectSpAtkUpHit
+    .4byte BattleScript_EffectUTurn
 
 BattleScript_EffectHit: @ 81D6F14
 BattleScript_EffectAccuracyDown2: @ 81D6F14
@@ -2978,6 +2979,37 @@ BattleScript_CloseCombatFinish:
 BattleScript_EffectSpAtkUpHit:
     setmoveeffect EFFECT_SP_ATK_PLUS_1 | AFFECTS_USER
 	goto BattleScript_EffectHit
+
+BattleScript_EffectUTurn:
+	attackstring
+	ppreduce
+	critcalc
+	damagecalc
+	typecalc
+	adjustnormaldamage
+	attackanimation
+	waitanimation
+	effectivenesssound
+	hitanimation TARGET
+	waitstate
+	healthbarupdate TARGET
+	datahpupdate TARGET
+	critmessage
+	waitmessage 64
+	resultmessage
+	waitmessage 64
+	openpartyscreen USER, BattleScript_ButItFailed
+	waitstate
+	switchhandleorder USER, 2
+	returntoball USER
+	getswitchedmondata USER
+	switchindataupdate USER
+	hpthresholds USER
+	printstring 3
+	switchinanim USER, 1
+	waitstate
+	switchineffects USER
+	goto BattleScript_MoveEnd
 
 BattleScript_FaintAttacker:: @ 81D8C58
 	playfaintcry USER

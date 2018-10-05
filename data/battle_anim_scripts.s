@@ -468,6 +468,7 @@ gBattleAnims_Moves:: @ 81C7168
     .4byte Move_FOCUS_BLAST
     .4byte Move_GRASS_KNOT
     .4byte Move_DRAIN_PUNCH
+    .4byte Move_U_TURN
 	.4byte PoundCopy
 
 	.align 2
@@ -11083,6 +11084,22 @@ Move_DRAIN_PUNCH:
 	createvisualtask AnimTask_ShakeMon, 5, 1, 0, 5, 5, 1
     waitforvisualfinish
 	clearmonbg ANIM_BANK_DEF_PARTNER
+	blendoff
+	end
+
+Move_U_TURN:
+	loadspritegfx 10135
+	loadspritegfx 10226
+	playsewithpan SE_W226, 192
+	createvisualtask sub_80E1F8C, 2, 31, 1, 2, 0, 11, 31455
+	createsprite gBattleAnimSpriteTemplate_84024D0, 2
+	monbg ANIM_BANK_TARGET
+	setalpha 12, 8
+	playsewithpan SE_W003, 63
+	createsprite gBasicHitSplatSpriteTemplate, 2, 0, 0, 1, 2
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_BANK_TARGET, 3, 0, 6, 1
+	waitforvisualfinish
+	clearmonbg ANIM_BANK_TARGET
 	blendoff
 	end
 

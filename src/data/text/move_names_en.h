@@ -419,4 +419,5 @@ const u8 gMoveNames[][13] = {
     [MOVE_FOCUS_BLAST] = _("Focus Blast"),
     [MOVE_GRASS_KNOT] = _("Grass Knot"),
     [MOVE_DRAIN_PUNCH] = _("Drain Punch"),
+    [MOVE_U_TURN] = _("U-Turn"),
 };

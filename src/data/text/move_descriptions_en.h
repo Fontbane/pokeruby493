@@ -1674,6 +1674,10 @@ static const u8 MoveDescription_DrainPunch[] = _(
     "An attack that absorbs\n"
     "half the damage inflicted.");
 
+static const u8 MoveDescription_UTurn[] = _(
+    "The user deals damage and\n"
+    "quickly switches out.");
+
 const u8 * const gMoveDescriptions[] = {
     MoveDescription_Pound,
     MoveDescription_KarateChop,
@@ -2094,4 +2098,5 @@ const u8 * const gMoveDescriptions[] = {
     MoveDescription_FocusBlast,
     MoveDescription_GrassKnot,
     MoveDescription_DrainPunch,
+    MoveDescription_UTurn,
 };

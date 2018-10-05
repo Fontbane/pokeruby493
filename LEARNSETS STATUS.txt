@@ -101,10 +101,9 @@ Bellossom
 Marill and Azumarill (Missing: Aqua Ring)
 Sudowoodo (Missing: Copycat, Hammer Arm)
 Politoed
-Hoppip, Skiploom and Jumpluff (Missing: U-Turn, Worry Seed)
+Hoppip, Skiploom and Jumpluff (Missing: Worry Seed)
 Aipom (Missing: Fling, Last Resort)
 Sunkern and Sunflora (Missing: Worry Seed)
-Yanma (Missing: U-Turn)
 Wooper, Quagsire
 Espeon (Missing: Last Resort, Power Swap)
 Umbreon (Missing: Assurance, Last Resort, Guard Swap)
@@ -116,7 +115,6 @@ Wobbuffet
 Girafarig (Missing: Power Swap, Guard Swap, Assurance)
 Pineco and Forretress (Missing: Toxic Spikes, Bug Bite, Natural Gift, Payback, Gyro Ball, Magnet Rise)
 Dunsparce
-Gligar (Missing: U-Turn)
 Steelix
 Snubbull and Granbull (Missing: Payback)
 Qwilfish (Missing: Toxic Spikes)
@@ -264,7 +262,7 @@ Hippopotas and Hippowdon
 Skorupi and Drapion (Missing: Acupressure, Toxic Spikes, Bug Bite)
 Croagunk and Toxicroak
 Carnivine (Missing: Wring Out)
-Finneon and Lumineon (Missing: Captivate, Aqua Ring, U-Turn)
+Finneon and Lumineon (Missing: Captivate, Aqua Ring)
 Mantyke (Missing: Aqua Ring)
 Snover and Abomasnow
 Weavile (Missing: Assurance, Embargo, Fling)
@@ -276,10 +274,9 @@ Electivire
 Magmortar
 Electivire
 Togekiss
-Yanmega (Missing: Bug Bite, U-Turn)
+Yanmega (Missing: Bug Bite)
 Leafeon (Missing: Last Resort)
 Glaceon (Missing: Last Resort)
-Gliscor (Missing: U-Turn)
 Mamoswine
 Porygon-Z (Missing: Trick Room, Magnet Rise, Embargo)
 Gallade
