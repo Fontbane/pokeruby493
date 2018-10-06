@@ -190,7 +190,7 @@ const u8 gOtherText_WhatWillYouDo[] = _("What would you like to do?");
 const u8 gOtherText_xString1[] = _("×{STR_VAR_1}");
 const u8 gOtherText_Berry2[] = _(" BERRY");
 const u8 gOtherText_Coins2[] = _("{STR_VAR_1} COINS");
-const u8 gOtherText_CloseBag[] = _("CLOSE BAG");
+const u8 gOtherText_CloseBag[] = _("Close Bag");
 
 const u8 OtherText_TheField3[] = _("the field.");
 const u8 OtherText_TheBattle[] = _("the battle.");
