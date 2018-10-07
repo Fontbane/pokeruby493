@@ -1404,6 +1404,11 @@ static const u8 gItemDescription_TM50[] = _(
     "attack, but sharply\n"
     "lowers SP. ATK.");
 
+static const u8 gItemDescription_TM51[] = _(
+    "The user rests its\n"
+    "body. It restores\n"
+    "half of the HP.");
+
 static const u8 gItemDescription_HM01[] = _(
     "Attacks the foe\n"
     "with sharp blades\n"
