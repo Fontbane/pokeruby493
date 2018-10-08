@@ -1409,6 +1409,26 @@ static const u8 gItemDescription_TM51[] = _(
     "body. It restores\n"
     "half of the HP.");
 
+static const u8 gItemDescription_TM52[] = _(
+    "A mentally charged\n"
+    "blast. It may lower\n"
+    "the foe’s SP. DEF.");
+
+static const u8 gItemDescription_TM53[] = _(
+    "Hits with the power\n"
+    "of nature. May lower\n"
+    "the foe’s SP. DEF.");
+
+static const u8 gItemDescription_TM54[] = _(
+    "Calculated slashes\n"
+    "that ensures the\n"
+    "foe’s survivability.");
+
+static const u8 gItemDescription_TM55[] = _(
+    "It hits harder if\n"
+    "the foe has half of\n"
+    "its HP.");
+
 static const u8 gItemDescription_HM01[] = _(
     "Attacks the foe\n"
     "with sharp blades\n"
