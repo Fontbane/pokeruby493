@@ -777,6 +777,12 @@ void MonGainEVs(struct Pokemon *mon, u16 defeatedSpecies)
     u8 evs[NUM_STATS];
     u16 evIncrease = 0;
     u16 totalEVs = 0;
+    u16 HPEVIncrease = MON_DATA_HP_EV;
+    u16 AtkEVIncrease = MON_DATA_ATK_EV;
+    u16 DefEVIncrease = MON_DATA_DEF_EV;
+    u16 SpdEVIncrease = MON_DATA_SPEED_EV;
+    u16 SpAtkEVIncrease = MON_DATA_SPATK_EV;
+    u16 SpDefEVIncrease = MON_DATA_SPDEF_EV;
     u16 heldItem;
     u8 holdEffect;
     int i;
@@ -840,6 +846,24 @@ void MonGainEVs(struct Pokemon *mon, u16 defeatedSpecies)
 
         if (holdEffect == HOLD_EFFECT_MACHO_BRACE)
             evIncrease *= 2;
+
+        if (holdEffect == HOLD_EFFECT_POWER_WEIGHT)
+            HPEVIncrease += 4;
+
+        if (holdEffect == HOLD_EFFECT_POWER_BRACER)
+            AtkEVIncrease += 4;
+
+        if (holdEffect == HOLD_EFFECT_POWER_BELT)
+            DefEVIncrease += 4;
+
+        if (holdEffect == HOLD_EFFECT_POWER_ANKLET)
+            SpdEVIncrease += 4;
+
+        if (holdEffect == HOLD_EFFECT_POWER_LENS)
+            SpAtkEVIncrease += 4;
+
+        if (holdEffect == HOLD_EFFECT_POWER_BAND)
+            SpDefEVIncrease += 4;
 
         if (totalEVs + (s16)evIncrease > MAX_TOTAL_EVS)
             evIncrease = ((s16)evIncrease + MAX_TOTAL_EVS) - (totalEVs + evIncrease);
