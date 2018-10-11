@@ -5,11 +5,10 @@ Current Goals:
 * Make an animation for: Wood Hammer, Magnet Bomb, Mirror Shot, Lava Plume, Psycho Cut, Earth Power, Flash Cannon, Roar of Time, Magma Storm, Shadow Claw, Seed Flare, Judgment, Seed Bomb, Cross Poison, Switcheroo, Miracle Eye, Leaf Storm, Rock Polish, Charge Beam, Avalanche, Head Smash and Focus Blast.
 
 Long-term Goals:
-* Fix Roost's effect.
-* Fix Charge Beam's and Brine's effects. I temporarily boosted their Power Points due to its effects being missing.
+* Fix Roost's and Brine's effect.
 * Make a proper effect for Head Smash. It's supposed to hit the user for half of the damage it does to the opponent.
 * Implement formes for the pokémon that are supposed to have one (Burmy, Cherrim, Rotom, Giratina, Shaymin, Arceus).
 * Make it so Judgment checks for an item (the plates) and changes its type depending on which one Arceus is holding at that time.
 * Try to create new abilities and implement all the ones added in the Gen. 4 games, or at least most of them.
 * Look into creating new move effects to add the moves that are missing in [the LEARNSETS STATUS document](https://github.com/LOuroboros/pokeruby493/blob/master/LEARNSETS%20STATUS.txt).
-* Look into creating new sprites or at least make modified copies of existing assets for certain move animations, like Gunk Shot's or Ominous Wind.
+* Look into creating new sprites or at least make modified copies of existing assets for certain move animations, like Ominous Wind.
