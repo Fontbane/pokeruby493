@@ -245,6 +245,36 @@ static const u8 gItemDescription_GreenShard[] = _(
     "ancient item.\n"
     "Can be sold cheaply.");
 
+static const u8 gItemDescription_PowerWeight[] = _(
+    "A hold item that\n"
+    "promotes HP gain,\n"
+    "but reduces SPEED.");
+
+static const u8 gItemDescription_PowerBracer[] = _(
+    "A hold item that\n"
+    "promotes ATK gain,\n"
+    "but reduces SPEED.");
+
+static const u8 gItemDescription_PowerBelt[] = _(
+    "A hold item that\n"
+    "promotes DEF gain,\n"
+    "but reduces SPEED.");
+
+static const u8 gItemDescription_PowerAnklet[] = _(
+    "A hold item that\n"
+    "promotes SPD gain,\n"
+    "but reduces SPEED.");
+
+static const u8 gItemDescription_PowerLens[] = _(
+    "An item that boosts\n"
+    "SP. ATK gain, but\n"
+    "reduces SPEED.");
+
+static const u8 gItemDescription_PowerBand[] = _(
+    "An item that boosts\n"
+    "SP. DEF gain, but\n"
+    "reduces SPEED.");
+
 static const u8 gItemDescription_HPUp[] = _(
     "Raises the HP of\n"
     "one POKéMON.");
@@ -986,35 +1016,90 @@ static const u8 gItemDescription_ReaperCloth[] = _(
     "loves it. It’s imbued\n"
     "with strong energy.");
 
-static const u8 gItemDescription_PowerWeight[] = _(
-    "A hold item that\n"
-    "promotes HP gain,\n"
-    "but reduces SPEED.");
+static const u8 gItemDescription_DracoPlate[] = _(
+    "A stone tablet that\n"
+    "raises the power of\n"
+    "DRAGON-type moves.");
 
-static const u8 gItemDescription_PowerBracer[] = _(
-    "A hold item that\n"
-    "promotes ATK gain,\n"
-    "but reduces SPEED.");
+static const u8 gItemDescription_DreadPlate[] = _(
+    "A stone tablet that\n"
+    "raises the power of\n"
+    "DARK-type moves.");
 
-static const u8 gItemDescription_PowerBelt[] = _(
-    "A hold item that\n"
-    "promotes DEF gain,\n"
-    "but reduces SPEED.");
+static const u8 gItemDescription_EarthPlate[] = _(
+    "A stone tablet that\n"
+    "raises the power of\n"
+    "GROUND-type moves.");
 
-static const u8 gItemDescription_PowerAnklet[] = _(
-    "A hold item that\n"
-    "promotes SPD gain,\n"
-    "but reduces SPEED.");
+static const u8 gItemDescription_FistPlate[] = _(
+    "A stone tablet that\n"
+    "boosts FIGHTING-\n"
+    "type moves.");
 
-static const u8 gItemDescription_PowerLens[] = _(
-    "An item that boosts\n"
-    "SP. ATK gain, but\n"
-    "reduces SPEED.");
+static const u8 gItemDescription_FlamePlate[] = _(
+    "A stone tablet that\n"
+    "raises the power of\n"
+    "FIRE-type moves.");
 
-static const u8 gItemDescription_PowerBand[] = _(
-    "An item that boosts\n"
-    "SP. DEF gain, but\n"
-    "reduces SPEED.");
+static const u8 gItemDescription_IciclePlate[] = _(
+    "A stone tablet that\n"
+    "raises the power of\n"
+    "ICE-type moves.");
+
+static const u8 gItemDescription_InsectPlate[] = _(
+    "A stone tablet that\n"
+    "raises the power of\n"
+    "BUG-type moves.");
+
+static const u8 gItemDescription_IronPlate[] = _(
+    "A stone tablet that\n"
+    "raises the power of\n"
+    "STEEL-type moves.");
+
+static const u8 gItemDescription_MeadowPlate[] = _(
+    "A stone tablet that\n"
+    "raises the power of\n"
+    "GRASS-type moves.");
+
+static const u8 gItemDescription_MindPlate[] = _(
+    "A stone tablet that\n"
+    "boosts PSYCHIC-\n"
+    "type moves.");
+
+static const u8 gItemDescription_PixiePlate[] = _(
+    "A stone tablet that\n"
+    "boosts FAIRY-\n"
+    "type moves.");
+
+static const u8 gItemDescription_SkyPlate[] = _(
+    "A stone tablet that\n"
+    "raises the power of\n"
+    "FLYING-type moves.");
+
+static const u8 gItemDescription_SplashPlate[] = _(
+    "A stone tablet that\n"
+    "raises the power of\n"
+    "WATER-type moves.");
+
+static const u8 gItemDescription_SpookyPlate[] = _(
+    "A stone tablet that\n"
+    "raises the power of\n"
+    "GHOST-type moves.");
+
+static const u8 gItemDescription_StonePlate[] = _(
+    "A stone tablet that\n"
+    "raises the power of\n"
+    "ROCK-type moves.");
+
+static const u8 gItemDescription_ToxicPlate[] = _(
+    "A stone tablet that\n"
+    "raises the power of\n"
+    "POISON-type moves.");
+
+static const u8 gItemDescription_ZapPlate[] = _(
+    "A stone tablet that\n"
+    "boosts ELECTRIC-\n"
+    "type moves.");
 
 static const u8 gItemDescription_RedScarf[] = _(
     "A hold item that\n"

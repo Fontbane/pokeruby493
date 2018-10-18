@@ -91,6 +91,7 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
     u8 defenderHoldEffectParam;
     u8 attackerHoldEffect;
     u8 attackerHoldEffectParam;
+    
 
     if (!powerOverride)
         gBattleMovePower = gBattleMoves[move].power;
@@ -177,6 +178,56 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
             break;
         }
     }
+
+/* Type swap */
+    if (gBattleMons[0].species == SPECIES_ARCEUS && gBattleMons[0].item == ITEM_DRACO_PLATE) {
+             gBattleMons[0].type1 = TYPE_DRAGON;
+             gBattleMons[0].type2 = TYPE_DRAGON;}
+    else if (gBattleMons[0].species == SPECIES_ARCEUS && gBattleMons[0].item == ITEM_DREAD_PLATE) {
+             gBattleMons[0].type1 = TYPE_DARK;
+             gBattleMons[0].type2 = TYPE_DARK;}
+    else if (gBattleMons[0].species == SPECIES_ARCEUS && gBattleMons[0].item == ITEM_EARTH_PLATE) {
+             gBattleMons[0].type1 = TYPE_GROUND;
+             gBattleMons[0].type2 = TYPE_GROUND;}
+    else if (gBattleMons[0].species == SPECIES_ARCEUS && gBattleMons[0].item == ITEM_FIST_PLATE) {
+             gBattleMons[0].type1 = TYPE_FIGHTING;
+             gBattleMons[0].type2 = TYPE_FIGHTING;}
+    else if (gBattleMons[0].species == SPECIES_ARCEUS && gBattleMons[0].item == ITEM_FLAME_PLATE) {
+             gBattleMons[0].type1 = TYPE_FIRE;
+             gBattleMons[0].type2 = TYPE_FIRE;}
+    else if (gBattleMons[0].species == SPECIES_ARCEUS && gBattleMons[0].item == ITEM_ICICLE_PLATE) {
+             gBattleMons[0].type1 = TYPE_ICE;
+             gBattleMons[0].type2 = TYPE_ICE;}
+    else if (gBattleMons[0].species == SPECIES_ARCEUS && gBattleMons[0].item == ITEM_INSECT_PLATE) {
+             gBattleMons[0].type1 = TYPE_BUG;
+             gBattleMons[0].type2 = TYPE_BUG;}
+    else if (gBattleMons[0].species == SPECIES_ARCEUS && gBattleMons[0].item == ITEM_IRON_PLATE) {
+             gBattleMons[0].type1 = TYPE_STEEL;
+             gBattleMons[0].type2 = TYPE_STEEL;}
+    else if (gBattleMons[0].species == SPECIES_ARCEUS && gBattleMons[0].item == ITEM_MEADOW_PLATE) {
+             gBattleMons[0].type1 = TYPE_GRASS;
+             gBattleMons[0].type2 = TYPE_GRASS;}
+    else if (gBattleMons[0].species == SPECIES_ARCEUS && gBattleMons[0].item == ITEM_MIND_PLATE) {
+             gBattleMons[0].type1 = TYPE_PSYCHIC;
+             gBattleMons[0].type2 = TYPE_PSYCHIC;}
+    else if (gBattleMons[0].species == SPECIES_ARCEUS && gBattleMons[0].item == ITEM_SKY_PLATE) {
+             gBattleMons[0].type1 = TYPE_FLYING;
+             gBattleMons[0].type2 = TYPE_FLYING;}
+    else if (gBattleMons[0].species == SPECIES_ARCEUS && gBattleMons[0].item == ITEM_SPLASH_PLATE) {
+             gBattleMons[0].type1 = TYPE_WATER;
+             gBattleMons[0].type2 = TYPE_WATER;}
+    else if (gBattleMons[0].species == SPECIES_ARCEUS && gBattleMons[0].item == ITEM_SPOOKY_PLATE) {
+             gBattleMons[0].type1 = TYPE_GHOST;
+             gBattleMons[0].type2 = TYPE_GHOST;}
+    else if (gBattleMons[0].species == SPECIES_ARCEUS && gBattleMons[0].item == ITEM_STONE_PLATE) {
+             gBattleMons[0].type1 = TYPE_ROCK;
+             gBattleMons[0].type2 = TYPE_ROCK;}
+    else if (gBattleMons[0].species == SPECIES_ARCEUS && gBattleMons[0].item == ITEM_TOXIC_PLATE) {
+             gBattleMons[0].type1 = TYPE_POISON;
+             gBattleMons[0].type2 = TYPE_POISON;}
+    else if (gBattleMons[0].species == SPECIES_ARCEUS && gBattleMons[0].item == ITEM_ZAP_PLATE) {
+             gBattleMons[0].type1 = TYPE_ELECTRIC;
+             gBattleMons[0].type2 = TYPE_ELECTRIC;}
 
     if (attackerHoldEffect == HOLD_EFFECT_CHOICE_BAND)
         attack = (150 * attack) / 100;
