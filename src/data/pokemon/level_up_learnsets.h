@@ -7953,4 +7953,9 @@ const u16 gArceusLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
+const u16 gGiratinaOLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_STRUGGLE),
+    LEVEL_UP_END
+};
+
 #endif //POKERUBY_LEVEL_UP_LEARNSETS_H

@@ -11847,6 +11847,26 @@ gMonFootprint_Arceus::
 	.incbin "graphics/pokemon/arceus/footprint.1bpp"
 
 	.align 2
+gMonFrontPic_GiratinaO::
+	.incbin "graphics/pokemon/giratinaO/front.4bpp.lz"
+
+	.align 2
+gMonPalette_GiratinaO::
+	.incbin "graphics/pokemon/giratinaO/normal.gbapal.lz"
+
+	.align 2
+gMonBackPic_GiratinaO::
+	.incbin "graphics/pokemon/giratinaO/back.4bpp.lz"
+
+	.align 2
+gMonShinyPalette_GiratinaO::
+	.incbin "graphics/pokemon/giratinaO/shiny.gbapal.lz"
+
+	.align 2
+gMonIcon_GiratinaO::
+	.incbin "graphics/pokemon/giratinaO/icon.4bpp"
+
+	.align 2
 gMonPic_Egg:: @ 8E3B4B8
 	.incbin "graphics/pokemon/egg/pic.4bpp.lz"
 

@@ -12086,6 +12086,8 @@ const u32 gTMHMLearnsets[][2] =
                                         | TMHM(HM07_WATERFALL)
                                         | TMHM(HM08_DIVE)),
 
+    [SPECIES_GIRATINAO]   = TMHM_LEARNSET(0),
+
 };
 
 #endif  // GUARD_TMHM_LEARNSETS_H
