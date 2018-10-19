@@ -776,13 +776,13 @@ void MonGainEVs(struct Pokemon *mon, u16 defeatedSpecies)
 {
     u8 evs[NUM_STATS];
     u16 evIncrease = 0;
-    u16 totalEVs = 0;
-    u16 HPEVIncrease = MON_DATA_HP_EV;
-    u16 AtkEVIncrease = MON_DATA_ATK_EV;
-    u16 DefEVIncrease = MON_DATA_DEF_EV;
-    u16 SpdEVIncrease = MON_DATA_SPEED_EV;
-    u16 SpAtkEVIncrease = MON_DATA_SPATK_EV;
-    u16 SpDefEVIncrease = MON_DATA_SPDEF_EV;
+    u16 totalEVs   = 0;
+    u16 HPEVIncrease    = GetMonData(mon, MON_DATA_HP_EV, NULL) + 4 + gBaseStats[defeatedSpecies].evYield_HP;
+    u16 AtkEVIncrease   = GetMonData(mon, MON_DATA_ATK_EV, NULL) + 4 + gBaseStats[defeatedSpecies].evYield_Attack;
+    u16 DefEVIncrease   = GetMonData(mon, MON_DATA_DEF_EV, NULL) + 4 + gBaseStats[defeatedSpecies].evYield_Defense;
+    u16 SpdEVIncrease   = GetMonData(mon, MON_DATA_SPEED_EV, NULL) + 4 + gBaseStats[defeatedSpecies].evYield_Speed;
+    u16 SpAtkEVIncrease = GetMonData(mon, MON_DATA_SPATK_EV, NULL) + 4 + gBaseStats[defeatedSpecies].evYield_SpAttack;
+    u16 SpDefEVIncrease = GetMonData(mon, MON_DATA_SPDEF_EV, NULL) + 4 + gBaseStats[defeatedSpecies].evYield_SpDefense;
     u16 heldItem;
     u8 holdEffect;
     int i;
@@ -848,22 +848,22 @@ void MonGainEVs(struct Pokemon *mon, u16 defeatedSpecies)
             evIncrease *= 2;
 
         if (holdEffect == HOLD_EFFECT_POWER_WEIGHT)
-            HPEVIncrease += 4;
+            SetMonData(mon, MON_DATA_HP_EV, &HPEVIncrease);
 
         if (holdEffect == HOLD_EFFECT_POWER_BRACER)
-            AtkEVIncrease += 4;
+            SetMonData(mon, MON_DATA_ATK_EV, &AtkEVIncrease);
 
         if (holdEffect == HOLD_EFFECT_POWER_BELT)
-            DefEVIncrease += 4;
+            SetMonData(mon, MON_DATA_DEF_EV, &DefEVIncrease);
 
         if (holdEffect == HOLD_EFFECT_POWER_ANKLET)
-            SpdEVIncrease += 4;
+            SetMonData(mon, MON_DATA_SPEED_EV, &SpdEVIncrease);
 
         if (holdEffect == HOLD_EFFECT_POWER_LENS)
-            SpAtkEVIncrease += 4;
+            SetMonData(mon, MON_DATA_SPATK_EV, &SpAtkEVIncrease);
 
         if (holdEffect == HOLD_EFFECT_POWER_BAND)
-            SpDefEVIncrease += 4;
+            SetMonData(mon, MON_DATA_SPDEF_EV, &SpDefEVIncrease);
 
         if (totalEVs + (s16)evIncrease > MAX_TOTAL_EVS)
             evIncrease = ((s16)evIncrease + MAX_TOTAL_EVS) - (totalEVs + evIncrease);
