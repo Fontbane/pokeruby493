@@ -275,6 +275,21 @@ static const u8 gItemDescription_PowerBand[] = _(
     "SP. DEF gain, but\n"
     "reduces SPEED.");
 
+static const u8 gItemDescription_AdamantOrb[] = _(
+    "Boosts the power of\n"
+    "DIALGA’s STEEL- and\n"
+    "DRAGON-type moves.");
+
+static const u8 gItemDescription_LustrousOrb[] = _(
+    "Boosts the power of\n"
+    "PALKIA’s WATER- and\n"
+    "DRAGON-type moves.");
+
+static const u8 gItemDescription_GriseousOrb[] = _(
+    "Boosts the power of\n"
+    "GIRATINA’s GHOST- and\n"
+    "DRAGON-type moves.");
+
 static const u8 gItemDescription_HPUp[] = _(
     "Raises the HP of\n"
     "one POKéMON.");

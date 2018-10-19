@@ -63,9 +63,9 @@
 #define ITEM_POWER_ANKLET 55
 #define ITEM_POWER_LENS   56
 #define ITEM_POWER_BAND   57
-#define ITEM_03A 58
-#define ITEM_03B 59
-#define ITEM_03C 60
+#define ITEM_ADAMANT_ORB 58
+#define ITEM_LUSTROUS_ORB 59
+#define ITEM_GRISEOUS_ORB 60
 #define ITEM_03D 61
 #define ITEM_03E 62
 #define ITEM_HP_UP 63
