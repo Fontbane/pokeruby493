@@ -79,7 +79,7 @@ I intend to implement as many Gen. 4 features as I can to this base. Right now, 
 
 -[Tetra](https://www.pokecommunity.com/member.php?u=174056): Help with indexing icons and how to assign a custom cry to Chimchar.
 
--Shinny: Help with the front sprites' position issue and with the Level + Gender Based evolution.
+-Shinny: Help with the front sprites' position issue, help with the Level + Gender Based evolution and fix for the Power Band.
 
 -[BluRose](https://github.com/BluRosie): Map and move-based evolutions, Happiny's and Mantyke's evolution methods too and Gen. 4 styled OW Poisoning.
 

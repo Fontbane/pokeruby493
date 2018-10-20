@@ -776,13 +776,7 @@ void MonGainEVs(struct Pokemon *mon, u16 defeatedSpecies)
 {
     u8 evs[NUM_STATS];
     u16 evIncrease = 0;
-    u16 totalEVs   = 0;
-    u16 HPEVIncrease    = GetMonData(mon, MON_DATA_HP_EV, NULL) + 4 + gBaseStats[defeatedSpecies].evYield_HP;
-    u16 AtkEVIncrease   = GetMonData(mon, MON_DATA_ATK_EV, NULL) + 4 + gBaseStats[defeatedSpecies].evYield_Attack;
-    u16 DefEVIncrease   = GetMonData(mon, MON_DATA_DEF_EV, NULL) + 4 + gBaseStats[defeatedSpecies].evYield_Defense;
-    u16 SpdEVIncrease   = GetMonData(mon, MON_DATA_SPEED_EV, NULL) + 4 + gBaseStats[defeatedSpecies].evYield_Speed;
-    u16 SpAtkEVIncrease = GetMonData(mon, MON_DATA_SPATK_EV, NULL) + 4 + gBaseStats[defeatedSpecies].evYield_SpAttack;
-    u16 SpDefEVIncrease = GetMonData(mon, MON_DATA_SPDEF_EV, NULL) + 4 + gBaseStats[defeatedSpecies].evYield_SpDefense;
+    u16 totalEVs = 0;
     u16 heldItem;
     u8 holdEffect;
     int i;
@@ -797,7 +791,8 @@ void MonGainEVs(struct Pokemon *mon, u16 defeatedSpecies)
     {
         u8 hasHadPokerus;
         int multiplier;
-
+        int powerItemBoost = 0;
+        
         if (totalEVs >= MAX_TOTAL_EVS)
             break;
 
@@ -807,30 +802,44 @@ void MonGainEVs(struct Pokemon *mon, u16 defeatedSpecies)
             multiplier = 2;
         else
             multiplier = 1;
-
+        
+        heldItem = GetMonData(mon, MON_DATA_HELD_ITEM, 0);
+        holdEffect = ItemId_GetHoldEffect(heldItem);
         switch (i)
         {
         case 0:
-            evIncrease = gBaseStats[defeatedSpecies].evYield_HP * multiplier;
+            if(holdEffect == 67)
+                powerItemBoost = 4;
+            evIncrease = gBaseStats[defeatedSpecies].evYield_HP * multiplier + powerItemBoost;
             break;
         case 1:
-            evIncrease = gBaseStats[defeatedSpecies].evYield_Attack * multiplier;
+            if(holdEffect == 68)
+                powerItemBoost = 4;
+            evIncrease = gBaseStats[defeatedSpecies].evYield_Attack * multiplier + powerItemBoost;
             break;
         case 2:
-            evIncrease = gBaseStats[defeatedSpecies].evYield_Defense * multiplier;
+            if(holdEffect == 69)
+                powerItemBoost = 4;
+            evIncrease = gBaseStats[defeatedSpecies].evYield_Defense * multiplier + powerItemBoost;
             break;
         case 3:
-            evIncrease = gBaseStats[defeatedSpecies].evYield_Speed * multiplier;
+            if(holdEffect == 70)
+                powerItemBoost = 4;
+            evIncrease = gBaseStats[defeatedSpecies].evYield_Speed * multiplier + powerItemBoost;
             break;
         case 4:
-            evIncrease = gBaseStats[defeatedSpecies].evYield_SpAttack * multiplier;
+            if(holdEffect == 71)
+                powerItemBoost = 4;
+            evIncrease = gBaseStats[defeatedSpecies].evYield_SpAttack * multiplier + powerItemBoost;
             break;
         case 5:
-            evIncrease = gBaseStats[defeatedSpecies].evYield_SpDefense * multiplier;
+            if(holdEffect == 72)
+                powerItemBoost = 4;
+            evIncrease = gBaseStats[defeatedSpecies].evYield_SpDefense * multiplier + powerItemBoost;
             break;
         }
 
-        heldItem = GetMonData(mon, MON_DATA_HELD_ITEM, 0);
+        
 
         if (heldItem == ITEM_ENIGMA_BERRY)
         {
@@ -846,24 +855,6 @@ void MonGainEVs(struct Pokemon *mon, u16 defeatedSpecies)
 
         if (holdEffect == HOLD_EFFECT_MACHO_BRACE)
             evIncrease *= 2;
-
-        if (holdEffect == HOLD_EFFECT_POWER_WEIGHT)
-            SetMonData(mon, MON_DATA_HP_EV, &HPEVIncrease);
-
-        if (holdEffect == HOLD_EFFECT_POWER_BRACER)
-            SetMonData(mon, MON_DATA_ATK_EV, &AtkEVIncrease);
-
-        if (holdEffect == HOLD_EFFECT_POWER_BELT)
-            SetMonData(mon, MON_DATA_DEF_EV, &DefEVIncrease);
-
-        if (holdEffect == HOLD_EFFECT_POWER_ANKLET)
-            SetMonData(mon, MON_DATA_SPEED_EV, &SpdEVIncrease);
-
-        if (holdEffect == HOLD_EFFECT_POWER_LENS)
-            SetMonData(mon, MON_DATA_SPATK_EV, &SpAtkEVIncrease);
-
-        if (holdEffect == HOLD_EFFECT_POWER_BAND)
-            SetMonData(mon, MON_DATA_SPDEF_EV, &SpDefEVIncrease);
 
         if (totalEVs + (s16)evIncrease > MAX_TOTAL_EVS)
             evIncrease = ((s16)evIncrease + MAX_TOTAL_EVS) - (totalEVs + evIncrease);
