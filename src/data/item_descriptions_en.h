@@ -1115,6 +1115,11 @@ static const u8 gItemDescription_ZapPlate[] = _(
     "boosts ELECTRIC-\n"
     "type moves.");
 
+static const u8 gItemDescription_LifeOrb[] = _(
+    "Boosts a move’s\n"
+    "power, but does\n"
+    "recoil damage.");
+
 static const u8 gItemDescription_RedScarf[] = _(
     "A hold item that\n"
     "raises COOL in\n"

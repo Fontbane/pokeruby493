@@ -101,6 +101,7 @@ extern u8 BattleScript_MoveSelectionNoPP[];
 extern u8 BattleScript_NoMovesLeft[];
 extern u8 BattleScript_WishComesTrue[];
 extern u8 BattleScript_IngrainTurnHeal[];
+extern u8 BattleScript_LifeOrbDamage[];
 extern u8 BattleScript_LeechSeedTurnDrain[];
 extern u8 BattleScript_PoisonTurnDmg[];
 extern u8 BattleScript_BurnTurnDmg[];
@@ -2753,6 +2754,17 @@ u8 ItemBattleEffects(u8 caseID, u8 bank, bool8 moveTurn)
                     effect = ITEM_HP_CHANGE;
                     RecordItemBattle(bank, bankHoldEffect);
                 }
+                break;
+            case HOLD_EFFECT_LIFE_ORB:
+                if (gBattleMons[bank].hp < gBattleMons[bank].maxHP && !moveTurn)
+                {
+                    gBattleMoveDamage = gBattleMons[gActiveBattler].maxHP / 10;
+                    if (gBattleMoveDamage == 0)
+                        gBattleMoveDamage = 1;
+                    BattleScriptExecute(BattleScript_LifeOrbDamage);
+                    effect++;
+                }
+                gBattleStruct->turnEffectsTracker++;
                 break;
             // nice copy/paste there gamefreak, making a function for confuse berries was too much eh?
             case HOLD_EFFECT_CONFUSE_SPICY:

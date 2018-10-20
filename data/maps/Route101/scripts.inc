@@ -204,9 +204,6 @@ Route101_Movement_14EA58:: @ 814EA58
 
 Route101_EventScript_14EA64:: @ 814EA64
 	msgbox Route101_Text_16D25E, 2
-    giveitem ITEM_ADAMANT_ORB 1
-    giveitem ITEM_LUSTROUS_ORB 1
-    giveitem ITEM_GRISEOUS_ORB 1
 	end
 
 Route101_EventScript_14EA6D:: @ 814EA6D

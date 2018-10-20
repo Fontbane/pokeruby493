@@ -3735,6 +3735,16 @@ BattleScript_IngrainTurnHeal:: @ 81D93D1
 	datahpupdate USER
 	end2
 
+BattleScript_LifeOrbDamage::
+	orword gHitMarker, HITMARKER_IGNORE_SUBSTITUTE | HITMARKER_x100000
+	printstring BATTLE_TEXT_LifeOrbDmg
+	waitmessage 64
+	healthbarupdate USER
+	datahpupdate USER
+	waitmessage 64
+	tryfaintmon USER, FALSE, NULL
+	end2
+
 BattleScript_PrintMonIsRooted: @ 81D93EC
 	pause 32
 	printstring BATTLE_TEXT_AnchoredItself
