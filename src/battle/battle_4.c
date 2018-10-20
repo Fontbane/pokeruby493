@@ -7072,7 +7072,19 @@ static void atk49_moveend(void)
                 }
             gBattleStruct->cmd49StateTracker++;
             break;
-        case 11: //
+        case 11: //update choice scarf move
+            if (gHitMarker & HITMARKER_OBEYS && hold_effect_atk == HOLD_EFFECT_CHOICE_SCARF
+                && gLastUsedMove != MOVE_STRUGGLE && (*choiced_move_atk == 0 || *choiced_move_atk == 0xFFF)
+                && gLastUsedMove != MOVE_BATON_PASS && !(gMoveResultFlags & MOVE_RESULT_NO_EFFECT))
+            {
+                *choiced_move_atk = gLastUsedMove;
+                for (i = 0; i < 4 && gBattleMons[gBankAttacker].moves[i] != *choiced_move_atk; i++){}
+                if (i == 4)
+                    *choiced_move_atk = 0;
+            }
+            gBattleStruct->cmd49StateTracker++;
+            break;
+        case 12: //
         }
 
     } while (effect == 0)

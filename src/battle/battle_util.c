@@ -97,6 +97,7 @@ extern u8 BattleScript_MoveSelectionTormented[];
 extern u8 BattleScript_MoveSelectionTaunted[];
 extern u8 BattleScript_MoveSelectionImprisoned[];
 extern u8 BattleScript_MoveSelectionChoiceBanded[];
+extern u8 BattleScript_MoveSelectionChoiceScarfed[];
 extern u8 BattleScript_MoveSelectionNoPP[];
 extern u8 BattleScript_NoMovesLeft[];
 extern u8 BattleScript_WishComesTrue[];
@@ -514,6 +515,13 @@ u8 TrySetCantSelectMoveBattleScript(void) //msg can't select a move
         gUnknown_02024C1C[gActiveBattler] = BattleScript_MoveSelectionChoiceBanded;
         limitations++;
     }
+    if (holdEffect == HOLD_EFFECT_CHOICE_SCARF && *choicedMove != 0 && *choicedMove != 0xFFFF && *choicedMove != move)
+    {
+        gCurrentMove = *choicedMove;
+        gLastUsedItem = gBattleMons[gActiveBattler].item;
+        gUnknown_02024C1C[gActiveBattler] = BattleScript_MoveSelectionChoiceScarfed;
+        limitations++;
+    }
     if (gBattleMons[gActiveBattler].pp[gBattleBufferB[gActiveBattler][2]] == 0)
     {
         gUnknown_02024C1C[gActiveBattler] = BattleScript_MoveSelectionNoPP;
@@ -556,6 +564,8 @@ u8 CheckMoveLimitations(u8 bank, u8 unusableMoves, u8 check)
         if (gDisableStructs[bank].encoreTimer1 && gDisableStructs[bank].encoredMove != gBattleMons[bank].moves[i])
             unusableMoves |= gBitTable[i];
         if (holdEffect == HOLD_EFFECT_CHOICE_BAND && *choicedMove != 0 && *choicedMove != 0xFFFF && *choicedMove != gBattleMons[bank].moves[i])
+            unusableMoves |= gBitTable[i];
+        if (holdEffect == HOLD_EFFECT_CHOICE_SCARF && *choicedMove != 0 && *choicedMove != 0xFFFF && *choicedMove != gBattleMons[bank].moves[i])
             unusableMoves |= gBitTable[i];
     }
     return unusableMoves;

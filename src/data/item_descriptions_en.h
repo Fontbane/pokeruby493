@@ -1115,6 +1115,11 @@ static const u8 gItemDescription_ZapPlate[] = _(
     "boosts ELECTRIC-\n"
     "type moves.");
 
+static const u8 gItemDescription_ChoiceScarf[] = _(
+    "Raises SPEED but\n"
+    "locks to the last\n"
+    "move used.");
+
 static const u8 gItemDescription_RedScarf[] = _(
     "A hold item that\n"
     "raises COOL in\n"
