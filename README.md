@@ -46,8 +46,6 @@ The following is a list of all the files involved in the task of expanding poké
 
 * The Life Orb hurts the user even if they used a status move.
 
-* The hold item icon in the Pokémon Party screen doesn't refresh correctly when Giratina is in the party. Probably due to the code related to its form change.
-
 ### Other Features
 
 I intend to implement as many Gen. 4 features as I can to this base. Right now, the other features aside from the expanded amount of pokémon are:
