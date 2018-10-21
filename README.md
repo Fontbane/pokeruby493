@@ -54,7 +54,7 @@ I intend to implement as many Gen. 4 features as I can to this base. Right now, 
 
 * Held items effect boosted from 10% to 20%-
 
-* You can now run indoors-
+* You can now run indoors.
 
 * Several Gen. 4 moves were added. The list starts with Aqua Jet in [the moves.h file](https://github.com/LOuroboros/pokeruby493/blob/fa8a7c4745c3687a703dea9c7d2cd23b2c7244a0/include/constants/moves.h#L359).
 

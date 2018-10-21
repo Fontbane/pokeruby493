@@ -102,6 +102,7 @@ extern u8 BattleScript_NoMovesLeft[];
 extern u8 BattleScript_WishComesTrue[];
 extern u8 BattleScript_IngrainTurnHeal[];
 extern u8 BattleScript_LifeOrbDamage[];
+extern u8 BattleScript_AftermathDmg[];
 extern u8 BattleScript_LeechSeedTurnDrain[];
 extern u8 BattleScript_PoisonTurnDmg[];
 extern u8 BattleScript_BurnTurnDmg[];
@@ -2034,6 +2035,19 @@ u8 AbilityBattleEffects(u8 caseID, u8 bank, u8 ability, u8 special, u16 moveArg)
                         gBattleMoveDamage = 1;
                     BattleScriptPushCursor();
                     gBattlescriptCurrInstr = BattleScript_RoughSkinActivates;
+                    effect++;
+                }
+                break;
+            case ABILITY_AFTERMATH:
+                if (!(gMoveResultFlags & MOVE_RESULT_NO_EFFECT)
+                 && gBattleMons[gBankTarget].hp == 0
+                 && (gBattleMoves[move].flags & F_MAKES_CONTACT))
+                {
+                    gBattleMoveDamage = gBattleMons[gBankAttacker].maxHP / 4;
+                    if (gBattleMoveDamage == 0)
+                        gBattleMoveDamage = 1;
+                    BattleScriptPushCursor();
+                    gBattlescriptCurrInstr = BattleScript_AftermathDmg;
                     effect++;
                 }
                 break;
