@@ -12,7 +12,7 @@ I don't know when or if I'll ever be able to complete it, so keep that in mind.
 
 ![Pic3](https://i.imgur.com/j6ZWfeE.png)
 
-I'll be uploading sheets consisting of 4 pictures for each pokémon I add to this base. All the pictures can be found inside [the screenshots folder](screenshots).
+There's picture sheets for all the Gen. 4 Pokémon in [the screenshots folder](screenshots). Opinions about the placement of the different sprites in battle are welcomed.
 
 ### Modified Files
 
@@ -46,15 +46,17 @@ The following is a list of all the files involved in the task of expanding poké
 
 * The Life Orb hurts the user even if they used a status move.
 
+* Judgment's effect and Roost's secondary effect aren't implemented yet.
+
 ### Other Features
 
 I intend to implement as many Gen. 4 features as I can to this base. Right now, the other features aside from the expanded amount of pokémon are:
 
-* Held items effect boosted from 10% to 20%
+* Held items effect boosted from 10% to 20%-
 
-* You can now run indoors
+* You can now run indoors-
 
-* There's 63 Gen. 4 moves added to Pokémon Ruby and Sapphire's 354. The list starts with Aqua Jet in [the moves.h file](https://github.com/LOuroboros/pokeruby493/blob/fa8a7c4745c3687a703dea9c7d2cd23b2c7244a0/include/constants/moves.h#L359). Judgment's, Roost's and Charge Beam's effects aren't implemented yet and the last 29 moves currently use Pound's animation as a placeholder.
+* Several Gen. 4 moves were added. The list starts with Aqua Jet in [the moves.h file](https://github.com/LOuroboros/pokeruby493/blob/fa8a7c4745c3687a703dea9c7d2cd23b2c7244a0/include/constants/moves.h#L359).
 
 * There's 2 new evolution stones: The Shiny Stone for Roselia and Togetic, and the Dusk Stone for Misdreavus and Murkrow.
 
@@ -67,6 +69,8 @@ I intend to implement as many Gen. 4 features as I can to this base. Right now, 
 * Poisoning in the overworld works just like it does in the Gen. 4 Games.
 
 * The Light Ball works just like in the Gen. 4 Games. It doubles not only Pikachu's Sp. Atk, but its Atk too.
+
+* Physical/Special/Status Split [thanks to Sewef](https://github.com/Sewef/pokeruby/commit/28b9b9f7e05f4f3bb13e526b50f33a5b8aa90020).
 
 # Credits
 

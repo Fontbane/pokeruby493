@@ -1729,17 +1729,13 @@ static void atk06_typecalc(void)
         else
             move_type = gBattleMoves[gCurrentMove].type;
 
-        //check stab
+        //check stab / adaptability
         if (gBattleMons[gBankAttacker].type1 == move_type || gBattleMons[gBankAttacker].type2 == move_type)
         {
-            gBattleMoveDamage = gBattleMoveDamage * 15;
-            gBattleMoveDamage = gBattleMoveDamage / 10;
-        }
-
-        // Adaptability's effect
-        if ((gBattleMons[gBankAttacker].type1 == move_type || gBattleMons[gBankAttacker].type2 == move_type) && gBattleMons[gBankAttacker].ability == ABILITY_ADAPTABILITY)
-        {
-            gBattleMoveDamage = gBattleMoveDamage * 20;
+            if (gBattleMons[gBankAttacker].ability == ABILITY_ADAPTABILITY)
+                gBattleMoveDamage = gBattleMoveDamage * 20;
+            else
+                gBattleMoveDamage = gBattleMoveDamage * 15;
             gBattleMoveDamage = gBattleMoveDamage / 10;
         }
 
@@ -1913,10 +1909,13 @@ u8 TypeCalc(u16 move, u8 bank_atk, u8 bank_def)
 
     move_type = gBattleMoves[move].type;
 
-    //check stab
+    //check stab / adaptability #2
     if (gBattleMons[bank_atk].type1 == move_type || gBattleMons[bank_atk].type2 == move_type)
     {
-        gBattleMoveDamage = gBattleMoveDamage * 15;
+        if (gBattleMons[gBankAttacker].ability == ABILITY_ADAPTABILITY)
+            gBattleMoveDamage = gBattleMoveDamage * 20;
+        else
+            gBattleMoveDamage = gBattleMoveDamage * 15;
         gBattleMoveDamage = gBattleMoveDamage / 10;
     }
 

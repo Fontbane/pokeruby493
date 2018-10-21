@@ -204,7 +204,6 @@ const u16 gKakunaLevelUpLearnset[] = {
 
 const u16 gBeedrillLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_FURY_ATTACK),
-    LEVEL_UP_MOVE( 1, MOVE_POISON_STING),
     LEVEL_UP_MOVE(13, MOVE_FOCUS_ENERGY),
     LEVEL_UP_MOVE(16, MOVE_TWINEEDLE),
     LEVEL_UP_MOVE(19, MOVE_RAGE),
