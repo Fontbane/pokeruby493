@@ -1736,6 +1736,13 @@ static void atk06_typecalc(void)
             gBattleMoveDamage = gBattleMoveDamage / 10;
         }
 
+        // Adaptability's effect
+        if ((gBattleMons[gBankAttacker].type1 == move_type || gBattleMons[gBankAttacker].type2 == move_type) && gBattleMons[gBankAttacker].ability == ABILITY_ADAPTABILITY)
+        {
+            gBattleMoveDamage = gBattleMoveDamage * 20;
+            gBattleMoveDamage = gBattleMoveDamage / 10;
+        }
+
         if (gBattleMons[gBankTarget].ability == ABILITY_LEVITATE && move_type == TYPE_GROUND)
         {
             gLastUsedAbility = gBattleMons[gBankTarget].ability;
