@@ -27,6 +27,7 @@ extern u8 gUnknown_02023A14_50;
 extern const u8* gBattlescriptCurrInstr;
 extern u8 gActiveBattler;
 extern u8 gBattleBufferB[4][0x200];
+extern u8 gCritMultiplier;
 extern u8* gUnknown_02024C1C[4]; //battlescript location when you try to choose a move you're not allowed to
 extern u16 gLastUsedMove[4];
 extern struct BattlePokemon gBattleMons[4];
@@ -103,6 +104,7 @@ extern u8 BattleScript_WishComesTrue[];
 extern u8 BattleScript_IngrainTurnHeal[];
 extern u8 BattleScript_LifeOrbDamage[];
 extern u8 BattleScript_AftermathDmg[];
+extern u8 BattleScript_AngerPointBoost[];
 extern u8 BattleScript_LeechSeedTurnDrain[];
 extern u8 BattleScript_PoisonTurnDmg[];
 extern u8 BattleScript_BurnTurnDmg[];
@@ -2048,6 +2050,15 @@ u8 AbilityBattleEffects(u8 caseID, u8 bank, u8 ability, u8 special, u16 moveArg)
                         gBattleMoveDamage = 1;
                     BattleScriptPushCursor();
                     gBattlescriptCurrInstr = BattleScript_AftermathDmg;
+                    effect++;
+                }
+                break;
+            case ABILITY_ANGER_POINT:
+                if (!(gMoveResultFlags & MOVE_RESULT_NO_EFFECT) && gCritMultiplier > 1 && !gProtectStructs[gBankAttacker].confusionSelfDmg && gBattleMons[gBankTarget].hp != 0 && (gSpecialStatuses[gBankTarget].moveturnLostHP_physical || gSpecialStatuses[gBankTarget].moveturnLostHP_special))
+                {
+                    gBattleMons[gBankTarget].statStages[STAT_STAGE_ATK] = 12;
+                    BattleScriptPushCursor();
+                    gBattlescriptCurrInstr = BattleScript_AngerPointBoost;
                     effect++;
                 }
                 break;
