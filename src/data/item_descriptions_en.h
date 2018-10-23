@@ -343,6 +343,11 @@ static const u8 gItemDescription_PPMax[] = _(
     "move to its maximum\n"
     "points.");
 
+static const u8 gItemDescription_ExpertBelt[] = _(
+    "A belt hat raises\n"
+    "the power of SUPER\n"
+    "EFFECTIVE moves.");
+
 static const u8 gItemDescription_GuardSpec[] = _(
     "Prevents stat\n"
     "reduction when\n"
