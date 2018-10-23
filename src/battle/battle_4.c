@@ -2044,7 +2044,7 @@ static void atk07_adjustnormaldamage(void)
         RecordItemBattle(gBankTarget, hold_effect);
         gSpecialStatuses[gBankTarget].focusBanded = 1;
     }
-    if (hold_effect == HOLD_EFFECT_FOCUS_SASH)
+    if (hold_effect == HOLD_EFFECT_FOCUS_SASH && gBattleMons[gBankTarget].hp > 1)
     {
         RecordItemBattle(gBankTarget, hold_effect);
         gSpecialStatuses[gBankTarget].focusBanded = 1;
