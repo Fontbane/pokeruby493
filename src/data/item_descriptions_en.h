@@ -289,6 +289,11 @@ static const u8 gItemDescription_GriseousOrb[] = _(
     "A glowing orb to be\n"
     "held by GIRATINA.");
 
+static const u8 gItemDescription_MuscleBand[] = _(
+    "A headband that\n"
+    "boosts the power\n"
+    "of physical moves.");
+
 static const u8 gItemDescription_HPUp[] = _(
     "Raises the HP of\n"
     "one POKéMON.");

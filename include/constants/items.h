@@ -66,7 +66,7 @@
 #define ITEM_ADAMANT_ORB 58
 #define ITEM_LUSTROUS_ORB 59
 #define ITEM_GRISEOUS_ORB 60
-#define ITEM_03D 61
+#define ITEM_MUSCLE_BAND 61
 #define ITEM_03E 62
 #define ITEM_HP_UP 63
 #define ITEM_PROTEIN 64
