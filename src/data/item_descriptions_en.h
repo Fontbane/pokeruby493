@@ -393,6 +393,11 @@ static const u8 gItemDescription_FluffyTail[] = _(
     "any battle with\n"
     "a wild POKéMON.");
 
+static const u8 gItemDescription_FocusSash[] = _(
+    "A hold item that\n"
+    "prevents fainting\n"
+    "in one hit.");
+
 static const u8 gItemDescription_SuperRepel[] = _(
     "Repels weak wild\n"
     "POKéMON for 200\n"
