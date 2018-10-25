@@ -418,6 +418,36 @@ static const u8 gItemDescription_Repel[] = _(
     "POKéMON for 100\n"
     "steps.");
 
+static const u8 gItemDescription_FullIncense[] = _(
+    "A hold item that\n"
+    "raises the power of\n"
+    "NORMAL-type moves.");
+
+static const u8 gItemDescription_RoseIncense[] = _(
+    "A hold item that\n"
+    "raises the power of\n"
+    "GRASS-type moves.");
+
+static const u8 gItemDescription_PureIncense[] = _(
+    "A hold item that\n"
+    "helps repel wild\n"
+    "POKéMON.");
+
+static const u8 gItemDescription_RockIncense[] = _(
+    "A hold item that\n"
+    "raises the power of\n"
+    "ROCK-type moves.");
+
+static const u8 gItemDescription_OddIncense[] = _(
+    "A hold item that\n"
+    "boosts PSYCHIC-\n"
+    "type moves.");
+
+static const u8 gItemDescription_LuckIncense[] = _(
+    "Doubles money in\n"
+    "battle if the holder\n"
+    "takes part.");
+
 static const u8 gItemDescription_SunStone[] = _(
     "Makes certain\n"
     "species of POKéMON\n"
@@ -462,6 +492,11 @@ static const u8 gItemDescription_DawnStone[] = _(
     "Makes certain\n"
     "species of POKéMON\n"
     "evolve.");
+
+static const u8 gItemDescription_WaveIncense[] = _(
+    "A hold item that\n"
+    "raises the power of\n"
+    "WATER-type moves.");
 
 static const u8 gItemDescription_TinyMushroom[] = _(
     "A plain, ordinary\n"
