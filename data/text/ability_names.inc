@@ -80,3 +80,4 @@ gAbilityNames:: @ 81FA248
 	.string "ADAPTABILITY$", 13
 	.string "AFTERMATH$", 13
 	.string "ANGER POINT$", 13
+	.string "BAD DREAMS$", 13
