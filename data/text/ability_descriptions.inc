@@ -250,6 +250,9 @@ gAbilityDescription_Reckless:
 gAbilityDescription_Technician:
 	.string "Boosts weaker moves.$"
 
+gAbilityDescription_Filter:
+	.string "Ups super effective moves.$"
+
 	.align 2
 gAbilityDescriptions:: @ 81FA110
 	.4byte gAbilityDescription_None
@@ -336,3 +339,4 @@ gAbilityDescriptions:: @ 81FA110
 	.4byte gAbilityDescription_BadDreams
 	.4byte gAbilityDescription_Reckless
 	.4byte gAbilityDescription_Technician
+	.4byte gAbilityDescription_Filter

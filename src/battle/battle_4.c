@@ -1741,6 +1741,8 @@ static void atk06_typecalc(void)
                 gBattleMoveDamage = gBattleMoveDamage * 20;
             if (gBattleMoves[gCurrentMove].power <= 60 && gBattleMons[gBankAttacker].ability == ABILITY_TECHNICIAN)
                 gBattleMoveDamage = gBattleMoveDamage * 50;
+            if (!(flags & MOVE_RESULT_MISSED) && (!(flags & MOVE_RESULT_SUPER_EFFECTIVE) || ((flags & (MOVE_RESULT_SUPER_EFFECTIVE | MOVE_RESULT_NOT_VERY_EFFECTIVE)) == (MOVE_RESULT_SUPER_EFFECTIVE | MOVE_RESULT_NOT_VERY_EFFECTIVE))) && gBattleMons[gBankAttacker].ability == ABILITY_FILTER)
+                gBattleMoveDamage = gBattleMoveDamage * 5000;
             else
                 gBattleMoveDamage = gBattleMoveDamage * 15;
             gBattleMoveDamage = gBattleMoveDamage / 10;
