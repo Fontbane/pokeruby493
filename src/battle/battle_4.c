@@ -1730,13 +1730,17 @@ static void atk06_typecalc(void)
         else
             move_type = gBattleMoves[gCurrentMove].type;
 
-        //check stab / adaptability
+        //check stab / adaptability / reckless / technician
         if (gBattleMons[gBankAttacker].type1 == move_type || gBattleMons[gBankAttacker].type2 == move_type)
         {
             if (gBattleMons[gBankAttacker].ability == ABILITY_ADAPTABILITY)
                 gBattleMoveDamage = gBattleMoveDamage * 20;
             if (gBattleMons[gBankAttacker].item == ITEM_EXPERT_BELT && !(flags & MOVE_RESULT_MISSED) && (!(flags & MOVE_RESULT_SUPER_EFFECTIVE) || ((flags & (MOVE_RESULT_SUPER_EFFECTIVE | MOVE_RESULT_NOT_VERY_EFFECTIVE)) == (MOVE_RESULT_SUPER_EFFECTIVE | MOVE_RESULT_NOT_VERY_EFFECTIVE))) && gBattleMoves[gCurrentMove].power)
                 gBattleMoveDamage = gBattleMoveDamage * 20;
+            if ((gBattleMoves[gCurrentMove].effect == EFFECT_DOUBLE_EDGE || gBattleMoves[gCurrentMove].effect == EFFECT_RECOIL_IF_MISS || gBattleMoves[gCurrentMove].effect == EFFECT_RECOIL) && gBattleMons[gBankAttacker].ability == ABILITY_RECKLESS)
+                gBattleMoveDamage = gBattleMoveDamage * 20;
+            if (gBattleMoves[gCurrentMove].power <= 60 && gBattleMons[gBankAttacker].ability == ABILITY_TECHNICIAN)
+                gBattleMoveDamage = gBattleMoveDamage * 50;
             else
                 gBattleMoveDamage = gBattleMoveDamage * 15;
             gBattleMoveDamage = gBattleMoveDamage / 10;

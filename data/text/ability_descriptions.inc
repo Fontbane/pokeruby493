@@ -244,6 +244,12 @@ gAbilityDescription_AngerPoint:
 gAbilityDescription_BadDreams:
 	.string "Hurts sleeping foes.$"
 
+gAbilityDescription_Reckless:
+	.string "Ups moves with recoil.$"
+
+gAbilityDescription_Technician:
+	.string "Boosts weaker moves.$"
+
 	.align 2
 gAbilityDescriptions:: @ 81FA110
 	.4byte gAbilityDescription_None
@@ -328,3 +334,5 @@ gAbilityDescriptions:: @ 81FA110
 	.4byte gAbilityDescription_Aftermath
 	.4byte gAbilityDescription_AngerPoint
 	.4byte gAbilityDescription_BadDreams
+	.4byte gAbilityDescription_Reckless
+	.4byte gAbilityDescription_Technician
