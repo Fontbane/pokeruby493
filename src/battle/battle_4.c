@@ -1730,21 +1730,22 @@ static void atk06_typecalc(void)
         else
             move_type = gBattleMoves[gCurrentMove].type;
 
-        //check stab / adaptability / reckless / technician
+        //check stab / adaptability / reckless / technician / filter
         if (gBattleMons[gBankAttacker].type1 == move_type || gBattleMons[gBankAttacker].type2 == move_type)
         {
             if (gBattleMons[gBankAttacker].ability == ABILITY_ADAPTABILITY)
-                gBattleMoveDamage = gBattleMoveDamage * 20;
+                gBattleMoveDamage = gBattleMoveDamage * 20; // Adaptability
             if (gBattleMons[gBankAttacker].item == ITEM_EXPERT_BELT && !(flags & MOVE_RESULT_MISSED) && (!(flags & MOVE_RESULT_SUPER_EFFECTIVE) || ((flags & (MOVE_RESULT_SUPER_EFFECTIVE | MOVE_RESULT_NOT_VERY_EFFECTIVE)) == (MOVE_RESULT_SUPER_EFFECTIVE | MOVE_RESULT_NOT_VERY_EFFECTIVE))) && gBattleMoves[gCurrentMove].power)
-                gBattleMoveDamage = gBattleMoveDamage * 20;
+                gBattleMoveDamage = gBattleMoveDamage * 20; // Expert Belt
             if ((gBattleMoves[gCurrentMove].effect == EFFECT_DOUBLE_EDGE || gBattleMoves[gCurrentMove].effect == EFFECT_RECOIL_IF_MISS || gBattleMoves[gCurrentMove].effect == EFFECT_RECOIL) && gBattleMons[gBankAttacker].ability == ABILITY_RECKLESS)
-                gBattleMoveDamage = gBattleMoveDamage * 20;
+                gBattleMoveDamage = gBattleMoveDamage * 20; // Reckless
             if (gBattleMoves[gCurrentMove].power <= 60 && gBattleMons[gBankAttacker].ability == ABILITY_TECHNICIAN)
-                gBattleMoveDamage = gBattleMoveDamage * 50;
-            if (!(flags & MOVE_RESULT_MISSED) && (!(flags & MOVE_RESULT_SUPER_EFFECTIVE) || ((flags & (MOVE_RESULT_SUPER_EFFECTIVE | MOVE_RESULT_NOT_VERY_EFFECTIVE)) == (MOVE_RESULT_SUPER_EFFECTIVE | MOVE_RESULT_NOT_VERY_EFFECTIVE))) && gBattleMons[gBankAttacker].ability == ABILITY_FILTER)
-                gBattleMoveDamage = gBattleMoveDamage * 5000;
+                gBattleMoveDamage = gBattleMoveDamage * 50; // Technician
             else
-                gBattleMoveDamage = gBattleMoveDamage * 15;
+                gBattleMoveDamage = gBattleMoveDamage * 15; // STAB Damage
+            if (!(flags & MOVE_RESULT_MISSED) && (!(flags & MOVE_RESULT_SUPER_EFFECTIVE) || ((flags & (MOVE_RESULT_SUPER_EFFECTIVE | MOVE_RESULT_NOT_VERY_EFFECTIVE)) == (MOVE_RESULT_SUPER_EFFECTIVE | MOVE_RESULT_NOT_VERY_EFFECTIVE))) && AttacksThisTurn(gBankAttacker, gCurrentMove) == 2 && gBattleMons[gBankTarget].ability == ABILITY_FILTER)
+                gBattleMoveDamage = gBattleMoveDamage / 4; // Filter
+            else
             gBattleMoveDamage = gBattleMoveDamage / 10;
         }
 

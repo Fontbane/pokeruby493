@@ -251,7 +251,7 @@ gAbilityDescription_Technician:
 	.string "Boosts weaker moves.$"
 
 gAbilityDescription_Filter:
-	.string "Ups super effective moves.$"
+	.string "“Super” effective damage.$"
 
 	.align 2
 gAbilityDescriptions:: @ 81FA110
