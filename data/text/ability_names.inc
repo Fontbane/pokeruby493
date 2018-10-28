@@ -84,3 +84,4 @@ gAbilityNames:: @ 81FA248
 	.string "RECKLESS$", 13
 	.string "TECHNICIAN$", 13
 	.string "FILTER$", 13
+	.string "HEATPROOF$", 13

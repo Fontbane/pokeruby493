@@ -1730,7 +1730,7 @@ static void atk06_typecalc(void)
         else
             move_type = gBattleMoves[gCurrentMove].type;
 
-        //check stab / adaptability / reckless / technician / filter
+        //check stab / adaptability / reckless / technician / filter / heatproof
         if (gBattleMons[gBankAttacker].type1 == move_type || gBattleMons[gBankAttacker].type2 == move_type)
         {
             if (gBattleMons[gBankAttacker].ability == ABILITY_ADAPTABILITY)
@@ -1745,6 +1745,8 @@ static void atk06_typecalc(void)
                 gBattleMoveDamage = gBattleMoveDamage * 15; // STAB Damage
             if (!(flags & MOVE_RESULT_MISSED) && (!(flags & MOVE_RESULT_SUPER_EFFECTIVE) || ((flags & (MOVE_RESULT_SUPER_EFFECTIVE | MOVE_RESULT_NOT_VERY_EFFECTIVE)) == (MOVE_RESULT_SUPER_EFFECTIVE | MOVE_RESULT_NOT_VERY_EFFECTIVE))) && AttacksThisTurn(gBankAttacker, gCurrentMove) == 2 && gBattleMons[gBankTarget].ability == ABILITY_FILTER)
                 gBattleMoveDamage = gBattleMoveDamage / 4; // Filter
+            if (gBattleMons[gBankTarget].ability == ABILITY_HEATPROOF && move_type == TYPE_FIRE)
+                gBattleMoveDamage = gBattleMoveDamage / 2; // Heatproof
             else
             gBattleMoveDamage = gBattleMoveDamage / 10;
         }

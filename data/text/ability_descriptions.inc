@@ -253,6 +253,9 @@ gAbilityDescription_Technician:
 gAbilityDescription_Filter:
 	.string "“Super” effective damage.$"
 
+gAbilityDescription_Heatproof:
+	.string "Reduces FIRE based damage.$"
+
 	.align 2
 gAbilityDescriptions:: @ 81FA110
 	.4byte gAbilityDescription_None
@@ -340,3 +343,4 @@ gAbilityDescriptions:: @ 81FA110
 	.4byte gAbilityDescription_Reckless
 	.4byte gAbilityDescription_Technician
 	.4byte gAbilityDescription_Filter
+	.4byte gAbilityDescription_Heatproof
