@@ -1748,7 +1748,7 @@ static void atk06_typecalc(void)
             if (gBattleMons[gBankTarget].ability == ABILITY_HEATPROOF && move_type == TYPE_FIRE)
                 gBattleMoveDamage = gBattleMoveDamage / 2; // Heatproof
             else
-            gBattleMoveDamage = gBattleMoveDamage / 10;
+                gBattleMoveDamage = gBattleMoveDamage / 10;
         }
 
         if (gBattleMons[gBankTarget].ability == ABILITY_LEVITATE && move_type == TYPE_GROUND)

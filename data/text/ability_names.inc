@@ -85,3 +85,4 @@ gAbilityNames:: @ 81FA248
 	.string "TECHNICIAN$", 13
 	.string "FILTER$", 13
 	.string "HEATPROOF$", 13
+	.string "IRON FIST$", 13
