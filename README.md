@@ -42,17 +42,21 @@ The following is a list of all the files involved in the task of expanding poké
 
 ### Bugs
 
+This is a list of issues that I eventually will need to fix. Any help is naturally appreciated.
+
 * Arceus' sprite doesn't change when holding one of the 16 stone plates.
 
 * The Life Orb hurts the user even if they used a status move.
 
 * Judgment's effect and Roost's secondary effect aren't implemented yet.
 
+* No Guard doesn't work with OHKO moves.
+
 ### Other Features
 
 I intend to implement as many Gen. 4 features as I can to this base. Right now, the other features aside from the expanded amount of pokémon are:
 
-* Held items effect boosted from 10% to 20%-
+* Held items effect boosted from 10% to 20%.
 
 * You can now run indoors.
 

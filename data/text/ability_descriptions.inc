@@ -262,6 +262,9 @@ gAbilityDescription_IronFist:
 gAbilityDescription_Multitype:
 	.string "Plates change its type.$"
 
+gAbilityDescription_NoGuard:
+	.string "ALL moves will always hit.$"
+
 	.align 2
 gAbilityDescriptions:: @ 81FA110
 	.4byte gAbilityDescription_None
@@ -352,3 +355,4 @@ gAbilityDescriptions:: @ 81FA110
 	.4byte gAbilityDescription_Heatproof
 	.4byte gAbilityDescription_IronFist
 	.4byte gAbilityDescription_Multitype
+	.4byte gAbilityDescription_NoGuard

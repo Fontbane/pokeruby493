@@ -87,3 +87,4 @@ gAbilityNames:: @ 81FA248
 	.string "HEATPROOF$", 13
 	.string "IRON FIST$", 13
 	.string "MULTITYPE$", 13
+	.string "NO GUARD$", 13
