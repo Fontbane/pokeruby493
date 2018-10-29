@@ -259,6 +259,9 @@ gAbilityDescription_Heatproof:
 gAbilityDescription_IronFist:
 	.string "Ups punching moves.$"
 
+gAbilityDescription_Multitype:
+	.string "Plates change its type.$"
+
 	.align 2
 gAbilityDescriptions:: @ 81FA110
 	.4byte gAbilityDescription_None
@@ -348,3 +351,4 @@ gAbilityDescriptions:: @ 81FA110
 	.4byte gAbilityDescription_Filter
 	.4byte gAbilityDescription_Heatproof
 	.4byte gAbilityDescription_IronFist
+	.4byte gAbilityDescription_Multitype
