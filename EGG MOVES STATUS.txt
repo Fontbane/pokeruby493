@@ -1,0 +1,57 @@
+Bulbasaur
+Charmander
+Squirtle (Missing: Aqua Ring)
+Pidgey
+Rattata (Missing: Last Resort, Me First)
+Spearow
+Ekans
+Sandshrew
+Nidoran Female
+Nidoran Male
+Vulpix (Missing: Power Swap)
+Zubat
+Oddish
+Paras (Missing: Bug Bite)
+Venonat (Missing: Bug Bite, Toxic Spikes)
+Diglett
+Meowth (Missing: Last Resort, Punishment)
+Psyduck
+Mankey
+Growlithe
+Poliwag
+Abra (Missing: Guard Swap, Power Trick)
+Machop
+Bellsprout (Missing: Worry Seed)
+Tentacool (Missing: Acupressure)
+Geodude (Missing: Hammer Arm)
+Ponyta
+Slowpoke (Missing: Me First)
+Farfetch'd
+Doduo
+Seel
+Grimer
+Shellder
+Gastly
+Onix
+Drowzee
+Krabby
+Exeggcute (Missing: Lucky Chant)
+Cubone
+Lickitung (Missing: Hammer Arm)
+Koffing
+Rhyhorn
+Chansey (Missing: Gravity, Last Resort)
+Tangela
+Kangaskhan (Missing: Hammer Arm)
+Horsea
+Goldeen
+Mr. Mime (Missing: Healing Wish, Wake-Up Slap)
+Scyther
+Pinsir
+Lapras
+Eevee
+Omanyte (Missing: Toxic Spikes, Wring Out)
+Kabuto
+Aerodactyl (Missing: Assurance)
+Snorlax
+Dratini
