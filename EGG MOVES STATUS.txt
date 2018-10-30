@@ -55,3 +55,52 @@ Kabuto
 Aerodactyl (Missing: Assurance)
 Snorlax
 Dratini
+Chikorita (Missing: Wring Out)
+Cyndaquil
+Totodile
+Sentret (Missing: Last Resort)
+Hoothoot
+Ledyba (Missing: Bug Bite)
+Spinarak (Missing: Toxic Spikes)
+Chinchou
+Pichu
+Cleffa
+Igglybuff (Missing: Gravity, Last Resort)
+Togepi (Missing: Lucky Chant, Psycho Shift)
+Natu
+Mareep
+Marill
+Sudowoodo
+Hoppip (Missing: Worry Seed)
+Aipom
+Sunkern
+Yanma
+Wooper
+Murkrow (Missing: Psycho Shift)
+Misdreavus
+Girafarig
+Pineco (Missing: Toxic Spikes)
+Dunsparce (Missing: Trump Card)
+Gligar
+Snubbull
+Qwilfish
+Shuckle (Missing: Acupressure)
+Heracross
+Sneasel (Missing: Punishment)
+Teddiursa
+Slugma
+Swinub
+Corsola (Missing: Aqua Ring)
+Remoraid
+Delibird
+Mantine
+Skarmory (Missing: Assurance)
+Houndour (Missing: Punishment)
+Phanpy
+Stantler
+Tyrogue
+Smoochum
+Elekid
+Magby
+Miltank (Missing: Hammer Arm, Punishment)
+Larvitar (Missing: Assurance)

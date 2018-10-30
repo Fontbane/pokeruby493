@@ -4339,7 +4339,7 @@ const struct BattleMove gBattleMoves[] = {
 
     [MOVE_FEINT] = {
         .effect = EFFECT_HIT,
-        .power = 50,
+        .power = 30,
         .type = TYPE_NORMAL,
         .accuracy = 100,
         .pp = 10,
