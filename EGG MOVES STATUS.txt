@@ -104,3 +104,61 @@ Elekid
 Magby
 Miltank (Missing: Hammer Arm, Punishment)
 Larvitar (Missing: Assurance)
+Treecko (Missing: Worry Seed)
+Torchic (Missing: Last Resort)
+Mudkip
+Poochyena (Missing: Me First)
+Zigzagoon
+Lotad
+Seedot (Missing: Worry Seed)
+Nincada (Missing: Bug Bite)
+Taillow
+Shroomish (Missing: Wake-Up Slap, Worry Seed)
+Spinda
+Wingull (Missing: Aqua Ring)
+Surskit (Missing: Bug Bite)
+Wailmer
+Skitty (Missing: Last Resort)
+Kecleon
+Nosepass
+Torkoal
+Sableye
+Barboach
+Luvdisc (Missing: Aqua Ring, Captivate)
+Corphish
+Feebas
+Carvanha
+Trapinch
+Makuhita (Missing: Wake-Up Slap)
+Electrike
+Numel
+Spheal
+Cacnea
+Snorunt
+Azurill
+Spoink
+Plusle
+Minun
+Mawile (Missing: Punishment)
+Meditite (Missing: Guard Swap, Power Swap)
+Swablu
+Duskull
+Roselia
+Slakoth (Missing: Hammer Arm)
+Gulpin
+Tropius
+Whismur
+Clamperl (Missing: Aqua Ring)
+Absol (Missing: Assurance, Me First, Punishment)
+Shuppet (Missing: Payback)
+Seviper (Missing: Assurance)
+Zangoose
+Relicanth
+Aron
+Castform (Missing: Lucky Chant)
+Volbeat
+Lileep (Missing: Wring Out)
+Anorith
+Ralts
+Bagon
+Chimecho
