@@ -162,3 +162,36 @@ Anorith
 Ralts
 Bagon
 Chimecho
+Turtwig (Missing: Worry Seed)
+Chimchar
+Piplup (Missing: Aqua Ring)
+Starly
+Bidoof
+Shinx
+Budew
+Cranidos (Missing: Hammer Arm)
+Shieldon
+Pachirisu
+Buizel
+Cherubi
+Shellos
+Drifloon
+Buneary
+Glameow (Missing: Assurance)
+Chingling
+Stunky (Missing: Punishment)
+Bonsly
+Mime Jr. (Missing: Healing Wish, Wake-Up Slap)
+Happiny (Missing: Gravity, Last Resort)
+Chatot
+Spiritomb
+Gible
+Munchlax
+Riolu
+Hippopotas
+Skorupi
+Croagunk (Missing: Me First, Wake-Up Slap)
+Carnivine (Missing: Worry Seed)
+Finneon
+Mantyke
+Snover
