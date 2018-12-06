@@ -265,6 +265,15 @@ gAbilityDescription_Multitype:
 gAbilityDescription_NoGuard:
 	.string "ALL moves will always hit.$"
 
+gAbilityDescription_SnowWarning:
+	.string "Summons hail in battle.$"
+
+gAbilityDescription_SnowCloak:
+	.string "Ups evasion in a hailstorm.$"
+
+gAbilityDescription_IceBody: @ 81F9DD1
+	.string "Slight HP recovery in hail.$"
+
 	.align 2
 gAbilityDescriptions:: @ 81FA110
 	.4byte gAbilityDescription_None
@@ -356,3 +365,6 @@ gAbilityDescriptions:: @ 81FA110
 	.4byte gAbilityDescription_IronFist
 	.4byte gAbilityDescription_Multitype
 	.4byte gAbilityDescription_NoGuard
+	.4byte gAbilityDescription_SnowWarning
+	.4byte gAbilityDescription_SnowCloak
+	.4byte gAbilityDescription_IceBody

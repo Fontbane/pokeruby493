@@ -88,3 +88,6 @@ gAbilityNames:: @ 81FA248
 	.string "IRON FIST$", 13
 	.string "MULTITYPE$", 13
 	.string "NO GUARD$", 13
+	.string "SNOW WARNING$", 13
+	.string "SNOW CLOAK$", 13
+	.string "ICE BODY$", 13
