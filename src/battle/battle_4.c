@@ -12617,7 +12617,7 @@ static void atk96_weatherdamage(void)
         }
         if (gBattleWeather & WEATHER_HAIL)
         {
-            if (gBattleMons[gBankAttacker].type1 != TYPE_ICE && gBattleMons[gBankAttacker].type2 != TYPE_ICE && gBattleMons[gBankAttacker].ability != ABILITY_SNOW_CLOAK && gBattleMons[gBankAttacker].ability != ABILITY_ICE_BODY && !(gStatuses3[gBankAttacker] & STATUS3_UNDERGROUND) && !(gStatuses3[gBankAttacker] & STATUS3_UNDERWATER))
+            if (gBattleMons[gBankAttacker].type1 != TYPE_ICE && gBattleMons[gBankAttacker].type2 != TYPE_ICE && gBattleMons[gBankAttacker].ability != ABILITY_SNOW_CLOAK && gBattleMons[gBankAttacker].ability != ABILITY_ICE_BODY && gBattleMons[gBankAttacker].ability != ABILITY_SNOW_WARNING && !(gStatuses3[gBankAttacker] & STATUS3_UNDERGROUND) && !(gStatuses3[gBankAttacker] & STATUS3_UNDERWATER))
             {
                 gBattleMoveDamage = gBattleMons[gBankAttacker].maxHP / 16;
                 if (gBattleMoveDamage == 0)

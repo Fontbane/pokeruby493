@@ -4340,6 +4340,7 @@ u8 CanRunFromBattle(void)
     for (i = 0; i < gBattlersCount; i++)
     {
         if (r6 != GetBattlerSide(i)
+         && gBattleMons[gActiveBattler].ability != ABILITY_SHADOW_TAG
          && gBattleMons[i].ability == ABILITY_SHADOW_TAG)
         {
             ewram16003 = i;
